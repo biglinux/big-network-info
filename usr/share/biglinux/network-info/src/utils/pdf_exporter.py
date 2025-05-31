@@ -821,21 +821,21 @@ class PDFExporter:
             if step.description:
                 story.append(
                     Paragraph(
-                        f"{_('Test:')} {step.description}",
+                        _("Test:") + " " + step.description,
                         self.styles["InfoText"],
                     )
                 )
             if step.details:
                 story.append(
                     Paragraph(
-                        f"{_('Details:')} {step.details}",
+                        _("Details:") + " " + str(step.details),
                         self.styles["SmallInfoText"],
                     )
                 )
             if step.duration_ms > 0:
                 story.append(
                     Paragraph(
-                        f"{_('Duration:')} {step.duration_ms}ms",
+                        _("Duration:") + f" {step.duration_ms}ms",
                         self.styles["SmallInfoText"],
                     )
                 )
@@ -843,7 +843,7 @@ class PDFExporter:
             if step.status == DiagnosticStatus.FAILED and step.troubleshooting_tip:
                 story.append(
                     Paragraph(
-                        f"{_('Suggestion:')} {step.troubleshooting_tip}",
+                        _("Suggestion:") + " " + step.troubleshooting_tip,
                         self.styles["SmallInfoText"],
                     )
                 )
