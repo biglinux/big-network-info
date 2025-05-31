@@ -1216,11 +1216,11 @@ class ScanResultsView(Gtk.Box):
                         service_line += f" - ftp://{result.ip}:{service.port}"
                 summary_lines.append(service_line)
         else:
-            summary_lines.append(_("\n=== Services ==="))
+            summary_lines.append(_("=== Services ==="))
             summary_lines.append(_("No services detected"))
 
         # Quick commands section
-        summary_lines.append(_("\n=== Quick Commands ==="))
+        summary_lines.append(_("=== Quick Commands ==="))
         summary_lines.append(f"ping {result.ip}")
 
         if any(s.access_method == "ssh" for s in result.services):
