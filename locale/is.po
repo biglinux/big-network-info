@@ -1042,6 +1042,28 @@ msgstr "Mistók að flytja inn sérsniðnar þjónustur"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
@@ -1102,6 +1124,8 @@ msgstr "Mistók að flytja inn sérsniðnar þjónustur"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1273,7 +1297,13 @@ msgstr "(Þessi tölva)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
