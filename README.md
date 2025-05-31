@@ -51,15 +51,6 @@ It provides users with an intuitive interface to discover devices, identify open
     *   Provides an overview of features on first launch or when manually shown.
     *   Option to disable welcome screen on startup.
 
-## 📸 Screenshots
-
-*(Placeholder: Add screenshots of the application here. Consider showing the main tabs: Diagnostics, Find Devices (setup and results), Settings, and a PDF report example.)*
-
-**Example:**
-`![Diagnostics Tab](docs/screenshots/diagnostics.png)`
-`![Device Scan Results](docs/screenshots/scan_results.png)`
-`![Settings Tab](docs/screenshots/settings.png)`
-
 ## 📋 Requirements
 
 ### Software
