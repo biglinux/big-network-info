@@ -1,0 +1,37 @@
+[Desktop Entry]
+Type=Application
+Name=Network Information
+Name[bg]=Информация за мрежата
+Name[cs]=Informace o síti
+Name[da]=Netværksinformation
+Name[de]=Netzwerkinformationen
+Name[el]=Πληροφορίες δικτύου
+Name[es]=Información de red
+Name[et]=Võrguinfo
+Name[fi]=Verkkotiedot
+Name[fr]=Informations réseau
+Name[he]=מידע על הרשת
+Name[hr]=Informacije o mreži
+Name[hu]=Hálózati információk
+Name[is]=Netupplýsingar
+Name[it]=Informazioni di rete
+Name[ja]=ネットワーク情報
+Name[ko]=네트워크 정보
+Name[nl]=Netwerkinformatie
+Name[no]=Nettverksinformasjon
+Name[pl]=Informacje o sieci
+Name[pt]=Informações de Rede
+Name[ro]=Informații despre rețea
+Name[ru]=Сетевые сведения
+Name[sk]=Informácie o sieti
+Name[sv]=Nätverksinformation
+Name[tr]=Ağ Bilgisi
+Name[uk]=Інформація про мережу
+Name[zh]=网络信息
+Icon=big-network-info
+Exec=big-network-info
+StartupWMClass=big-network-info
+Categories=Network;
+Terminal=false
+StartupNotify=true
+

@@ -1,0 +1,35 @@
+pkgname=big-network-info
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL')
+url="https://github.com/biglinux/$pkgname"
+source=("git+${url}.git")
+pkgdesc="Installs and removes BigLinux WebApps"
+depends=('libadwaita' 'python-gobject' 'python-netifaces' 'python-requests' 'python-reportlab' 'iproute2' 'arp-scan' 'xdg-utils')
+md5sums=(SKIP)
+if [ -e "${pkgname}.install" ]; then
+	install=${pkgname}.install
+fi
+
+package() {
+	# Verify default folder
+	if [ -d "${srcdir}/${pkgname}/${pkgname}" ]; then
+		InternalDir="${srcdir}/${pkgname}/${pkgname}"
+	else
+		InternalDir="${srcdir}/${pkgname}"
+	fi
+
+	# Copy files
+	if [ -d "${InternalDir}/usr" ]; then
+		cp -r "${InternalDir}/usr" "${pkgdir}/"
+	fi
+
+	if [ -d "${InternalDir}/etc" ]; then
+		cp -r "${InternalDir}/etc" "${pkgdir}/"
+	fi
+
+	if [ -d "${InternalDir}/opt" ]; then
+		cp -r "${InternalDir}/opt" "${pkgdir}/"
+	fi
+}

@@ -142,7 +142,7 @@ class ScanResultsView(Gtk.Box):
         box.append(icon)
 
         # Title
-        title = Gtk.Label(label=_("Welcome to Big NetScan"))
+        title = Gtk.Label(label=_("Welcome to Big Network Info"))
         title.add_css_class("title-1")
         box.append(title)
 

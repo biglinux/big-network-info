@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+cd /usr/share/biglinux/network-info/
+
+exec python main.py
