@@ -1977,6 +1977,33 @@ msgstr "Keresés indítása"
 msgid "Waiting..."
 msgstr "Várakozás..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "Running: "
+msgstr "Futtatás:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "tests"
+msgstr "tesztek"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+#: NEEDS WORK
+msgid "Completed: "
+msgstr "Befejezve:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+#: NEEDS WORK
+msgid "Failed: "
+msgstr "Sikertelen:"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 1074
 #: NEEDS WORK
 msgid "Running..."

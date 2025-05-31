@@ -1993,6 +1993,33 @@ msgstr "스캔 시작"
 msgid "Waiting..."
 msgstr "대기 중..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "Running: "
+msgstr "실행 중:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "tests"
+msgstr "테스트"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+#: NEEDS WORK
+msgid "Completed: "
+msgstr "완료됨:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+#: NEEDS WORK
+msgid "Failed: "
+msgstr "실패:"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 1074
 #: NEEDS WORK
 msgid "Running..."

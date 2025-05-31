@@ -2012,6 +2012,33 @@ msgid "Waiting..."
 msgstr "Waiting..."
 
 #
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+msgid "Running: "
+msgstr "Running: "
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+msgid "tests"
+msgstr "tests"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+msgid "Completed: "
+msgstr "Completed: "
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+msgid "Failed: "
+msgstr "Failed: "
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1107
 msgid "Running..."
 msgstr "Running..."

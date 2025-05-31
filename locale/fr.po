@@ -1369,6 +1369,28 @@ msgstr "Échec de l'importation des services personnalisés"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1516,6 +1538,8 @@ msgstr "Échec de l'importation des services personnalisés"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1692,6 +1716,10 @@ msgstr "(Cet ordinateur)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1725,6 +1753,8 @@ msgstr "(Cet ordinateur)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2353,6 +2383,33 @@ msgstr "Démarrer l'analyse"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "En attente..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "Running: "
+msgstr "En cours :"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "tests"
+msgstr "tests"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+#: NEEDS WORK
+msgid "Completed: "
+msgstr "Terminé :"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+#: NEEDS WORK
+msgid "Failed: "
+msgstr "Échoué :"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1074
 #: NEEDS WORK

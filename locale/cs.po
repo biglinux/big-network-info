@@ -341,7 +341,13 @@ msgstr "Avahi vyřešeno"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1491,6 +1497,10 @@ msgstr "(Tento počítač)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1524,6 +1534,8 @@ msgstr "(Tento počítač)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2152,6 +2164,33 @@ msgstr "Spustit skenování"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Čekání..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "Running: "
+msgstr "Běží:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "tests"
+msgstr "testy"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+#: NEEDS WORK
+msgid "Completed: "
+msgstr "Dokončeno:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+#: NEEDS WORK
+msgid "Failed: "
+msgstr "Selhalo:"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1074
 #: NEEDS WORK

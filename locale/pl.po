@@ -1996,6 +1996,33 @@ msgstr "Rozpocznij skanowanie"
 msgid "Waiting..."
 msgstr "Czekam..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "Running: "
+msgstr "Uruchamianie:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "tests"
+msgstr "testy"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+#: NEEDS WORK
+msgid "Completed: "
+msgstr "Zakończono:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+#: NEEDS WORK
+msgid "Failed: "
+msgstr "Niepowodzenie:"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 1074
 #: NEEDS WORK
 msgid "Running..."

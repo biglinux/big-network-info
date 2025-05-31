@@ -1365,6 +1365,28 @@ msgstr "Nepodarilo sa importovať vlastné služby"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1512,6 +1534,8 @@ msgstr "Nepodarilo sa importovať vlastné služby"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2339,6 +2363,33 @@ msgstr "Spustiť skenovanie"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Čaká sa..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "Running: "
+msgstr "Spúšťanie:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+#: NEEDS WORK
+msgid "tests"
+msgstr "testy"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+#: NEEDS WORK
+msgid "Completed: "
+msgstr "Dokončené:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+#: NEEDS WORK
+msgid "Failed: "
+msgstr "Zlyhalo:"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1074
 #: NEEDS WORK
