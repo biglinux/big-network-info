@@ -25,6 +25,7 @@ from ..core.network_diagnostics import (
 )
 from .components import ScanResultsView, LoadingView
 from .welcome_screen import WelcomeScreen
+from .wifi_analyzer import WiFiAnalyzerView
 from ..utils.pdf_exporter import PDFExporter
 
 
@@ -76,6 +77,9 @@ class NetworkScannerApp(Adw.Application):
         # Set window icon for taskbar (important for Wayland)
         window.set_icon_name("big-network-info")
 
+        # Connect cleanup handler
+        window.connect("destroy", self._on_window_destroy)
+
         # Create main content area with header bar
         # Create main container
         main_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
@@ -117,6 +121,12 @@ class NetworkScannerApp(Adw.Application):
         self.devices_button.connect("clicked", self._on_tab_clicked, "devices")
         self.tab_box.append(self.devices_button)
 
+        self.wifi_analyzer_button = Gtk.Button(label=_("WiFi Analyzer"))
+        self.wifi_analyzer_button.connect(
+            "clicked", self._on_tab_clicked, "wifi_analyzer"
+        )
+        self.tab_box.append(self.wifi_analyzer_button)
+
         self.settings_button = Gtk.Button(label=_("Settings"))
         self.settings_button.connect("clicked", self._on_tab_clicked, "settings")
         self.tab_box.append(self.settings_button)
@@ -125,6 +135,7 @@ class NetworkScannerApp(Adw.Application):
         self.tab_buttons = {
             "diagnostics": self.diagnostics_button,
             "devices": self.devices_button,
+            "wifi_analyzer": self.wifi_analyzer_button,
             "settings": self.settings_button,
         }
 
@@ -161,6 +172,9 @@ class NetworkScannerApp(Adw.Application):
 
         self.scanner_view = self.create_scanner_tab_view()
         self.content_stack.add_named(self.scanner_view, "devices")
+
+        self.wifi_analyzer_view = WiFiAnalyzerView()
+        self.content_stack.add_named(self.wifi_analyzer_view, "wifi_analyzer")
 
         self.settings_view = self.create_combined_settings_view()
         self.content_stack.add_named(self.settings_view, "settings")
@@ -1403,3 +1417,8 @@ class NetworkScannerApp(Adw.Application):
             # User cancelled or error occurred - silently ignore cancellation
             if "cancelled" not in str(e).lower():
                 self.show_error_dialog(_("Failed to save file: ") + str(e))
+
+    def _on_window_destroy(self, window) -> None:
+        """Handle window destruction and cleanup resources"""
+        if hasattr(self, "wifi_analyzer_view") and self.wifi_analyzer_view:
+            self.wifi_analyzer_view.cleanup()

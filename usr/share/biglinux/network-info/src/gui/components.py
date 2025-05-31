@@ -14,7 +14,6 @@ from .translation import _
 from typing import List, Callable, Optional
 import subprocess
 import threading
-import platform
 
 from ..core.scanner import ScanResult
 from ..core.services import ServiceInfo
