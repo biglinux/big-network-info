@@ -203,6 +203,26 @@ msgid   "WARNING"
 msgstr  ""
 
 #
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 824
+msgid   "Test:"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 831
+msgid   "Details:"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 838
+msgid   "Duration:"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 846
+msgid   "Suggestion:"
+msgstr  ""
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 864
 msgid   "Overall Assessment"
 msgstr  ""

@@ -194,6 +194,26 @@ msgstr "MEGHAZUDOTT"
 msgid "WARNING"
 msgstr "FIGYELMEZTETÉS"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 824
+#: NEEDS WORK
+msgid "Test:"
+msgstr "Teszt:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 831
+#: NEEDS WORK
+msgid "Details:"
+msgstr "Részletek:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 838
+#: NEEDS WORK
+msgid "Duration:"
+msgstr "Időtartam:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 846
+#: NEEDS WORK
+msgid "Suggestion:"
+msgstr "Javaslat:"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 852
 #: NEEDS WORK
 msgid "Overall Assessment"

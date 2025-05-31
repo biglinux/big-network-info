@@ -194,6 +194,26 @@ msgstr "실패했습니다."
 msgid "WARNING"
 msgstr "경고"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 824
+#: NEEDS WORK
+msgid "Test:"
+msgstr "테스트:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 831
+#: NEEDS WORK
+msgid "Details:"
+msgstr "세부정보:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 838
+#: NEEDS WORK
+msgid "Duration:"
+msgstr "지속 시간:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 846
+#: NEEDS WORK
+msgid "Suggestion:"
+msgstr "제안:"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 852
 #: NEEDS WORK
 msgid "Overall Assessment"

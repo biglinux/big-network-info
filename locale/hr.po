@@ -194,6 +194,26 @@ msgstr "NEUSPJEH"
 msgid "WARNING"
 msgstr "UPITNO"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 824
+#: NEEDS WORK
+msgid "Test:"
+msgstr "Test:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 831
+#: NEEDS WORK
+msgid "Details:"
+msgstr "Detalji:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 838
+#: NEEDS WORK
+msgid "Duration:"
+msgstr "Trajanje:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 846
+#: NEEDS WORK
+msgid "Suggestion:"
+msgstr "Prijedlog:"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 852
 #: NEEDS WORK
 msgid "Overall Assessment"

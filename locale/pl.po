@@ -194,6 +194,26 @@ msgstr "NIE POWIODŁO SIĘ"
 msgid "WARNING"
 msgstr "OSTRZEŻENIE"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 824
+#: NEEDS WORK
+msgid "Test:"
+msgstr "Test:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 831
+#: NEEDS WORK
+msgid "Details:"
+msgstr "Szczegóły:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 838
+#: NEEDS WORK
+msgid "Duration:"
+msgstr "Czas trwania:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 846
+#: NEEDS WORK
+msgid "Suggestion:"
+msgstr "Sugestia:"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 852
 #: NEEDS WORK
 msgid "Overall Assessment"
