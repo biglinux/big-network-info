@@ -209,7 +209,7 @@ class NetworkDiagnostics:
                         # Handle any exceptions that occurred during execution
                         step = self.steps[step_index]
                         step.status = DiagnosticStatus.FAILED
-                        step.details = f"Error during execution: {str(e)}"
+                        step.details = _("Error during execution:") + f" {str(e)}"
                         self._notify_progress(step)
         else:
             # Run steps sequentially
@@ -271,7 +271,7 @@ class NetworkDiagnostics:
                 return False
 
         except Exception as e:
-            step.details = f"Error: {str(e)}"
+            step.details = _("Error:") + f" {str(e)}"
             return False
 
     def _test_list_network_devices(self) -> bool:
@@ -327,14 +327,16 @@ class NetworkDiagnostics:
                     continue
 
             if active_interfaces:
-                step.details = f"Active interfaces: {', '.join(active_interfaces)}"
+                step.details = (
+                    _("Active interfaces:") + " " + ", ".join(active_interfaces)
+                )
                 return True
             else:
-                step.details = "No active network interfaces found"
+                step.details = _("No active network interfaces found")
                 return False
 
         except Exception as e:
-            step.details = f"Failed to check interface status: {str(e)}"
+            step.details = _("Failed to check interface status") + f": {str(e)}"
             return False
 
     def _test_link_status(self) -> bool:
@@ -364,15 +366,15 @@ class NetworkDiagnostics:
 
             if connected_interfaces:
                 step.details = (
-                    f"Connected interfaces: {', '.join(connected_interfaces)}"
+                    _("Connected interfaces:") + " " + ", ".join(connected_interfaces)
                 )
                 return True
             else:
-                step.details = "No connected network interfaces found"
+                step.details = _("No connected network interfaces found")
                 return False
 
         except Exception as e:
-            step.details = f"Failed to check link status: {str(e)}"
+            step.details = _("Failed to check link status") + ": " + str(e)
             return False
 
     def _test_ip_configuration(self) -> bool:
@@ -397,15 +399,15 @@ class NetworkDiagnostics:
 
             if configured_interfaces:
                 step.details = (
-                    f"Configured interfaces: {', '.join(configured_interfaces)}"
+                    _("Configured interfaces:") + " " + ", ".join(configured_interfaces)
                 )
                 return True
             else:
-                step.details = "No valid IP addresses configured"
+                step.details = _("No valid IP addresses configured")
                 return False
 
         except Exception as e:
-            step.details = f"Failed to check IP configuration: {str(e)}"
+            step.details = _("Failed to check IP configuration") + ": " + str(e)
             return False
 
     def _test_default_route(self) -> bool:
@@ -418,14 +420,19 @@ class NetworkDiagnostics:
             if default_gw and netifaces.AF_INET in default_gw:
                 gateway_ip = default_gw[netifaces.AF_INET][0]
                 interface = default_gw[netifaces.AF_INET][1]
-                step.details = f"Default gateway: {gateway_ip} via {interface}"
+                step.details = (
+                    _("Default gateway:")
+                    + f" {gateway_ip} "
+                    + _("via")
+                    + f" {interface}"
+                )
                 return True
             else:
-                step.details = "No default gateway configured"
+                step.details = _("No default gateway configured")
                 return False
 
         except Exception as e:
-            step.details = f"Failed to check default route: {str(e)}"
+            step.details = _("Failed to check default route") + ": " + str(e)
             return False
 
     def _test_gateway_connectivity(self) -> bool:
@@ -436,7 +443,7 @@ class NetworkDiagnostics:
             default_gw = gateways.get("default")
 
             if not default_gw or netifaces.AF_INET not in default_gw:
-                step.details = "No default gateway to test"
+                step.details = _("No default gateway to test")
                 return False
 
             gateway_ip = default_gw[netifaces.AF_INET][0]
@@ -455,18 +462,22 @@ class NetworkDiagnostics:
                 for line in lines:
                     if "packet loss" in line:
                         step.details = (
-                            f"Gateway {gateway_ip} reachable - {line.strip()}"
+                            _("Gateway")
+                            + f" {gateway_ip} "
+                            + _("reachable")
+                            + " - "
+                            + line.strip()
                         )
                         break
                 else:
-                    step.details = f"Gateway {gateway_ip} is reachable"
+                    step.details = _("Gateway") + f" {gateway_ip} " + _("is reachable")
                 return True
             else:
-                step.details = f"Gateway {gateway_ip} is unreachable"
+                step.details = _("Gateway") + f" {gateway_ip} " + _("is unreachable")
                 return False
 
         except Exception as e:
-            step.details = f"Failed to test gateway connectivity: {str(e)}"
+            step.details = _("Failed to test gateway connectivity") + ": " + str(e)
             return False
 
     def _check_dns_configuration(self) -> bool:
@@ -503,11 +514,11 @@ class NetworkDiagnostics:
             if not dns_servers:
                 dns_servers = ["Using system default"]
 
-            step.details = f"Configured DNS servers: {', '.join(dns_servers)}"
+            step.details = _("Configured DNS servers:") + " " + ", ".join(dns_servers)
             return True
 
         except Exception as e:
-            step.details = f"Failed to check DNS configuration: {str(e)}"
+            step.details = _("Failed to check DNS configuration:") + " " + str(e)
             return False
 
     def _check_external_ip(self) -> bool:
@@ -584,14 +595,14 @@ class NetworkDiagnostics:
                 results.append(f"IPv6: {external_ipv6}")
 
             if results:
-                step.details = f"External IP addresses: {', '.join(results)}"
+                step.details = _("External IP addresses:") + " " + ", ".join(results)
                 return True
             else:
-                step.details = "Unable to determine external IP addresses"
+                step.details = _("Unable to determine external IP addresses")
                 return False
 
         except Exception as e:
-            step.details = f"Failed to check external IP: {str(e)}"
+            step.details = _("Failed to check external IP:") + " " + str(e)
             return False
 
     def _is_valid_ipv4(self, ip: str) -> bool:
@@ -669,16 +680,18 @@ class NetworkDiagnostics:
                         continue
 
             if resolved_domains:
-                step.details = f"Resolved: {', '.join(resolved_domains)}"
+                step.details = _("Resolved:") + " " + ", ".join(resolved_domains)
                 return True
             else:
                 step.details = (
-                    f"Failed to resolve any test domains: {', '.join(test_domains)}"
+                    _("Failed to resolve any test domains:")
+                    + " "
+                    + ", ".join(test_domains)
                 )
                 return False
 
         except Exception as e:
-            step.details = f"Failed to test DNS resolution: {str(e)}"
+            step.details = _("Failed to test DNS resolution:") + " " + str(e)
             return False
 
     def _resolve_single_domain(self, domain: str) -> str:
@@ -702,16 +715,16 @@ class NetworkDiagnostics:
                 try:
                     response = requests.get(url, timeout=5)
                     if response.status_code in [200, 204]:
-                        step.details = f"Internet access confirmed via {url}"
+                        step.details = _("Internet access confirmed via") + f" {url}"
                         return True
                 except:
                     continue
 
-            step.details = "No internet access detected"
+            step.details = _("No internet access detected")
             return False
 
         except Exception as e:
-            step.details = f"Failed to test internet access: {str(e)}"
+            step.details = _("Failed to test internet access:") + " " + str(e)
             return False
 
     def _notify_progress(self, step: DiagnosticStep) -> None:
