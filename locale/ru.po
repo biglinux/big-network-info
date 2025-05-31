@@ -51,6 +51,31 @@ msgstr "📊 Обзор сканирования"
 msgid "Not specified"
 msgstr "Не указано"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
+#: NEEDS WORK
+msgid "Network Range"
+msgstr "Диапазон сети"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 374
+#: NEEDS WORK
+msgid "Active Devices"
+msgstr "Активные устройства"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 383
+#: NEEDS WORK
+msgid "Devices with Services"
+msgstr "Устройства с сервисами"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 395
+#: NEEDS WORK
+msgid "Total Services"
+msgstr "Всего услуг"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 404
+#: NEEDS WORK
+msgid "Network Gateways"
+msgstr "Сетевые шлюзы"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 424
 #: NEEDS WORK
 msgid "🔍 Detailed Device Information"
@@ -120,6 +145,26 @@ msgstr "Отчет о диагностике сети"
 #: NEEDS WORK
 msgid "Diagnostics Overview"
 msgstr "Обзор диагностики"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 787
+#: NEEDS WORK
+msgid "Passed Tests"
+msgstr "Пройденные тесты"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 788
+#: NEEDS WORK
+msgid "Failed Tests"
+msgstr "Неудачные тесты"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 789
+#: NEEDS WORK
+msgid "Warnings"
+msgstr "Предупреждения"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 790
+#: NEEDS WORK
+msgid "Total Tests Performed"
+msgstr "Всего выполненных тестов"
 # 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 786
 #: NEEDS WORK
@@ -299,6 +344,26 @@ msgstr "Пинг-сканирование"
 msgid "addresses..."
 msgstr "адреса..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+#: NEEDS WORK
+msgid "Ping scan:"
+msgstr "Сканирование Ping:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+#: NEEDS WORK
+msgid "("
+msgstr "("
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+#: NEEDS WORK
+msgid "found"
+msgstr "найдено"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
+#: NEEDS WORK
+msgid ")"
+msgstr ")"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
 #: NEEDS WORK
 msgid "Checking ARP table..."
@@ -313,6 +378,19 @@ msgstr "TCP-портовый зонд для тихих хостов..."
 #: NEEDS WORK
 msgid "Getting MAC addresses..."
 msgstr "Получение MAC-адресов..."
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+#: NEEDS WORK
+msgid "Found"
+msgstr "Найдено"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+#: NEEDS WORK
+msgid "hosts"
+msgstr "хосты"
 # 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
@@ -628,14 +706,6 @@ msgstr "Тестирование веб-соединения"
 #: NEEDS WORK
 msgid "Check firewall settings and proxy configuration"
 msgstr "Проверьте настройки брандмауэра и конфигурацию прокси."
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
-#: NEEDS WORK
-msgid "Found"
-msgstr "Найдено"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
@@ -1015,6 +1085,28 @@ msgstr "Не удалось импортировать пользователь�
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1178,6 +1270,8 @@ msgstr "Не удалось импортировать пользователь�
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Диагностика сети"
 # 
@@ -1319,6 +1413,10 @@ msgstr "(Этот компьютер)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1352,6 +1450,8 @@ msgstr "(Этот компьютер)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1962,11 +2062,6 @@ msgstr "Запустить диагностику снова"
 #: NEEDS WORK
 msgid "Scan your network to find devices and services."
 msgstr "Сканируйте свою сеть, чтобы найти устройства и службы."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
-#: NEEDS WORK
-msgid "Network Range"
-msgstr "Диапазон сети"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 863
 #: NEEDS WORK

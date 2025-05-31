@@ -51,6 +51,31 @@ msgstr "📊 スキャン概要"
 msgid "Not specified"
 msgstr "指定されていません"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
+#: NEEDS WORK
+msgid "Network Range"
+msgstr "ネットワーク範囲"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 374
+#: NEEDS WORK
+msgid "Active Devices"
+msgstr "アクティブデバイス"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 383
+#: NEEDS WORK
+msgid "Devices with Services"
+msgstr "サービス付きデバイス"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 395
+#: NEEDS WORK
+msgid "Total Services"
+msgstr "総サービス"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 404
+#: NEEDS WORK
+msgid "Network Gateways"
+msgstr "ネットワークゲートウェイ"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 424
 #: NEEDS WORK
 msgid "🔍 Detailed Device Information"
@@ -120,6 +145,26 @@ msgstr "ネットワーク診断レポート"
 #: NEEDS WORK
 msgid "Diagnostics Overview"
 msgstr "診断概要"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 787
+#: NEEDS WORK
+msgid "Passed Tests"
+msgstr "合格したテスト"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 788
+#: NEEDS WORK
+msgid "Failed Tests"
+msgstr "失敗したテスト"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 789
+#: NEEDS WORK
+msgid "Warnings"
+msgstr "警告"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 790
+#: NEEDS WORK
+msgid "Total Tests Performed"
+msgstr "実施されたテストの合計"
 # 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 786
 #: NEEDS WORK
@@ -305,6 +350,26 @@ msgstr "ピングスキャンニング"
 msgid "addresses..."
 msgstr "アドレス..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+#: NEEDS WORK
+msgid "Ping scan:"
+msgstr "ピングスキャン:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+#: NEEDS WORK
+msgid "("
+msgstr "("
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+#: NEEDS WORK
+msgid "found"
+msgstr "見つかりました"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
+#: NEEDS WORK
+msgid ")"
+msgstr ""
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
 #: NEEDS WORK
 msgid "Checking ARP table..."
@@ -319,6 +384,19 @@ msgstr "サイレントホストのためのTCPポートプローブ..."
 #: NEEDS WORK
 msgid "Getting MAC addresses..."
 msgstr "MACアドレスを取得中..."
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+#: NEEDS WORK
+msgid "Found"
+msgstr "見つかりました"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+#: NEEDS WORK
+msgid "hosts"
+msgstr "ホスト"
 # 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
@@ -634,14 +712,6 @@ msgstr "ウェブ接続のテスト中"
 #: NEEDS WORK
 msgid "Check firewall settings and proxy configuration"
 msgstr "ファイアウォール設定とプロキシ構成を確認してください。"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
-#: NEEDS WORK
-msgid "Found"
-msgstr "見つかりました"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
@@ -1021,6 +1091,28 @@ msgstr "カスタムサービスのインポートに失敗しました。"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1184,6 +1276,8 @@ msgstr "カスタムサービスのインポートに失敗しました。"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "ネットワーク診断"
 # 
@@ -1325,6 +1419,10 @@ msgstr "（このコンピュータ）"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1358,6 +1456,8 @@ msgstr "（このコンピュータ）"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1968,11 +2068,6 @@ msgstr "診断を再実行する"
 #: NEEDS WORK
 msgid "Scan your network to find devices and services."
 msgstr "ネットワークをスキャンしてデバイスとサービスを見つけます。"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
-#: NEEDS WORK
-msgid "Network Range"
-msgstr "ネットワーク範囲"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 863
 #: NEEDS WORK

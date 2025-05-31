@@ -51,6 +51,31 @@ msgstr "📊 Przegląd skanowania"
 msgid "Not specified"
 msgstr "Nie określono"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
+#: NEEDS WORK
+msgid "Network Range"
+msgstr "Zakres sieci"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 374
+#: NEEDS WORK
+msgid "Active Devices"
+msgstr "Aktywne urządzenia"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 383
+#: NEEDS WORK
+msgid "Devices with Services"
+msgstr "Urządzenia z usługami"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 395
+#: NEEDS WORK
+msgid "Total Services"
+msgstr "Całkowite usługi"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 404
+#: NEEDS WORK
+msgid "Network Gateways"
+msgstr "Bramki sieciowe"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 424
 #: NEEDS WORK
 msgid "🔍 Detailed Device Information"
@@ -120,6 +145,26 @@ msgstr "Raport diagnostyki sieci"
 #: NEEDS WORK
 msgid "Diagnostics Overview"
 msgstr "Przegląd diagnostyki"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 787
+#: NEEDS WORK
+msgid "Passed Tests"
+msgstr "Zaliczono testy"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 788
+#: NEEDS WORK
+msgid "Failed Tests"
+msgstr "Nieudane testy"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 789
+#: NEEDS WORK
+msgid "Warnings"
+msgstr "Ostrzeżenia"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 790
+#: NEEDS WORK
+msgid "Total Tests Performed"
+msgstr "Łączna liczba przeprowadzonych testów"
 # 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 786
 #: NEEDS WORK
@@ -301,6 +346,26 @@ msgstr "Skanowanie pingów"
 msgid "addresses..."
 msgstr "adresy..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+#: NEEDS WORK
+msgid "Ping scan:"
+msgstr "Skan ping:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+#: NEEDS WORK
+msgid "("
+msgstr "("
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+#: NEEDS WORK
+msgid "found"
+msgstr "znaleziono"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
+#: NEEDS WORK
+msgid ")"
+msgstr ""
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
 #: NEEDS WORK
 msgid "Checking ARP table..."
@@ -315,6 +380,19 @@ msgstr "Skanowanie portu TCP dla cichych hostów..."
 #: NEEDS WORK
 msgid "Getting MAC addresses..."
 msgstr "Pobieranie adresów MAC..."
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+#: NEEDS WORK
+msgid "Found"
+msgstr "Znaleziono"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+#: NEEDS WORK
+msgid "hosts"
+msgstr "hosty"
 # 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
@@ -630,14 +708,6 @@ msgstr "Testowanie łączności internetowej"
 #: NEEDS WORK
 msgid "Check firewall settings and proxy configuration"
 msgstr "Sprawdź ustawienia zapory i konfigurację serwera proxy."
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
-#: NEEDS WORK
-msgid "Found"
-msgstr "Znaleziono"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
@@ -1730,11 +1800,6 @@ msgstr "Uruchom ponownie diagnostykę"
 #: NEEDS WORK
 msgid "Scan your network to find devices and services."
 msgstr "Skanuj swoją sieć, aby znaleźć urządzenia i usługi."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
-#: NEEDS WORK
-msgid "Network Range"
-msgstr "Zakres sieci"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 863
 #: NEEDS WORK

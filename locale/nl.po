@@ -51,6 +51,31 @@ msgstr "📊 Scan Overzicht"
 msgid "Not specified"
 msgstr "Niet gespecificeerd"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
+#: NEEDS WORK
+msgid "Network Range"
+msgstr "Netwerkbereik"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 374
+#: NEEDS WORK
+msgid "Active Devices"
+msgstr "Actieve Apparaten"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 383
+#: NEEDS WORK
+msgid "Devices with Services"
+msgstr "Apparaten met Diensten"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 395
+#: NEEDS WORK
+msgid "Total Services"
+msgstr "Totaal Diensten"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 404
+#: NEEDS WORK
+msgid "Network Gateways"
+msgstr "Netwerkgateways"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 424
 #: NEEDS WORK
 msgid "🔍 Detailed Device Information"
@@ -120,6 +145,26 @@ msgstr "Netwerkdiagnoserapport"
 #: NEEDS WORK
 msgid "Diagnostics Overview"
 msgstr "Diagnose Overzicht"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 787
+#: NEEDS WORK
+msgid "Passed Tests"
+msgstr "Geslaagde Tests"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 788
+#: NEEDS WORK
+msgid "Failed Tests"
+msgstr "Mislukte tests"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 789
+#: NEEDS WORK
+msgid "Warnings"
+msgstr "Waarschuwingen"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 790
+#: NEEDS WORK
+msgid "Total Tests Performed"
+msgstr "Totaal uitgevoerde tests"
 # 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 786
 #: NEEDS WORK
@@ -299,6 +344,26 @@ msgstr "Ping scannen"
 msgid "addresses..."
 msgstr "adressen..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+#: NEEDS WORK
+msgid "Ping scan:"
+msgstr "Ping-scan:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+#: NEEDS WORK
+msgid "("
+msgstr "("
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+#: NEEDS WORK
+msgid "found"
+msgstr "gevonden"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
+#: NEEDS WORK
+msgid ")"
+msgstr ""
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
 #: NEEDS WORK
 msgid "Checking ARP table..."
@@ -313,6 +378,19 @@ msgstr "TCP-poortonderzoek voor stille hosts..."
 #: NEEDS WORK
 msgid "Getting MAC addresses..."
 msgstr "MAC-adressen ophalen..."
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+#: NEEDS WORK
+msgid "Found"
+msgstr "Gevonden"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+#: NEEDS WORK
+msgid "hosts"
+msgstr "hosts"
 # 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
@@ -628,14 +706,6 @@ msgstr "Webverbinding testen"
 #: NEEDS WORK
 msgid "Check firewall settings and proxy configuration"
 msgstr "Controleer de firewallinstellingen en proxyconfiguratie"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
-#: NEEDS WORK
-msgid "Found"
-msgstr "Gevonden"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
@@ -1019,6 +1089,28 @@ msgstr "Mislukt om aangepaste services te importeren"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1182,6 +1274,8 @@ msgstr "Mislukt om aangepaste services te importeren"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Netwerkdiagnose"
 # 
@@ -1323,6 +1417,10 @@ msgstr "(Deze computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1356,6 +1454,8 @@ msgstr "(Deze computer)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1966,11 +2066,6 @@ msgstr "Voer opnieuw diagnostiek uit"
 #: NEEDS WORK
 msgid "Scan your network to find devices and services."
 msgstr "Scan uw netwerk om apparaten en diensten te vinden."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
-#: NEEDS WORK
-msgid "Network Range"
-msgstr "Netwerkbereik"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 863
 #: NEEDS WORK

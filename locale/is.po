@@ -51,6 +51,31 @@ msgstr "📊 Skanna yfirlit"
 msgid "Not specified"
 msgstr "Ekki tilgreint"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
+#: NEEDS WORK
+msgid "Network Range"
+msgstr "Netfangsvið"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 374
+#: NEEDS WORK
+msgid "Active Devices"
+msgstr "Virkar tæki"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 383
+#: NEEDS WORK
+msgid "Devices with Services"
+msgstr "Tæki með þjónustu"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 395
+#: NEEDS WORK
+msgid "Total Services"
+msgstr "Heildarþjónustur"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 404
+#: NEEDS WORK
+msgid "Network Gateways"
+msgstr "Netkaflar"
+# 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 424
 #: NEEDS WORK
 msgid "🔍 Detailed Device Information"
@@ -120,6 +145,26 @@ msgstr "Netsamskýrslur"
 #: NEEDS WORK
 msgid "Diagnostics Overview"
 msgstr "Yfirlit greininga"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 787
+#: NEEDS WORK
+msgid "Passed Tests"
+msgstr "Prófanir samþykktar"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 788
+#: NEEDS WORK
+msgid "Failed Tests"
+msgstr "Mistök prófanir"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 789
+#: NEEDS WORK
+msgid "Warnings"
+msgstr "Viðvaranir"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 790
+#: NEEDS WORK
+msgid "Total Tests Performed"
+msgstr "Heildarfjöldi prófa framkvæmd."
 # 
 # File: big-network-info/src/utils/pdf_exporter.py, line: 786
 #: NEEDS WORK
@@ -305,6 +350,26 @@ msgstr "Ping skönnun"
 msgid "addresses..."
 msgstr "heimildir..."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+#: NEEDS WORK
+msgid "Ping scan:"
+msgstr "Ping skanni:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+#: NEEDS WORK
+msgid "("
+msgstr "("
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+#: NEEDS WORK
+msgid "found"
+msgstr "fundið"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
+#: NEEDS WORK
+msgid ")"
+msgstr ""
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
 #: NEEDS WORK
 msgid "Checking ARP table..."
@@ -319,6 +384,19 @@ msgstr "TCP hafnarpótar fyrir þöglu hýsi..."
 #: NEEDS WORK
 msgid "Getting MAC addresses..."
 msgstr "Að fá MAC heimildir..."
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+#: NEEDS WORK
+msgid "Found"
+msgstr "Fundið"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+#: NEEDS WORK
+msgid "hosts"
+msgstr "gestirðir"
 # 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
@@ -634,14 +712,6 @@ msgstr "Prófun á vef tengingu"
 #: NEEDS WORK
 msgid "Check firewall settings and proxy configuration"
 msgstr "Athugaðu eldveggstillingar og skautstillingu."
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
-#: NEEDS WORK
-msgid "Found"
-msgstr "Fundið"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
@@ -1021,6 +1091,28 @@ msgstr "Mistók að flytja inn sérsniðnar þjónustur"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1184,6 +1276,8 @@ msgstr "Mistók að flytja inn sérsniðnar þjónustur"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Netkerfisgreiningar"
 # 
@@ -1325,6 +1419,10 @@ msgstr "(Þessi tölva)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1358,6 +1456,8 @@ msgstr "(Þessi tölva)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1983,11 +2083,6 @@ msgstr "Keyrðu greiningu aftur"
 #: NEEDS WORK
 msgid "Scan your network to find devices and services."
 msgstr "Skoðaðu netið þitt til að finna tæki og þjónustu."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
-#: NEEDS WORK
-msgid "Network Range"
-msgstr "Netfangsvið"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 863
 #: NEEDS WORK
