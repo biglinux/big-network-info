@@ -265,7 +265,7 @@ class NetworkScanner:
                     pass
 
         except Exception as e:
-            logging.error(_("Failed to get ARP table: {error}").format(error=e))
+            logging.error(_("Failed to get ARP table") + f": {e}")
 
         return arp_table
 
@@ -381,16 +381,12 @@ class NetworkScanner:
                             self._oui_database[oui_key] = vendor_name
 
             logging.info(
-                _("Loaded {count} OUI entries from IEEE database").format(
-                    count=len(self._oui_database)
-                )
+                _("Loaded") + f" {len(self._oui_database)} " + _("OUI entries from IEEE database")
             )
 
         except Exception as e:
             logging.error(
-                _("Failed to load IEEE OUI file {file}: {error}").format(
-                    file=file_path, error=e
-                )
+                _("Failed to load IEEE OUI file") + f" {file_path}: {e}"
             )
             # Initialize empty database to avoid repeated load attempts
             self._oui_database = {}
@@ -420,9 +416,7 @@ class NetworkScanner:
                     hostname = resolved
                     self.hostname_cache[ip] = hostname
                     logging.debug(
-                        _("Avahi resolved {ip} to {hostname}").format(
-                            ip=ip, hostname=hostname
-                        )
+                        _("Avahi resolved") + f" {ip} " + _("to") + f" {hostname}"
                     )
                     return hostname
 
@@ -445,9 +439,7 @@ class NetworkScanner:
 
             except Exception as e:
                 logging.debug(
-                    _("Avahi resolution failed for {ip}: {error}").format(
-                        ip=ip, error=e
-                    )
+                    _("Avahi resolution failed for") + f" {ip}: {e}"
                 )
 
         # Method 2: Standard reverse DNS with configurable timeout

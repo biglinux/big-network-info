@@ -287,18 +287,14 @@ class NetworkDiagnostics:
             ]
 
             if valid_interfaces:
-                step.details = _("Found {count} network interfaces: {ifs}").format(
-                    count=len(valid_interfaces), ifs=", ".join(valid_interfaces)
-                )
+                step.details = _("Found") + f" {len(valid_interfaces)} " + _("network interfaces") + f": {', '.join(valid_interfaces)}"
                 return True
             else:
                 step.details = _("No valid network interfaces found")
                 return False
 
         except Exception as e:
-            step.details = _("Failed to list network interfaces: {error}").format(
-                error=str(e)
-            )
+            step.details = _("Failed to list network interfaces") + f": {str(e)}"
             return False
 
     def _test_interface_status(self) -> bool:

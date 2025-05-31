@@ -271,7 +271,7 @@ class NetworkScannerApp(Adw.Application):
         Args:
             error_message: Error message
         """
-        self.show_error_dialog(f"Scan failed: {error_message}")
+        self.show_error_dialog(_("Scan failed") + f": {error_message}")
 
         # Reset scanner state
         self.scanner = None
@@ -316,14 +316,14 @@ class NetworkScannerApp(Adw.Application):
                 # Show SFTP username dialog
                 self.show_sftp_dialog(ip, service.port)
         except Exception as e:
-            self.show_error_dialog(f"Failed to open service: {e}")
+            self.show_error_dialog(_("Failed to open service") + f": {e}")
 
     def show_error_dialog(self, message: str) -> None:
         """Show error dialog."""
         dialog = Adw.MessageDialog(
-            transient_for=self.window, heading="Error", body=message
+            transient_for=self.window, heading=_("Error"), body=message
         )
-        dialog.add_response("ok", "OK")
+        dialog.add_response("ok", _("OK"))
         dialog.show()
 
     def show_ssh_dialog(self, ip: str, port: int = 22) -> None:
@@ -417,6 +417,8 @@ class NetworkScannerApp(Adw.Application):
         try:
             # Try different terminal emulators for SSH
             terminals = [
+                ["ptyxis", "--", "ssh", f"{username}@{ip}", "-p", str(port)],
+                ["tilix", "-e", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["gnome-terminal", "--", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["konsole", "-e", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["xfce4-terminal", "-e", f"ssh {username}@{ip} -p {port}"],
@@ -445,7 +447,7 @@ class NetworkScannerApp(Adw.Application):
                     stderr=subprocess.DEVNULL,
                 )
         except Exception as e:
-            self.show_error_dialog(f"Failed to open SSH terminal: {e}")
+            self.show_error_dialog(_("Failed to open SSH terminal") + f": {e}")
 
     def open_sftp_with_user(self, ip: str, port: int, username: str) -> None:
         """
@@ -470,7 +472,7 @@ class NetworkScannerApp(Adw.Application):
                 stderr=subprocess.DEVNULL,
             )
         except Exception as e:
-            self.show_error_dialog(f"Failed to open SFTP: {e}")
+            self.show_error_dialog(_("Failed to open SFTP") + f": {e}")
 
     def on_welcome(self, action=None, param=None) -> None:
         """Show welcome screen."""
@@ -516,7 +518,7 @@ class NetworkScannerApp(Adw.Application):
         """Handle scan button click from welcome view."""
         network_range = self.range_row.get_text().strip()
         if not network_range:
-            self.show_error_dialog("Please enter a network range to scan")
+            self.show_error_dialog(_("Please enter a network range to scan"))
             return
 
         # Start scanning in background thread (this will also switch to devices tab)
@@ -726,11 +728,6 @@ class NetworkScannerApp(Adw.Application):
         """Create the diagnostics results section."""
         # Diagnostics steps container
         self.diagnostics_group = Adw.PreferencesGroup()
-        self.diagnostics_group.set_title("Diagnostic Steps")
-        self.diagnostics_group.set_description(
-            _("Each step tests a different aspect of your network connectivity")
-        )
-
         return self.diagnostics_group
 
     def create_diagnostics_footer(self) -> Gtk.Widget:
@@ -839,7 +836,7 @@ class NetworkScannerApp(Adw.Application):
 
         # Input for network range
         self.range_row = Adw.EntryRow()
-        self.range_row.set_title("Network Range")
+        self.range_row.set_title(_("Network Range"))
 
         # Auto-detect network range on startup
         if not self.scanner:
@@ -960,11 +957,6 @@ class NetworkScannerApp(Adw.Application):
             for row in self.step_rows.values():
                 self.diagnostics_group.remove(row)
             self.step_rows.clear()
-
-        # Reset diagnostics group description to default
-        self.diagnostics_group.set_description(
-            "Each step tests a different aspect of your network connectivity"
-        )
 
     def create_diagnostic_step_rows(self) -> None:
         """Create rows for each diagnostic step."""
@@ -1173,13 +1165,13 @@ class NetworkScannerApp(Adw.Application):
                 self.progress_status_label.add_css_class("success")
             elif failed == 0:
                 self.progress_status_label.set_text(
-                    _("✓ Completed with {count} warning(s)").format(count=warnings)
+                    _("✓ Completed with ") + f"{warnings} " + _("warning(s)")
                 )
                 self.progress_status_label.remove_css_class("dim-label")
                 self.progress_status_label.add_css_class("warning")
             else:
                 self.progress_status_label.set_text(
-                    _("✗ Completed with {count} failure(s)").format(count=failed)
+                    _("✗ Completed with") + f" {failed} " + _("failure(s)")
                 )
                 self.progress_status_label.remove_css_class("dim-label")
                 self.progress_status_label.add_css_class("error")
@@ -1197,16 +1189,14 @@ class NetworkScannerApp(Adw.Application):
                 self.summary_label.add_css_class("success")
             elif failed == 0:
                 self.summary_label.set_text(
-                    _("Completed with {count} warning(s). Network looks okay.").format(
-                        count=warnings
-                    )
+                    _("Completed with ")
+                    + f"{warnings} "
+                    + _("warning(s). Network looks okay.")
                 )
                 self.summary_label.add_css_class("warning")
             else:
                 self.summary_label.set_text(
-                    _("{count} issue(s) detected. Review steps below.").format(
-                        count=failed
-                    )
+                    str(failed) + " " + _("issue(s) detected. Review steps below.")
                 )
                 self.summary_label.add_css_class("error")
             self.summary_label.set_visible(True)
@@ -1250,9 +1240,7 @@ class NetworkScannerApp(Adw.Application):
             )
 
         except Exception as e:
-            self.show_error_dialog(
-                _("Failed to export PDF: {error}").format(error=str(e))
-            )
+            self.show_error_dialog(_("Failed to export PDF") + f": {str(e)}")
 
     def _on_save_dialog_complete(
         self, dialog: Gtk.FileDialog, result: Gio.AsyncResult, user_data
@@ -1267,7 +1255,7 @@ class NetworkScannerApp(Adw.Application):
                 file_path = file.get_path()
                 try:
                     # Export to PDF with network range information
-                    network_range = getattr(self, "current_network_range", "Unknown")
+                    network_range = getattr(self, "current_network_range", _("Unknown"))
                     generated_path = exporter.export_to_pdf(
                         results, file_path, network_range
                     )
@@ -1276,7 +1264,7 @@ class NetworkScannerApp(Adw.Application):
                     success_dialog = Adw.MessageDialog.new(
                         self.window,
                         _("Export Successful"),
-                        _("PDF report saved to:\n{path}").format(path=generated_path),
+                        _("PDF report saved to") + f":\n{generated_path}",
                     )
                     success_dialog.add_response("ok", _("OK"))
                     success_dialog.add_response("open", _("Open File"))
@@ -1289,14 +1277,12 @@ class NetworkScannerApp(Adw.Application):
                     success_dialog.present()
 
                 except Exception as e:
-                    self.show_error_dialog(f"Failed to save PDF: {str(e)}")
+                    self.show_error_dialog(_("Failed to save PDF") + f": {str(e)}")
 
         except Exception as e:
             # User cancelled or error occurred - silently ignore cancellation
             if "cancelled" not in str(e).lower():
-                self.show_error_dialog(
-                    _("Failed to save file: {error}").format(error=str(e))
-                )
+                self.show_error_dialog(_("Failed to save file") + f": {str(e)}")
 
     def _on_pdf_success_response(
         self, dialog: Adw.MessageDialog, response: str, file_path: str
@@ -1307,7 +1293,7 @@ class NetworkScannerApp(Adw.Application):
                 # Try to open the PDF with the default application
                 subprocess.run(["xdg-open", file_path], check=True)
             except Exception as e:
-                self.show_error_dialog(f"Failed to open PDF: {str(e)}")
+                self.show_error_dialog(_("Failed to open PDF") + f": {str(e)}")
         dialog.destroy()
 
     def on_export_diagnostics_pdf(self, button: Gtk.Button) -> None:
@@ -1356,9 +1342,7 @@ class NetworkScannerApp(Adw.Application):
             )
 
         except Exception as e:
-            self.show_error_dialog(
-                _("Failed to export diagnostics PDF: {error}").format(error=str(e))
-            )
+            self.show_error_dialog(_("Failed to export diagnostics PDF: ") + str(e))
 
     def _on_diagnostics_save_dialog_complete(
         self, dialog: Gtk.FileDialog, result: Gio.AsyncResult, user_data
@@ -1381,9 +1365,7 @@ class NetworkScannerApp(Adw.Application):
                     success_dialog = Adw.MessageDialog.new(
                         self.window,
                         _("Export Successful"),
-                        _("Diagnostics report saved to:\n{path}").format(
-                            path=generated_path
-                        ),
+                        _("Diagnostics report saved to:") + f"\n{generated_path}",
                     )
                     success_dialog.add_response("ok", _("OK"))
                     success_dialog.add_response("open", _("Open File"))
@@ -1397,14 +1379,10 @@ class NetworkScannerApp(Adw.Application):
 
                 except Exception as e:
                     self.show_error_dialog(
-                        _("Failed to save diagnostics PDF: {error}").format(
-                            error=str(e)
-                        )
+                        _("Failed to save diagnostics PDF: ") + str(e)
                     )
 
         except Exception as e:
             # User cancelled or error occurred - silently ignore cancellation
             if "cancelled" not in str(e).lower():
-                self.show_error_dialog(
-                    _("Failed to save file: {error}").format(error=str(e))
-                )
+                self.show_error_dialog(_("Failed to save file: ") + str(e))

@@ -171,7 +171,7 @@ class ConfigurationView(Gtk.ScrolledWindow):
         # Scan threads setting
         scan_threads_row = Adw.SpinRow()
         scan_threads_row.set_title(_("Port Scan Threads"))
-        scan_threads_row.set_subtitle("Parallel threads for port scanning")
+        scan_threads_row.set_subtitle(_("Parallel threads for port scanning"))
         scan_threads_adjustment = Gtk.Adjustment(
             value=self.config_manager.config.scan_threads,
             lower=1,
@@ -564,9 +564,9 @@ class ConfigurationView(Gtk.ScrolledWindow):
                 and service.port == port
                 and service != self.editing_service
             ):
-                return False, _(
-                    "Service '{name}' on port {port} already exists"
-                ).format(name=name, port=port)
+                return False, _("Service") + f" '{name}' " + _(
+                    "on port"
+                ) + f" {port} " + _("already exists")
 
         return True, ""
 
@@ -657,11 +657,13 @@ class ConfigurationView(Gtk.ScrolledWindow):
         """Handle delete service button click."""
         dialog = Adw.MessageDialog(
             transient_for=self.parent_window,
-            heading="Delete Custom Service",
-            body=f"Are you sure you want to delete '{service.name}' ({service.port}/{service.protocol})? This action cannot be undone.",
+            heading=_("Delete Custom Service"),
+            body=_("Are you sure you want to delete")
+            + f" '{service.name}' ({service.port}/{service.protocol})? "
+            + _("This action cannot be undone."),
         )
-        dialog.add_response("cancel", "Cancel")
-        dialog.add_response("delete", "Delete")
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("delete", _("Delete"))
         dialog.set_response_appearance("delete", Adw.ResponseAppearance.DESTRUCTIVE)
         dialog.connect("response", lambda d, r: self.on_delete_response(d, r, service))
         dialog.show()
@@ -683,11 +685,14 @@ class ConfigurationView(Gtk.ScrolledWindow):
 
         dialog = Adw.MessageDialog(
             transient_for=self.parent_window,
-            heading="Clear All Custom Services",
-            body=f"Are you sure you want to delete all {len(custom_services)} custom services? This action cannot be undone.",
+            heading=_("Clear All Custom Services"),
+            body=_(
+                "Are you sure you want to delete all custom services? This action cannot be undone."
+            )
+            + f" ({len(custom_services)})",
         )
-        dialog.add_response("cancel", "Cancel")
-        dialog.add_response("clear", "Clear All")
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("delete", _("Delete"))
         dialog.set_response_appearance("clear", Adw.ResponseAppearance.DESTRUCTIVE)
         dialog.connect("response", self.on_clear_all_response)
         dialog.show()
@@ -730,7 +735,7 @@ class ConfigurationView(Gtk.ScrolledWindow):
                 if self.config_manager.export_custom_services(file_path):
                     self.show_message(
                         _("Export Successful"),
-                        _("Custom services exported to {path}").format(path=file_path),
+                        _("Custom services exported to ") + file_path,
                     )
                 else:
                     self.show_message(
@@ -772,7 +777,7 @@ class ConfigurationView(Gtk.ScrolledWindow):
                 if success:
                     self.show_message(
                         _("Import Successful"),
-                        _("Imported {count} custom services").format(count=count),
+                        _("Imported ") + str(count) + _(" custom services"),
                     )
                     # Clear tracked rows and refresh
                     self.service_rows.clear()
@@ -793,7 +798,7 @@ class ConfigurationView(Gtk.ScrolledWindow):
         dialog = Adw.MessageDialog(
             transient_for=self.parent_window, heading=title, body=message
         )
-        dialog.add_response("ok", "OK")
+        dialog.add_response("ok", _("OK"))
         dialog.show()
 
     # Detection settings callback methods

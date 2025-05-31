@@ -142,7 +142,7 @@ class ScanResultsView(Gtk.Box):
         box.append(icon)
 
         # Title
-        title = Gtk.Label(label=_("Welcome to Big Network Info"))
+        title = Gtk.Label(label="Big Network Info")
         title.add_css_class("title-1")
         box.append(title)
 
@@ -293,9 +293,9 @@ class ScanResultsView(Gtk.Box):
             # Enhance hostname for better identification
             if hostname.startswith("_gateway") or "gateway" in hostname.lower():
                 if any(service.port in [80, 443] for service in result.services):
-                    hostname = f"Router/Gateway ({hostname})"
+                    hostname = _("Router/Gateway") + f" ({hostname})"
                 else:
-                    hostname = f"Gateway ({hostname})"
+                    hostname = _("Gateway") + f" ({hostname})"
             elif result.ip.endswith((".1", ".254", ".255")):
                 if any(service.port in [80, 443] for service in result.services):
                     hostname = (
@@ -438,9 +438,11 @@ class ScanResultsView(Gtk.Box):
         total_hosts = len(results)
         total_services = sum(len(result.services) for result in results)
         summary_label = Gtk.Label(
-            label=_("Found {hosts} hosts with {services} services").format(
-                hosts=total_hosts, services=total_services
-            )
+            label=_("Found")
+            + f" {total_hosts} "
+            + _("hosts with")
+            + f" {total_services} "
+            + _("services")
         )
         summary_label.add_css_class("title-2")
         summary_label.add_css_class("dim-label")
@@ -494,9 +496,7 @@ class ScanResultsView(Gtk.Box):
 
         # Add response time for performance indication
         if result.response_time > 0:
-            subtitle_parts.append(
-                _("Response: {time}ms").format(time=f"{result.response_time:.1f}")
-            )
+            subtitle_parts.append(_("Response") + f": {result.response_time:.1f}ms")
 
         if subtitle_parts:
             expander.set_subtitle(" • ".join(subtitle_parts))
@@ -604,7 +604,7 @@ class ScanResultsView(Gtk.Box):
 
             services_group = Adw.PreferencesGroup()
             services_group.set_title(
-                _("Available Services ({count})").format(count=len(result.services))
+                _("Available Services") + f" ({len(result.services)})"
             )
 
             # Sort services by importance (web services first, then by port number)
@@ -634,7 +634,7 @@ class ScanResultsView(Gtk.Box):
         # Ping action
         ping_row = Adw.ActionRow()
         ping_row.set_title(_("Ping Device"))
-        ping_row.set_subtitle(_("Test connectivity to {ip}").format(ip=result.ip))
+        ping_row.set_subtitle(_("Test connectivity to") + f" {result.ip}")
         ping_icon = Gtk.Image.new_from_icon_name("network-transmit-receive-symbolic")
         ping_row.add_prefix(ping_icon)
 
@@ -720,7 +720,7 @@ class ScanResultsView(Gtk.Box):
                 dialog = Adw.MessageDialog.new(
                     button.get_root(),
                     _("Export Failed"),
-                    _("Failed to export PDF: {error}").format(error=str(e)),
+                    _("Failed to export PDF") + f": {str(e)}",
                 )
                 dialog.add_response("ok", _("OK"))
                 dialog.present()
@@ -801,11 +801,7 @@ class ScanResultsView(Gtk.Box):
         row = Adw.ActionRow()
         # Invert title and subtitle for better readability
         row.set_title(
-            _("Port {port}/{protocol} - {description}").format(
-                port=service.port,
-                protocol=service.protocol,
-                description=service.description,
-            )
+            _("Port") + f" {service.port}/{service.protocol} - {service.description}"
         )
         row.set_title_selectable(True)  # Make port info selectable
         row.set_subtitle(service.name)
@@ -813,36 +809,26 @@ class ScanResultsView(Gtk.Box):
         # Set enhanced tooltip with access information
         tooltip_parts = [
             service.name,
-            _("Port: {port}/{protocol}").format(
-                port=service.port, protocol=service.protocol
-            ),
-            _("Description: {description}").format(description=service.description),
+            _("Port") + f": {service.port}/{service.protocol}",
+            _("Description") + f": {service.description}",
         ]
 
         if service.access_method:
             if service.access_method in ["http", "https"]:
                 tooltip_parts.append(
-                    _("Access: {protocol}://{ip}:{port}").format(
-                        protocol=service.access_method, ip=ip, port=service.port
-                    )
+                    _("Access") + f": {service.access_method}://{ip}:{service.port}"
                 )
             elif service.access_method == "ssh":
                 tooltip_parts.append(
-                    _("SSH Terminal: ssh <username>@{ip} -p {port}").format(
-                        ip=ip, port=service.port
-                    )
+                    _("SSH Terminal") + f": ssh <username>@{ip} -p {service.port}"
                 )
                 tooltip_parts.append(
-                    _("SFTP Files: sftp://<username>@{ip}:{port}").format(
-                        ip=ip, port=service.port
-                    )
+                    _("SFTP Files") + f": sftp://<username>@{ip}:{service.port}"
                 )
             elif service.access_method == "smb":
-                tooltip_parts.append(_("Access: smb://{ip}").format(ip=ip))
+                tooltip_parts.append(_("Access") + f": smb://{ip}")
             elif service.access_method == "ftp":
-                tooltip_parts.append(
-                    _("Access: ftp://{ip}:{port}").format(ip=ip, port=service.port)
-                )
+                tooltip_parts.append(_("Access") + f": ftp://{ip}:{service.port}")
 
         tooltip_text = "\n".join(tooltip_parts)
         row.set_tooltip_text(tooltip_text)
@@ -859,7 +845,7 @@ class ScanResultsView(Gtk.Box):
         # Add copy button for the service URL/address
         copy_button = Gtk.Button()
         copy_button.set_icon_name("edit-copy-symbolic")
-        copy_button.set_tooltip_text("Copy service address")
+        copy_button.set_tooltip_text(_("Copy service address"))
         copy_button.add_css_class("flat")
         copy_button.connect(
             "clicked", lambda btn: self.copy_service_address(ip, service)
@@ -872,7 +858,8 @@ class ScanResultsView(Gtk.Box):
             browser_button = Gtk.Button()
             browser_button.set_icon_name("applications-internet-symbolic")
             browser_button.set_tooltip_text(
-                f"Open in browser: {service.access_method}://{ip}:{service.port}"
+                _("Open in browser: ")
+                + f"{service.access_method}://{ip}:{service.port}"
             )
             browser_button.add_css_class("flat")
             browser_button.connect(
@@ -884,7 +871,7 @@ class ScanResultsView(Gtk.Box):
             # SSH - add both terminal and file manager options
             terminal_button = Gtk.Button()
             terminal_button.set_icon_name("utilities-terminal-symbolic")
-            terminal_button.set_tooltip_text("Open SSH connection in terminal")
+            terminal_button.set_tooltip_text(_("Open SSH connection in terminal"))
             terminal_button.add_css_class("flat")
             terminal_button.connect(
                 "clicked", lambda btn: self.show_ssh_dialog(ip, service.port)
@@ -894,7 +881,7 @@ class ScanResultsView(Gtk.Box):
             # SFTP file manager button
             sftp_button = Gtk.Button()
             sftp_button.set_icon_name("folder-remote-symbolic")
-            sftp_button.set_tooltip_text("Open SFTP in file manager")
+            sftp_button.set_tooltip_text(_("Open SFTP in file manager"))
             sftp_button.add_css_class("flat")
             sftp_button.connect(
                 "clicked", lambda btn: self.open_sftp_files(ip, service.port)
@@ -905,7 +892,7 @@ class ScanResultsView(Gtk.Box):
             # SMB/Samba - add file manager button
             files_button = Gtk.Button()
             files_button.set_icon_name("folder-remote-symbolic")
-            files_button.set_tooltip_text(f"Open in file manager: smb://{ip}")
+            files_button.set_tooltip_text(_("Open in file manager: ") + f"smb://{ip}")
             files_button.add_css_class("flat")
             files_button.connect(
                 "clicked", lambda btn: self.open_service_callback(ip, service)
@@ -916,9 +903,7 @@ class ScanResultsView(Gtk.Box):
             # FTP - add file manager button
             ftp_button = Gtk.Button()
             ftp_button.set_icon_name("folder-download-symbolic")
-            ftp_button.set_tooltip_text(
-                _("Open FTP: {url}").format(url=f"ftp://{ip}:{service.port}")
-            )
+            ftp_button.set_tooltip_text(_("Open FTP: ") + f"ftp://{ip}:{service.port}")
             ftp_button.add_css_class("flat")
             ftp_button.connect(
                 "clicked", lambda btn: self.open_service_callback(ip, service)
@@ -929,9 +914,7 @@ class ScanResultsView(Gtk.Box):
         elif service.access_method:
             open_button = Gtk.Button()
             open_button.set_icon_name("external-link-symbolic")
-            open_button.set_tooltip_text(
-                _("Open {service}").format(service=service.name)
-            )
+            open_button.set_tooltip_text(_("Open") + f" {service.name}")
             open_button.add_css_class("flat")
             open_button.connect(
                 "clicked", lambda btn: self.open_service_callback(ip, service)
@@ -1039,7 +1022,7 @@ class ScanResultsView(Gtk.Box):
         dialog = Adw.MessageDialog.new(
             None,
             _("SSH Connection"),
-            _("Connect to {ip}:{port}").format(ip=ip, port=port),
+            _("Connect to") + f" {ip}:{port}",
         )
         dialog.set_modal(True)
 
@@ -1106,6 +1089,8 @@ class ScanResultsView(Gtk.Box):
         try:
             # Try different terminal emulators
             terminals = [
+                ["ptyxis", "--", "ssh", f"{username}@{ip}", "-p", str(port)],
+                ["tilix", "-e", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["gnome-terminal", "--", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["konsole", "-e", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["xfce4-terminal", "-e", f"ssh {username}@{ip} -p {port}"],
@@ -1143,6 +1128,8 @@ class ScanResultsView(Gtk.Box):
         try:
             # Try different terminal emulators
             terminals = [
+                ["ptyxis", "--", "ssh", f"user@{ip}", "-p", str(port)],
+                ["tilix", "-e", "ssh", f"user@{ip}", "-p", str(port)],
                 ["gnome-terminal", "--", "ssh", f"user@{ip}", "-p", str(port)],
                 ["konsole", "-e", "ssh", f"user@{ip}", "-p", str(port)],
                 ["xfce4-terminal", "-e", f"ssh user@{ip} -p {port}"],
@@ -1196,22 +1183,22 @@ class ScanResultsView(Gtk.Box):
         summary_lines = []
 
         # Header
-        summary_lines.append("=== Device Summary ===")
-        summary_lines.append(f"Hostname: {result.hostname}")
-        summary_lines.append(f"IP Address: {result.ip}")
+        summary_lines.append(_("=== Device Summary ==="))
+        summary_lines.append(f"{_('Hostname')}: {result.hostname}")
+        summary_lines.append(f"{_('IP Address')}: {result.ip}")
 
         if result.mac:
-            summary_lines.append(f"MAC Address: {result.mac}")
+            summary_lines.append(f"{_('MAC Address')}: {result.mac}")
 
         if result.vendor and result.vendor != "Unknown":
-            summary_lines.append(f"Vendor: {result.vendor}")
+            summary_lines.append(f"{_('Vendor')}: {result.vendor}")
 
         if result.response_time > 0:
-            summary_lines.append(f"Response Time: {result.response_time:.1f}ms")
+            summary_lines.append(f"{_('Response Time')}: {result.response_time:.1f}ms")
 
         # Services section
         if result.services:
-            summary_lines.append(f"\n=== Services ({len(result.services)}) ===")
+            summary_lines.append(f"\n=== {_('Services')} ({len(result.services)}) ===")
             for service in sorted(result.services, key=lambda s: s.port):
                 service_line = (
                     f"{service.name} - Port {service.port}/{service.protocol}"
@@ -1229,18 +1216,18 @@ class ScanResultsView(Gtk.Box):
                         service_line += f" - ftp://{result.ip}:{service.port}"
                 summary_lines.append(service_line)
         else:
-            summary_lines.append("\n=== Services ===")
-            summary_lines.append("No services detected")
+            summary_lines.append(_("\n=== Services ==="))
+            summary_lines.append(_("No services detected"))
 
         # Quick commands section
-        summary_lines.append("\n=== Quick Commands ===")
+        summary_lines.append(_("\n=== Quick Commands ==="))
         summary_lines.append(f"ping {result.ip}")
 
         if any(s.access_method == "ssh" for s in result.services):
             ssh_service = next(s for s in result.services if s.access_method == "ssh")
             summary_lines.append(f"ssh <username>@{result.ip} -p {ssh_service.port}")
             summary_lines.append(
-                "# Replace <username> with: root, admin, pi, or your username"
+                _("# Replace <username> with: root, admin, pi, or your username")
             )
 
         if any(s.access_method in ["http", "https"] for s in result.services):
@@ -1269,19 +1256,19 @@ class ScanResultsView(Gtk.Box):
 
         # Copy actions
         copy_section = Gio.Menu()
-        copy_section.append("Copy IP Address", f"app.copy-ip::{result.ip}")
+        copy_section.append(_("Copy IP Address"), f"app.copy-ip::{result.ip}")
         if result.mac:
-            copy_section.append("Copy MAC Address", f"app.copy-mac::{result.mac}")
+            copy_section.append(_("Copy MAC Address"), f"app.copy-mac::{result.mac}")
         if result.hostname != result.ip:
             copy_section.append(
-                "Copy Hostname", f"app.copy-hostname::{result.hostname}"
+                _("Copy Hostname"), f"app.copy-hostname::{result.hostname}"
             )
-        copy_section.append("Copy Device Summary", f"app.copy-summary::{result.ip}")
-        menu.append_section("Copy", copy_section)
+        copy_section.append(_("Copy Device Summary"), f"app.copy-summary::{result.ip}")
+        menu.append_section(_("Copy"), copy_section)
 
         # Quick actions
         actions_section = Gio.Menu()
-        actions_section.append("Ping Device", f"app.ping::{result.ip}")
+        actions_section.append(_("Ping Device"), f"app.ping::{result.ip}")
 
         # Service actions
         if result.services:
@@ -1293,11 +1280,11 @@ class ScanResultsView(Gtk.Box):
                     )
                 elif service.access_method == "ssh":
                     actions_section.append(
-                        "Open SSH Terminal", f"app.ssh::{result.ip}::{service.port}"
+                        _("Open SSH Terminal"), f"app.ssh::{result.ip}::{service.port}"
                     )
                 elif service.access_method == "smb":
                     actions_section.append(
-                        "Open File Share",
+                        _("Open File Share"),
                         f"app.open-service::{result.ip}::{service.port}",
                     )
 
@@ -1320,7 +1307,7 @@ class ScanResultsView(Gtk.Box):
         """
         # Create dialog for username
         dialog = Adw.MessageDialog.new(
-            None, "SFTP Connection", f"Connect to SFTP at {ip}:{port}"
+            None, _("SFTP Connection"), _("Connect to SFTP at") + f" {ip}:{port}"
         )
         dialog.set_modal(True)
 
@@ -1413,7 +1400,7 @@ class PingDialog(Adw.Window):
     def __init__(self, parent_window, target_ip: str):
         """Initialize the ping dialog."""
         super().__init__()
-        self.set_title(f"Ping - {target_ip}")
+        self.set_title(_("Ping") + f" - {target_ip}")
         self.set_modal(True)
         self.set_transient_for(parent_window)
         self.set_default_size(700, 400)
@@ -1436,13 +1423,13 @@ class PingDialog(Adw.Window):
 
         # Header with target info
         header_group = Adw.PreferencesGroup()
-        header_group.set_title(f"Pinging {self.target_ip}")
-        header_group.set_description("Real-time ping results and statistics")
+        header_group.set_title(_("Pinging") + f" {self.target_ip}")
+        header_group.set_description(_("Real-time ping results and statistics"))
 
         # Status row
         self.status_row = Adw.ActionRow()
-        self.status_row.set_title("Status")
-        self.status_row.set_subtitle("Preparing to ping...")
+        self.status_row.set_title(_("Status"))
+        self.status_row.set_subtitle(_("Preparing to ping..."))
         self.status_icon = Gtk.Image.new_from_icon_name(
             "network-wireless-signal-good-symbolic"
         )
@@ -1474,7 +1461,7 @@ class PingDialog(Adw.Window):
 
         # Add frame directly to the main box instead of using PreferencesGroup
         results_label = Gtk.Label()
-        results_label.set_text("Ping Results")
+        results_label.set_text(_("Ping Results"))
         results_label.set_halign(Gtk.Align.START)
         results_label.add_css_class("title-4")
         results_label.set_margin_bottom(12)
@@ -1487,20 +1474,20 @@ class PingDialog(Adw.Window):
         button_box.set_halign(Gtk.Align.END)
 
         # Copy button
-        self.copy_btn = Gtk.Button.new_with_label("Copy Results")
+        self.copy_btn = Gtk.Button.new_with_label(_("Copy Results"))
         self.copy_btn.set_icon_name("edit-copy-symbolic")
         self.copy_btn.connect("clicked", self.on_copy_clicked)
         button_box.append(self.copy_btn)
 
         # Cancel/Stop button
-        self.cancel_btn = Gtk.Button.new_with_label("Start Ping")
+        self.cancel_btn = Gtk.Button.new_with_label(_("Start Ping"))
         self.cancel_btn.set_icon_name("media-playback-start-symbolic")
         self.cancel_btn.add_css_class("suggested-action")
         self.cancel_btn.connect("clicked", self.on_cancel_clicked)
         button_box.append(self.cancel_btn)
 
         # Close button
-        close_btn = Gtk.Button.new_with_label("Close")
+        close_btn = Gtk.Button.new_with_label(_("Close"))
         close_btn.connect("clicked", lambda x: self.close())
         button_box.append(close_btn)
 
@@ -1515,12 +1502,12 @@ class PingDialog(Adw.Window):
 
         self.is_running = True
 
-        self.cancel_btn.set_label("Stop Ping")
+        self.cancel_btn.set_label(_("Stop Ping"))
         self.cancel_btn.set_icon_name("media-playback-stop-symbolic")
         self.cancel_btn.remove_css_class("suggested-action")
         self.cancel_btn.add_css_class("destructive-action")
 
-        self.status_row.set_subtitle("Pinging...")
+        self.status_row.set_subtitle(_("Pinging..."))
         self.status_icon.set_from_icon_name("network-transmit-receive-symbolic")
 
         # Clear previous results
@@ -1540,7 +1527,7 @@ class PingDialog(Adw.Window):
             except:
                 pass
 
-        self.cancel_btn.set_label("Start Ping")
+        self.cancel_btn.set_label(_("Start Ping"))
         self.cancel_btn.set_icon_name("media-playback-start-symbolic")
         self.cancel_btn.remove_css_class("destructive-action")
         self.cancel_btn.add_css_class("suggested-action")
@@ -1549,17 +1536,13 @@ class PingDialog(Adw.Window):
 
     def _update_status_finished(self):
         """Update status when ping is finished."""
-        self.status_row.set_subtitle("Ping completed")
+        self.status_row.set_subtitle(_("Ping completed"))
         self.status_icon.set_from_icon_name("object-select-symbolic")
 
     def _ping_worker(self):
         """Worker thread for ping process."""
         try:
-            # Determine ping command based on platform
-            if platform.system().lower() == "windows":
-                cmd = ["ping", "-n", "10", self.target_ip]
-            else:
-                cmd = ["ping", "-c", "10", self.target_ip]
+            cmd = ["ping", "-c", "10", self.target_ip]
 
             self.ping_process = subprocess.Popen(
                 cmd,
