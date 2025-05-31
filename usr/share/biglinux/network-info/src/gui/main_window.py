@@ -614,9 +614,7 @@ class NetworkScannerApp(Adw.Application):
         header_box.append(main_icon)
 
         # Subtitle with improved text
-        subtitle_label = Gtk.Label(
-            label=_("Analyze your network setup and identify connectivity issues")
-        )
+        subtitle_label = Gtk.Label(label=_("Quickly check network for common issues."))
         subtitle_label.add_css_class("title-4")
         subtitle_label.add_css_class("dim-label")
         subtitle_label.set_halign(Gtk.Align.CENTER)
@@ -845,9 +843,7 @@ class NetworkScannerApp(Adw.Application):
         icon.add_css_class("accent")
         header_box.append(icon)
         # Subtitle
-        subtitle = Gtk.Label(
-            label=_("Easily discover devices and open ports on your network")
-        )
+        subtitle = Gtk.Label(label=_("Scan your network to find devices and services."))
         subtitle.add_css_class("title-4")
         subtitle.add_css_class("dim-label")
         subtitle.set_wrap(True)
