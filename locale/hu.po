@@ -339,6 +339,16 @@ msgstr "feladatokkal"
 msgid "threads"
 msgstr "szálak"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "Scanned"
+msgstr "Beolvasva"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "ports"
+msgstr "portok"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
 #: NEEDS WORK
 msgid "Finalizing results..."
@@ -1253,10 +1263,12 @@ msgstr "Rendben"
 msgid "Network Diagnostics"
 msgstr "Hálózati diagnosztika"
 # 
-# File: big-network-info/src/gui/welcome_screen.py, line: 88
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
 #: NEEDS WORK
-msgid "Test your internet connection, DNS servers, and network connectivity"
-msgstr "Tesztelje az internetkapcsolatát, a DNS-szervereket és a hálózati kapcsolatot."
+msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
+msgstr ""
+"Tesztelje az internetkapcsolatát, a DNS-szervereket, a hálózati kapcsolódást, és elemezze a "
+"WiFi-hálózatokat."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 93
 #: NEEDS WORK

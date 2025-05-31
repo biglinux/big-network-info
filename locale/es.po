@@ -339,6 +339,16 @@ msgstr "tareas con"
 msgid "threads"
 msgstr "hilos"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "Scanned"
+msgstr "Escaneado"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "ports"
+msgstr "puertos"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
 #: NEEDS WORK
 msgid "Finalizing results..."
@@ -1335,6 +1345,28 @@ msgstr "Error al importar servicios personalizados"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1504,13 +1536,15 @@ msgstr "Error al importar servicios personalizados"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Diagnósticos de red"
 # 
-# File: big-network-info/src/gui/welcome_screen.py, line: 88
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
 #: NEEDS WORK
-msgid "Test your internet connection, DNS servers, and network connectivity"
-msgstr "Prueba tu conexión a Internet, servidores DNS y conectividad de red."
+msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
+msgstr "Prueba tu conexión a internet, servidores DNS, conectividad de red y analiza redes WiFi."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 93
 #: NEEDS WORK
@@ -1652,6 +1686,10 @@ msgstr "(Este ordenador)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1685,6 +1723,8 @@ msgstr "(Este ordenador)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

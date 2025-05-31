@@ -339,6 +339,16 @@ msgstr "taken met"
 msgid "threads"
 msgstr "draadjes"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "Scanned"
+msgstr "Gescreend"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "ports"
+msgstr "poorten"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
 #: NEEDS WORK
 msgid "Finalizing results..."
@@ -1335,6 +1345,28 @@ msgstr "Mislukt om aangepaste services te importeren"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1504,13 +1536,15 @@ msgstr "Mislukt om aangepaste services te importeren"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Netwerkdiagnose"
 # 
-# File: big-network-info/src/gui/welcome_screen.py, line: 88
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
 #: NEEDS WORK
-msgid "Test your internet connection, DNS servers, and network connectivity"
-msgstr "Test uw internetverbinding, DNS-servers en netwerkverbinding."
+msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
+msgstr "Test uw internetverbinding, DNS-servers, netwerkverbinding en analyseer WiFi-netwerken."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 93
 #: NEEDS WORK
@@ -1652,6 +1686,10 @@ msgstr "(Deze computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1685,6 +1723,8 @@ msgstr "(Deze computer)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

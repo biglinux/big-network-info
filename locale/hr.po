@@ -339,6 +339,16 @@ msgstr "zadaci s"
 msgid "threads"
 msgstr "nitovi"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "Scanned"
+msgstr "Skenirano"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "ports"
+msgstr "portovi"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
 #: NEEDS WORK
 msgid "Finalizing results..."
@@ -1249,10 +1259,10 @@ msgstr "U redu"
 msgid "Network Diagnostics"
 msgstr "Dijagnostika mreže"
 # 
-# File: big-network-info/src/gui/welcome_screen.py, line: 88
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
 #: NEEDS WORK
-msgid "Test your internet connection, DNS servers, and network connectivity"
-msgstr "Testirajte svoju internetsku vezu, DNS poslužitelje i mrežnu povezanost."
+msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
+msgstr "Testirajte svoju internetsku vezu, DNS poslužitelje, mrežnu povezanost i analizirajte WiFi mreže."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 93
 #: NEEDS WORK

@@ -350,62 +350,72 @@ msgid   "threads"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+msgid   "Scanned"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+msgid   "ports"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 924
 msgid   "Finalizing results..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 949
 msgid   "Scan completed"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 954
 msgid   "Scan failed:"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 992
 msgid   "Ping scanning"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 992
 msgid   "addresses..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1030
 msgid   "Ping scan:"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1032
 msgid   "("
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
 msgid   "found"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1035
 msgid   ")"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1043
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1044
 msgid   "Checking ARP table..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1057
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1058
 msgid   "TCP port probe for silent hosts..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1097
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1098
 msgid   "Getting MAC addresses..."
 msgstr  ""
 
@@ -414,14 +424,14 @@ msgstr  ""
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1107
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 291
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 440
 msgid   "Found"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1107
 msgid   "hosts"
 msgstr  ""
 
@@ -1281,7 +1291,8 @@ msgstr  ""
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
-msgid   "Test your internet connection, DNS servers, and network connectivity"
+msgid   "Test your internet connection, DNS servers, network connectivity, "
+        "and analyze WiFi networks"
 msgstr  ""
 
 #

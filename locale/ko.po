@@ -339,6 +339,16 @@ msgstr "작업과 함께"
 msgid "threads"
 msgstr "스레드"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "Scanned"
+msgstr "스캔됨"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+#: NEEDS WORK
+msgid "ports"
+msgstr "포트"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
 #: NEEDS WORK
 msgid "Finalizing results..."
@@ -1253,10 +1263,10 @@ msgstr "알겠습니다."
 msgid "Network Diagnostics"
 msgstr "네트워크 진단"
 # 
-# File: big-network-info/src/gui/welcome_screen.py, line: 88
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
 #: NEEDS WORK
-msgid "Test your internet connection, DNS servers, and network connectivity"
-msgstr "인터넷 연결, DNS 서버 및 네트워크 연결을 테스트하세요."
+msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
+msgstr "인터넷 연결, DNS 서버, 네트워크 연결을 테스트하고 WiFi 네트워크를 분석합니다."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 93
 #: NEEDS WORK
