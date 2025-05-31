@@ -381,13 +381,13 @@ class NetworkScanner:
                             self._oui_database[oui_key] = vendor_name
 
             logging.info(
-                _("Loaded") + f" {len(self._oui_database)} " + _("OUI entries from IEEE database")
+                _("Loaded")
+                + f" {len(self._oui_database)} "
+                + _("OUI entries from IEEE database")
             )
 
         except Exception as e:
-            logging.error(
-                _("Failed to load IEEE OUI file") + f" {file_path}: {e}"
-            )
+            logging.error(_("Failed to load IEEE OUI file") + f" {file_path}: {e}")
             # Initialize empty database to avoid repeated load attempts
             self._oui_database = {}
 
@@ -438,9 +438,7 @@ class NetworkScanner:
                                 return hostname
 
             except Exception as e:
-                logging.debug(
-                    _("Avahi resolution failed for") + f" {ip}: {e}"
-                )
+                logging.debug(_("Avahi resolution failed for") + f" {ip}: {e}")
 
         # Method 2: Standard reverse DNS with configurable timeout
         try:
@@ -818,16 +816,16 @@ class NetworkScanner:
 
         try:
             # Step 1: Discover hosts
-            self._update_progress("Scanning network for live hosts...", 5)
+            self._update_progress(_("Scanning network for live hosts..."), 5)
             hosts = self.discover_hosts(network_range)
 
             if not hosts:
-                self._update_progress("No hosts found", 100)
+                self._update_progress(_("No hosts found"), 100)
                 return results
 
             # Step 2: Resolve hostnames for all hosts in parallel
             total_hosts = len(hosts)
-            self._update_progress("Resolving hostnames...", 35)
+            self._update_progress(_("Resolving hostnames..."), 35)
 
             # Resolve all hostnames in parallel
             hostname_results = {}
@@ -854,14 +852,12 @@ class NetworkScanner:
                     completed += 1
                     progress = 35 + (completed / total_hosts) * 20
                     self._update_progress(
-                        f"Resolved {completed}/{total_hosts} hostnames", progress
+                        _("Resolved") + f" {completed}/{total_hosts} " + _("hostnames"),
+                        progress,
                     )
 
             # Step 3: Scan services for all hosts in parallel
-            self._update_progress("Scanning services...", 55)
-
-            # Step 3: Scan ALL ports for ALL hosts in one unified thread pool
-            self._update_progress("Scanning services...", 55)
+            self._update_progress(_("Scanning services..."), 55)
 
             # Get all services to scan
             if self.config_manager:
@@ -880,7 +876,11 @@ class NetworkScanner:
             total_scans = len(all_scan_tasks)
             # Show actual thread count from configuration
             self._update_progress(
-                f"Starting port scan: {total_scans} tasks with {thread_count} threads",
+                _("Starting port scan:")
+                + f" {total_scans} "
+                + _("tasks with")
+                + f" {thread_count} "
+                + _("threads"),
                 55,
             )
             with concurrent.futures.ThreadPoolExecutor(
@@ -920,7 +920,7 @@ class NetworkScanner:
                         )
 
             # Step 4: Combine results
-            self._update_progress("Finalizing results...", 85)
+            self._update_progress(_("Finalizing results..."), 85)
 
             for host_data in hosts:
                 if self._stop_scanning:
@@ -945,12 +945,12 @@ class NetworkScanner:
                 )
                 results.append(scan_result)
 
-            self._update_progress("Scan completed", 100)
+            self._update_progress(_("Scan completed"), 100)
             return results
 
         except Exception as e:
             logging.error(f"Network scan failed: {e}")
-            self._update_progress(f"Scan failed: {e}", 100)
+            self._update_progress(_("Scan failed:") + f" {e}", 100)
             return results
 
     def _enhanced_host_discovery(self, network_range: str) -> List[Dict[str, str]]:
@@ -987,7 +987,9 @@ class NetworkScanner:
                 ip_list = ip_list[:254]
 
             # Method 1: Optimized ping discovery
-            self._update_progress(f"Ping scanning {len(ip_list)} addresses...", 15)
+            self._update_progress(
+                _("Ping scanning") + f" {len(ip_list)} " + _("addresses..."), 15
+            )
             alive_hosts = []
             batch_size = 100
             max_workers = min(self.discovery_threads, 25)
@@ -1033,7 +1035,7 @@ class NetworkScanner:
                     time.sleep(0.05)  # Much shorter delay
 
             # Method 2: Check ARP table for recently active hosts
-            self._update_progress("Checking ARP table...", 26)
+            self._update_progress(_("Checking ARP table..."), 26)
             arp_table = self._get_system_arp_table()
             arp_added = 0
 
@@ -1047,7 +1049,7 @@ class NetworkScanner:
                 logging.debug(f"Added {arp_added} hosts from ARP table")
 
             # Method 3: TCP port probe for silent hosts (limited for large networks)
-            self._update_progress("TCP port probe for silent hosts...", 28)
+            self._update_progress(_("TCP port probe for silent hosts..."), 28)
             remaining_ips = [ip for ip in ip_list if ip not in discovered_ips]
 
             if remaining_ips:
@@ -1087,7 +1089,7 @@ class NetworkScanner:
                             continue
 
             # Build final host list with MAC and vendor info
-            self._update_progress("Getting MAC addresses...", 32)
+            self._update_progress(_("Getting MAC addresses..."), 32)
             for ip in alive_hosts:
                 if self._stop_scanning:
                     break
