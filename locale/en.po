@@ -210,12 +210,12 @@ msgid "Loaded"
 msgstr "Loaded"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 384
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 386
 msgid "OUI entries from IEEE database"
 msgstr "OUI entries from IEEE database"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 389
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 390
 msgid "Failed to load IEEE OUI file"
 msgstr "Failed to load IEEE OUI file"
 
@@ -230,9 +230,94 @@ msgid "to"
 msgstr "to"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 441
 msgid "Avahi resolution failed for"
 msgstr "Avahi resolution failed for"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+msgid "Scanning network for live hosts..."
+msgstr "Scanning network for live hosts..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+msgid "No hosts found"
+msgstr "No hosts found"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+msgid "Resolving hostnames..."
+msgstr "Resolving hostnames..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+msgid "Resolved"
+msgstr "Resolved"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+msgid "hostnames"
+msgstr "hostnames"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+msgid "Scanning services..."
+msgstr "Scanning services..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+msgid "Starting port scan:"
+msgstr "Starting port scan:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+msgid "tasks with"
+msgstr "tasks with"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+msgid "threads"
+msgstr "threads"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+msgid "Finalizing results..."
+msgstr "Finalizing results..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+msgid "Scan completed"
+msgstr "Scan completed"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+msgid "Scan failed:"
+msgstr "Scan failed:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+msgid "Ping scanning"
+msgstr "Ping scanning"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+msgid "addresses..."
+msgstr "addresses..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+msgid "Checking ARP table..."
+msgstr "Checking ARP table..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+msgid "TCP port probe for silent hosts..."
+msgstr "TCP port probe for silent hosts..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+msgid "Getting MAC addresses..."
+msgstr "Getting MAC addresses..."
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/core/services.py, line: 22

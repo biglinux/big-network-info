@@ -229,6 +229,91 @@ msgstr "până"
 msgid "Avahi resolution failed for"
 msgstr "Rezolvarea Avahi a eșuat pentru"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+#: NEEDS WORK
+msgid "Scanning network for live hosts..."
+msgstr "Scanează rețeaua pentru gazde active..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+#: NEEDS WORK
+msgid "No hosts found"
+msgstr "Niciun gazdă găsită"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+#: NEEDS WORK
+msgid "Resolving hostnames..."
+msgstr "Rezolvarea numelui gazdelor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "Resolved"
+msgstr "Rezolvat"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "hostnames"
+msgstr "nume gazdă"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+#: NEEDS WORK
+msgid "Scanning services..."
+msgstr "Servicii de scanare..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+#: NEEDS WORK
+msgid "Starting port scan:"
+msgstr "Începere scanare porturi:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+#: NEEDS WORK
+msgid "tasks with"
+msgstr "sarcini cu"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+#: NEEDS WORK
+msgid "threads"
+msgstr "firețe"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+#: NEEDS WORK
+msgid "Finalizing results..."
+msgstr "Finalizarea rezultatelor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+#: NEEDS WORK
+msgid "Scan completed"
+msgstr "Scan finalizat"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+#: NEEDS WORK
+msgid "Scan failed:"
+msgstr "Scan eșuat:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "Ping scanning"
+msgstr "Scanare Ping"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "addresses..."
+msgstr "adrese..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+#: NEEDS WORK
+msgid "Checking ARP table..."
+msgstr "Verificarea tabelului ARP..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+#: NEEDS WORK
+msgid "TCP port probe for silent hosts..."
+msgstr "Sondare port TCP pentru gazde silențioase..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+#: NEEDS WORK
+msgid "Getting MAC addresses..."
+msgstr "Obținerea adreselor MAC..."
+# 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
 msgid "Web interface"
@@ -944,7 +1029,31 @@ msgstr "Importul serviciilor personalizate a eșuat."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Network Diagnostics"
@@ -1092,7 +1201,13 @@ msgstr "(Acest computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

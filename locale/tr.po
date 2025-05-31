@@ -232,7 +232,13 @@ msgstr "Avahi çözüldü"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -241,6 +247,91 @@ msgstr "Avahi çözüldü"
 #: NEEDS WORK
 msgid "Avahi resolution failed for"
 msgstr "Avahi çözümü başarısız oldu için"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+#: NEEDS WORK
+msgid "Scanning network for live hosts..."
+msgstr "Ağda canlı ana bilgisayarlar için tarama yapılıyor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+#: NEEDS WORK
+msgid "No hosts found"
+msgstr "Hiçbir ana bilgisayar bulunamadı."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+#: NEEDS WORK
+msgid "Resolving hostnames..."
+msgstr "Ana bilgisayar adları çözümleniyor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "Resolved"
+msgstr "Çözüldü"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "hostnames"
+msgstr "ana bilgisayar adları"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+#: NEEDS WORK
+msgid "Scanning services..."
+msgstr "Tarama hizmetleri..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+#: NEEDS WORK
+msgid "Starting port scan:"
+msgstr "Port taraması başlatılıyor:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+#: NEEDS WORK
+msgid "tasks with"
+msgstr "görevler ile"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+#: NEEDS WORK
+msgid "threads"
+msgstr "iş parçacıkları"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+#: NEEDS WORK
+msgid "Finalizing results..."
+msgstr "Sonuçlar finalize ediliyor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+#: NEEDS WORK
+msgid "Scan completed"
+msgstr "Tarama tamamlandı"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+#: NEEDS WORK
+msgid "Scan failed:"
+msgstr "Tarama başarısız oldu:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "Ping scanning"
+msgstr "Ping taraması"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "addresses..."
+msgstr "adresler..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+#: NEEDS WORK
+msgid "Checking ARP table..."
+msgstr "ARP tablosu kontrol ediliyor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+#: NEEDS WORK
+msgid "TCP port probe for silent hosts..."
+msgstr "Sessiz ana bilgisayarlar için TCP port taraması..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+#: NEEDS WORK
+msgid "Getting MAC addresses..."
+msgstr "MAC adresleri alınıyor..."
 # 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
@@ -1093,7 +1184,13 @@ msgstr "(Bu Bilgisayar)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

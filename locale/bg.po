@@ -229,6 +229,91 @@ msgstr "до"
 msgid "Avahi resolution failed for"
 msgstr "Неуспешно разрешаване на Avahi за"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+#: NEEDS WORK
+msgid "Scanning network for live hosts..."
+msgstr "Сканиране на мрежата за активни хостове..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+#: NEEDS WORK
+msgid "No hosts found"
+msgstr "Не са намерени хостове"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+#: NEEDS WORK
+msgid "Resolving hostnames..."
+msgstr "Разрешаване на имена на хостове..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "Resolved"
+msgstr "Решено"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "hostnames"
+msgstr "имена на хостове"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+#: NEEDS WORK
+msgid "Scanning services..."
+msgstr "Сканиране на услуги..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+#: NEEDS WORK
+msgid "Starting port scan:"
+msgstr "Започване на сканиране на портове:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+#: NEEDS WORK
+msgid "tasks with"
+msgstr "задачи с"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+#: NEEDS WORK
+msgid "threads"
+msgstr "нишки"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+#: NEEDS WORK
+msgid "Finalizing results..."
+msgstr "Завършване на резултатите..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+#: NEEDS WORK
+msgid "Scan completed"
+msgstr "Сканирането е завършено"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+#: NEEDS WORK
+msgid "Scan failed:"
+msgstr "Сканирането не успя:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "Ping scanning"
+msgstr "Пинг сканиране"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "addresses..."
+msgstr "адреси..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+#: NEEDS WORK
+msgid "Checking ARP table..."
+msgstr "Проверка на ARP таблица..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+#: NEEDS WORK
+msgid "TCP port probe for silent hosts..."
+msgstr "TCP портов проба за мълчаливи хостове..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+#: NEEDS WORK
+msgid "Getting MAC addresses..."
+msgstr "Получаване на MAC адреси..."
+# 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
 msgid "Web interface"
@@ -944,7 +1029,31 @@ msgstr "Неуспешно импортиране на персонализир�
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Network Diagnostics"
@@ -1092,7 +1201,13 @@ msgstr "(Този компютър)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

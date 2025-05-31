@@ -229,6 +229,91 @@ msgstr "április"
 msgid "Avahi resolution failed for"
 msgstr "Az Avahi feloldás nem sikerült a következőhöz:"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+#: NEEDS WORK
+msgid "Scanning network for live hosts..."
+msgstr "Hálózat élő gazdák keresése..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+#: NEEDS WORK
+msgid "No hosts found"
+msgstr "Nincsenek hostok találva"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+#: NEEDS WORK
+msgid "Resolving hostnames..."
+msgstr "Gazdanevek feloldása..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "Resolved"
+msgstr "Megoldva"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "hostnames"
+msgstr "hosztnevek"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+#: NEEDS WORK
+msgid "Scanning services..."
+msgstr "Szkennelési szolgáltatások..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+#: NEEDS WORK
+msgid "Starting port scan:"
+msgstr "Portszkennelés indítása:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+#: NEEDS WORK
+msgid "tasks with"
+msgstr "feladatokkal"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+#: NEEDS WORK
+msgid "threads"
+msgstr "szálak"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+#: NEEDS WORK
+msgid "Finalizing results..."
+msgstr "Eredmények véglegesítése..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+#: NEEDS WORK
+msgid "Scan completed"
+msgstr "A vizsgálat befejeződött."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+#: NEEDS WORK
+msgid "Scan failed:"
+msgstr "A vizsgálat meghiúsult:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "Ping scanning"
+msgstr "Ping szkennelés"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "addresses..."
+msgstr "címek..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+#: NEEDS WORK
+msgid "Checking ARP table..."
+msgstr "ARP tábla ellenőrzése..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+#: NEEDS WORK
+msgid "TCP port probe for silent hosts..."
+msgstr "TCP port vizsgálat csendes gazdák számára..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+#: NEEDS WORK
+msgid "Getting MAC addresses..."
+msgstr "MAC-címek lekérése..."
+# 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
 msgid "Web interface"

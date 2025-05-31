@@ -229,6 +229,91 @@ msgstr "到"
 msgid "Avahi resolution failed for"
 msgstr "Avahi 解析失败，原因是"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+#: NEEDS WORK
+msgid "Scanning network for live hosts..."
+msgstr "正在扫描网络以查找活动主机..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+#: NEEDS WORK
+msgid "No hosts found"
+msgstr "未找到主机"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+#: NEEDS WORK
+msgid "Resolving hostnames..."
+msgstr "正在解析主机名..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "Resolved"
+msgstr "已解决"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+#: NEEDS WORK
+msgid "hostnames"
+msgstr "主机名"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+#: NEEDS WORK
+msgid "Scanning services..."
+msgstr "扫描服务..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+#: NEEDS WORK
+msgid "Starting port scan:"
+msgstr "开始端口扫描："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+#: NEEDS WORK
+msgid "tasks with"
+msgstr "任务与"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+#: NEEDS WORK
+msgid "threads"
+msgstr "线程"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+#: NEEDS WORK
+msgid "Finalizing results..."
+msgstr "正在最终确定结果..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+#: NEEDS WORK
+msgid "Scan completed"
+msgstr "扫描完成"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+#: NEEDS WORK
+msgid "Scan failed:"
+msgstr "扫描失败："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "Ping scanning"
+msgstr "Ping 扫描"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+#: NEEDS WORK
+msgid "addresses..."
+msgstr "地址..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+#: NEEDS WORK
+msgid "Checking ARP table..."
+msgstr "检查ARP表..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+#: NEEDS WORK
+msgid "TCP port probe for silent hosts..."
+msgstr "对静默主机进行TCP端口探测..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+#: NEEDS WORK
+msgid "Getting MAC addresses..."
+msgstr "获取MAC地址..."
+# 
 # File: big-network-info/src/core/services.py, line: 22
 #: NEEDS WORK
 msgid "Web interface"
@@ -942,7 +1027,31 @@ msgstr "导入自定义服务失败"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Network Diagnostics"
@@ -1090,7 +1199,13 @@ msgstr "（这台计算机）"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
