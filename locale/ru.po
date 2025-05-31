@@ -652,11 +652,6 @@ msgstr "Не найдены действительные сетевые инте
 msgid "Failed to list network interfaces"
 msgstr "Не удалось перечислить сетевые интерфейсы."
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "Настройки обнаружения"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -727,10 +722,15 @@ msgstr "Потоки сканирования портов"
 msgid "Parallel threads for port scanning"
 msgstr "Параллельные потоки для сканирования портов"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
+# File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
-msgid "Custom Services"
-msgstr "Пользовательские услуги"
+msgid "Your Custom Services"
+msgstr "Ваши пользовательские услуги"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 221
+#: NEEDS WORK
+msgid "Services you've added for scanning. These will be checked on all discovered devices."
+msgstr "Сервисы, которые вы добавили для сканирования. Они будут проверены на всех обнаруженных устройствах."
 # 
 # File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
@@ -742,21 +742,6 @@ msgstr "Добавить службу"
 msgid "Clear All"
 msgstr "Очистить все"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 218
-#: NEEDS WORK
-msgid "Your Custom Services"
-msgstr "Ваши пользовательские услуги"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 221
-#: NEEDS WORK
-msgid "Services you've added for scanning. These will be checked on all discovered devices."
-msgstr "Сервисы, которые вы добавили для сканирования. Они будут проверены на всех обнаруженных устройствах."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 229
-#: NEEDS WORK
-msgid "Built-in Services"
-msgstr "Встроенные службы"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
 msgid "Standard Network Services"
@@ -766,11 +751,6 @@ msgstr "Стандартные сетевые службы"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "Общие службы, которые автоматически сканируются на всех устройствах."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "Импорт и Экспорт"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1008,13 +988,35 @@ msgstr "Не удалось импортировать пользователь�
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1050,6 +1052,8 @@ msgstr "Не удалось импортировать пользователь�
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1203,7 +1207,13 @@ msgstr "(Этот компьютер)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

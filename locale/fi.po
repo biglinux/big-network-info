@@ -236,7 +236,13 @@ msgstr "Avahi ratkaistu"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -671,11 +677,6 @@ msgstr "Ei voimassa olevia verkkoliitäntöjä löytynyt."
 msgid "Failed to list network interfaces"
 msgstr "Verkko-rajapintojen luetteloiminen epäonnistui"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "Havaitsemisasetukset"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -746,10 +747,15 @@ msgstr "Porttiskannauslankat"
 msgid "Parallel threads for port scanning"
 msgstr "Samaan aikaan toimivat säikeet porttiskannaukselle"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
+# File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
-msgid "Custom Services"
-msgstr "Mukautetut palvelut"
+msgid "Your Custom Services"
+msgstr "Omat palvelusi"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 221
+#: NEEDS WORK
+msgid "Services you've added for scanning. These will be checked on all discovered devices."
+msgstr "Palvelut, jotka olet lisännyt skannausta varten. Nämä tarkistetaan kaikilla löydetyillä laitteilla."
 # 
 # File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
@@ -761,21 +767,6 @@ msgstr "Lisää palvelu"
 msgid "Clear All"
 msgstr "Tyhjennä kaikki"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 218
-#: NEEDS WORK
-msgid "Your Custom Services"
-msgstr "Omat palvelusi"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 221
-#: NEEDS WORK
-msgid "Services you've added for scanning. These will be checked on all discovered devices."
-msgstr "Palvelut, jotka olet lisännyt skannausta varten. Nämä tarkistetaan kaikilla löydetyillä laitteilla."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 229
-#: NEEDS WORK
-msgid "Built-in Services"
-msgstr "Sisäänrakennetut palvelut"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
 msgid "Standard Network Services"
@@ -785,11 +776,6 @@ msgstr "Vakiotietoverkkopalvelut"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "Yhteiset palvelut, joita skannataan automaattisesti kaikilla laitteilla."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "Tuonti & Vienti"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1027,13 +1013,35 @@ msgstr "Mukautettujen palveluiden tuonti epäonnistui."
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1069,6 +1077,8 @@ msgstr "Mukautettujen palveluiden tuonti epäonnistui."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1222,7 +1232,13 @@ msgstr "(Tämä tietokone)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

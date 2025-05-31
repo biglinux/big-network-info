@@ -658,11 +658,6 @@ msgstr "有効なネットワークインターフェイスが見つかりませ
 msgid "Failed to list network interfaces"
 msgstr "ネットワークインターフェイスの一覧表示に失敗しました"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "検出設定"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -733,10 +728,15 @@ msgstr "ポートスキャンスレッド"
 msgid "Parallel threads for port scanning"
 msgstr "ポートスキャンのための並列スレッド"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
+# File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
-msgid "Custom Services"
-msgstr "カスタムサービス"
+msgid "Your Custom Services"
+msgstr "あなたのカスタムサービス"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 221
+#: NEEDS WORK
+msgid "Services you've added for scanning. These will be checked on all discovered devices."
+msgstr "スキャン用に追加したサービスです。これらは発見されたすべてのデバイスでチェックされます。"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
@@ -748,21 +748,6 @@ msgstr "サービスを追加"
 msgid "Clear All"
 msgstr "すべてクリア"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 218
-#: NEEDS WORK
-msgid "Your Custom Services"
-msgstr "あなたのカスタムサービス"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 221
-#: NEEDS WORK
-msgid "Services you've added for scanning. These will be checked on all discovered devices."
-msgstr "スキャン用に追加したサービスです。これらは発見されたすべてのデバイスでチェックされます。"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 229
-#: NEEDS WORK
-msgid "Built-in Services"
-msgstr "組み込みサービス"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
 msgid "Standard Network Services"
@@ -772,11 +757,6 @@ msgstr "標準ネットワークサービス"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "すべてのデバイスで自動的にスキャンされる一般的なサービス。"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "インポートとエクスポート"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1014,13 +994,35 @@ msgstr "カスタムサービスのインポートに失敗しました。"
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1056,6 +1058,8 @@ msgstr "カスタムサービスのインポートに失敗しました。"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1209,7 +1213,13 @@ msgstr "（このコンピュータ）"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

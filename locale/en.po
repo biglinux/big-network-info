@@ -660,102 +660,82 @@ msgid "Failed to list network interfaces"
 msgstr "Failed to list network interfaces"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 73
-msgid "Detection Settings"
-msgstr "Detection Settings"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 81
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 75
 msgid "Host and Service Detection"
 msgstr "Host and Service Detection"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 83
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 77
 msgid "Configure timeouts and parallel threads for network scanning."
 msgstr "Configure timeouts and parallel threads for network scanning."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 88
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 82
 msgid "Ping Timeout"
 msgstr "Ping Timeout"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 89
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 83
 msgid "Time to wait for ping response (seconds)"
 msgstr "Time to wait for ping response (seconds)"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 105
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 99
 msgid "Ping Attempts"
 msgstr "Ping Attempts"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 106
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 100
 msgid "Number of ping attempts per host"
 msgstr "Number of ping attempts per host"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 121
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 115
 msgid "Hostname Resolution Timeout"
 msgstr "Hostname Resolution Timeout"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 123
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 117
 msgid "Time to wait for hostname lookup (seconds)"
 msgstr "Time to wait for hostname lookup (seconds)"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 139
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 133
 msgid "Discovery Threads"
 msgstr "Discovery Threads"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 140
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 134
 msgid "Parallel threads for host discovery"
 msgstr "Parallel threads for host discovery"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 157
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 151
 msgid "Port Scan Timeout"
 msgstr "Port Scan Timeout"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 158
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 152
 msgid "Time to wait for port connection (seconds)"
 msgstr "Time to wait for port connection (seconds)"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 173
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 167
 msgid "Port Scan Threads"
 msgstr "Port Scan Threads"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 174
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 168
 msgid "Parallel threads for port scanning"
 msgstr "Parallel threads for port scanning"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 197
-msgid "Custom Services"
-msgstr "Custom Services"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 203
-msgid "Add Service"
-msgstr "Add Service"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 209
-msgid "Clear All"
-msgstr "Clear All"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 218
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 194
 msgid "Your Custom Services"
 msgstr "Your Custom Services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 221
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 197
 msgid ""
 "Services you've added for scanning. These will be checked on all discovered "
 "devices."
@@ -764,122 +744,122 @@ msgstr ""
 "devices."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 229
-msgid "Built-in Services"
-msgstr "Built-in Services"
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 202
+msgid "Add Service"
+msgstr "Add Service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 238
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 208
+msgid "Clear All"
+msgstr "Clear All"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 220
 msgid "Standard Network Services"
 msgstr "Standard Network Services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 240
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 222
 msgid "Common services that are automatically scanned on all devices."
 msgstr "Common services that are automatically scanned on all devices."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 262
-msgid "Import & Export"
-msgstr "Import & Export"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 271
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 246
 msgid "Service Configuration"
 msgstr "Service Configuration"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 273
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 248
 msgid "Save your custom services to a file or load services from a backup."
 msgstr "Save your custom services to a file or load services from a backup."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 278
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 713
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 253
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 688
 msgid "Export Custom Services"
 msgstr "Export Custom Services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 279
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 254
 msgid "Save your custom services to a JSON file"
 msgstr "Save your custom services to a JSON file"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 281
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 256
 msgid "Export"
 msgstr "Export"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 755
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 265
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 730
 msgid "Import Custom Services"
 msgstr "Import Custom Services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 291
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 266
 msgid "Load custom services from a JSON file"
 msgstr "Load custom services from a JSON file"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 293
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 268
 msgid "Import"
 msgstr "Import"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 347
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 322
 msgid "No custom services configured"
 msgstr "No custom services configured"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 324
 msgid "Click 'Add Service' to create your first custom service"
 msgstr "Click 'Add Service' to create your first custom service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 394
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 369
 msgid "Edit service"
 msgstr "Edit service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 402
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 377
 msgid "Delete service"
 msgstr "Delete service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 444
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 419
 msgid "Edit Service"
 msgstr "Edit Service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 444
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 419
 msgid "Add New Service"
 msgstr "Add New Service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 450
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 425
 msgid "Service Name"
 msgstr "Service Name"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 464
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 439
 msgid "Port Number"
 msgstr "Port Number"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 470
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 445
 msgid "Protocol"
 msgstr "Protocol"
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 480
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 455
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 813
 msgid "Description"
 msgstr "Description"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 486
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 461
 msgid "Access Method"
 msgstr "Access Method"
 
@@ -888,9 +868,9 @@ msgstr "Access Method"
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 501
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 665
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 694
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 476
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 640
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 669
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1058
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1343
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 401
@@ -898,63 +878,63 @@ msgid "Cancel"
 msgstr "Cancel"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 506
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 481
 msgid "Save"
 msgstr "Save"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 554
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 529
 msgid "Service name is required"
 msgstr "Service name is required"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 557
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 532
 msgid "Port must be between 1 and 65535"
 msgstr "Port must be between 1 and 65535"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 567
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 542
 msgid "Service"
 msgstr "Service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 568
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 543
 msgid "on port"
 msgstr "on port"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 569
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 544
 msgid "already exists"
 msgstr "already exists"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 660
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 635
 msgid "Delete Custom Service"
 msgstr "Delete Custom Service"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 661
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 636
 msgid "Are you sure you want to delete"
 msgstr "Are you sure you want to delete"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 663
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 638
 msgid "This action cannot be undone."
 msgstr "This action cannot be undone."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 666
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 695
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 641
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 670
 msgid "Delete"
 msgstr "Delete"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 688
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 663
 msgid "Clear All Custom Services"
 msgstr "Clear All Custom Services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 690
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 665
 msgid ""
 "Are you sure you want to delete all custom services? This action cannot be "
 "undone."
@@ -963,64 +943,64 @@ msgstr ""
 "undone."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 718
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 759
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 693
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 734
 msgid "JSON files"
 msgstr "JSON files"
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 737
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 712
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1284
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1385
 msgid "Export Successful"
 msgstr "Export Successful"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 738
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 713
 msgid "Custom services exported to "
 msgstr "Custom services exported to "
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 742
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 748
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 717
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 723
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 722
 msgid "Export Failed"
 msgstr "Export Failed"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 742
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 748
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 717
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 723
 msgid "Failed to export custom services"
 msgstr "Failed to export custom services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 779
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 754
 msgid "Import Successful"
 msgstr "Import Successful"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 780
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 755
 msgid "Imported "
 msgstr "Imported "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 780
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 755
 msgid " custom services"
 msgstr " custom services"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 787
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 793
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 762
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 768
 msgid "Import Failed"
 msgstr "Import Failed"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 787
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 793
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 762
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 768
 msgid "Failed to import custom services"
 msgstr "Failed to import custom services"
 
@@ -1029,7 +1009,7 @@ msgstr "Failed to import custom services"
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344

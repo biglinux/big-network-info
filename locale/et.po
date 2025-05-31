@@ -661,11 +661,6 @@ msgstr "Kehtivaid võrgu liideseid ei leitud."
 msgid "Failed to list network interfaces"
 msgstr "Võrgu liideste loetlemine ebaõnnestus"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "Tuvastamise seaded"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -736,10 +731,15 @@ msgstr "Port Scan Niidid"
 msgid "Parallel threads for port scanning"
 msgstr "Paralleelsed lõngad pordi skaneerimiseks"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
+# File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
-msgid "Custom Services"
-msgstr "Kohandatud teenused"
+msgid "Your Custom Services"
+msgstr "Teie kohandatud teenused"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 221
+#: NEEDS WORK
+msgid "Services you've added for scanning. These will be checked on all discovered devices."
+msgstr "Olete lisanud skaneerimise teenuseid. Need kontrollitakse kõigil avastatud seadmetel."
 # 
 # File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
@@ -751,21 +751,6 @@ msgstr "Lisa teenus"
 msgid "Clear All"
 msgstr "Kustuta kõik"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 218
-#: NEEDS WORK
-msgid "Your Custom Services"
-msgstr "Teie kohandatud teenused"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 221
-#: NEEDS WORK
-msgid "Services you've added for scanning. These will be checked on all discovered devices."
-msgstr "Olete lisanud skaneerimise teenuseid. Need kontrollitakse kõigil avastatud seadmetel."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 229
-#: NEEDS WORK
-msgid "Built-in Services"
-msgstr "Sisseehitatud teenused"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
 msgid "Standard Network Services"
@@ -775,11 +760,6 @@ msgstr "Standardvõrguteenused"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "Tavalised teenused, mida skannitakse automaatselt kõigil seadmetel."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "Import & Export"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1017,13 +997,35 @@ msgstr "Kohandatud teenuste importimine ebaõnnestus"
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1059,6 +1061,8 @@ msgstr "Kohandatud teenuste importimine ebaõnnestus"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1212,7 +1216,13 @@ msgstr "(See arvuti)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

@@ -652,11 +652,6 @@ msgstr "未找到有效的网络接口"
 msgid "Failed to list network interfaces"
 msgstr "无法列出网络接口"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "检测设置"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -727,10 +722,15 @@ msgstr "端口扫描线程"
 msgid "Parallel threads for port scanning"
 msgstr "并行线程用于端口扫描"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
+# File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
-msgid "Custom Services"
-msgstr "自定义服务"
+msgid "Your Custom Services"
+msgstr "您的自定义服务"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 221
+#: NEEDS WORK
+msgid "Services you've added for scanning. These will be checked on all discovered devices."
+msgstr "您已添加用于扫描的服务。这些服务将在所有发现的设备上进行检查。"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
@@ -742,21 +742,6 @@ msgstr "添加服务"
 msgid "Clear All"
 msgstr "清除所有"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 218
-#: NEEDS WORK
-msgid "Your Custom Services"
-msgstr "您的自定义服务"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 221
-#: NEEDS WORK
-msgid "Services you've added for scanning. These will be checked on all discovered devices."
-msgstr "您已添加用于扫描的服务。这些服务将在所有发现的设备上进行检查。"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 229
-#: NEEDS WORK
-msgid "Built-in Services"
-msgstr "内置服务"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
 msgid "Standard Network Services"
@@ -766,11 +751,6 @@ msgstr "标准网络服务"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "所有设备上自动扫描的常见服务。"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "导入与导出"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1008,13 +988,35 @@ msgstr "导入自定义服务失败"
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1050,6 +1052,8 @@ msgstr "导入自定义服务失败"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1203,7 +1207,13 @@ msgstr "（这台计算机）"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

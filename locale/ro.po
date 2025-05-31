@@ -652,11 +652,6 @@ msgstr "Nu au fost găsite interfețe de rețea valide."
 msgid "Failed to list network interfaces"
 msgstr "Eșec la listarea interfețelor de rețea"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "Setări de Detectare"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -727,21 +722,6 @@ msgstr "Firețe de scanare a porturilor"
 msgid "Parallel threads for port scanning"
 msgstr "Firețe paralele pentru scanarea porturilor"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
-#: NEEDS WORK
-msgid "Custom Services"
-msgstr "Servicii personalizate"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 203
-#: NEEDS WORK
-msgid "Add Service"
-msgstr "Adaugă serviciu"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 209
-#: NEEDS WORK
-msgid "Clear All"
-msgstr "Șterge tot"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
 msgid "Your Custom Services"
@@ -754,10 +734,15 @@ msgstr ""
 "Serviciile pe care le-ați adăugat pentru scanare. Acestea vor fi verificate pe toate dispozitivele "
 "descoperite."
 # 
-# File: big-network-info/src/gui/config_view.py, line: 229
+# File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
-msgid "Built-in Services"
-msgstr "Servicii încorporate"
+msgid "Add Service"
+msgstr "Adaugă serviciu"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 209
+#: NEEDS WORK
+msgid "Clear All"
+msgstr "Șterge tot"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
@@ -768,11 +753,6 @@ msgstr "Servicii Standard de Rețea"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "Servicii comune care sunt scanate automat pe toate dispozitivele."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "Importați și Exportați"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1010,13 +990,35 @@ msgstr "Importul serviciilor personalizate a eșuat."
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1052,6 +1054,8 @@ msgstr "Importul serviciilor personalizate a eșuat."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1205,7 +1209,13 @@ msgstr "(Acest computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

@@ -652,11 +652,6 @@ msgstr "Aucune interface réseau valide trouvée"
 msgid "Failed to list network interfaces"
 msgstr "Échec de l'énumération des interfaces réseau"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 73
-#: NEEDS WORK
-msgid "Detection Settings"
-msgstr "Paramètres de détection"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
 msgid "Host and Service Detection"
@@ -727,21 +722,6 @@ msgstr "Fils de scan de port"
 msgid "Parallel threads for port scanning"
 msgstr "Threads parallèles pour l'analyse de ports"
 # 
-# File: big-network-info/src/gui/config_view.py, line: 197
-#: NEEDS WORK
-msgid "Custom Services"
-msgstr "Services personnalisés"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 203
-#: NEEDS WORK
-msgid "Add Service"
-msgstr "Ajouter un service"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 209
-#: NEEDS WORK
-msgid "Clear All"
-msgstr "Tout effacer"
-# 
 # File: big-network-info/src/gui/config_view.py, line: 218
 #: NEEDS WORK
 msgid "Your Custom Services"
@@ -754,10 +734,15 @@ msgstr ""
 "Services que vous avez ajoutés pour l'analyse. Ceux-ci seront vérifiés sur tous les appareils "
 "découverts."
 # 
-# File: big-network-info/src/gui/config_view.py, line: 229
+# File: big-network-info/src/gui/config_view.py, line: 203
 #: NEEDS WORK
-msgid "Built-in Services"
-msgstr "Services intégrés"
+msgid "Add Service"
+msgstr "Ajouter un service"
+# 
+# File: big-network-info/src/gui/config_view.py, line: 209
+#: NEEDS WORK
+msgid "Clear All"
+msgstr "Tout effacer"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 238
 #: NEEDS WORK
@@ -768,11 +753,6 @@ msgstr "Services Réseau Standards"
 #: NEEDS WORK
 msgid "Common services that are automatically scanned on all devices."
 msgstr "Services courants qui sont automatiquement analysés sur tous les appareils."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 262
-#: NEEDS WORK
-msgid "Import & Export"
-msgstr "Importer & Exporter"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 271
 #: NEEDS WORK
@@ -1014,13 +994,35 @@ msgstr "Échec de l'importation des services personnalisés"
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1056,6 +1058,8 @@ msgstr "Échec de l'importation des services personnalisés"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1209,7 +1213,13 @@ msgstr "(Cet ordinateur)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
