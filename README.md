@@ -2,6 +2,19 @@
 
 It provides users with an intuitive interface to discover devices, identify open services, and troubleshoot network connectivity issues.
 
+![image](https://github.com/user-attachments/assets/80b030cb-b3ce-4add-aea9-bf56e3bf1708)
+
+![image](https://github.com/user-attachments/assets/cfea4b69-7430-46c6-bdf5-79a415260015)
+
+![image](https://github.com/user-attachments/assets/b52436f5-306e-4433-84e3-86c18d663cb0)
+
+![image](https://github.com/user-attachments/assets/c511fdd7-1722-4273-b1ca-cadb7fbb6ce1)
+
+![image](https://github.com/user-attachments/assets/2ab7c2b3-9c10-4377-b6ec-93ea5c789b75)
+
+![image](https://github.com/user-attachments/assets/f253a059-a7c1-4087-a11a-6f60ffd95ce0)
+
+
 ## ✨ Key Features
 
 *   **Network Diagnostics:**
