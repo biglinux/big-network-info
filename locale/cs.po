@@ -345,7 +345,13 @@ msgstr "Avahi vyřešeno"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1501,6 +1507,10 @@ msgstr "(Tento počítač)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1534,6 +1544,8 @@ msgstr "(Tento počítač)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
