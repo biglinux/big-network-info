@@ -224,7 +224,13 @@ msgstr "Avahi çözüldü"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Avahi resolution failed for"
@@ -931,6 +937,19 @@ msgstr "Özel hizmetler içe aktarılamadı."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
 #: NEEDS WORK
+msgid "OK"
+msgstr "Evet"
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -945,6 +964,7 @@ msgstr "Özel hizmetler içe aktarılamadı."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 30
 # File: big-network-info/src/gui/welcome_screen.py, line: 48
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Welcome to Big Network Info"
@@ -1089,7 +1109,13 @@ msgstr "(Bu Bilgisayar)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Device Information"
@@ -1367,9 +1393,7 @@ msgstr "=== Cihaz Özeti ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
 msgstr "=== Hizmetler ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1379,9 +1403,7 @@ msgstr "Hizmet bulunamadı"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
 msgstr "=== Hızlı Komutlar ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

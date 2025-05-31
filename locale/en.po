@@ -1345,12 +1345,8 @@ msgstr "=== Device Summary ==="
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
-msgid ""
-"\n"
-"=== Services ==="
-msgstr ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
+msgstr "=== Services ==="
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1359,12 +1355,8 @@ msgstr "No services detected"
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
-msgid ""
-"\n"
-"=== Quick Commands ==="
-msgstr ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
+msgstr "=== Quick Commands ==="
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

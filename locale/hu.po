@@ -1078,7 +1078,13 @@ msgstr "(Ez a számítógép)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Device Information"
@@ -1324,9 +1330,7 @@ msgstr "=== Eszköz összegzés ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
 msgstr "=== Szolgáltatások ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1336,9 +1340,7 @@ msgstr "Nincsenek észlelt szolgáltatások"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
 msgstr "=== Gyors Parancsok ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

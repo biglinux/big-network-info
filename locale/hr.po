@@ -1322,9 +1322,7 @@ msgstr "=== Sažetak uređaja ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
 msgstr "=== Usluge ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1334,9 +1332,7 @@ msgstr "Nema otkrivenih usluga"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
 msgstr "=== Brze naredbe ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

@@ -930,6 +930,19 @@ msgstr "사용자 정의 서비스를 가져오는 데 실패했습니다."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
 #: NEEDS WORK
+msgid "OK"
+msgstr "알겠습니다."
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -944,6 +957,7 @@ msgstr "사용자 정의 서비스를 가져오는 데 실패했습니다."
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 30
 # File: big-network-info/src/gui/welcome_screen.py, line: 48
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Welcome to Big Network Info"
@@ -1363,9 +1377,7 @@ msgstr "=== 장치 요약 ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
 msgstr "=== 서비스 ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1375,9 +1387,7 @@ msgstr "서비스가 감지되지 않았습니다."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
 msgstr "=== 빠른 명령어 ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

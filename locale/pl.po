@@ -1076,7 +1076,13 @@ msgstr "(Ten komputer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Device Information"
@@ -1330,9 +1336,7 @@ msgstr "=== Podsumowanie urządzenia ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
 msgstr "=== Usługi ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1342,9 +1346,7 @@ msgstr "Nie wykryto usług"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
 msgstr "=== Szybkie polecenia ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

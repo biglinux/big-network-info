@@ -944,8 +944,32 @@ msgstr "Importul serviciilor personalizate a eșuat."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
 # 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
+# 
 # File: big-network-info/src/gui/welcome_screen.py, line: 30
 # File: big-network-info/src/gui/welcome_screen.py, line: 48
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Welcome to Big Network Info"
@@ -1090,7 +1114,13 @@ msgstr "(Acest computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 msgid "Device Information"
@@ -1368,9 +1398,7 @@ msgstr "=== Rezumat dispozitiv ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Services ==="
+msgid "=== Services ==="
 msgstr "=== Servicii ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
@@ -1380,9 +1408,7 @@ msgstr "Niciun serviciu detectat"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
 #: NEEDS WORK
-msgid ""
-"\n"
-"=== Quick Commands ==="
+msgid "=== Quick Commands ==="
 msgstr "=== Comenzi rapide ==="
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230

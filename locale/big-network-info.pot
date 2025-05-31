@@ -1330,8 +1330,7 @@ msgstr  ""
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
-msgid   "\n"
-        "=== Services ==="
+msgid   "=== Services ==="
 msgstr  ""
 
 #
@@ -1341,8 +1340,7 @@ msgstr  ""
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
-msgid   "\n"
-        "=== Quick Commands ==="
+msgid   "=== Quick Commands ==="
 msgstr  ""
 
 #
