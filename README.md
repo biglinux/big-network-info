@@ -1,6 +1,8 @@
 # Big Network Info
 
-It provides users with an intuitive interface to discover devices, identify open services, and troubleshoot network connectivity issues.
+![License](https://img.shields.io/badge/license-GPL%20v2-blue.svg) ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg) ![GTK4](https://img.shields.io/badge/gtk4-supported-green.svg)
+
+Big Network Info is a modern GTK4 application to discover network devices, analyze WiFi networks, detect open services, and troubleshoot connectivity issues with ease.
 
 ![image](https://github.com/user-attachments/assets/e9dda6ce-f1d8-4110-b4a1-6658e9221118)
 
@@ -19,42 +21,41 @@ It provides users with an intuitive interface to discover devices, identify open
 ![image](https://github.com/user-attachments/assets/526d53f0-05a8-4fd7-b6c5-9434bc26b915)
 
 
+## Key Features
 
-## ✨ Key Features
-
-*   **Network Diagnostics:**
-    *   Test network interface status and link connectivity.
-    *   Verify IP configuration, default gateway, and DNS settings.
-    *   Test DNS resolution and internet access.
-    *   Determine external IP address (IPv4 & IPv6).
-    *   Parallel execution of diagnostic steps for speed.
-*   **Device Discovery (Network Scan):**
-    *   Discover live hosts on the specified network range.
-    *   Enhanced host discovery using Ping, ARP table, and TCP probes.
-    *   Resolve hostnames using standard DNS and Avahi (mDNS for local devices).
-    *   Identify MAC addresses and vendor information (requires `ieee-oui.txt`).
-*   **Service Detection:**
-    *   Scan for common network services (HTTP, HTTPS, SSH, FTP, SMB, RDP, etc.).
-    *   Support for custom user-defined services and ports.
-    *   Parallel port scanning for faster results.
-*   **Modern GTK4 Interface:**
-    *   User-friendly GUI built with LibAdwaita for a clean, modern look.
-    *   Tabbed interface for Diagnostics, Device Scanning, and Settings.
-    *   Real-time progress updates for scans and diagnostics.
-    *   Interactive results display with options to open services, copy information, and ping devices.
-    *   Built-in ping utility.
-*   **Configuration Management:**
-    *   Adjust scan parameters: timeouts (ping, hostname, port scan), thread counts (discovery, port scan).
-    *   Manage custom services: add, edit, remove, import/export from JSON.
-    *   Persistent configuration stored in `~/.config/big-network-scanner/config.json`.
-*   **Reporting:**
-    *   Export detailed network scan results to PDF.
-    *   Export network diagnostics reports to PDF.
-*   **Internationalization:**
-    *   Supports translations (uses `gettext`).
-*   **Welcome Screen:**
-    *   Provides an overview of features on first launch or when manually shown.
-    *   Option to disable welcome screen on startup.
+- **Network Diagnostics:**
+  - Test network interface status and link connectivity.
+  - Verify IP configuration, default gateway, and DNS settings.
+  - Test DNS resolution and internet access.
+  - Determine external IP address (IPv4 & IPv6).
+  - Parallel execution of diagnostic steps for speed.
+- **Device Discovery (Network Scan):**
+  - Discover live hosts on the specified network range.
+  - Enhanced host discovery using Ping, ARP table, and TCP probes.
+  - Resolve hostnames using standard DNS and Avahi (mDNS for local devices).
+  - Identify MAC addresses and vendor information (requires `ieee-oui.txt`).
+- **Service Detection:**
+  - Scan for common network services (HTTP, HTTPS, SSH, FTP, SMB, RDP, etc.).
+  - Support for custom user-defined services and ports.
+  - Parallel port scanning for faster results.
+- **Modern GTK4 Interface:**
+  - User-friendly GUI built with LibAdwaita for a clean, modern look.
+  - Tabbed interface for Diagnostics, Device Scanning, and Settings.
+  - Real-time progress updates for scans and diagnostics.
+  - Interactive results display with options to open services, copy information, and ping devices.
+  - Built-in ping utility.
+- **Configuration Management:**
+  - Adjust scan parameters: timeouts (ping, hostname, port scan), thread counts (discovery, port scan).
+  - Manage custom services: add, edit, remove, import/export from JSON.
+  - Persistent configuration stored in `~/.config/big-network-scanner/config.json`.
+- **Reporting:**
+  - Export detailed network scan results to PDF.
+  - Export network diagnostics reports to PDF.
+- **Internationalization:**
+  - Supports translations (uses `gettext`).
+- **Welcome Screen:**
+  - Provides an overview of features on first launch or when manually shown.
+  - Option to disable welcome screen on startup.
 
 ## 📋 Requirements
 

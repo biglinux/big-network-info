@@ -8,7 +8,7 @@ import gi
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 
-from gi.repository import Gtk, Adw, GLib, Gio
+from gi.repository import Gtk, Adw, GLib, Gio, Gdk
 from .translation import _
 import threading
 import webbrowser
@@ -793,6 +793,13 @@ class NetworkScannerApp(Adw.Application):
         back_button.connect("clicked", self.on_back_to_diagnostics_welcome)
         button_container.append(back_button)
 
+        # Copy All Results button
+        self.copy_diagnostics_button = Gtk.Button(label=_("Copy All"))
+        self.copy_diagnostics_button.connect("clicked", self.on_copy_all_diagnostics)
+        self.copy_diagnostics_button.set_valign(Gtk.Align.CENTER)
+        self.copy_diagnostics_button.set_sensitive(False)
+        button_container.append(self.copy_diagnostics_button)
+
         # Export PDF button
         self.export_diagnostics_button = Gtk.Button(label=_("Export PDF"))
         self.export_diagnostics_button.connect(
@@ -803,7 +810,7 @@ class NetworkScannerApp(Adw.Application):
         button_container.append(self.export_diagnostics_button)
 
         # Run again button
-        self.run_again_button = Gtk.Button(label=_("Run Diagnostics Again"))
+        self.run_again_button = Gtk.Button(label=_("Run Again"))
         self.run_again_button.add_css_class("suggested-action")
         self.run_again_button.connect("clicked", self.on_run_diagnostics_again)
         self.run_again_button.set_valign(Gtk.Align.CENTER)
@@ -1019,16 +1026,36 @@ class NetworkScannerApp(Adw.Application):
             status_icon.add_css_class("dim-label")
             row.add_prefix(status_icon)
 
+            # Container for status label and copy button
+            suffix_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
+            suffix_box.set_valign(Gtk.Align.CENTER)
+
             # Status label
             status_label = Gtk.Label(label=_("Waiting..."))
             status_label.add_css_class("caption")
             status_label.add_css_class("dim-label")
             status_label.set_valign(Gtk.Align.CENTER)
-            row.add_suffix(status_label)
+            suffix_box.append(status_label)
+
+            # Copy button for step details (initially hidden)
+            copy_button = Gtk.Button()
+            copy_button.set_icon_name("edit-copy-symbolic")
+            copy_button.set_tooltip_text(_("Copy step details"))
+            copy_button.add_css_class("flat")
+            copy_button.set_valign(Gtk.Align.CENTER)
+            copy_button.set_visible(False)  # Initially hidden
+            copy_button.connect(
+                "clicked",
+                lambda btn, step_index=i: self.copy_step_details_by_index(step_index),
+            )
+            suffix_box.append(copy_button)
+
+            row.add_suffix(suffix_box)
 
             # Store references for updating
             row.status_icon = status_icon
             row.status_label = status_label
+            row.copy_button = copy_button
             row.step = step
 
             self.step_rows[i] = row
@@ -1116,7 +1143,7 @@ class NetworkScannerApp(Adw.Application):
             row.status_icon.remove_css_class("error")
             row.status_icon.remove_css_class("warning")
             row.status_icon.add_css_class("success")
-            row.status_label.set_text(_("✓ Passed"))
+            row.status_label.set_text("")  # Remove text for passed tests
             row.status_label.remove_css_class("accent")
             row.status_label.remove_css_class("error")
             row.status_label.remove_css_class("warning")
@@ -1151,6 +1178,17 @@ class NetworkScannerApp(Adw.Application):
             row.set_subtitle(f"{step.description} • {step.details}")
         elif step.troubleshooting_tip and step.status == DiagnosticStatus.FAILED:
             row.set_subtitle(f"{step.description} • {step.troubleshooting_tip}")
+
+        # Show/hide copy button based on whether there are details to copy
+        if hasattr(row, "copy_button"):
+            if step.details and step.status in [
+                DiagnosticStatus.PASSED,
+                DiagnosticStatus.FAILED,
+                DiagnosticStatus.WARNING,
+            ]:
+                row.copy_button.set_visible(True)
+            else:
+                row.copy_button.set_visible(False)
 
         # Update progress bar based on completed steps
         completed_steps = sum(
@@ -1188,9 +1226,10 @@ class NetworkScannerApp(Adw.Application):
         # Hide subtitle after completion
         if hasattr(self, "subtitle_label"):
             self.subtitle_label.set_visible(False)
-        # Enable Run Again button
+        # Enable Run Again and Export buttons
         self.run_again_button.set_sensitive(True)
         self.export_diagnostics_button.set_sensitive(True)
+        self.copy_diagnostics_button.set_sensitive(True)
 
         # Count results
         failed = sum(1 for step in steps if step.status == DiagnosticStatus.FAILED)
@@ -1432,3 +1471,172 @@ class NetworkScannerApp(Adw.Application):
         """Handle window destruction and cleanup resources"""
         if hasattr(self, "wifi_analyzer_view") and self.wifi_analyzer_view:
             self.wifi_analyzer_view.cleanup()
+
+    def copy_to_clipboard(self, text: str) -> None:
+        """
+        Copy text to clipboard with user feedback.
+
+        Args:
+            text: Text to copy to clipboard
+        """
+        print(f"copy_to_clipboard called with text length: {len(text)}")
+        print(f"Text preview: {text[:200]}...")
+
+        try:
+            display = Gdk.Display.get_default()
+            if display is None:
+                print("No default display found")
+                return
+
+            clipboard = display.get_clipboard()
+            if clipboard is None:
+                print("No clipboard found")
+                return
+
+            # Use the correct GTK4 clipboard API
+            clipboard.set(text)
+            print(f"Successfully copied {len(text)} characters to clipboard")
+        except Exception as e:
+            print(f"Failed to copy to clipboard: {e}")
+            import traceback
+
+            traceback.print_exc()
+
+    def get_diagnostic_results_text(self) -> str:
+        """
+        Generate a comprehensive text summary of all diagnostic results.
+
+        Returns:
+            Formatted text string containing all diagnostic results
+        """
+        if not hasattr(self, "diagnostics") or not self.diagnostics.steps:
+            return ""
+
+        lines = []
+        lines.append("=== NETWORK DIAGNOSTICS RESULTS ===")
+        lines.append("")
+
+        for step in self.diagnostics.steps:
+            status_text = {
+                DiagnosticStatus.PASSED: "✓ PASSED",
+                DiagnosticStatus.FAILED: "✗ FAILED",
+                DiagnosticStatus.WARNING: "⚠ WARNING",
+                DiagnosticStatus.RUNNING: "⟳ RUNNING",
+                DiagnosticStatus.PENDING: "⋯ PENDING",
+            }.get(step.status, "UNKNOWN")
+
+            lines.append(f"{step.name}: {status_text}")
+            if step.description:
+                lines.append(f"  Description: {step.description}")
+            if step.details:
+                lines.append(f"  Details: {step.details}")
+            if step.troubleshooting_tip and step.status == DiagnosticStatus.FAILED:
+                lines.append(f"  Troubleshooting: {step.troubleshooting_tip}")
+            if step.duration_ms > 0:
+                lines.append(f"  Duration: {step.duration_ms}ms")
+            lines.append("")
+
+        # Summary
+        passed = sum(
+            1 for s in self.diagnostics.steps if s.status == DiagnosticStatus.PASSED
+        )
+        failed = sum(
+            1 for s in self.diagnostics.steps if s.status == DiagnosticStatus.FAILED
+        )
+        warnings = sum(
+            1 for s in self.diagnostics.steps if s.status == DiagnosticStatus.WARNING
+        )
+
+        lines.append("=== SUMMARY ===")
+        lines.append(f"Passed: {passed}")
+        lines.append(f"Failed: {failed}")
+        lines.append(f"Warnings: {warnings}")
+
+        return "\n".join(lines)
+
+    def copy_step_details_by_index(self, step_index: int) -> None:
+        """
+        Copy the details of a specific diagnostic step to clipboard by index.
+
+        Args:
+            step_index: Index of the diagnostic step to copy details from
+        """
+        if not hasattr(self, "diagnostics") or not self.diagnostics.steps:
+            print("No diagnostics steps available")
+            return
+
+        if step_index >= len(self.diagnostics.steps):
+            print(f"Invalid step index: {step_index}")
+            return
+
+        step = self.diagnostics.steps[step_index]
+        print(
+            f"Copying details for step: {step.name}, status: {step.status}, details: {step.details}"
+        )
+
+        if not step.details:
+            print("No details available for this step")
+            return
+
+        status_text = {
+            DiagnosticStatus.PASSED: "✓ PASSED",
+            DiagnosticStatus.FAILED: "✗ FAILED",
+            DiagnosticStatus.WARNING: "⚠ WARNING",
+            DiagnosticStatus.RUNNING: "⟳ RUNNING",
+            DiagnosticStatus.PENDING: "⋯ PENDING",
+        }.get(step.status, "UNKNOWN")
+
+        details_text = f"{step.name}: {status_text}\n"
+        details_text += f"Description: {step.description}\n"
+        details_text += f"Details: {step.details}"
+
+        if step.troubleshooting_tip and step.status == DiagnosticStatus.FAILED:
+            details_text += f"\nTroubleshooting: {step.troubleshooting_tip}"
+
+        if step.duration_ms > 0:
+            details_text += f"\nDuration: {step.duration_ms}ms"
+
+        print(f"Copying text: {details_text[:100]}...")
+        self.copy_to_clipboard(details_text)
+
+    def copy_step_details(self, step: DiagnosticStep) -> None:
+        """
+        Copy the details of a specific diagnostic step to clipboard.
+
+        Args:
+            step: The diagnostic step to copy details from
+        """
+        if not step.details:
+            return
+
+        status_text = {
+            DiagnosticStatus.PASSED: "✓ PASSED",
+            DiagnosticStatus.FAILED: "✗ FAILED",
+            DiagnosticStatus.WARNING: "⚠ WARNING",
+            DiagnosticStatus.RUNNING: "⟳ RUNNING",
+            DiagnosticStatus.PENDING: "⋯ PENDING",
+        }.get(step.status, "UNKNOWN")
+
+        details_text = f"{step.name}: {status_text}\n"
+        details_text += f"Description: {step.description}\n"
+        details_text += f"Details: {step.details}"
+
+        if step.troubleshooting_tip and step.status == DiagnosticStatus.FAILED:
+            details_text += f"\nTroubleshooting: {step.troubleshooting_tip}"
+
+        if step.duration_ms > 0:
+            details_text += f"\nDuration: {step.duration_ms}ms"
+
+        self.copy_to_clipboard(details_text)
+
+    def on_copy_all_diagnostics(self, button: Gtk.Button) -> None:
+        """Handle copying all diagnostic results to clipboard."""
+        print("Copy All Diagnostics button clicked")
+        results_text = self.get_diagnostic_results_text()
+        print(
+            f"Generated results text length: {len(results_text) if results_text else 0}"
+        )
+        if results_text:
+            self.copy_to_clipboard(results_text)
+        else:
+            print("No results text generated")
