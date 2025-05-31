@@ -33,7 +33,7 @@ class NetworkScannerApp(Adw.Application):
 
     def __init__(self):
         """Initialize the application."""
-        super().__init__(application_id="big-network-info")
+        super().__init__(application_id="br.com.biglinux.networkinfo")
         self.window: Optional[Adw.ApplicationWindow] = None
         self.scanner: Optional[NetworkScanner] = None
         self.config_manager = ConfigManager()
@@ -72,6 +72,9 @@ class NetworkScannerApp(Adw.Application):
         window = Adw.ApplicationWindow(application=self)
         window.set_title(_("Big Network Info - Network Scanner"))
         window.set_default_size(940, 640)
+
+        # Set window icon for taskbar (important for Wayland)
+        window.set_icon_name("big-network-info")
 
         # Create main content area with header bar
         # Create main container
