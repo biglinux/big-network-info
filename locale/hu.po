@@ -933,12 +933,6 @@ msgstr "A testreszabott szolgáltatások importálása nem sikerült."
 msgid "OK"
 msgstr "Rendben"
 # 
-# File: big-network-info/src/gui/welcome_screen.py, line: 30
-# File: big-network-info/src/gui/welcome_screen.py, line: 48
-#: NEEDS WORK
-msgid "Welcome to Big Network Info"
-msgstr "Üdvözöljük a Big Network Info-nál"
-# 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
 #: NEEDS WORK
 msgid "Network Diagnostics"
@@ -1075,6 +1069,10 @@ msgstr "(Ez a számítógép)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 #: NEEDS WORK
+msgid "Response"
+msgstr "Válasz"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
@@ -1083,6 +1081,7 @@ msgstr "(Ez a számítógép)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1468,6 +1467,11 @@ msgstr "Másolva!"
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
 msgstr "Nagy Hálózati Információ - Hálózati Szkenner"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
+#: NEEDS WORK
+msgid "Big Network Info"
+msgstr "Nagy Hálózati Információ"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK

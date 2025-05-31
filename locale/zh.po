@@ -926,9 +926,9 @@ msgstr "导入自定义服务失败"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 #: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
@@ -938,42 +938,12 @@ msgstr "导入自定义服务失败"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 30
-# File: big-network-info/src/gui/welcome_screen.py, line: 48
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-msgid "Welcome to Big Network Info"
-msgstr "欢迎来到大网络信息"
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
 #: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "网络诊断"
@@ -1116,7 +1086,13 @@ msgstr "（这台计算机）"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1534,6 +1510,11 @@ msgstr "已复制！"
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
 msgstr "大网络信息 - 网络扫描仪"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
+#: NEEDS WORK
+msgid "Big Network Info"
+msgstr "大网络信息"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK

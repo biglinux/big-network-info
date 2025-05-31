@@ -933,36 +933,6 @@ msgstr "사용자 정의 서비스를 가져오는 데 실패했습니다."
 msgid "OK"
 msgstr "알겠습니다."
 # 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 326
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1269
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1370
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 30
-# File: big-network-info/src/gui/welcome_screen.py, line: 48
-#: NEEDS WORK
-#: NEEDS WORK
-#: NEEDS WORK
-msgid "Welcome to Big Network Info"
-msgstr "빅 네트워크 정보에 오신 것을 환영합니다."
-# 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
 #: NEEDS WORK
 msgid "Network Diagnostics"
@@ -1515,6 +1485,11 @@ msgstr "복사됨!"
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
 msgstr "빅 네트워크 정보 - 네트워크 스캐너"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
+#: NEEDS WORK
+msgid "Big Network Info"
+msgstr "대규모 네트워크 정보"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK
