@@ -1183,7 +1183,13 @@ msgstr "(המחשב הזה)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1703,10 +1709,10 @@ msgstr "סורק רשת עם ממשק GTK4 מודרני"
 msgid "Please enter a network range to scan"
 msgstr "אנא הזן טווח רשת לסריקה"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "נתח את הגדרת הרשת שלך וזיהוי בעיות חיבור"
+msgid "Quickly check network for common issues."
+msgstr "בדוק במהירות את הרשת עבור בעיות נפוצות."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1728,10 +1734,10 @@ msgstr "מכין אבחנות..."
 msgid "Run Diagnostics Again"
 msgstr "הרץ אבחונים שוב"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "גלה בקלות מכשירים ופורטות פתוחים ברשת שלך"
+msgid "Scan your network to find devices and services."
+msgstr "סרוק את הרשת שלך כדי למצוא מכשירים ושירותים."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK

@@ -1628,10 +1628,10 @@ msgstr "Hálózati szkenner modern GTK4 felülettel"
 msgid "Please enter a network range to scan"
 msgstr "Kérjük, adjon meg egy hálózati tartományt a vizsgálathoz."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "Elemezze a hálózati beállításait, és azonosítsa a kapcsolódási problémákat."
+msgid "Quickly check network for common issues."
+msgstr "Gyorsan ellenőrizze a hálózatot a gyakori problémákért."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1653,10 +1653,10 @@ msgstr "Diagnosztika előkészítése..."
 msgid "Run Diagnostics Again"
 msgstr "Futtassa újra a diagnosztikát"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "Könnyen felfedezheti a hálózatán lévő eszközöket és nyitott portokat."
+msgid "Scan your network to find devices and services."
+msgstr "Vizsgálja meg a hálózatát, hogy megtalálja az eszközöket és szolgáltatásokat."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK

@@ -1155,7 +1155,13 @@ msgstr "(Denne computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1675,10 +1681,10 @@ msgstr "Netværksscanner med moderne GTK4-grænseflade"
 msgid "Please enter a network range to scan"
 msgstr "Indtast venligst et netværksområde, der skal scannes."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "Analyser dit netværksopsætning og identificer forbindelsesproblemer."
+msgid "Quickly check network for common issues."
+msgstr "Tjek hurtigt netværket for almindelige problemer."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1700,10 +1706,10 @@ msgstr "Forbereder diagnostik..."
 msgid "Run Diagnostics Again"
 msgstr "Kør diagnostik igen"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "Nemlig opdag enheder og åbne porte på dit netværk"
+msgid "Scan your network to find devices and services."
+msgstr "Scan dit netværk for at finde enheder og tjenester."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK

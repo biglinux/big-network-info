@@ -991,10 +991,32 @@ msgstr "Feilet å importere tilpassede tjenester"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1052,6 +1074,8 @@ msgstr "Feilet å importere tilpassede tjenester"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1211,7 +1235,13 @@ msgstr "(Denne datamaskinen)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1731,10 +1761,10 @@ msgstr "Nettverkskanner med moderne GTK4-grensesnitt"
 msgid "Please enter a network range to scan"
 msgstr "Vennligst skriv inn et nettverksområde for skanning."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "Analyser nettverksoppsettet ditt og identifiser tilkoblingsproblemer"
+msgid "Quickly check network for common issues."
+msgstr "Sjekk raskt nettverket for vanlige problemer."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1756,10 +1786,10 @@ msgstr "Forbereder diagnostikk..."
 msgid "Run Diagnostics Again"
 msgstr "Kjør diagnostikk på nytt"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "Enkel oppdagelse av enheter og åpne porter på nettverket ditt"
+msgid "Scan your network to find devices and services."
+msgstr "Skann nettverket ditt for å finne enheter og tjenester."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK

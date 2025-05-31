@@ -240,7 +240,13 @@ msgstr "Avahi çözüldü"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1178,7 +1184,13 @@ msgstr "(Bu Bilgisayar)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1698,10 +1710,10 @@ msgstr "Modern GTK4 arayüzüne sahip ağ tarayıcı."
 msgid "Please enter a network range to scan"
 msgstr "Lütfen taramak için bir ağ aralığı girin."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "Ağ yapılandırmanızı analiz edin ve bağlantı sorunlarını belirleyin."
+msgid "Quickly check network for common issues."
+msgstr "Ağda yaygın sorunlar için hızlıca kontrol et."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1723,10 +1735,10 @@ msgstr "Tanı verileri hazırlanıyor..."
 msgid "Run Diagnostics Again"
 msgstr "Tanılamayı Yeniden Çalıştır"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "Ağınızdaki cihazları ve açık portları kolayca keşfedin."
+msgid "Scan your network to find devices and services."
+msgstr "Ağınızı tarayarak cihazları ve hizmetleri bulun."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK

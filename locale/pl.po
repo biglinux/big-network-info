@@ -1649,10 +1649,10 @@ msgstr "Skaner sieciowy z nowoczesnym interfejsem GTK4"
 msgid "Please enter a network range to scan"
 msgstr "Proszę wprowadzić zakres sieci do przeskanowania."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "Analizuj swoją konfigurację sieci i zidentyfikuj problemy z łącznością."
+msgid "Quickly check network for common issues."
+msgstr "Szybko sprawdź sieć pod kątem powszechnych problemów."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1674,10 +1674,10 @@ msgstr "Przygotowywanie diagnostyki..."
 msgid "Run Diagnostics Again"
 msgstr "Uruchom ponownie diagnostykę"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "Łatwo odkryj urządzenia i otwarte porty w swojej sieci"
+msgid "Scan your network to find devices and services."
+msgstr "Skanuj swoją sieć, aby znaleźć urządzenia i usługi."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK

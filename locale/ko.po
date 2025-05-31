@@ -1646,10 +1646,10 @@ msgstr "최신 GTK4 인터페이스를 갖춘 네트워크 스캐너"
 msgid "Please enter a network range to scan"
 msgstr "스캔할 네트워크 범위를 입력하세요."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 595
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 #: NEEDS WORK
-msgid "Analyze your network setup and identify connectivity issues"
-msgstr "네트워크 설정을 분석하고 연결 문제를 식별하십시오."
+msgid "Quickly check network for common issues."
+msgstr "네트워크에서 일반적인 문제를 빠르게 확인하세요."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 608
 #: NEEDS WORK
@@ -1671,10 +1671,10 @@ msgstr "진단 준비 중..."
 msgid "Run Diagnostics Again"
 msgstr "진단 다시 실행하기"
 # 
-# File: big-network-info/src/gui/main_window.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
-msgid "Easily discover devices and open ports on your network"
-msgstr "네트워크에서 장치와 열린 포트를 쉽게 발견하세요."
+msgid "Scan your network to find devices and services."
+msgstr "네트워크를 스캔하여 장치와 서비스를 찾습니다."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 #: NEEDS WORK
