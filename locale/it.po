@@ -996,12 +996,34 @@ msgstr "Impossibile importare servizi personalizzati"
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1125,6 +1147,8 @@ msgstr "Impossibile importare servizi personalizzati"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1269,8 +1293,12 @@ msgstr "servizi"
 msgid " (This Computer)"
 msgstr "(Questo Computer)"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
@@ -1303,6 +1331,8 @@ msgstr "(Questo Computer)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1731,6 +1761,43 @@ msgstr "Ping completato"
 msgid "Copied!"
 msgstr "Copiato!"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
+#: NEEDS WORK
+msgid "Scanning for WiFi networks..."
+msgstr "Scansione delle reti WiFi..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
+#: NEEDS WORK
+msgid "Signal Strength (%)"
+msgstr "Forza del segnale (%)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
+#: NEEDS WORK
+msgid "Time"
+msgstr "Tempo"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
+#: NEEDS WORK
+msgid "Signal strength (last 2 minutes)"
+msgstr "Forza del segnale (ultimi 2 minuti)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Scansione..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
+#: NEEDS WORK
+msgid "Show hidden networks:"
+msgstr "Mostra reti nascoste:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
+#: NEEDS WORK
+msgid "Found {} networks"
+msgstr "Trovati {} reti"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
@@ -1750,6 +1817,11 @@ msgstr "Diagnostica"
 #: NEEDS WORK
 msgid "Find Devices"
 msgstr "Trova dispositivi"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+#: NEEDS WORK
+msgid "WiFi Analyzer"
+msgstr "Analizzatore WiFi"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 99
 #: NEEDS WORK
@@ -2006,3 +2078,54 @@ msgstr "Impossibile salvare il PDF diagnostico:"
 #: NEEDS WORK
 msgid "Failed to save file: "
 msgstr "Impossibile salvare il file:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
+#: NEEDS WORK
+msgid "Channel Usage Details"
+msgstr "Dettagli sull'uso del canale"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
+#: NEEDS WORK
+msgid "Copy WiFi Data"
+msgstr "Copia Dati WiFi"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
+#: NEEDS WORK
+msgid "Channel"
+msgstr "Canale"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
+#: NEEDS WORK
+msgid "Frequency"
+msgstr "Frequenza"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
+#: NEEDS WORK
+msgid "Network Name"
+msgstr "Nome della rete"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
+#: NEEDS WORK
+msgid "BSSID"
+msgstr "BSSID"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
+#: NEEDS WORK
+msgid "Signal"
+msgstr "Segnale"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
+#: NEEDS WORK
+msgid "Security"
+msgstr "Sicurezza"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
+#: NEEDS WORK
+msgid "Hidden Network"
+msgstr "Rete Nascosta"

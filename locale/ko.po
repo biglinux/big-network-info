@@ -1546,6 +1546,43 @@ msgstr "핑 완료"
 msgid "Copied!"
 msgstr "복사됨!"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
+#: NEEDS WORK
+msgid "Scanning for WiFi networks..."
+msgstr "WiFi 네트워크 검색 중..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
+#: NEEDS WORK
+msgid "Signal Strength (%)"
+msgstr "신호 강도 (%)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
+#: NEEDS WORK
+msgid "Time"
+msgstr "시간"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
+#: NEEDS WORK
+msgid "Signal strength (last 2 minutes)"
+msgstr "신호 강도 (최근 2분)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "스캔 중..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
+#: NEEDS WORK
+msgid "Show hidden networks:"
+msgstr "숨겨진 네트워크 표시:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
+#: NEEDS WORK
+msgid "Found {} networks"
+msgstr "{} 네트워크를 찾았습니다."
+# 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
@@ -1565,6 +1602,11 @@ msgstr "진단"
 #: NEEDS WORK
 msgid "Find Devices"
 msgstr "장치 찾기"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+#: NEEDS WORK
+msgid "WiFi Analyzer"
+msgstr "WiFi 분석기"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 99
 #: NEEDS WORK
@@ -1821,3 +1863,54 @@ msgstr "진단 PDF 저장에 실패했습니다:"
 #: NEEDS WORK
 msgid "Failed to save file: "
 msgstr "파일 저장에 실패했습니다:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
+#: NEEDS WORK
+msgid "Channel Usage Details"
+msgstr "채널 사용 세부정보"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
+#: NEEDS WORK
+msgid "Copy WiFi Data"
+msgstr "WiFi 데이터 복사"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
+#: NEEDS WORK
+msgid "Channel"
+msgstr "채널"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
+#: NEEDS WORK
+msgid "Frequency"
+msgstr "주파수"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
+#: NEEDS WORK
+msgid "Network Name"
+msgstr "네트워크 이름"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
+#: NEEDS WORK
+msgid "BSSID"
+msgstr "BSSID"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
+#: NEEDS WORK
+msgid "Signal"
+msgstr "신호"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
+#: NEEDS WORK
+msgid "Security"
+msgstr "보안"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
+#: NEEDS WORK
+msgid "Hidden Network"
+msgstr "숨겨진 네트워크"

@@ -998,12 +998,34 @@ msgstr "Kohandatud teenuste importimine ebaõnnestus"
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1127,6 +1149,8 @@ msgstr "Kohandatud teenuste importimine ebaõnnestus"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1271,8 +1295,12 @@ msgstr "teenused"
 msgid " (This Computer)"
 msgstr "(See arvuti)"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
@@ -1305,6 +1333,8 @@ msgstr "(See arvuti)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1730,6 +1760,43 @@ msgstr "Ping on lõpetatud"
 msgid "Copied!"
 msgstr "Kopeeritud!"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
+#: NEEDS WORK
+msgid "Scanning for WiFi networks..."
+msgstr "Otsin WiFi võrke..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
+#: NEEDS WORK
+msgid "Signal Strength (%)"
+msgstr "Signaali tugevus (%)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
+#: NEEDS WORK
+msgid "Time"
+msgstr "Aeg"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
+#: NEEDS WORK
+msgid "Signal strength (last 2 minutes)"
+msgstr "Signaali tugevus (viimased 2 minutit)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Skaneerimine..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
+#: NEEDS WORK
+msgid "Show hidden networks:"
+msgstr "Kuvaa peidetud võrgud:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
+#: NEEDS WORK
+msgid "Found {} networks"
+msgstr "Leitud {} võrku"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
@@ -1749,6 +1816,11 @@ msgstr "Diagnostika"
 #: NEEDS WORK
 msgid "Find Devices"
 msgstr "Leia seadmeid"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+#: NEEDS WORK
+msgid "WiFi Analyzer"
+msgstr "WiFi Analüsaator"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 99
 #: NEEDS WORK
@@ -2005,3 +2077,54 @@ msgstr "Diagnostika PDF-i salvestamine ebaõnnestus:"
 #: NEEDS WORK
 msgid "Failed to save file: "
 msgstr "Faili salvestamine ebaõnnestus:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
+#: NEEDS WORK
+msgid "Channel Usage Details"
+msgstr "Kanali kasutamise üksikasjad"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
+#: NEEDS WORK
+msgid "Copy WiFi Data"
+msgstr "Kopeeri WiFi andmed"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
+#: NEEDS WORK
+msgid "Channel"
+msgstr "Kanal"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
+#: NEEDS WORK
+msgid "Frequency"
+msgstr "Sagedus"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
+#: NEEDS WORK
+msgid "Network Name"
+msgstr "Võrgu nimi"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
+#: NEEDS WORK
+msgid "BSSID"
+msgstr "BSSID"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
+#: NEEDS WORK
+msgid "Signal"
+msgstr "Signaal"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
+#: NEEDS WORK
+msgid "Security"
+msgstr "Turvalisus"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
+#: NEEDS WORK
+msgid "Hidden Network"
+msgstr "Peidetud võrk"

@@ -252,7 +252,13 @@ msgstr "Avahi vyřešeno"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1175,8 +1181,12 @@ msgstr "služby"
 msgid " (This Computer)"
 msgstr "(Tento počítač)"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
@@ -1209,6 +1219,8 @@ msgstr "(Tento počítač)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1634,6 +1646,43 @@ msgstr "Ping dokončen"
 msgid "Copied!"
 msgstr "Zkopírováno!"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
+#: NEEDS WORK
+msgid "Scanning for WiFi networks..."
+msgstr "Skenování WiFi sítí..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
+#: NEEDS WORK
+msgid "Signal Strength (%)"
+msgstr "Síla signálu (%)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
+#: NEEDS WORK
+msgid "Time"
+msgstr "Čas"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
+#: NEEDS WORK
+msgid "Signal strength (last 2 minutes)"
+msgstr "Síla signálu (poslední 2 minuty)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Skenování..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
+#: NEEDS WORK
+msgid "Show hidden networks:"
+msgstr "Zobrazit skryté sítě:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
+#: NEEDS WORK
+msgid "Found {} networks"
+msgstr "Nalezeno {} sítí"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
@@ -1653,6 +1702,11 @@ msgstr "Diagnostika"
 #: NEEDS WORK
 msgid "Find Devices"
 msgstr "Najít zařízení"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+#: NEEDS WORK
+msgid "WiFi Analyzer"
+msgstr "WiFi analyzátor"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 99
 #: NEEDS WORK
@@ -1909,3 +1963,54 @@ msgstr "Nepodařilo se uložit diagnostický PDF:"
 #: NEEDS WORK
 msgid "Failed to save file: "
 msgstr "Chyba při ukládání souboru:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
+#: NEEDS WORK
+msgid "Channel Usage Details"
+msgstr "Podrobnosti o využití kanálu"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
+#: NEEDS WORK
+msgid "Copy WiFi Data"
+msgstr "Kopírovat WiFi data"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
+#: NEEDS WORK
+msgid "Channel"
+msgstr "Kanál"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
+#: NEEDS WORK
+msgid "Frequency"
+msgstr "Frekvence"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
+#: NEEDS WORK
+msgid "Network Name"
+msgstr "Název sítě"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
+#: NEEDS WORK
+msgid "BSSID"
+msgstr "BSSID"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
+#: NEEDS WORK
+msgid "Signal"
+msgstr "Signál"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
+#: NEEDS WORK
+msgid "Security"
+msgstr "Zabezpečení"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
+#: NEEDS WORK
+msgid "Hidden Network"
+msgstr "Skrytá síť"

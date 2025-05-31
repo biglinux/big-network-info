@@ -129,9 +129,13 @@ msgstr  ""
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 798
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 291
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1275
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1289
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 111
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 113
 msgid   "Unknown"
 msgstr  ""
 
@@ -637,7 +641,7 @@ msgstr  ""
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 291
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 440
 msgid   "Found"
 msgstr  ""
 
@@ -848,7 +852,7 @@ msgstr  ""
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 455
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 813
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 812
 msgid   "Description"
 msgstr  ""
 
@@ -865,9 +869,9 @@ msgstr  ""
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 476
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 640
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 669
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1058
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1343
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 404
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1057
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1342
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 418
 msgid   "Cancel"
 msgstr  ""
 
@@ -943,8 +947,8 @@ msgstr  ""
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 712
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1283
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1384
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1297
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1398
 msgid   "Export Successful"
 msgstr  ""
 
@@ -958,7 +962,7 @@ msgstr  ""
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 717
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 723
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 722
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 721
 msgid   "Export Failed"
 msgstr  ""
 
@@ -1001,11 +1005,11 @@ msgstr  ""
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 347
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1286
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1387
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 msgid   "OK"
 msgstr  ""
 
@@ -1060,742 +1064,841 @@ msgid   "Let's Start"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 50
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 49
 msgid   "Initializing scan..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 56
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 55
 msgid   "Please wait while we discover devices on your network"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 152
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 151
 msgid   "Discover devices and services on your network\n"
         "Click 'Start Scan' to begin scanning your local network"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 198
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 197
 msgid   "No devices found on the network"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 205
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 204
 msgid   "The network range may be empty or devices may be offline.\n"
         "Try a different network range or check your connection."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 215
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 705
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 214
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 704
 msgid   "Scan Again"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 219
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 218
 msgid   "Start a new network scan"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 296
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 295
 msgid   "Router/Gateway"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 297
 msgid   "Gateway"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 367
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 366
 msgid   "🌐 Network Infrastructure"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 373
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 372
 msgid   "🖥️ Devices & Services"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 379
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 378
 msgid   "📱 Active Clients"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 443
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 442
 msgid   "hosts with"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 445
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 444
 msgid   "services"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 481
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 480
 msgid   " (This Computer)"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 msgid   "Response"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 527
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 526
 msgid   "Device Information"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 532
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 531
 msgid   "IP Address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 537
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 536
 msgid   "Copy IP address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 549
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 548
 msgid   "MAC Address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 554
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 553
 msgid   "Copy MAC address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 566
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 565
 msgid   "Vendor"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 571
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 570
 msgid   "Copy vendor name"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 583
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 582
 msgid   "Hostname"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 588
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 587
 msgid   "Copy hostname"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 607
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 606
 msgid   "Available Services"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 632
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 631
 msgid   "Quick Actions"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 636
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1271
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 635
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1270
 msgid   "Ping Device"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 637
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 636
 msgid   "Test connectivity to"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 643
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 642
 msgid   "Ping this device"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 651
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1266
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 650
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1265
 msgid   "Copy Device Summary"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 652
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 651
 msgid   "Copy all device information to clipboard"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 658
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 657
 msgid   "Copy device summary"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 689
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 768
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 688
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 782
 msgid   "← Back"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 698
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 773
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 697
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 787
 msgid   "Export PDF"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 699
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 698
 msgid   "Export scan results to PDF file"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 723
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1260
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 722
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1274
 msgid   "Failed to export PDF"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 731
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 730
 msgid   "No Data"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 732
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 731
 msgid   "No scan results available to export."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 761
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 760
 msgid   "Has web interface"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 768
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 767
 msgid   "SSH access available"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 775
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 774
 msgid   "File sharing available"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 804
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 812
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 803
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 811
 msgid   "Port"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 819
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 829
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 831
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 818
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 828
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 830
 msgid   "Access"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 823
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 822
 msgid   "SSH Terminal"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 826
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 825
 msgid   "SFTP Files"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 848
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 847
 msgid   "Copy service address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 861
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 860
 msgid   "Open in browser: "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 874
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 873
 msgid   "Open SSH connection in terminal"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 884
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 883
 msgid   "Open SFTP in file manager"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 895
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 894
 msgid   "Open in file manager: "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 906
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 905
 msgid   "Open FTP: "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 917
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 916
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 122
 msgid   "Open"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1024
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1023
 msgid   "SSH Connection"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1025
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1024
 msgid   "Connect to"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1037
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1322
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 372
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1036
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1321
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 386
 msgid   "Username:"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1042
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1327
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 377
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1041
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1326
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 391
 msgid   "Enter username (e.g., root, admin, pi)"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1048
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1047
 msgid   "This will open SSH connection in your terminal"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1059
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 405
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1058
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 419
 msgid   "Connect"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1186
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1185
 msgid   "=== Device Summary ==="
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1218
 msgid   "=== Services ==="
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
 msgid   "No services detected"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1222
 msgid   "=== Quick Commands ==="
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1229
 msgid   "# Replace <username> with: root, admin, pi, or your username"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1259
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1258
 msgid   "Copy IP Address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1261
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1260
 msgid   "Copy MAC Address"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1264
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1263
 msgid   "Copy Hostname"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1267
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1604
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1266
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1603
 msgid   "Copy"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1283
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1282
 msgid   "Open SSH Terminal"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1286
 msgid   "Open File Share"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1309
 msgid   "SFTP Connection"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1309
 msgid   "Connect to SFTP at"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1333
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1332
 msgid   "This will open SFTP connection in your file manager"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1343
 msgid   "Open SFTP"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1403
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1402
 msgid   "Ping"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1426
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1425
 msgid   "Pinging"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1427
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1426
 msgid   "Real-time ping results and statistics"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1431
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1430
 msgid   "Status"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1432
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1431
 msgid   "Preparing to ping..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1464
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1463
 msgid   "Ping Results"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1477
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1476
 msgid   "Copy Results"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1483
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1530
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1482
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1529
 msgid   "Start Ping"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1490
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1489
 msgid   "Close"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1505
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1504
 msgid   "Stop Ping"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1510
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1509
 msgid   "Pinging..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1539
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1538
 msgid   "Ping completed"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1598
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1597
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 266
 msgid   "Copied!"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
+msgid   "Scanning for WiFi networks..."
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
+msgid   "Signal Strength (%)"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
+msgid   "Time"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
+msgid   "Signal strength (last 2 minutes)"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+msgid   "Scanning..."
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
+msgid   "Show hidden networks:"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
+msgid   "Found {} networks"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 74
 msgid   "Big Network Info - Network Scanner"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 91
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 95
 msgid   "Big Network Info"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 111
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 115
 msgid   "Diagnostics"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 116
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 120
 msgid   "Find Devices"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 120
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+msgid   "WiFi Analyzer"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 130
 msgid   "Settings"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 137
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 148
 msgid   "Menu"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 141
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 152
 msgid   "Show Welcome Screen"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 142
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 153
 msgid   "About"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 143
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 154
 msgid   "Quit"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 295
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 309
 msgid   "Scan failed"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 340
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 354
 msgid   "Failed to open service"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 345
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 359
 msgid   "Error"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 382
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 396
 msgid   "Connection Type:"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 389
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 403
 msgid   "SSH Terminal (command line access)"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 392
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 406
 msgid   "SFTP Files (file manager access)"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 471
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 485
 msgid   "Failed to open SSH terminal"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 496
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 510
 msgid   "Failed to open SFTP"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 508
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 522
 msgid   "Network Tools"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 512
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 526
 msgid   "Network scanner with modern GTK4 interface"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 542
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 556
 msgid   "Please enter a network range to scan"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 631
 msgid   "Quickly check network for common issues."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 629
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 643
 msgid   "Start Diagnostics"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 689
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 703
 msgid   "Analyzing your network connection step by step"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 737
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 751
 msgid   "Preparing diagnostics..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 782
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 796
 msgid   "Run Diagnostics Again"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 860
 msgid   "Scan your network to find devices and services."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 856
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 870
 msgid   "Network Range"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 877
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 891
 msgid   "Start Scan"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 999
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1013
 msgid   "Waiting..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1083
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
 msgid   "Running..."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1095
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1109
 msgid   "✓ Passed"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1107
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1121
 msgid   "✗ Failed"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1119
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1133
 msgid   "⚠ Warning"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1179
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1193
 msgid   "✓ All diagnostics completed successfully!"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1185
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1199
 msgid   "✓ Completed with "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1185
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1199
 msgid   "warning(s)"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1191
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1205
 msgid   "✗ Completed with"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1191
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1205
 msgid   "failure(s)"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1204
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1218
 msgid   "All checks passed! Your network is healthy 😊"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1209
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1223
 msgid   "Completed with "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1211
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1225
 msgid   "warning(s). Network looks okay."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1216
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1230
 msgid   "issue(s) detected. Review steps below."
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1242
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1256
 msgid   "Save PDF Report"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1248
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1262
 msgid   "PDF files"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1284
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1298
 msgid   "PDF report saved to"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1301
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1402
 msgid   "Open File"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1297
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1311
 msgid   "Failed to save PDF"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1302
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1316
 msgid   "Failed to save file"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1313
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1327
 msgid   "Failed to open PDF"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1323
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1337
 msgid   "No diagnostics results to export"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1341
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1355
 msgid   "Save Diagnostics PDF Report"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1362
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1376
 msgid   "Failed to export diagnostics PDF: "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1385
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1399
 msgid   "Diagnostics report saved to:"
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1399
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1413
 msgid   "Failed to save diagnostics PDF: "
 msgstr  ""
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1405
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1419
 msgid   "Failed to save file: "
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
+msgid   "Channel Usage Details"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
+msgid   "Copy WiFi Data"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
+msgid   "Channel"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
+msgid   "Frequency"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
+msgid   "Network Name"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
+msgid   "BSSID"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
+msgid   "Signal"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
+msgid   "Security"
+msgstr  ""
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
+msgid   "Hidden Network"
 msgstr  ""

@@ -1549,6 +1549,43 @@ msgstr "Ping zakończony"
 msgid "Copied!"
 msgstr "Skopiowane!"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
+#: NEEDS WORK
+msgid "Scanning for WiFi networks..."
+msgstr "Skanowanie sieci WiFi..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
+#: NEEDS WORK
+msgid "Signal Strength (%)"
+msgstr "Siła sygnału (%)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
+#: NEEDS WORK
+msgid "Time"
+msgstr "Czas"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
+#: NEEDS WORK
+msgid "Signal strength (last 2 minutes)"
+msgstr "Siła sygnału (ostatnie 2 minuty)"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Skanowanie..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
+#: NEEDS WORK
+msgid "Show hidden networks:"
+msgstr "Pokaż ukryte sieci:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
+#: NEEDS WORK
+msgid "Found {} networks"
+msgstr "Znaleziono {} sieci"
+# 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
@@ -1568,6 +1605,11 @@ msgstr "Diagnostyka"
 #: NEEDS WORK
 msgid "Find Devices"
 msgstr "Znajdź urządzenia"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+#: NEEDS WORK
+msgid "WiFi Analyzer"
+msgstr "Analizator WiFi"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 99
 #: NEEDS WORK
@@ -1824,3 +1866,54 @@ msgstr "Nie udało się zapisać pliku PDF z diagnostyką:"
 #: NEEDS WORK
 msgid "Failed to save file: "
 msgstr "Nie udało się zapisać pliku:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
+#: NEEDS WORK
+msgid "Channel Usage Details"
+msgstr "Szczegóły użycia kanału"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
+#: NEEDS WORK
+msgid "Copy WiFi Data"
+msgstr "Kopiuj dane WiFi"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
+#: NEEDS WORK
+msgid "Channel"
+msgstr "Kanał"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
+#: NEEDS WORK
+msgid "Frequency"
+msgstr "Częstotliwość"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
+#: NEEDS WORK
+msgid "Network Name"
+msgstr "Nazwa sieci"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
+#: NEEDS WORK
+msgid "BSSID"
+msgstr "BSSID"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
+#: NEEDS WORK
+msgid "Signal"
+msgstr "Sygnał"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
+#: NEEDS WORK
+msgid "Security"
+msgstr "Bezpieczeństwo"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
+#: NEEDS WORK
+msgid "Hidden Network"
+msgstr "Ukryta sieć"
