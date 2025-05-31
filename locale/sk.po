@@ -1254,9 +1254,31 @@ msgstr "Nepodarilo sa importovať vlastné služby"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1556,6 +1578,8 @@ msgstr "Nepodarilo sa importovať vlastné služby"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 # 
 # File: big-network-info/src/gui/welcome_screen.py, line: 86
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2368,10 +2392,15 @@ msgstr "Analyzujem vaše sieťové pripojenie krok za krokom"
 msgid "Preparing diagnostics..."
 msgstr "Príprava diagnostiky..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Spustiť diagnostiku znova"
+msgid "Copy All"
+msgstr "Kopírovať všetko"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Spustiť znova"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -2387,6 +2416,11 @@ msgstr "Spustiť skenovanie"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Čaká sa..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Kopírovať podrobnosti kroku"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2419,11 +2453,6 @@ msgstr "Zlyhalo:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Beží..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Prešlo"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

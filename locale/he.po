@@ -1450,6 +1450,10 @@ msgstr "(המחשב הזה)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1483,6 +1487,8 @@ msgstr "(המחשב הזה)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2096,10 +2102,15 @@ msgstr "מנתחים את חיבור הרשת שלך שלב אחר שלב"
 msgid "Preparing diagnostics..."
 msgstr "מכין אבחנות..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "הרץ אבחונים שוב"
+msgid "Copy All"
+msgstr "העתק הכל"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "הרץ שוב"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -2115,6 +2126,11 @@ msgstr "התחל סריקה"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "ממתין..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "העתק פרטי שלב"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2147,11 +2163,6 @@ msgstr "נכשל:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "ריצה..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ עבר"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

@@ -349,7 +349,13 @@ msgstr "Avahi çözüldü"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1511,6 +1517,10 @@ msgstr "(Bu Bilgisayar)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1544,6 +1554,8 @@ msgstr "(Bu Bilgisayar)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2157,10 +2169,15 @@ msgstr "Ağ bağlantınızı adım adım analiz ediliyor."
 msgid "Preparing diagnostics..."
 msgstr "Tanı verileri hazırlanıyor..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Tanılamayı Yeniden Çalıştır"
+msgid "Copy All"
+msgstr "Tümünü Kopyala"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Yeniden Çalıştır"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -2176,6 +2193,11 @@ msgstr "Tarama Başlat"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Bekleniyor..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Adım ayrıntılarını kopyala"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2208,11 +2230,6 @@ msgstr "Başarısız:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Çalışıyor..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Geçti"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

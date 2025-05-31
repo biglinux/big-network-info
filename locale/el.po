@@ -1256,9 +1256,31 @@ msgstr "Αποτυχία εισαγωγής προσαρμοσμένων υπη�
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1586,6 +1608,8 @@ msgstr "Αποτυχία εισαγωγής προσαρμοσμένων υπη�
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Διαγνωστικά Δικτύου"
 # 
@@ -1748,6 +1772,10 @@ msgstr "(Αυτός ο Υπολογιστής)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1781,6 +1809,8 @@ msgstr "(Αυτός ο Υπολογιστής)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2394,10 +2424,15 @@ msgstr "Αναλύοντας τη σύνδεση δικτύου σας βήμα 
 msgid "Preparing diagnostics..."
 msgstr "Προετοιμασία διαγνωστικών..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Εκτέλεση Διαγνωστικών Ξανά"
+msgid "Copy All"
+msgstr "Αντιγραφή Όλων"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Εκτέλεση ξανά"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -2413,6 +2448,11 @@ msgstr "Έναρξη Σάρωσης"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Αναμονή..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Αντιγραφή λεπτομερειών βήματος"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2445,11 +2485,6 @@ msgstr "Απέτυχε:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Εκτέλεση..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Εγκαταστάθηκε"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

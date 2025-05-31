@@ -54,7 +54,7 @@ msgstr "Not specified"
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 368
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 880
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 887
 msgid "Network Range"
 msgstr "Network Range"
 
@@ -182,7 +182,7 @@ msgstr "Detailed Test Results"
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 807
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 291
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1299
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1338
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 111
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 113
 msgid "Unknown"
@@ -1227,8 +1227,8 @@ msgstr "JSON files"
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 712
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1307
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1408
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1346
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1447
 msgid "Export Successful"
 msgstr "Export Successful"
 
@@ -1288,8 +1288,8 @@ msgstr "Failed to import custom services"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
 msgid "OK"
 msgstr "OK"
 
@@ -1530,7 +1530,7 @@ msgstr "← Back"
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 697
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 804
 msgid "Export PDF"
 msgstr "Export PDF"
 
@@ -1543,7 +1543,7 @@ msgstr "Export scan results to PDF file"
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 722
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1284
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1323
 msgid "Failed to export PDF"
 msgstr "Failed to export PDF"
 
@@ -1992,180 +1992,185 @@ msgid "Preparing diagnostics..."
 msgstr "Preparing diagnostics..."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 806
-msgid "Run Diagnostics Again"
-msgstr "Run Diagnostics Again"
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
+msgid "Copy All"
+msgstr "Copy All"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 870
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+msgid "Run Again"
+msgstr "Run Again"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 877
 msgid "Scan your network to find devices and services."
 msgstr "Scan your network to find devices and services."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 901
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 908
 msgid "Start Scan"
 msgstr "Start Scan"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1023
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1034
 msgid "Waiting..."
 msgstr "Waiting..."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+msgid "Copy step details"
+msgstr "Copy step details"
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1093
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1096
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1108
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1112
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1120
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1124
 msgid "Running: "
 msgstr "Running: "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1096
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1112
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1124
 msgid "tests"
 msgstr "tests"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1104
 msgid "Completed: "
 msgstr "Completed: "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1116
 msgid "Failed: "
 msgstr "Failed: "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1107
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1134
 msgid "Running..."
 msgstr "Running..."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1119
-msgid "✓ Passed"
-msgstr "✓ Passed"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1131
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1158
 msgid "✗ Failed"
 msgstr "✗ Failed"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1143
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1170
 msgid "⚠ Warning"
 msgstr "⚠ Warning"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1203
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1242
 msgid "✓ All diagnostics completed successfully!"
 msgstr "✓ All diagnostics completed successfully!"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1209
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1248
 msgid "✓ Completed with "
 msgstr "✓ Completed with "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1209
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1248
 msgid "warning(s)"
 msgstr "warning(s)"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1215
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1254
 msgid "✗ Completed with"
 msgstr "✗ Completed with"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1215
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1254
 msgid "failure(s)"
 msgstr "failure(s)"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1228
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1267
 msgid "All checks passed! Your network is healthy 😊"
 msgstr "All checks passed! Your network is healthy 😊"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1233
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1272
 msgid "Completed with "
 msgstr "Completed with "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1235
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1274
 msgid "warning(s). Network looks okay."
 msgstr "warning(s). Network looks okay."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1240
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1279
 msgid "issue(s) detected. Review steps below."
 msgstr "issue(s) detected. Review steps below."
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1266
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1305
 msgid "Save PDF Report"
 msgstr "Save PDF Report"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1272
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1311
 msgid "PDF files"
 msgstr "PDF files"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1308
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1347
 msgid "PDF report saved to"
 msgstr "PDF report saved to"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1311
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1412
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1350
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1451
 msgid "Open File"
 msgstr "Open File"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1321
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1360
 msgid "Failed to save PDF"
 msgstr "Failed to save PDF"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1326
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1365
 msgid "Failed to save file"
 msgstr "Failed to save file"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1337
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1376
 msgid "Failed to open PDF"
 msgstr "Failed to open PDF"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1347
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1386
 msgid "No diagnostics results to export"
 msgstr "No diagnostics results to export"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1365
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1404
 msgid "Save Diagnostics PDF Report"
 msgstr "Save Diagnostics PDF Report"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1386
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1425
 msgid "Failed to export diagnostics PDF: "
 msgstr "Failed to export diagnostics PDF: "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1409
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1448
 msgid "Diagnostics report saved to:"
 msgstr "Diagnostics report saved to:"
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1423
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1462
 msgid "Failed to save diagnostics PDF: "
 msgstr "Failed to save diagnostics PDF: "
 
 #
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1429
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1468
 msgid "Failed to save file: "
 msgstr "Failed to save file: "
 

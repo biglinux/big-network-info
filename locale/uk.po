@@ -1252,9 +1252,31 @@ msgstr "Не вдалося імпортувати користувацькі с
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1582,6 +1604,8 @@ msgstr "Не вдалося імпортувати користувацькі с
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Діагностика мережі"
 # 
@@ -1742,6 +1766,10 @@ msgstr "(Цей комп'ютер)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1775,6 +1803,8 @@ msgstr "(Цей комп'ютер)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2388,10 +2418,15 @@ msgstr "Аналізуючи ваше мережеве з'єднання кро�
 msgid "Preparing diagnostics..."
 msgstr "Підготовка діагностики..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Запустити діагностику знову"
+msgid "Copy All"
+msgstr "Скопіювати все"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Запустити знову"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -2407,6 +2442,11 @@ msgstr "Почати сканування"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Очікування..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Скопіювати деталі кроку"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2439,11 +2479,6 @@ msgstr "Не вдалося:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Запуск..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Пройдено"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

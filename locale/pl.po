@@ -1976,10 +1976,15 @@ msgstr "Analizowanie połączenia sieciowego krok po kroku"
 msgid "Preparing diagnostics..."
 msgstr "Przygotowywanie diagnostyki..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Uruchom ponownie diagnostykę"
+msgid "Copy All"
+msgstr "Kopiuj wszystko"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Uruchom ponownie"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -1995,6 +2000,11 @@ msgstr "Rozpocznij skanowanie"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Czekam..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Skopiuj szczegóły kroku"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2027,11 +2037,6 @@ msgstr "Niepowodzenie:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Uruchamianie..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Zdało"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

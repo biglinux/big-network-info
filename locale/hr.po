@@ -1942,10 +1942,15 @@ msgstr "Analiziranje vaše mrežne veze korak po korak"
 msgid "Preparing diagnostics..."
 msgstr "Priprema dijagnostike..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Ponovno pokreni dijagnostiku"
+msgid "Copy All"
+msgstr "Kopiraj sve"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Pokreni ponovo"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -1961,6 +1966,11 @@ msgstr "Započni skeniranje"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Čekanje..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Kopiraj detalje koraka"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -1993,11 +2003,6 @@ msgstr "Neuspjeh:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Pokreće se..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Položeno"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

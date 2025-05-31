@@ -1973,10 +1973,15 @@ msgstr "네트워크 연결을 단계별로 분석 중입니다."
 msgid "Preparing diagnostics..."
 msgstr "진단 준비 중..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "진단 다시 실행하기"
+msgid "Copy All"
+msgstr "모두 복사"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "다시 실행"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -1992,6 +1997,11 @@ msgstr "스캔 시작"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "대기 중..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "단계 세부정보 복사"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2024,11 +2034,6 @@ msgstr "실패:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "실행 중..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ 통과됨"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK

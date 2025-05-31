@@ -1957,10 +1957,15 @@ msgstr "A hálózati kapcsolatod lépésről lépésre történő elemzése"
 msgid "Preparing diagnostics..."
 msgstr "Diagnosztika előkészítése..."
 # 
-# File: big-network-info/src/gui/main_window.py, line: 766
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 #: NEEDS WORK
-msgid "Run Diagnostics Again"
-msgstr "Futtassa újra a diagnosztikát"
+msgid "Copy All"
+msgstr "Mindent másol"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
+#: NEEDS WORK
+msgid "Run Again"
+msgstr "Futtasd újra"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 #: NEEDS WORK
@@ -1976,6 +1981,11 @@ msgstr "Keresés indítása"
 #: NEEDS WORK
 msgid "Waiting..."
 msgstr "Várakozás..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
+#: NEEDS WORK
+msgid "Copy step details"
+msgstr "Másolás lépés részletei"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
@@ -2008,11 +2018,6 @@ msgstr "Sikertelen:"
 #: NEEDS WORK
 msgid "Running..."
 msgstr "Futás..."
-# 
-# File: big-network-info/src/gui/main_window.py, line: 1086
-#: NEEDS WORK
-msgid "✓ Passed"
-msgstr "✓ Megfelelt"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 1098
 #: NEEDS WORK
