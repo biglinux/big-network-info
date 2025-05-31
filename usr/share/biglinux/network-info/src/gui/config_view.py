@@ -69,15 +69,9 @@ class ConfigurationView(Gtk.ScrolledWindow):
 
     def create_detection_settings_section(self) -> None:
         """Create the detection settings configuration section."""
-        # Detection settings header
-        detection_label = Gtk.Label(label=_("Detection Settings"))
-        detection_label.add_css_class("title-2")
-        detection_label.set_halign(Gtk.Align.START)
-        detection_label.set_margin_bottom(6)
-        self.main_box.append(detection_label)
-
         # Detection settings group
         self.detection_group = Adw.PreferencesGroup()
+        self.detection_group.set_margin_top(12)
         self.detection_group.set_title(_("Host and Service Detection"))
         self.detection_group.set_description(
             _("Configure timeouts and parallel threads for network scanning.")
@@ -194,11 +188,16 @@ class ConfigurationView(Gtk.ScrolledWindow):
         header_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12)
         header_box.set_margin_bottom(6)
 
-        title_label = Gtk.Label(label=_("Custom Services"))
-        title_label.add_css_class("title-2")
-        title_label.set_hexpand(True)
-        title_label.set_halign(Gtk.Align.START)
-        header_box.append(title_label)
+        # Custom services group
+        self.custom_services_group = Adw.PreferencesGroup()
+        self.custom_services_group.set_margin_top(24)
+        self.custom_services_group.set_title(_("Your Custom Services"))
+        self.custom_services_group.set_description(
+            _(
+                "Services you've added for scanning. These will be checked on all discovered devices."
+            )
+        )
+        self.main_box.append(self.custom_services_group)
 
         add_button = Gtk.Button(label=_("Add Service"))
         add_button.add_css_class("suggested-action")
@@ -213,28 +212,11 @@ class ConfigurationView(Gtk.ScrolledWindow):
 
         self.main_box.append(header_box)
 
-        # Custom services group
-        self.custom_services_group = Adw.PreferencesGroup()
-        self.custom_services_group.set_title(_("Your Custom Services"))
-        self.custom_services_group.set_description(
-            _(
-                "Services you've added for scanning. These will be checked on all discovered devices."
-            )
-        )
-        self.main_box.append(self.custom_services_group)
-
     def create_builtin_services_section(self) -> None:
         """Create the built-in services display section."""
-        # Built-in services header
-        builtin_label = Gtk.Label(label=_("Built-in Services"))
-        builtin_label.add_css_class("title-2")
-        builtin_label.set_halign(Gtk.Align.START)
-        builtin_label.set_margin_top(24)
-        builtin_label.set_margin_bottom(6)
-        self.main_box.append(builtin_label)
-
         # Built-in services group
         self.builtin_services_group = Adw.PreferencesGroup()
+        self.builtin_services_group.set_margin_top(24)
         self.builtin_services_group.set_title(_("Standard Network Services"))
         self.builtin_services_group.set_description(
             _("Common services that are automatically scanned on all devices.")
@@ -258,16 +240,9 @@ class ConfigurationView(Gtk.ScrolledWindow):
 
     def create_import_export_section(self) -> None:
         """Create the import/export section."""
-        # Import/Export header
-        io_label = Gtk.Label(label=_("Import & Export"))
-        io_label.add_css_class("title-2")
-        io_label.set_halign(Gtk.Align.START)
-        io_label.set_margin_top(24)
-        io_label.set_margin_bottom(6)
-        self.main_box.append(io_label)
-
         # Import/Export group
         io_group = Adw.PreferencesGroup()
+        io_group.set_margin_top(24)
         io_group.set_title(_("Service Configuration"))
         io_group.set_description(
             _("Save your custom services to a file or load services from a backup.")
