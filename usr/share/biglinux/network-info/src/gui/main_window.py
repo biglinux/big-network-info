@@ -81,6 +81,24 @@ class NetworkScannerApp(Adw.Application):
         header_bar = Adw.HeaderBar()
         header_bar.set_hexpand(True)
 
+        # Add program icon to the headerbar
+        icon_image = Gtk.Image()
+        icon_image.set_from_icon_name("big-network-info")
+        icon_image.set_pixel_size(24)
+        icon_image.set_tooltip_text(_("Big Network Info"))
+
+        # Position icon based on window button layout
+        # Check if window controls are on the left side
+        settings = Gtk.Settings.get_default()
+        decoration_layout = settings.get_property("gtk-decoration-layout")
+
+        if decoration_layout and "close" in decoration_layout.split(":")[0]:
+            # Window buttons are on the left, place icon on the right
+            header_bar.pack_end(icon_image)
+        else:
+            # Window buttons are on the right (default), place icon on the left
+            header_bar.pack_start(icon_image)
+
         # Create tab buttons container
         self.tab_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         self.tab_box.add_css_class("linked")
@@ -483,7 +501,7 @@ class NetworkScannerApp(Adw.Application):
         about = Adw.AboutWindow(
             transient_for=self.window,
             application_name="Big Network Info",
-            application_icon="network-workgroup",
+            application_icon="big-network-info",
             developer_name=_("Network Tools"),
             version="1.0",
             copyright="© 2025 Network Tools",

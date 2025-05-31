@@ -287,7 +287,12 @@ class NetworkDiagnostics:
             ]
 
             if valid_interfaces:
-                step.details = _("Found") + f" {len(valid_interfaces)} " + _("network interfaces") + f": {', '.join(valid_interfaces)}"
+                step.details = (
+                    _("Found")
+                    + f" {len(valid_interfaces)} "
+                    + _("network interfaces")
+                    + f": {', '.join(valid_interfaces)}"
+                )
                 return True
             else:
                 step.details = _("No valid network interfaces found")

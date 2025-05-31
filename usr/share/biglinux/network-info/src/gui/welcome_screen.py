@@ -27,7 +27,7 @@ class WelcomeScreen(Adw.Window):
         super().__init__()
         self.set_transient_for(parent)
         self.set_modal(True)
-        self.set_title(_("Welcome to Big Network Info"))
+        self.set_title("Big Network Info")
         self.set_default_size(800, 600)
         self.set_resizable(True)
 
@@ -45,7 +45,7 @@ class WelcomeScreen(Adw.Window):
         # Add header bar with close button
         header_bar = Adw.HeaderBar()
         header_bar.set_show_end_title_buttons(True)
-        header_bar.set_title_widget(Gtk.Label(label=_("Welcome to Big Network Info")))
+        header_bar.set_title_widget(Gtk.Label(label="Big Network Info"))
         header_bar.add_css_class("flat")  # Remove separator line
 
         # Main container with header bar
@@ -94,7 +94,7 @@ class WelcomeScreen(Adw.Window):
                 _("Find all devices on your network with detailed information"),
             ),
             (
-                "preferences-system-network-symbolic",
+                "applications-network-symbolic",
                 _("Service Detection"),
                 _("Identify running services like web servers, SSH, and databases"),
             ),

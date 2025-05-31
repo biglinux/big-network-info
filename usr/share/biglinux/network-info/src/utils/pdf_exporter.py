@@ -774,12 +774,12 @@ class PDFExporter:
         failed = sum(1 for step in steps if step.status == DiagnosticStatus.FAILED)
         warnings = sum(1 for step in steps if step.status == DiagnosticStatus.WARNING)
 
-        summary_content = f"""
-            <b>{_("Passed Tests:")}</b> {passed}<br/>
-            <b>{_("Failed Tests:")}</b> {failed}<br/>
-            <b>{_("Warnings:")}</b> {warnings}<br/>
-            <b>{_("Total Tests Performed:")}</b> {len(steps)}
-        """
+        summary_content = (
+            f"<b>{_('Passed Tests')}</b>: {passed}<br/>"
+            f"<b>{_('Failed Tests')}</b>: {failed}<br/>"
+            f"<b>{_('Warnings')}</b>: {warnings}<br/>"
+            f"<b>{_('Total Tests Performed')}</b>: {len(steps)}"
+        )
         story.append(Paragraph(summary_content, self.styles["InfoText"]))
         # story.append(Spacer(1, 0.2 * inch))
 
@@ -806,27 +806,27 @@ class PDFExporter:
                 status_style = self.styles["StatusWarning"]
                 status_text_raw = _("WARNING")
 
-            status_text = f"<b>{_('Status:')}</b> {status_text_raw}"
+            status_text = f"_('Status:') {status_text_raw}"
             story.append(Paragraph(status_text, status_style))
 
             if step.description:
                 story.append(
                     Paragraph(
-                        f"<b>{_('Test:')}</b> {step.description}",
+                        f"{_('Test:')} {step.description}",
                         self.styles["InfoText"],
                     )
                 )
             if step.details:
                 story.append(
                     Paragraph(
-                        f"<b>{_('Details:')}</b> {step.details}",
+                        f"{_('Details:')} {step.details}",
                         self.styles["SmallInfoText"],
                     )
                 )
             if step.duration_ms > 0:
                 story.append(
                     Paragraph(
-                        f"<b>{_('Duration:')}</b> {step.duration_ms}ms",
+                        f"{_('Duration:')} {step.duration_ms}ms",
                         self.styles["SmallInfoText"],
                     )
                 )
@@ -834,7 +834,7 @@ class PDFExporter:
             if step.status == DiagnosticStatus.FAILED and step.troubleshooting_tip:
                 story.append(
                     Paragraph(
-                        f"<b>{_('Suggestion:')}</b> {step.troubleshooting_tip}",
+                        f"{_('Suggestion:')} {step.troubleshooting_tip}",
                         self.styles["SmallInfoText"],
                     )
                 )
