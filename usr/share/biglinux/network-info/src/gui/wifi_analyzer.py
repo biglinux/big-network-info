@@ -815,13 +815,13 @@ class WiFiAnalyzerView(Gtk.Box):
         self.previously_seen_networks = (
             set()
         )  # Track networks that have been seen before
+        self.is_monitoring = False  # Track if monitoring is active
 
         self._build_ui()
         self._connect_signals()
 
-        # Start scanning with fixed 1-second interval
+        # Configure scanner but don't start automatically
         self.scanner.set_scan_interval(1.0)
-        self.scanner.start_scanning()
         self.scanner.add_callback(self._on_wifi_data_updated)
 
     def _build_ui(self):
@@ -875,7 +875,7 @@ class WiFiAnalyzerView(Gtk.Box):
         header.set_valign(Gtk.Align.START)
 
         # Scan status
-        self.status_label = Gtk.Label(label=_("Scanning..."))
+        self.status_label = Gtk.Label(label=_("Ready to scan"))
         self.status_label.add_css_class("dim-label")
         self.status_label.set_hexpand(False)
         header.append(self.status_label)
@@ -967,6 +967,24 @@ class WiFiAnalyzerView(Gtk.Box):
 
         # Schedule UI update on main thread
         GLib.idle_add(update_ui)
+
+    def start_monitoring(self):
+        """Start WiFi monitoring"""
+        if not self.is_monitoring:
+            self.is_monitoring = True
+            self.scanner.start_scanning()
+            self.status_label.set_text(_("Scanning..."))
+
+    def stop_monitoring(self):
+        """Stop WiFi monitoring"""
+        if self.is_monitoring:
+            self.is_monitoring = False
+            self.scanner.stop_scanning()
+            self.status_label.set_text(_("Monitoring stopped"))
+
+    def is_monitoring_active(self):
+        """Check if monitoring is currently active"""
+        return self.is_monitoring
 
     def cleanup(self):
         """Clean up resources"""

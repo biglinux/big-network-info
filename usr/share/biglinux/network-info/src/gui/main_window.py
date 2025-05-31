@@ -572,6 +572,16 @@ class NetworkScannerApp(Adw.Application):
             else:
                 button.remove_css_class("suggested-action")
 
+        # Handle WiFi monitoring based on tab selection
+        if hasattr(self, "wifi_analyzer_view"):
+            if tab_name == "wifi_analyzer":
+                # Start WiFi monitoring when accessing WiFi tab
+                self.wifi_analyzer_view.start_monitoring()
+            else:
+                # Optionally stop monitoring when leaving WiFi tab (for performance)
+                # Comment the next line if you want monitoring to continue in background
+                self.wifi_analyzer_view.stop_monitoring()
+
         # Switch content
         self.content_stack.set_visible_child_name(tab_name)
         self.current_tab = tab_name
