@@ -998,9 +998,31 @@ msgstr "Échec de l'importation des services personnalisés"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1160,6 +1182,8 @@ msgstr "Échec de l'importation des services personnalisés"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Diagnostics réseau"
 # 
@@ -1297,6 +1321,10 @@ msgstr "(Cet ordinateur)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1330,6 +1358,8 @@ msgstr "(Cet ordinateur)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1781,8 +1811,8 @@ msgstr "Force du signal (dernières 2 minutes)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "Analyse en cours..."
+msgid "Ready to scan"
+msgstr "Prêt à analyser"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1793,6 +1823,16 @@ msgstr "Afficher les réseaux cachés :"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "Réseaux trouvés {}"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Analyse en cours..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "Surveillance arrêtée"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

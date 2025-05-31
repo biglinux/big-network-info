@@ -256,7 +256,13 @@ msgstr "Avahi çözüldü"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1186,6 +1192,10 @@ msgstr "(Bu Bilgisayar)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1219,6 +1229,8 @@ msgstr "(Bu Bilgisayar)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1670,8 +1682,8 @@ msgstr "Sinyal gücü (son 2 dakika)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "Tarama..."
+msgid "Ready to scan"
+msgstr "Tarama için hazır"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1682,6 +1694,16 @@ msgstr "Gizli ağları göster:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "{} ağ bulundu"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Tarama..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "İzleme durduruldu"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

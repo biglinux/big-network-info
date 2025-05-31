@@ -1167,6 +1167,10 @@ msgstr "(המחשב הזה)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1200,6 +1204,8 @@ msgstr "(המחשב הזה)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1651,8 +1657,8 @@ msgstr "עוצמת האות (2 הדקות האחרונות)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "סריקה..."
+msgid "Ready to scan"
+msgstr "מוכן לסרוק"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1663,6 +1669,16 @@ msgstr "הצג רשתות מוסתרות:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "נמצאו {} רשתות"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "סריקה..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "הניטור הופסק"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

@@ -1570,8 +1570,8 @@ msgstr "신호 강도 (최근 2분)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "스캔 중..."
+msgid "Ready to scan"
+msgstr "스캔할 준비가 되었습니다."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1582,6 +1582,16 @@ msgstr "숨겨진 네트워크 표시:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "{} 네트워크를 찾았습니다."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "스캔 중..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "모니터링이 중지되었습니다."
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

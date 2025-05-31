@@ -1552,8 +1552,8 @@ msgstr "Jelerősség (utolsó 2 perc)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "Beolvasás..."
+msgid "Ready to scan"
+msgstr "Kész a beolvasásra"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1564,6 +1564,16 @@ msgstr "Rejtett hálózatok megjelenítése:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "Talált {} hálózatot"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Beolvasás..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "A megfigyelés leállt"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

@@ -1573,8 +1573,8 @@ msgstr "Siła sygnału (ostatnie 2 minuty)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "Skanowanie..."
+msgid "Ready to scan"
+msgstr "Gotowy do skanowania"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1585,6 +1585,16 @@ msgstr "Pokaż ukryte sieci:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "Znaleziono {} sieci"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Skanowanie..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "Monitorowanie zatrzymane"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

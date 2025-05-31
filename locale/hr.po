@@ -1539,8 +1539,8 @@ msgstr "Jačina signala (posljednje 2 minute)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "Skeniranje..."
+msgid "Ready to scan"
+msgstr "Spreman za skeniranje"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1551,6 +1551,16 @@ msgstr "Prikaži skrivene mreže:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "Pronađeno {} mreža"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Skeniranje..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "Praćenje je zaustavljeno"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK

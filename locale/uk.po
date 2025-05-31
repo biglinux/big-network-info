@@ -992,9 +992,31 @@ msgstr "Не вдалося імпортувати користувацькі с
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1154,6 +1176,8 @@ msgstr "Не вдалося імпортувати користувацькі с
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Діагностика мережі"
 # 
@@ -1291,6 +1315,10 @@ msgstr "(Цей комп'ютер)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1324,6 +1352,8 @@ msgstr "(Цей комп'ютер)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -1775,8 +1805,8 @@ msgstr "Сила сигналу (останні 2 хвилини)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 #: NEEDS WORK
-msgid "Scanning..."
-msgstr "Сканування..."
+msgid "Ready to scan"
+msgstr "Готовий до сканування"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 #: NEEDS WORK
@@ -1787,6 +1817,16 @@ msgstr "Показати приховані мережі:"
 #: NEEDS WORK
 msgid "Found {} networks"
 msgstr "Знайдено {} мереж"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
+#: NEEDS WORK
+msgid "Scanning..."
+msgstr "Сканування..."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
+#: NEEDS WORK
+msgid "Monitoring stopped"
+msgstr "Моніторинг зупинено"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 73
 #: NEEDS WORK
