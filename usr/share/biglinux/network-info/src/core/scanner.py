@@ -916,7 +916,8 @@ class NetworkScanner:
                         completed % 20 == 0 or completed == total_scans
                     ):  # Update less frequently
                         self._update_progress(
-                            f"Scanned {completed}/{total_scans} ports", progress
+                            _("Scanned") + f" {completed}/{total_scans} " + _("ports"),
+                            progress,
                         )
 
             # Step 4: Combine results

@@ -85,7 +85,7 @@ class WelcomeScreen(Adw.Window):
                 "network-wireless-symbolic",
                 _("Network Diagnostics"),
                 _(
-                    "Test your internet connection, DNS servers, and network connectivity"
+                    "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
                 ),
             ),
             (
