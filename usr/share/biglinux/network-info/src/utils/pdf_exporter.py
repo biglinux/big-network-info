@@ -364,38 +364,47 @@ class PDFExporter:
         # Create a summary table for better visual presentation
         summary_data = [
             [
-                Paragraph(f"<b>🌐 {_('Network Range')}</b>", self.styles["InfoText"]),
+                Paragraph(
+                    "<b>🌐 " + _("Network Range") + "</b>", self.styles["InfoText"]
+                ),
                 Paragraph(f"{range_display}", self.styles["InfoText"]),
             ],
             [
-                Paragraph(f"<b>💻 {_('Active Devices')}</b>", self.styles["InfoText"]),
                 Paragraph(
-                    f"<font color='#34C759'><b>{active_hosts}</b></font>",
+                    "<b>💻 " + _("Active Devices") + "</b>", self.styles["InfoText"]
+                ),
+                Paragraph(
+                    "<font color='#34C759'><b>" + str(active_hosts) + "</b></font>",
                     self.styles["InfoText"],
                 ),
             ],
             [
                 Paragraph(
-                    f"<b>⚙️ {_('Devices with Services')}</b>", self.styles["InfoText"]
+                    "<b>⚙️ " + _("Devices with Services") + "</b>",
+                    self.styles["InfoText"],
                 ),
                 Paragraph(
-                    f"<font color='#007AFF'><b>{hosts_with_services}</b></font>",
+                    "<font color='#007AFF'><b>"
+                    + str(hosts_with_services)
+                    + "</b></font>",
                     self.styles["InfoText"],
                 ),
             ],
             [
-                Paragraph(f"<b>🔧 {_('Total Services')}</b>", self.styles["InfoText"]),
                 Paragraph(
-                    f"<font color='#FF9500'><b>{total_services}</b></font>",
+                    "<b>🔧 " + _("Total Services") + "</b>", self.styles["InfoText"]
+                ),
+                Paragraph(
+                    "<font color='#FF9500'><b>" + str(total_services) + "</b></font>",
                     self.styles["InfoText"],
                 ),
             ],
             [
                 Paragraph(
-                    f"<b>🏠 {_('Network Gateways')}</b>", self.styles["InfoText"]
+                    "<b>🏠 " + _("Network Gateways") + "</b>", self.styles["InfoText"]
                 ),
                 Paragraph(
-                    f"<font color='#007AFF'><b>{len(gateways)}</b></font>",
+                    "<font color='#007AFF'><b>" + str(len(gateways)) + "</b></font>",
                     self.styles["InfoText"],
                 ),
             ],
@@ -775,10 +784,10 @@ class PDFExporter:
         warnings = sum(1 for step in steps if step.status == DiagnosticStatus.WARNING)
 
         summary_content = (
-            f"<b>{_('Passed Tests')}</b>: {passed}<br/>"
-            f"<b>{_('Failed Tests')}</b>: {failed}<br/>"
-            f"<b>{_('Warnings')}</b>: {warnings}<br/>"
-            f"<b>{_('Total Tests Performed')}</b>: {len(steps)}"
+            "<b>" + _("Passed Tests") + "</b>: " + str(passed) + "<br/>"
+            "<b>" + _("Failed Tests") + "</b>: " + str(failed) + "<br/>"
+            "<b>" + _("Warnings") + "</b>: " + str(warnings) + "<br/>"
+            "<b>" + _("Total Tests Performed") + "</b>: " + str(len(steps))
         )
         story.append(Paragraph(summary_content, self.styles["InfoText"]))
         # story.append(Spacer(1, 0.2 * inch))
@@ -806,7 +815,7 @@ class PDFExporter:
                 status_style = self.styles["StatusWarning"]
                 status_text_raw = _("WARNING")
 
-            status_text = f"_('Status:') {status_text_raw}"
+            status_text = f"{status_text_raw}"
             story.append(Paragraph(status_text, status_style))
 
             if step.description:

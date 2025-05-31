@@ -1026,7 +1026,12 @@ class NetworkScanner:
                 completed = min(batch_start + batch_size, len(ip_list))
                 progress = 15 + (completed / len(ip_list)) * 10
                 self._update_progress(
-                    f"Ping scan: {completed}/{len(ip_list)} ({len(alive_hosts)} found)",
+                    _("Ping scan:")
+                    + f" {completed}/{len(ip_list)} "
+                    + _("(")
+                    + f"{len(alive_hosts)} "
+                    + _("found")
+                    + _(")"),
                     progress,
                 )
 
@@ -1098,7 +1103,7 @@ class NetworkScanner:
                 vendor = self._get_vendor(mac) if mac else "Unknown"
                 hosts.append({"ip": ip, "mac": mac, "vendor": vendor})
 
-            self._update_progress(f"Found {len(hosts)} hosts", 35)
+            self._update_progress(_("Found") + f" {len(hosts)} " + _("hosts"), 35)
             return hosts
 
         except Exception as e:
