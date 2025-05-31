@@ -707,6 +707,16 @@ msgstr "Webverbinding testen"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Controleer de firewallinstellingen en proxyconfiguratie"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
+#: NEEDS WORK
+msgid "Error during execution:"
+msgstr "Fout tijdens uitvoering:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
+#: NEEDS WORK
+msgid "Error:"
+msgstr "Fout:"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
 msgid "network interfaces"
@@ -721,6 +731,156 @@ msgstr "Geen geldige netwerkinterfaces gevonden"
 #: NEEDS WORK
 msgid "Failed to list network interfaces"
 msgstr "Kon het netwerkinterfaces niet opsommen"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
+#: NEEDS WORK
+msgid "Active interfaces:"
+msgstr "Actieve interfaces:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
+#: NEEDS WORK
+msgid "No active network interfaces found"
+msgstr "Geen actieve netwerkinterfaces gevonden"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
+#: NEEDS WORK
+msgid "Failed to check interface status"
+msgstr "Mislukt om de interface-status te controleren"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
+#: NEEDS WORK
+msgid "Connected interfaces:"
+msgstr "Verbonden interfaces:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
+#: NEEDS WORK
+msgid "No connected network interfaces found"
+msgstr "Geen verbonden netwerkinterfaces gevonden"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
+#: NEEDS WORK
+msgid "Failed to check link status"
+msgstr "Mislukt om de linkstatus te controleren"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
+#: NEEDS WORK
+msgid "Configured interfaces:"
+msgstr "Geconfigureerde interfaces:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
+#: NEEDS WORK
+msgid "No valid IP addresses configured"
+msgstr "Geen geldige IP-adressen geconfigureerd"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
+#: NEEDS WORK
+msgid "Failed to check IP configuration"
+msgstr "Kon IP-configuratie niet controleren"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
+#: NEEDS WORK
+msgid "Default gateway:"
+msgstr "Standaardgateway:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
+#: NEEDS WORK
+msgid "via"
+msgstr "via"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
+#: NEEDS WORK
+msgid "No default gateway configured"
+msgstr "Geen standaardgateway geconfigureerd"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
+#: NEEDS WORK
+msgid "Failed to check default route"
+msgstr "Kon niet controleren op standaardroute"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
+#: NEEDS WORK
+msgid "No default gateway to test"
+msgstr "Geen standaardgateway om te testen"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+#: NEEDS WORK
+msgid "Gateway"
+msgstr "Gateway"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
+#: NEEDS WORK
+msgid "reachable"
+msgstr "bereikbaar"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+#: NEEDS WORK
+msgid "is reachable"
+msgstr "is bereikbaar"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+#: NEEDS WORK
+msgid "is unreachable"
+msgstr "is onbereikbaar"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
+#: NEEDS WORK
+msgid "Failed to test gateway connectivity"
+msgstr "Mislukt om de gateway-connectiviteit te testen"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
+#: NEEDS WORK
+msgid "Configured DNS servers:"
+msgstr "Geconfigureerde DNS-servers:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
+#: NEEDS WORK
+msgid "Failed to check DNS configuration:"
+msgstr "Konfiguratie van DNS controle is mislukt:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
+#: NEEDS WORK
+msgid "External IP addresses:"
+msgstr "Externe IP-adressen:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
+#: NEEDS WORK
+msgid "Unable to determine external IP addresses"
+msgstr "Kan externe IP-adressen niet bepalen"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
+#: NEEDS WORK
+msgid "Failed to check external IP:"
+msgstr "Kon externe IP niet controleren:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 683
+#: NEEDS WORK
+msgid "Resolved:"
+msgstr "Opgelost:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 687
+#: NEEDS WORK
+msgid "Failed to resolve any test domains:"
+msgstr "Kon niet alle testdomeinen oplossen:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
+#: NEEDS WORK
+msgid "Failed to test DNS resolution:"
+msgstr "Testen van DNS-resolutie mislukt:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
+#: NEEDS WORK
+msgid "Internet access confirmed via"
+msgstr "Internettoegang bevestigd via"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
+#: NEEDS WORK
+msgid "No internet access detected"
+msgstr "Geen internetverbinding gedetecteerd"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
+#: NEEDS WORK
+msgid "Failed to test internet access:"
+msgstr "Testen van internettoegang mislukt:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1111,6 +1271,28 @@ msgstr "Mislukt om aangepaste services te importeren"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1276,6 +1458,8 @@ msgstr "Mislukt om aangepaste services te importeren"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Netwerkdiagnose"
 # 
@@ -1373,11 +1557,6 @@ msgstr "Start een nieuwe netwerkscan"
 msgid "Router/Gateway"
 msgstr "Router/Gateway"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
-#: NEEDS WORK
-msgid "Gateway"
-msgstr "Gateway"
-# 
 # File: big-network-info/src/gui/components.py, line: 367
 #: NEEDS WORK
 msgid "🌐 Network Infrastructure"
@@ -1410,6 +1589,10 @@ msgstr "(Deze computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
@@ -1454,6 +1637,8 @@ msgstr "(Deze computer)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

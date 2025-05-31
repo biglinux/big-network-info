@@ -707,6 +707,16 @@ msgstr "Testarea conectivității web"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Verificați setările firewall-ului și configurația proxy."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
+#: NEEDS WORK
+msgid "Error during execution:"
+msgstr "Eroare în timpul execuției:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
+#: NEEDS WORK
+msgid "Error:"
+msgstr "Eroare:"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
 msgid "network interfaces"
@@ -721,6 +731,156 @@ msgstr "Nu au fost găsite interfețe de rețea valide."
 #: NEEDS WORK
 msgid "Failed to list network interfaces"
 msgstr "Eșec la listarea interfețelor de rețea"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
+#: NEEDS WORK
+msgid "Active interfaces:"
+msgstr "Interfețe active:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
+#: NEEDS WORK
+msgid "No active network interfaces found"
+msgstr "Nu au fost găsite interfețe de rețea active."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
+#: NEEDS WORK
+msgid "Failed to check interface status"
+msgstr "Verificarea stării interfeței a eșuat."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
+#: NEEDS WORK
+msgid "Connected interfaces:"
+msgstr "Interfețe conectate:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
+#: NEEDS WORK
+msgid "No connected network interfaces found"
+msgstr "Nu au fost găsite interfețe de rețea conectate."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
+#: NEEDS WORK
+msgid "Failed to check link status"
+msgstr "Verificarea stării linkului a eșuat."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
+#: NEEDS WORK
+msgid "Configured interfaces:"
+msgstr "Interfețe configurate:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
+#: NEEDS WORK
+msgid "No valid IP addresses configured"
+msgstr "Nu sunt configurate adrese IP valide."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
+#: NEEDS WORK
+msgid "Failed to check IP configuration"
+msgstr "Verificarea configurației IP a eșuat."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
+#: NEEDS WORK
+msgid "Default gateway:"
+msgstr "Gateway implicit:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
+#: NEEDS WORK
+msgid "via"
+msgstr "prin"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
+#: NEEDS WORK
+msgid "No default gateway configured"
+msgstr "Nu este configurat un gateway implicit."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
+#: NEEDS WORK
+msgid "Failed to check default route"
+msgstr "Verificarea rutei implicite a eșuat."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
+#: NEEDS WORK
+msgid "No default gateway to test"
+msgstr "Niciun gateway implicit de testat"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+#: NEEDS WORK
+msgid "Gateway"
+msgstr "Poartă"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
+#: NEEDS WORK
+msgid "reachable"
+msgstr "accesibil"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+#: NEEDS WORK
+msgid "is reachable"
+msgstr "este accesibil"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+#: NEEDS WORK
+msgid "is unreachable"
+msgstr "este inaccesibil"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
+#: NEEDS WORK
+msgid "Failed to test gateway connectivity"
+msgstr "Testul conectivității gateway-ului a eșuat."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
+#: NEEDS WORK
+msgid "Configured DNS servers:"
+msgstr "Serverele DNS configurate:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
+#: NEEDS WORK
+msgid "Failed to check DNS configuration:"
+msgstr "Verificarea configurației DNS a eșuat:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
+#: NEEDS WORK
+msgid "External IP addresses:"
+msgstr "Adrese IP externe:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
+#: NEEDS WORK
+msgid "Unable to determine external IP addresses"
+msgstr "Imposibil de a determina adresele IP externe"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
+#: NEEDS WORK
+msgid "Failed to check external IP:"
+msgstr "Verificarea IP-ului extern a eșuat:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 683
+#: NEEDS WORK
+msgid "Resolved:"
+msgstr "Rezolvat:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 687
+#: NEEDS WORK
+msgid "Failed to resolve any test domains:"
+msgstr "Nu s-au putut rezolva domeniile de test."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
+#: NEEDS WORK
+msgid "Failed to test DNS resolution:"
+msgstr "Eșec la testarea rezolvării DNS:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
+#: NEEDS WORK
+msgid "Internet access confirmed via"
+msgstr "Acces la internet confirmat prin"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
+#: NEEDS WORK
+msgid "No internet access detected"
+msgstr "Nu s-a detectat acces la internet."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
+#: NEEDS WORK
+msgid "Failed to test internet access:"
+msgstr "Eșec la testarea accesului la internet:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1109,6 +1269,28 @@ msgstr "Importul serviciilor personalizate a eșuat."
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1274,6 +1456,8 @@ msgstr "Importul serviciilor personalizate a eșuat."
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Diagnostică rețea"
 # 
@@ -1371,11 +1555,6 @@ msgstr "Începeți o nouă scanare a rețelei"
 msgid "Router/Gateway"
 msgstr "Router/Gateway"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
-#: NEEDS WORK
-msgid "Gateway"
-msgstr "Poartă"
-# 
 # File: big-network-info/src/gui/components.py, line: 367
 #: NEEDS WORK
 msgid "🌐 Network Infrastructure"
@@ -1408,6 +1587,10 @@ msgstr "(Acest computer)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
@@ -1452,6 +1635,8 @@ msgstr "(Acest computer)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

@@ -707,6 +707,16 @@ msgstr "Testovanie webovej konektivity"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Skontrolujte nastavenia brány firewall a konfiguráciu proxy."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
+#: NEEDS WORK
+msgid "Error during execution:"
+msgstr "Chyba počas vykonávania:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
+#: NEEDS WORK
+msgid "Error:"
+msgstr "Chyba:"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
 msgid "network interfaces"
@@ -721,6 +731,156 @@ msgstr "Neboli nájdené žiadne platné sieťové rozhrania."
 #: NEEDS WORK
 msgid "Failed to list network interfaces"
 msgstr "Nepodarilo sa zobraziť sieťové rozhrania."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
+#: NEEDS WORK
+msgid "Active interfaces:"
+msgstr "Aktívne rozhrania:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
+#: NEEDS WORK
+msgid "No active network interfaces found"
+msgstr "Nenašli sa žiadne aktívne sieťové rozhrania."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
+#: NEEDS WORK
+msgid "Failed to check interface status"
+msgstr "Nepodarilo sa skontrolovať stav rozhrania"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
+#: NEEDS WORK
+msgid "Connected interfaces:"
+msgstr "Pripojené rozhrania:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
+#: NEEDS WORK
+msgid "No connected network interfaces found"
+msgstr "Nenašli sa žiadne pripojené sieťové rozhrania."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
+#: NEEDS WORK
+msgid "Failed to check link status"
+msgstr "Nepodarilo sa skontrolovať stav odkazu"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
+#: NEEDS WORK
+msgid "Configured interfaces:"
+msgstr "Konfigurované rozhrania:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
+#: NEEDS WORK
+msgid "No valid IP addresses configured"
+msgstr "Nie sú nakonfigurované žiadne platné IP adresy."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
+#: NEEDS WORK
+msgid "Failed to check IP configuration"
+msgstr "Nepodarilo sa skontrolovať konfiguráciu IP"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
+#: NEEDS WORK
+msgid "Default gateway:"
+msgstr "Predvolená brána:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
+#: NEEDS WORK
+msgid "via"
+msgstr "cez"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
+#: NEEDS WORK
+msgid "No default gateway configured"
+msgstr "Nebol nakonfigurovaný predvolený brána."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
+#: NEEDS WORK
+msgid "Failed to check default route"
+msgstr "Nepodarilo sa skontrolovať predvolenú trasu."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
+#: NEEDS WORK
+msgid "No default gateway to test"
+msgstr "Žiadna predvolená brána na testovanie"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+#: NEEDS WORK
+msgid "Gateway"
+msgstr "Brána"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
+#: NEEDS WORK
+msgid "reachable"
+msgstr "dostupný"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+#: NEEDS WORK
+msgid "is reachable"
+msgstr "je dosiahnuteľný"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+#: NEEDS WORK
+msgid "is unreachable"
+msgstr "je nedosiahnuteľný"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
+#: NEEDS WORK
+msgid "Failed to test gateway connectivity"
+msgstr "Nepodarilo sa otestovať konektivitu brány."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
+#: NEEDS WORK
+msgid "Configured DNS servers:"
+msgstr "Nastavené DNS servery:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
+#: NEEDS WORK
+msgid "Failed to check DNS configuration:"
+msgstr "Nepodarilo sa skontrolovať konfiguráciu DNS:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
+#: NEEDS WORK
+msgid "External IP addresses:"
+msgstr "Externé IP adresy:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
+#: NEEDS WORK
+msgid "Unable to determine external IP addresses"
+msgstr "Nemožno určiť externé IP adresy"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
+#: NEEDS WORK
+msgid "Failed to check external IP:"
+msgstr "Nepodarilo sa skontrolovať externú IP:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 683
+#: NEEDS WORK
+msgid "Resolved:"
+msgstr "Riešené:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 687
+#: NEEDS WORK
+msgid "Failed to resolve any test domains:"
+msgstr "Nepodarilo sa vyriešiť žiadne testovacie domény:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
+#: NEEDS WORK
+msgid "Failed to test DNS resolution:"
+msgstr "Nepodarilo sa otestovať DNS rozlíšenie:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
+#: NEEDS WORK
+msgid "Internet access confirmed via"
+msgstr "Potvrdený prístup na internet cez"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
+#: NEEDS WORK
+msgid "No internet access detected"
+msgstr "Nebola zistená internetová konektivita"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
+#: NEEDS WORK
+msgid "Failed to test internet access:"
+msgstr "Nepodarilo sa otestovať prístup na internet:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1109,6 +1269,28 @@ msgstr "Nepodarilo sa importovať vlastné služby"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1274,6 +1456,8 @@ msgstr "Nepodarilo sa importovať vlastné služby"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Diagnostika siete"
 # 
@@ -1371,11 +1555,6 @@ msgstr "Spustiť novú sieťovú kontrolu"
 msgid "Router/Gateway"
 msgstr "Router/brána"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
-#: NEEDS WORK
-msgid "Gateway"
-msgstr "Brána"
-# 
 # File: big-network-info/src/gui/components.py, line: 367
 #: NEEDS WORK
 msgid "🌐 Network Infrastructure"
@@ -1408,6 +1587,12 @@ msgstr "(Tento počítač)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+msgid "Response"
+msgstr "Odpoveď"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
@@ -1452,6 +1637,8 @@ msgstr "(Tento počítač)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

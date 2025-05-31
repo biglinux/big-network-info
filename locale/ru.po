@@ -707,6 +707,16 @@ msgstr "Тестирование веб-соединения"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Проверьте настройки брандмауэра и конфигурацию прокси."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
+#: NEEDS WORK
+msgid "Error during execution:"
+msgstr "Ошибка во время выполнения:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
+#: NEEDS WORK
+msgid "Error:"
+msgstr "Ошибка:"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
 msgid "network interfaces"
@@ -721,6 +731,156 @@ msgstr "Не найдены действительные сетевые инте
 #: NEEDS WORK
 msgid "Failed to list network interfaces"
 msgstr "Не удалось перечислить сетевые интерфейсы."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
+#: NEEDS WORK
+msgid "Active interfaces:"
+msgstr "Активные интерфейсы:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
+#: NEEDS WORK
+msgid "No active network interfaces found"
+msgstr "Не найдено активных сетевых интерфейсов"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
+#: NEEDS WORK
+msgid "Failed to check interface status"
+msgstr "Не удалось проверить статус интерфейса."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
+#: NEEDS WORK
+msgid "Connected interfaces:"
+msgstr "Подключенные интерфейсы:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
+#: NEEDS WORK
+msgid "No connected network interfaces found"
+msgstr "Не найдено подключенных сетевых интерфейсов"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
+#: NEEDS WORK
+msgid "Failed to check link status"
+msgstr "Не удалось проверить статус ссылки"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
+#: NEEDS WORK
+msgid "Configured interfaces:"
+msgstr "Настроенные интерфейсы:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
+#: NEEDS WORK
+msgid "No valid IP addresses configured"
+msgstr "Не настроены действительные IP-адреса."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
+#: NEEDS WORK
+msgid "Failed to check IP configuration"
+msgstr "Не удалось проверить конфигурацию IP."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
+#: NEEDS WORK
+msgid "Default gateway:"
+msgstr "Шлюз по умолчанию:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
+#: NEEDS WORK
+msgid "via"
+msgstr "через"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
+#: NEEDS WORK
+msgid "No default gateway configured"
+msgstr "Не настроен шлюз по умолчанию"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
+#: NEEDS WORK
+msgid "Failed to check default route"
+msgstr "Не удалось проверить маршрут по умолчанию."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
+#: NEEDS WORK
+msgid "No default gateway to test"
+msgstr "Нет шлюза по умолчанию для тестирования"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+#: NEEDS WORK
+msgid "Gateway"
+msgstr "Шлюз"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
+#: NEEDS WORK
+msgid "reachable"
+msgstr "доступный"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+#: NEEDS WORK
+msgid "is reachable"
+msgstr "доступен"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+#: NEEDS WORK
+msgid "is unreachable"
+msgstr "недоступен"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
+#: NEEDS WORK
+msgid "Failed to test gateway connectivity"
+msgstr "Не удалось протестировать подключение к шлюзу."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
+#: NEEDS WORK
+msgid "Configured DNS servers:"
+msgstr "Настроенные DNS-серверы:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
+#: NEEDS WORK
+msgid "Failed to check DNS configuration:"
+msgstr "Не удалось проверить конфигурацию DNS:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
+#: NEEDS WORK
+msgid "External IP addresses:"
+msgstr "Внешние IP-адреса:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
+#: NEEDS WORK
+msgid "Unable to determine external IP addresses"
+msgstr "Не удалось определить внешние IP-адреса."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
+#: NEEDS WORK
+msgid "Failed to check external IP:"
+msgstr "Не удалось проверить внешний IP:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 683
+#: NEEDS WORK
+msgid "Resolved:"
+msgstr "Решено:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 687
+#: NEEDS WORK
+msgid "Failed to resolve any test domains:"
+msgstr "Не удалось разрешить ни один тестовый домен:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
+#: NEEDS WORK
+msgid "Failed to test DNS resolution:"
+msgstr "Не удалось протестировать разрешение DNS:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
+#: NEEDS WORK
+msgid "Internet access confirmed via"
+msgstr "Подтвержден доступ в Интернет через"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
+#: NEEDS WORK
+msgid "No internet access detected"
+msgstr "Не обнаружено подключения к интернету"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
+#: NEEDS WORK
+msgid "Failed to test internet access:"
+msgstr "Не удалось проверить доступ к интернету:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1107,6 +1267,28 @@ msgstr "Не удалось импортировать пользователь�
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1272,6 +1454,8 @@ msgstr "Не удалось импортировать пользователь�
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Диагностика сети"
 # 
@@ -1369,11 +1553,6 @@ msgstr "Начать новое сканирование сети"
 msgid "Router/Gateway"
 msgstr "Маршрутизатор/Шлюз"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
-#: NEEDS WORK
-msgid "Gateway"
-msgstr "Шлюз"
-# 
 # File: big-network-info/src/gui/components.py, line: 367
 #: NEEDS WORK
 msgid "🌐 Network Infrastructure"
@@ -1406,6 +1585,10 @@ msgstr "(Этот компьютер)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
@@ -1450,6 +1633,8 @@ msgstr "(Этот компьютер)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK

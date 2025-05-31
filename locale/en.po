@@ -725,6 +725,16 @@ msgid "Check firewall settings and proxy configuration"
 msgstr "Check firewall settings and proxy configuration"
 
 #
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
+msgid "Error during execution:"
+msgstr "Error during execution:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
+msgid "Error:"
+msgstr "Error:"
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 293
 msgid "network interfaces"
 msgstr "network interfaces"
@@ -738,6 +748,161 @@ msgstr "No valid network interfaces found"
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 302
 msgid "Failed to list network interfaces"
 msgstr "Failed to list network interfaces"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
+msgid "Active interfaces:"
+msgstr "Active interfaces:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
+msgid "No active network interfaces found"
+msgstr "No active network interfaces found"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
+msgid "Failed to check interface status"
+msgstr "Failed to check interface status"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
+msgid "Connected interfaces:"
+msgstr "Connected interfaces:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
+msgid "No connected network interfaces found"
+msgstr "No connected network interfaces found"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
+msgid "Failed to check link status"
+msgstr "Failed to check link status"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
+msgid "Configured interfaces:"
+msgstr "Configured interfaces:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
+msgid "No valid IP addresses configured"
+msgstr "No valid IP addresses configured"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
+msgid "Failed to check IP configuration"
+msgstr "Failed to check IP configuration"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
+msgid "Default gateway:"
+msgstr "Default gateway:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
+msgid "via"
+msgstr "via"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
+msgid "No default gateway configured"
+msgstr "No default gateway configured"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
+msgid "Failed to check default route"
+msgstr "Failed to check default route"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
+msgid "No default gateway to test"
+msgstr "No default gateway to test"
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 465
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 297
+msgid "Gateway"
+msgstr "Gateway"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
+msgid "reachable"
+msgstr "reachable"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+msgid "is reachable"
+msgstr "is reachable"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+msgid "is unreachable"
+msgstr "is unreachable"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
+msgid "Failed to test gateway connectivity"
+msgstr "Failed to test gateway connectivity"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
+msgid "Configured DNS servers:"
+msgstr "Configured DNS servers:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
+msgid "Failed to check DNS configuration:"
+msgstr "Failed to check DNS configuration:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
+msgid "External IP addresses:"
+msgstr "External IP addresses:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
+msgid "Unable to determine external IP addresses"
+msgstr "Unable to determine external IP addresses"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
+msgid "Failed to check external IP:"
+msgstr "Failed to check external IP:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 683
+msgid "Resolved:"
+msgstr "Resolved:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 687
+msgid "Failed to resolve any test domains:"
+msgstr "Failed to resolve any test domains:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
+msgid "Failed to test DNS resolution:"
+msgstr "Failed to test DNS resolution:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
+msgid "Internet access confirmed via"
+msgstr "Internet access confirmed via"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
+msgid "No internet access detected"
+msgstr "No internet access detected"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
+msgid "Failed to test internet access:"
+msgstr "Failed to test internet access:"
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 75
@@ -1196,11 +1361,6 @@ msgstr "Start a new network scan"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 295
 msgid "Router/Gateway"
 msgstr "Router/Gateway"
-
-#
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 297
-msgid "Gateway"
-msgstr "Gateway"
 
 #
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 366

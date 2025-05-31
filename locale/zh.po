@@ -707,6 +707,16 @@ msgstr "测试网络连接"
 msgid "Check firewall settings and proxy configuration"
 msgstr "检查防火墙设置和代理配置"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
+#: NEEDS WORK
+msgid "Error during execution:"
+msgstr "执行期间出错："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
+#: NEEDS WORK
+msgid "Error:"
+msgstr "错误："
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 #: NEEDS WORK
 msgid "network interfaces"
@@ -721,6 +731,156 @@ msgstr "未找到有效的网络接口"
 #: NEEDS WORK
 msgid "Failed to list network interfaces"
 msgstr "无法列出网络接口"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
+#: NEEDS WORK
+msgid "Active interfaces:"
+msgstr "活动接口："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
+#: NEEDS WORK
+msgid "No active network interfaces found"
+msgstr "未找到活动网络接口"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
+#: NEEDS WORK
+msgid "Failed to check interface status"
+msgstr "无法检查接口状态"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
+#: NEEDS WORK
+msgid "Connected interfaces:"
+msgstr "连接的接口："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
+#: NEEDS WORK
+msgid "No connected network interfaces found"
+msgstr "未找到连接的网络接口"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
+#: NEEDS WORK
+msgid "Failed to check link status"
+msgstr "无法检查链接状态"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
+#: NEEDS WORK
+msgid "Configured interfaces:"
+msgstr "已配置的接口："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
+#: NEEDS WORK
+msgid "No valid IP addresses configured"
+msgstr "未配置有效的IP地址"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
+#: NEEDS WORK
+msgid "Failed to check IP configuration"
+msgstr "无法检查IP配置"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
+#: NEEDS WORK
+msgid "Default gateway:"
+msgstr "默认网关："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
+#: NEEDS WORK
+msgid "via"
+msgstr "通过"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
+#: NEEDS WORK
+msgid "No default gateway configured"
+msgstr "未配置默认网关"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
+#: NEEDS WORK
+msgid "Failed to check default route"
+msgstr "无法检查默认路由"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
+#: NEEDS WORK
+msgid "No default gateway to test"
+msgstr "没有默认网关可供测试"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+#: NEEDS WORK
+msgid "Gateway"
+msgstr "网关"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
+#: NEEDS WORK
+msgid "reachable"
+msgstr "可达"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
+#: NEEDS WORK
+msgid "is reachable"
+msgstr "可达"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
+#: NEEDS WORK
+msgid "is unreachable"
+msgstr "不可达"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
+#: NEEDS WORK
+msgid "Failed to test gateway connectivity"
+msgstr "测试网关连接失败"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
+#: NEEDS WORK
+msgid "Configured DNS servers:"
+msgstr "配置的 DNS 服务器："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
+#: NEEDS WORK
+msgid "Failed to check DNS configuration:"
+msgstr "无法检查DNS配置："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
+#: NEEDS WORK
+msgid "External IP addresses:"
+msgstr "外部IP地址："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
+#: NEEDS WORK
+msgid "Unable to determine external IP addresses"
+msgstr "无法确定外部IP地址"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
+#: NEEDS WORK
+msgid "Failed to check external IP:"
+msgstr "无法检查外部IP："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 683
+#: NEEDS WORK
+msgid "Resolved:"
+msgstr "已解决："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 687
+#: NEEDS WORK
+msgid "Failed to resolve any test domains:"
+msgstr "未能解析任何测试域："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
+#: NEEDS WORK
+msgid "Failed to test DNS resolution:"
+msgstr "无法测试DNS解析："
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
+#: NEEDS WORK
+msgid "Internet access confirmed via"
+msgstr "通过确认互联网访问"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
+#: NEEDS WORK
+msgid "No internet access detected"
+msgstr "未检测到互联网连接"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
+#: NEEDS WORK
+msgid "Failed to test internet access:"
+msgstr "无法测试互联网访问："
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1107,6 +1267,28 @@ msgstr "导入自定义服务失败"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1310
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1411
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1300
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1401
 # 
@@ -1272,6 +1454,8 @@ msgstr "导入自定义服务失败"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "网络诊断"
 # 
@@ -1369,11 +1553,6 @@ msgstr "开始新的网络扫描"
 msgid "Router/Gateway"
 msgstr "路由器/网关"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
-#: NEEDS WORK
-msgid "Gateway"
-msgstr "网关"
-# 
 # File: big-network-info/src/gui/components.py, line: 367
 #: NEEDS WORK
 msgid "🌐 Network Infrastructure"
@@ -1406,6 +1585,10 @@ msgstr "（这台计算机）"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 #: NEEDS WORK
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
@@ -1450,6 +1633,8 @@ msgstr "（这台计算机）"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
