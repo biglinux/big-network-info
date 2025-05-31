@@ -10,7 +10,7 @@ It provides users with an intuitive interface to discover devices, identify open
 
 ![image](https://github.com/user-attachments/assets/c511fdd7-1722-4273-b1ca-cadb7fbb6ce1)
 
-![image](https://github.com/user-attachments/assets/2ab7c2b3-9c10-4377-b6ec-93ea5c789b75)
+![image](https://github.com/user-attachments/assets/b42b8f1e-83fd-45df-97b6-7d939ef1e49f)
 
 ![image](https://github.com/user-attachments/assets/f253a059-a7c1-4087-a11a-6f60ffd95ce0)
 
