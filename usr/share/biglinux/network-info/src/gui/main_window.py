@@ -1063,10 +1063,10 @@ class NetworkScannerApp(Adw.Application):
 
             if step.status == DiagnosticStatus.RUNNING:
                 if len(running_steps) == 1:
-                    self.progress_status_label.set_text(f"Running: {step.name}")
+                    self.progress_status_label.set_text(_("Running: ") + step.name)
                 else:
                     self.progress_status_label.set_text(
-                        f"Running: {len(running_steps)} tests"
+                        _("Running: ") + str(len(running_steps)) + " " + _("tests")
                     )
                 # Show and start spinner when a step is running
                 if hasattr(self, "diagnostics_spinner"):
@@ -1074,27 +1074,27 @@ class NetworkScannerApp(Adw.Application):
                     self.diagnostics_spinner.start()
             elif step.status == DiagnosticStatus.PASSED:
                 if len(running_steps) == 0:
-                    self.progress_status_label.set_text(f"Completed: {step.name}")
+                    self.progress_status_label.set_text(_("Completed: ") + step.name)
                 else:
                     if len(running_steps) == 1:
                         self.progress_status_label.set_text(
-                            f"Running: {running_steps[0].name}"
+                            _("Running: ") + running_steps[0].name
                         )
                     else:
                         self.progress_status_label.set_text(
-                            f"Running: {len(running_steps)} tests"
+                            _("Running: ") + str(len(running_steps)) + " " + _("tests")
                         )
             elif step.status == DiagnosticStatus.FAILED:
                 if len(running_steps) == 0:
-                    self.progress_status_label.set_text(f"Failed: {step.name}")
+                    self.progress_status_label.set_text(_("Failed: ") + step.name)
                 else:
                     if len(running_steps) == 1:
                         self.progress_status_label.set_text(
-                            f"Running: {running_steps[0].name}"
+                            _("Running: ") + running_steps[0].name
                         )
                     else:
                         self.progress_status_label.set_text(
-                            f"Running: {len(running_steps)} tests"
+                            _("Running: ") + str(len(running_steps)) + " " + _("tests")
                         )
 
         # Update status icon and label based on step status
