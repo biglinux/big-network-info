@@ -88,23 +88,19 @@ class NetworkScannerApp(Adw.Application):
         header_bar = Adw.HeaderBar()
         header_bar.set_hexpand(True)
 
-        # Add program icon to the headerbar
+        # Create proper window title with app icon using Adwaita style
+        window_title = Adw.WindowTitle()
+
+        # Create icon for the title
         icon_image = Gtk.Image()
         icon_image.set_from_icon_name("big-network-info")
         icon_image.set_pixel_size(24)
-        icon_image.set_tooltip_text(_("Big Network Info"))
 
-        # Position icon based on window button layout
-        # Check if window controls are on the left side
-        settings = Gtk.Settings.get_default()
-        decoration_layout = settings.get_property("gtk-decoration-layout")
-
-        if decoration_layout and "close" in decoration_layout.split(":")[0]:
-            # Window buttons are on the left, place icon on the right
-            header_bar.pack_end(icon_image)
-        else:
-            # Window buttons are on the right (default), place icon on the left
-            header_bar.pack_start(icon_image)
+        # Create a box to hold icon and title together
+        title_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
+        title_box.set_halign(Gtk.Align.CENTER)
+        title_box.append(icon_image)
+        title_box.append(window_title)
 
         # Create tab buttons container
         self.tab_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
@@ -141,6 +137,9 @@ class NetworkScannerApp(Adw.Application):
 
         # Set title widget for header bar
         header_bar.set_title_widget(self.tab_box)
+
+        # Add the title box to the start of the header
+        header_bar.pack_start(title_box)
 
         # Create menu button
         menu_button = Gtk.MenuButton()
