@@ -1822,11 +1822,6 @@ msgstr "Praćenje je zaustavljeno"
 msgid "Big Network Info - Network Scanner"
 msgstr "Velike mrežne informacije - Skener mreže"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
-#: NEEDS WORK
-msgid "Big Network Info"
-msgstr "Velike informacije o mreži"
-# 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK
 msgid "Diagnostics"

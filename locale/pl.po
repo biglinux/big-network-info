@@ -1856,11 +1856,6 @@ msgstr "Monitorowanie zatrzymane"
 msgid "Big Network Info - Network Scanner"
 msgstr "Duża informacja o sieci - skaner sieciowy"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
-#: NEEDS WORK
-msgid "Big Network Info"
-msgstr "Wielka sieć informacji"
-# 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK
 msgid "Diagnostics"

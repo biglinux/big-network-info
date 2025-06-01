@@ -1853,11 +1853,6 @@ msgstr "모니터링이 중지되었습니다."
 msgid "Big Network Info - Network Scanner"
 msgstr "빅 네트워크 정보 - 네트워크 스캐너"
 # 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
-#: NEEDS WORK
-msgid "Big Network Info"
-msgstr "대규모 네트워크 정보"
-# 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK
 msgid "Diagnostics"
