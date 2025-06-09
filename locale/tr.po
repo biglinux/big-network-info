@@ -353,7 +353,13 @@ msgstr "Avahi çözüldü"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -834,6 +840,21 @@ msgstr "Web bağlantısını test etme"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Güvenlik duvarı ayarlarını ve proxy yapılandırmasını kontrol edin."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 126
+#: NEEDS WORK
+msgid "Test Big repositories"
+msgstr "Büyük depoları test et"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 127
+#: NEEDS WORK
+msgid "Testing connectivity to Big Linux repositories"
+msgstr "Büyük Linux depolarına bağlantıyı test etme"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 129
+#: NEEDS WORK
+msgid "Check connectivity to Biglinux repositories"
+msgstr "Biglinux depolarına bağlantıyı kontrol et."
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
 #: NEEDS WORK
 msgid "Error during execution:"
@@ -1008,6 +1029,21 @@ msgstr "İnternet bağlantısı tespit edilmedi."
 #: NEEDS WORK
 msgid "Failed to test internet access:"
 msgstr "İnternet erişimi test edilemedi:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 768
+#: NEEDS WORK
+msgid "Repository access confirmed"
+msgstr "Depo erişimi onaylandı"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 773
+#: NEEDS WORK
+msgid "Repository access not detected"
+msgstr "Depo erişimi tespit edilmedi."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 777
+#: NEEDS WORK
+msgid "Failed to access repository:"
+msgstr "Depoya erişim sağlanamadı:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1521,6 +1557,10 @@ msgstr "(Bu Bilgisayar)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1554,6 +1594,8 @@ msgstr "(Bu Bilgisayar)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2048,11 +2090,6 @@ msgstr "İzleme durduruldu"
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
 msgstr "Büyük Ağ Bilgisi - Ağ Tarayıcı"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
-#: NEEDS WORK
-msgid "Big Network Info"
-msgstr "Büyük Ağ Bilgisi"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK

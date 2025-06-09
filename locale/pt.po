@@ -742,6 +742,21 @@ msgstr "Testando a conectividade da web"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Verifique as configurações do firewall e a configuração do proxy."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 126
+#: NEEDS WORK
+msgid "Test Big repositories"
+msgstr "Testar grandes repositórios"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 127
+#: NEEDS WORK
+msgid "Testing connectivity to Big Linux repositories"
+msgstr "Testando conectividade com os repositórios Big Linux"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 129
+#: NEEDS WORK
+msgid "Check connectivity to Biglinux repositories"
+msgstr "Verifique a conectividade com os repositórios do Biglinux."
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
 #: NEEDS WORK
 msgid "Error during execution:"
@@ -916,6 +931,21 @@ msgstr "Nenhum acesso à internet detectado"
 #: NEEDS WORK
 msgid "Failed to test internet access:"
 msgstr "Falha ao testar o acesso à internet:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 768
+#: NEEDS WORK
+msgid "Repository access confirmed"
+msgstr "Acesso ao repositório confirmado"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 773
+#: NEEDS WORK
+msgid "Repository access not detected"
+msgstr "Acesso ao repositório não detectado"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 777
+#: NEEDS WORK
+msgid "Failed to access repository:"
+msgstr "Falha ao acessar o repositório:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
@@ -1260,10 +1290,32 @@ msgstr "Falha ao importar serviços personalizados"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 360
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1348
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1449
+#: NEEDS WORK
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 360
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1348
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1449
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 776
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 724
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 733
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 361
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1349
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1450
-#: NEEDS WORK
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1615,6 +1667,8 @@ msgstr "Falha ao importar serviços personalizados"
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
+#: NEEDS WORK
+#: NEEDS WORK
 msgid "Network Diagnostics"
 msgstr "Diagnóstico de Rede"
 # 
@@ -1779,6 +1833,10 @@ msgstr "(Esse Computador)"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
@@ -1812,6 +1870,8 @@ msgstr "(Esse Computador)"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
 # 
 # File: big-network-info/src/gui/components.py, line: 527
+#: NEEDS WORK
+#: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
 #: NEEDS WORK
@@ -2306,11 +2366,6 @@ msgstr "Monitoramento parado"
 #: NEEDS WORK
 msgid "Big Network Info - Network Scanner"
 msgstr "Informações da Grande Rede - Scanner de Rede"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 88
-#: NEEDS WORK
-msgid "Big Network Info"
-msgstr "Informações da Grande Rede"
 # 
 # File: big-network-info/src/gui/main_window.py, line: 90
 #: NEEDS WORK

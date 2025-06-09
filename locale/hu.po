@@ -737,6 +737,21 @@ msgstr "Webkapcsolat tesztelése"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Ellenőrizze a tűzfal beállításait és a proxy konfigurációt."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 126
+#: NEEDS WORK
+msgid "Test Big repositories"
+msgstr "Teszt Nagy adattárak"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 127
+#: NEEDS WORK
+msgid "Testing connectivity to Big Linux repositories"
+msgstr "A Big Linux tárolók elérhetőségének tesztelése"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 129
+#: NEEDS WORK
+msgid "Check connectivity to Biglinux repositories"
+msgstr "Ellenőrizze a Biglinux tárolókhoz való csatlakozást."
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
 #: NEEDS WORK
 msgid "Error during execution:"
@@ -911,6 +926,21 @@ msgstr "Nincs internetkapcsolat észlelve"
 #: NEEDS WORK
 msgid "Failed to test internet access:"
 msgstr "Nem sikerült tesztelni az internet-hozzáférést:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 768
+#: NEEDS WORK
+msgid "Repository access confirmed"
+msgstr "A tárolóhoz való hozzáférés megerősítve"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 773
+#: NEEDS WORK
+msgid "Repository access not detected"
+msgstr "A tárolóhoz való hozzáférés nem észlelhető."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 777
+#: NEEDS WORK
+msgid "Failed to access repository:"
+msgstr "Nem sikerült hozzáférni a tárolóhoz:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK

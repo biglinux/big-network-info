@@ -737,6 +737,21 @@ msgstr "Testiranje web povezanosti"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Provjerite postavke vatrozida i konfiguraciju proxyja"
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 126
+#: NEEDS WORK
+msgid "Test Big repositories"
+msgstr "Testiraj velike repozitorije"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 127
+#: NEEDS WORK
+msgid "Testing connectivity to Big Linux repositories"
+msgstr "Testiranje povezanosti s velikim Linux repozitorijima"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 129
+#: NEEDS WORK
+msgid "Check connectivity to Biglinux repositories"
+msgstr "Provjerite povezanost s Biglinux repozitorijima"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
 #: NEEDS WORK
 msgid "Error during execution:"
@@ -911,6 +926,21 @@ msgstr "Nema pristupa internetu."
 #: NEEDS WORK
 msgid "Failed to test internet access:"
 msgstr "Neuspjeh u testiranju pristupa internetu:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 768
+#: NEEDS WORK
+msgid "Repository access confirmed"
+msgstr "Pristup repozitoriju potvrđen"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 773
+#: NEEDS WORK
+msgid "Repository access not detected"
+msgstr "Pristup repozitoriju nije otkriven"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 777
+#: NEEDS WORK
+msgid "Failed to access repository:"
+msgstr "Neuspjeh u pristupu repozitoriju:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK

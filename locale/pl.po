@@ -739,6 +739,21 @@ msgstr "Testowanie łączności internetowej"
 msgid "Check firewall settings and proxy configuration"
 msgstr "Sprawdź ustawienia zapory i konfigurację serwera proxy."
 # 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 126
+#: NEEDS WORK
+msgid "Test Big repositories"
+msgstr "Testuj duże repozytoria"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 127
+#: NEEDS WORK
+msgid "Testing connectivity to Big Linux repositories"
+msgstr "Testowanie łączności z dużymi repozytoriami Linuksa"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 129
+#: NEEDS WORK
+msgid "Check connectivity to Biglinux repositories"
+msgstr "Sprawdź łączność z repozytoriami Biglinux"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
 #: NEEDS WORK
 msgid "Error during execution:"
@@ -913,6 +928,21 @@ msgstr "Nie wykryto dostępu do internetu."
 #: NEEDS WORK
 msgid "Failed to test internet access:"
 msgstr "Nie udało się przetestować dostępu do internetu:"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 768
+#: NEEDS WORK
+msgid "Repository access confirmed"
+msgstr "Potwierdzono dostęp do repozytorium"
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 773
+#: NEEDS WORK
+msgid "Repository access not detected"
+msgstr "Nie wykryto dostępu do repozytorium."
+# 
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 777
+#: NEEDS WORK
+msgid "Failed to access repository:"
+msgstr "Nie udało się uzyskać dostępu do repozytorium:"
 # 
 # File: big-network-info/src/gui/config_view.py, line: 81
 #: NEEDS WORK
