@@ -122,6 +122,13 @@ class NetworkDiagnostics:
                     "Check firewall settings and proxy configuration"
                 ),
             ),
+            DiagnosticStep(
+                name=_("Test Big repositories"),
+                description=_("Testing connectivity to Big Linux repositories"),
+                troubleshooting_tip=_(
+                    "Check connectivity to Biglinux repositories"
+                ),
+            ),
         ]
 
     def run_diagnostics(
@@ -162,6 +169,7 @@ class NetworkDiagnostics:
                 7,
                 8,
                 9,
+                10,
             ]  # Gateway, DNS config, DNS resolution, External IP, Internet
 
             # Run basic group sequentially
@@ -267,6 +275,8 @@ class NetworkDiagnostics:
                 return self._check_external_ip()
             elif step_index == 9:
                 return self._test_internet_access()
+            elif step_index == 10:
+                return self._test_big_repositories()
             else:
                 return False
 
@@ -725,6 +735,46 @@ class NetworkDiagnostics:
 
         except Exception as e:
             step.details = _("Failed to test internet access:") + " " + str(e)
+            return False
+
+    def _test_big_repositories(self) -> bool:
+        """Test communication with big repositories"""
+        step = self.steps[10]
+        try:
+            is_a_community_repository = False
+            with open('/etc/pacman.conf', "r") as file:
+                for line in file:
+                    line = line.strip()
+
+                    if line.startswith("#") or not line:
+                        continue
+
+                    if line.startswith("Server") and "communitybig" in line:
+                        is_a_community_repository = True
+
+            if is_a_community_repository:
+                test_urls = [
+                    "https://repo.communitybig.org",
+                ]
+            else:
+                test_urls = [
+                    "https://repo.biglinux.com.br",
+                ]
+
+            for url in test_urls:
+                try:
+                    response = requests.get(url, timeout=5)
+                    if response.status_code in [200, 204]:
+                        step.details = _("Repository access confirmed") + f" {url}"
+                        return True
+                except:
+                    continue
+
+            step.details = _("Repository access not detected")
+            return False
+
+        except Exception as e:
+            step.details = _("Failed to access repository:") + " " + str(e)
             return False
 
     def _notify_progress(self, step: DiagnosticStep) -> None:
