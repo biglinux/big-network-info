@@ -5,7 +5,7 @@ arch=('any')
 license=('GPL')
 url="https://github.com/biglinux/$pkgname"
 source=("git+${url}.git")
-pkgdesc="Installs and removes BigLinux WebApps"
+pkgdesc="Network scanner and diagnostics tool for BigLinux"
 depends=('libadwaita' 'python-gobject' 'python-netifaces' 'python-requests' 'python-reportlab' 'iproute2' 'arp-scan' 'xdg-utils')
 md5sums=(SKIP)
 if [ -e "${pkgname}.install" ]; then

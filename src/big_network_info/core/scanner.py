@@ -296,6 +296,19 @@ class NetworkScanner:
                 self.vendor_cache[normalized_mac] = vendor
                 return vendor
 
+            # Method 2: Try internal OUI database with common/recent vendors
+            vendor = self._get_vendor_internal_db(mac)
+            if vendor and vendor != "Unknown":
+                self.vendor_cache[normalized_mac] = vendor
+                return vendor
+
+            # Method 3: Try online API lookup (only if not a randomized MAC)
+            if not self._is_locally_administered_mac(mac):
+                vendor = self._get_vendor_online(mac)
+                if vendor and vendor != "Unknown":
+                    self.vendor_cache[normalized_mac] = vendor
+                    return vendor
+
             # Cache the result (even if "Unknown" to avoid repeated lookups)
             self.vendor_cache[normalized_mac] = vendor
             return vendor
@@ -390,6 +403,348 @@ class NetworkScanner:
             logging.error(_("Failed to load IEEE OUI file") + f" {file_path}: {e}")
             # Initialize empty database to avoid repeated load attempts
             self._oui_database = {}
+
+    # Internal OUI database with common vendors that may be missing from IEEE file
+    # Especially IoT devices and recent manufacturers
+    _INTERNAL_OUI_DB = {
+        # Tuya Smart (IoT devices - smart plugs, bulbs, sensors)
+        "D8D668": "Tuya Smart Inc.",
+        "1C90FF": "Tuya Smart Inc.",
+        "D4A651": "Tuya Smart Inc.",
+        "10D561": "Tuya Smart Inc.",
+        "84E342": "Tuya Smart Inc.",
+        "381F8D": "Tuya Smart Inc.",
+        "A842A1": "Tuya Smart Inc.",
+        "700002": "Tuya Smart Inc.",
+        "6C47E6": "Tuya Smart Inc.",
+        "84F703": "Tuya Smart Inc.",
+        # Espressif (ESP8266/ESP32 - common in IoT)
+        "24B2DE": "Espressif Inc.",
+        "2462AB": "Espressif Inc.",
+        "30AEA4": "Espressif Inc.",
+        "3C71BF": "Espressif Inc.",
+        "84F3EB": "Espressif Inc.",
+        "A020A6": "Espressif Inc.",
+        "A4CF12": "Espressif Inc.",
+        "BC:DD:C2": "Espressif Inc.",
+        "C8C9A3": "Espressif Inc.",
+        "EC94CB": "Espressif Inc.",
+        "240AC4": "Espressif Inc.",
+        "ACE2D3": "Espressif Inc.",
+        "B4E62D": "Espressif Inc.",
+        "D8BFC0": "Espressif Inc.",
+        "DC4F22": "Espressif Inc.",
+        "ECA86B": "Espressif Inc.",
+        # Xiaomi (smart home devices and phones)
+        "28E31F": "Xiaomi Communications Co Ltd",
+        "38F9D3": "Xiaomi Communications Co Ltd",
+        "3C5165": "Xiaomi Communications Co Ltd",
+        "44D1FA": "Xiaomi Communications Co Ltd",
+        "64CC2E": "Xiaomi Communications Co Ltd",
+        "7C1DD9": "Xiaomi Communications Co Ltd",
+        "9CD917": "Xiaomi Communications Co Ltd",
+        "B0E235": "Xiaomi Communications Co Ltd",
+        "E4F3C4": "Xiaomi Communications Co Ltd",
+        "F8A45F": "Xiaomi Communications Co Ltd",
+        "50EC50": "Xiaomi Communications Co Ltd",
+        # Beijing Xiaomi Mobile (smartphones)
+        "CCD843": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "60AB67": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "64B473": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "74A35E": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "8CBEBE": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "FC64BA": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "A4D9A4": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "B8D7AF": "Beijing Xiaomi Mobile Software Co., Ltd",
+        "F0B429": "Beijing Xiaomi Mobile Software Co., Ltd",
+        # Shenzhen Trolink (IP cameras, IoT)
+        "F0A882": "Shenzhen Trolink Technology Co.,Ltd",
+        "E8ABFA": "Shenzhen Trolink Technology Co.,Ltd",
+        # TP-Link (network equipment)
+        "14CC20": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "1C3BF3": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "44D9E7": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "50BD5F": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "500FF5": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "60E327": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "6466B3": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "90F652": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "B0BE76": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "B09575": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "C46E1F": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "EC08B6": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        "F4EC38": "TP-LINK TECHNOLOGIES CO.,LTD.",
+        # Tenda (network equipment)
+        "500FF5": "Tenda Technology Co.,Ltd.",
+        "C83A35": "Tenda Technology Co.,Ltd.",
+        "D8323E": "Tenda Technology Co.,Ltd.",
+        # Amazon devices
+        "00FC8B": "Amazon Technologies Inc.",
+        "1C12B0": "Amazon Technologies Inc.",
+        "34D270": "Amazon Technologies Inc.",
+        "38F73D": "Amazon Technologies Inc.",
+        "4C17EB": "Amazon Technologies Inc.",
+        "747548": "Amazon Technologies Inc.",
+        "84D6D0": "Amazon Technologies Inc.",
+        "A002DC": "Amazon Technologies Inc.",
+        "FC65DE": "Amazon Technologies Inc.",
+        "4C1749": "Amazon Technologies Inc.",
+        # Google/Nest devices
+        "3C5AB4": "Google, Inc.",
+        "54A6A8": "Google, Inc.",
+        "D88039": "Google, Inc.",
+        "9457A5": "Google, Inc.",
+        "18E1B0": "Google, Inc.",
+        "64167F": "Google, Inc.",
+        "F68FCA": "Google, Inc.",
+        # Apple devices
+        "00CD65": "Apple, Inc.",
+        "2C1F23": "Apple, Inc.",
+        "40A6D9": "Apple, Inc.",
+        "58B035": "Apple, Inc.",
+        "6C4A85": "Apple, Inc.",
+        "7C04D0": "Apple, Inc.",
+        "8866A5": "Apple, Inc.",
+        "9CFC01": "Apple, Inc.",
+        "AC3C0B": "Apple, Inc.",
+        "D87532": "Apple, Inc.",
+        # Samsung devices
+        "08FC88": "Samsung Electronics Co.,Ltd",
+        "1CF8C8": "Samsung Electronics Co.,Ltd",
+        "28E14C": "Samsung Electronics Co.,Ltd",
+        "34230D": "Samsung Electronics Co.,Ltd",
+        "4C3C16": "Samsung Electronics Co.,Ltd",
+        "64773E": "Samsung Electronics Co.,Ltd",
+        "703A51": "Samsung Electronics Co.,Ltd",
+        "8445DD": "Samsung Electronics Co.,Ltd",
+        "A03E6B": "Samsung Electronics Co.,Ltd",
+        "B8BB6D": "Samsung Electronics Co.,Ltd",
+        # Sonoff/ITEAD
+        "BC8CF8": "Itead Intelligent Systems Co., Ltd.",
+        "DC8F0E": "Itead Intelligent Systems Co., Ltd.",
+        # Shelly
+        "8CAAB5": "Shelly",
+        "3494F2": "Shelly",
+        # Philips Hue
+        "001788": "Signify B.V. (Philips Hue)",
+        "EC8ACA": "Signify B.V. (Philips Hue)",
+        # Wyze
+        "2CAA8E": "Wyze Labs Inc",
+        # Ring
+        "347E5C": "Ring LLC",
+        "6C1E7C": "Ring LLC",
+        "38FFFE": "Ring LLC",
+        # Ubiquiti
+        "000278": "Ubiquiti Inc",
+        "04189B": "Ubiquiti Inc",
+        "188B9D": "Ubiquiti Inc",
+        "24A43C": "Ubiquiti Inc",
+        "44D9E7": "Ubiquiti Inc",
+        "68725D": "Ubiquiti Inc",
+        "788A20": "Ubiquiti Inc",
+        "802AA8": "Ubiquiti Inc",
+        "B4FBE4": "Ubiquiti Inc",
+        "E063DA": "Ubiquiti Inc",
+        "F09FC2": "Ubiquiti Inc",
+        # ASUS
+        "08606E": "ASUSTek COMPUTER INC.",
+        "107B44": "ASUSTek COMPUTER INC.",
+        "2C56DC": "ASUSTek COMPUTER INC.",
+        "381A52": "ASUSTek COMPUTER INC.",
+        "48F17F": "ASUSTek COMPUTER INC.",
+        "54278A": "ASUSTek COMPUTER INC.",
+        "748D08": "ASUSTek COMPUTER INC.",
+        "90E6BA": "ASUSTek COMPUTER INC.",
+        "AC9E17": "ASUSTek COMPUTER INC.",
+        "B06EBF": "ASUSTek COMPUTER INC.",
+        # Nokia/Shanghai Bell
+        "783EA1": "Nokia Shanghai Bell Co., Ltd.",
+        "001E42": "Nokia Shanghai Bell Co., Ltd.",
+        "001DD1": "Nokia Shanghai Bell Co., Ltd.",
+    }
+
+    # Vendor to device type mapping for enhanced identification
+    # Keys are lowercase substrings that appear in vendor names
+    _VENDOR_DEVICE_TYPES = {
+        # Smartphones
+        "xiaomi mobile": "Smartphone",
+        "samsung electronics": "Smartphone",
+        "apple": "Smartphone",
+        "huawei": "Smartphone",
+        "oppo": "Smartphone",
+        "vivo mobile": "Smartphone",
+        "oneplus": "Smartphone",
+        "motorola": "Smartphone",
+        "lg electronics": "Smartphone",
+        "zte": "Smartphone",
+        "realme": "Smartphone",
+        "poco": "Smartphone",
+        # IoT / Smart Home
+        "tuya": "Smart Device",
+        "espressif": "IoT Device",
+        "shelly": "Smart Device",
+        "sonoff": "Smart Device",
+        "itead": "Smart Device",
+        "wyze": "Smart Device",
+        "philips hue": "Smart Light",
+        "signify": "Smart Light",
+        "yeelight": "Smart Light",
+        # Network Equipment
+        "tp-link": "Network Device",
+        "tenda": "Network Device",
+        "netgear": "Network Device",
+        "d-link": "Network Device",
+        "linksys": "Network Device",
+        "ubiquiti": "Network Device",
+        "mikrotik": "Network Device",
+        "cisco": "Network Device",
+        "juniper": "Network Device",
+        "nokia": "Router/Modem",
+        "huawei technologies": "Router/Modem",
+        "zte corporation": "Router/Modem",
+        # Media Devices
+        "roku": "Streaming Device",
+        "amazon": "Smart Device",
+        "google": "Smart Device",
+        "chromecast": "Streaming Device",
+        # Cameras
+        "trolink": "IP Camera",
+        "hikvision": "IP Camera",
+        "dahua": "IP Camera",
+        "reolink": "IP Camera",
+        "eufy": "IP Camera",
+        "arlo": "IP Camera",
+        "ring": "Smart Doorbell",
+        # Computers
+        "dell": "Computer",
+        "hewlett packard": "Computer",
+        "hp inc": "Computer",
+        "lenovo": "Computer",
+        "acer": "Computer",
+        "intel": "Computer",
+        "amd": "Computer",
+        "asus": "Computer",
+        "gigabyte": "Computer",
+        "msi": "Computer",
+        # Printers
+        "brother": "Printer",
+        "canon": "Printer",
+        "epson": "Printer",
+        "xerox": "Printer",
+        "lexmark": "Printer",
+        # Gaming
+        "nintendo": "Game Console",
+        "sony interactive": "Game Console",
+        "microsoft": "Game Console",
+        "valve": "Gaming PC",
+        # NAS / Storage
+        "synology": "NAS",
+        "qnap": "NAS",
+        "western digital": "NAS",
+        "seagate": "NAS",
+        # TVs
+        "tcl": "Smart TV",
+        "hisense": "Smart TV",
+        "philips consumer": "Smart TV",
+        "lg display": "Smart TV",
+    }
+
+    def _get_device_type_from_vendor(self, vendor: str) -> str:
+        """
+        Determine device type based on vendor name.
+
+        Args:
+            vendor: Vendor name from MAC lookup
+
+        Returns:
+            Device type string or empty string if unknown
+        """
+        if not vendor or vendor == "Unknown":
+            return ""
+
+        vendor_lower = vendor.lower()
+        for pattern, device_type in self._VENDOR_DEVICE_TYPES.items():
+            if pattern in vendor_lower:
+                return device_type
+
+        return ""
+
+    def _is_locally_administered_mac(self, mac: str) -> bool:
+        """
+        Check if MAC address is locally administered (randomized/virtual).
+        Locally administered MACs have the second-least-significant bit of the
+        first octet set to 1. Examples: x2, x6, xA, xE in second hex digit.
+
+        Args:
+            mac: MAC address
+
+        Returns:
+            True if MAC is locally administered (no vendor info available)
+        """
+        try:
+            # Get first octet as integer
+            first_octet = mac.replace(":", "").replace("-", "")[:2]
+            octet_value = int(first_octet, 16)
+            # Check locally administered bit (bit 1, value 0x02)
+            return bool(octet_value & 0x02)
+        except Exception:
+            return False
+
+    def _get_vendor_internal_db(self, mac: str) -> str:
+        """
+        Get vendor from internal database with common/recent manufacturers.
+        Useful for vendors not yet in the system OUI file.
+
+        Args:
+            mac: MAC address
+
+        Returns:
+            Vendor name or "Unknown"
+        """
+        try:
+            oui = mac.replace(":", "").replace("-", "").upper()[:6]
+            return self._INTERNAL_OUI_DB.get(oui, "Unknown")
+        except Exception:
+            return "Unknown"
+
+    def _get_vendor_online(self, mac: str) -> str:
+        """
+        Get vendor from online API as last resort.
+        Only called if local lookups fail. Uses fast timeout to avoid blocking.
+
+        Args:
+            mac: MAC address
+
+        Returns:
+            Vendor name or "Unknown"
+        """
+        try:
+            import urllib.request
+            import json
+
+            oui = mac.replace(":", "").replace("-", "").upper()[:6]
+
+            # Use maclookup.app API (free, no key required)
+            url = f"https://api.maclookup.app/v2/macs/{oui}"
+
+            req = urllib.request.Request(
+                url,
+                headers={"User-Agent": "BigNetworkInfo/1.0"}
+            )
+
+            # Very short timeout to avoid blocking scan
+            with urllib.request.urlopen(req, timeout=1.5) as response:
+                data = json.loads(response.read().decode("utf-8"))
+                if data.get("success") and data.get("found"):
+                    company = data.get("company", "")
+                    if company:
+                        logging.debug(f"Online API resolved {oui} to {company}")
+                        return company
+
+        except Exception as e:
+            logging.debug(f"Online vendor lookup failed for {mac}: {e}")
+
+        return "Unknown"
 
     def _get_hostname(self, ip: str) -> str:
         """
@@ -626,15 +981,18 @@ class NetworkScanner:
 
         return False
 
-    def _get_device_type_hint(self, ip: str, services: List[ServiceInfo]) -> str:
+    def _get_device_type_hint(
+        self, ip: str, services: List[ServiceInfo], vendor: str = ""
+    ) -> str:
         """
-        Try to determine device type based on open services and patterns.
+        Try to determine device type based on open services, patterns, and vendor.
         Uses very conservative logic - only identifies clear servers and infrastructure.
         Most devices will remain unclassified (which is correct for clients).
 
         Args:
             ip: IP address
             services: List of detected services
+            vendor: Vendor name from MAC lookup (optional)
 
         Returns:
             Device type hint or empty string for regular clients
@@ -642,6 +1000,12 @@ class NetworkScanner:
         # Don't classify localhost/loopback addresses
         if ip.startswith("127.") or ip == "::1":
             return ""
+
+        # First, try to get device type from vendor (most reliable for IoT/phones)
+        if vendor:
+            vendor_type = self._get_device_type_from_vendor(vendor)
+            if vendor_type:
+                return vendor_type
 
         service_ports = [service.port for service in services]
 
@@ -757,7 +1121,7 @@ class NetworkScanner:
         return ""
 
     def _enhance_hostname(
-        self, ip: str, hostname: str, services: List[ServiceInfo]
+        self, ip: str, hostname: str, services: List[ServiceInfo], vendor: str = ""
     ) -> str:
         """
         Enhance hostname with device type information if hostname is just an IP.
@@ -766,6 +1130,7 @@ class NetworkScanner:
             ip: IP address
             hostname: Original hostname
             services: Detected services
+            vendor: Vendor name from MAC lookup (optional)
 
         Returns:
             Enhanced hostname
@@ -774,8 +1139,8 @@ class NetworkScanner:
         if hostname != ip:
             return hostname
 
-        # Get device type hint
-        device_type = self._get_device_type_hint(ip, services)
+        # Get device type hint from services and vendor
+        device_type = self._get_device_type_hint(ip, services, vendor)
         if device_type:
             last_octet = ip.split(".")[-1]
             return f"{device_type}-{last_octet}"
@@ -930,16 +1295,17 @@ class NetworkScanner:
                 ip = host_data["ip"]
                 hostname = hostname_results.get(ip, ip)
                 services = service_results.get(ip, [])
+                vendor = host_data["vendor"]
 
-                # Enhance hostname with device type
-                hostname = self._enhance_hostname(ip, hostname, services)
+                # Enhance hostname with device type (using vendor info)
+                hostname = self._enhance_hostname(ip, hostname, services, vendor)
 
                 # Create scan result
                 scan_result = ScanResult(
                     ip=ip,
                     hostname=hostname,
                     mac=host_data["mac"],
-                    vendor=host_data["vendor"],
+                    vendor=vendor,
                     services=services,
                     response_time=0.0,  # Not measuring individual response time anymore
                     is_alive=True,

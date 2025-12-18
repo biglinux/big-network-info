@@ -4,11 +4,14 @@ Handles loading, saving, and managing user-defined services and ports.
 """
 
 import json
+import logging
 from pathlib import Path
 from typing import List, Dict, Any
 from dataclasses import dataclass, asdict
 
 from .services import ServiceInfo, COMMON_SERVICES
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -51,10 +54,9 @@ class ConfigManager:
 
     def __init__(self):
         """Initialize configuration manager."""
-        self.config_dir = Path.home() / ".config" / "big-network-scanner"
+        self.config_dir = Path.home() / ".config" / "big-network-info"
         self.config_file = self.config_dir / "config.json"
         self.config = self.load_config()
-        self._custom_services_cache = None
         # Additional settings dictionary for non-AppConfig settings
         self._additional_settings = {}
         self.load_additional_settings()
@@ -74,22 +76,16 @@ class ConfigManager:
             if self.config_file.exists():
                 with open(self.config_file, "r") as f:
                     data = json.load(f)
-                    print(f"DEBUG: Loading config from {self.config_file}")
-                    print(f"DEBUG: Loaded data: {data}")
-                    print(
-                        f"DEBUG: Custom services in loaded data: {data.get('custom_services', [])}"
-                    )
-                    config = AppConfig(**data)
-                    print(f"DEBUG: AppConfig custom_services: {config.custom_services}")
-                    return config
+                    logger.debug(f"Loading config from {self.config_file}")
+                    return AppConfig(**data)
             else:
-                print(
-                    f"DEBUG: Config file {self.config_file} doesn't exist, using default"
+                logger.debug(
+                    f"Config file {self.config_file} doesn't exist, using default"
                 )
                 return AppConfig.default()
         except (json.JSONDecodeError, TypeError, KeyError) as e:
             # If config is corrupted, return default
-            print(f"DEBUG: Error loading config: {e}, using default")
+            logger.warning(f"Error loading config: {e}, using default")
             return AppConfig.default()
 
     def save_config(self) -> None:
@@ -98,15 +94,11 @@ class ConfigManager:
             self.ensure_config_dir()
             config_data = asdict(self.config)
             config_data["additional_settings"] = self._additional_settings
-            print(f"DEBUG: Saving config data: {config_data}")
-            print(
-                f"DEBUG: Custom services in data: {config_data.get('custom_services', [])}"
-            )
+            logger.debug(f"Saving config to {self.config_file}")
             with open(self.config_file, "w") as f:
                 json.dump(config_data, f, indent=2)
-            print(f"DEBUG: Successfully saved config to {self.config_file}")
         except Exception as e:
-            print(f"Failed to save configuration: {e}")
+            logger.error(f"Failed to save configuration: {e}")
 
     def load_additional_settings(self) -> None:
         """Load additional settings from config file."""
@@ -216,14 +208,9 @@ class ConfigManager:
             "access_method": service.access_method,
         }
 
-        print(f"DEBUG: Adding custom service: {service_dict}")
+        logger.debug(f"Adding custom service: {service.name} on port {service.port}")
         self.config.custom_services.append(service_dict)
-        print(
-            f"DEBUG: Total custom services after add: {len(self.config.custom_services)}"
-        )
-        print(f"DEBUG: Custom services list: {self.config.custom_services}")
         self.save_config()
-        print(f"DEBUG: Config saved to {self.config_file}")
         return True
 
     def remove_custom_service(self, port: int, protocol: str) -> bool:

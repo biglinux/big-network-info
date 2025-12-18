@@ -1,0 +1,42 @@
+[project]
+name = "big-network-info"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: System :: Networking",
+    "Topic :: Utilities",
+]
+version = "1.0.0"
+authors = [
+    { name = "BigLinux Team", email = "biglinux@biglinux.com.br" },
+]
+license = "GPL-2.0-or-later"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyGObject",
+    "pycairo",
+    "netifaces",
+    "requests",
+    "reportlab",
+]
+
+[project.gui-scripts]
+big-network-info = "big_network_info:main"
+
+[project.urls]
+Homepage = "https://github.com/biglinux/big-network-info"
+Issues = "https://github.com/biglinux/big-network-info/issues"
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv-build]
+package-dir = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["big_network_info", "big_network_info.*"]

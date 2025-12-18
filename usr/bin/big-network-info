@@ -1,5 +1,11 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-cd /usr/share/biglinux/network-info/
+# Search ashyterm folder
+for i in /usr/lib/python3.{25..6}/site-packages/big-newtwork-info /usr/share/big-newtwork-info; do
+    if [[ -e "$i" ]]; then
+        cd "$i"
+        break
+    fi
+done
 
-exec python main.py
+python3 __init__.py

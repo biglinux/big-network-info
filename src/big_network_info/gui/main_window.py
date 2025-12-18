@@ -23,6 +23,7 @@ from ..core.network_diagnostics import (
     DiagnosticStep,
     DiagnosticStatus,
 )
+from ..core.wol import WakeOnLan
 from .components import ScanResultsView, LoadingView
 from .welcome_screen import WelcomeScreen
 from .wifi_analyzer import WiFiAnalyzerView
@@ -88,21 +89,7 @@ class NetworkScannerApp(Adw.Application):
         header_bar = Adw.HeaderBar()
         header_bar.set_hexpand(True)
 
-        # Create proper window title with app icon using Adwaita style
-        window_title = Adw.WindowTitle()
-
-        # Create icon for the title
-        icon_image = Gtk.Image()
-        icon_image.set_from_icon_name("big-network-info")
-        icon_image.set_pixel_size(24)
-
-        # Create a box to hold icon and title together
-        title_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
-        title_box.set_halign(Gtk.Align.CENTER)
-        title_box.append(icon_image)
-        title_box.append(window_title)
-
-        # Create tab buttons container
+        # Create tab buttons container (window icon is handled by set_icon_name)
         self.tab_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         self.tab_box.add_css_class("linked")
         self.tab_box.set_halign(Gtk.Align.CENTER)
@@ -135,11 +122,8 @@ class NetworkScannerApp(Adw.Application):
             "settings": self.settings_button,
         }
 
-        # Set title widget for header bar
+        # Set title widget for header bar (tabs centered)
         header_bar.set_title_widget(self.tab_box)
-
-        # Add the title box to the start of the header
-        header_bar.pack_start(title_box)
 
         # Create menu button
         menu_button = Gtk.MenuButton()
