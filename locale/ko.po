@@ -1196,6 +1196,11 @@ msgstr "핑 완료"
 msgid "Copied!"
 msgstr "복사됨!"
 # 
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid "No WiFi adapter detected"
+msgstr "WiFi 어댑터가 감지되지 않았습니다."
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
 msgid "Scanning for WiFi networks..."
 msgstr "WiFi 네트워크 검색 중..."

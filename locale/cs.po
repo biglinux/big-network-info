@@ -661,6 +661,10 @@ msgstr "Avahi vyřešeno"
 # 
 # File: big-network-info/src/big_network_info/core/scanner.py, line: 774
 # 
+# File: big-network-info/src/big_network_info/core/scanner.py, line: 774
+# 
+# File: big-network-info/src/big_network_info/core/scanner.py, line: 774
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
@@ -893,6 +897,10 @@ msgstr "služby"
 # File: big-network-info/src/gui/components.py, line: 479
 msgid " (This Computer)"
 msgstr "(Tento počítač)"
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
 # 
 # File: big-network-info/src/big_network_info/gui/components.py, line: 498
 # 
@@ -1341,6 +1349,11 @@ msgstr "Ping dokončen"
 # File: big-network-info/src/gui/components.py, line: 1615
 msgid "Copied!"
 msgstr "Zkopírováno!"
+# 
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid "No WiFi adapter detected"
+msgstr "Nebyl detekován žádný WiFi adaptér."
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
 msgid "Scanning for WiFi networks..."

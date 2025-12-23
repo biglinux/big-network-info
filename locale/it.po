@@ -832,6 +832,10 @@ msgstr "(Questo Computer)"
 # 
 # File: big-network-info/src/big_network_info/gui/components.py, line: 498
 # 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
@@ -1000,6 +1004,28 @@ msgstr "Esportazione non riuscita"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1243
 msgid "Failed to export PDF"
 msgstr "Esportazione PDF non riuscita"
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1304,6 +1330,11 @@ msgstr "Ping completato"
 # File: big-network-info/src/gui/components.py, line: 1615
 msgid "Copied!"
 msgstr "Copiato!"
+# 
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid "No WiFi adapter detected"
+msgstr "Nessun adattatore WiFi rilevato"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
 msgid "Scanning for WiFi networks..."

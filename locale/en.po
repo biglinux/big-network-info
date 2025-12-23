@@ -1481,49 +1481,55 @@ msgid "Copied!"
 msgstr "Copied!"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 159
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid "No WiFi adapter detected"
+msgstr "No WiFi adapter detected"
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 163
 msgid "Scanning for WiFi networks..."
 msgstr "Scanning for WiFi networks..."
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 222
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 224
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 226
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 228
 msgid "Signal Strength (%)"
 msgstr "Signal Strength (%)"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 228
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 230
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 232
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 234
 msgid "Time"
 msgstr "Time"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 842
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 849
 msgid "Signal strength (last 2 minutes)"
 msgstr "Signal strength (last 2 minutes)"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 878
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 887
 msgid "Ready to scan"
 msgstr "Ready to scan"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 892
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 904
 msgid "Show hidden networks:"
 msgstr "Show hidden networks:"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 964
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 979
 msgid "Found {} networks"
 msgstr "Found {} networks"
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 976
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 995
 msgid "Scanning..."
 msgstr "Scanning..."
 
 #
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 983
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 1002
 msgid "Monitoring stopped"
 msgstr "Monitoring stopped"
 

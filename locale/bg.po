@@ -830,6 +830,10 @@ msgstr "(Този компютър)"
 # 
 # File: big-network-info/src/big_network_info/gui/components.py, line: 498
 # 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
@@ -998,6 +1002,28 @@ msgstr "Експортът не успя"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1243
 msgid "Failed to export PDF"
 msgstr "Неуспешен експорт на PDF"
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
@@ -1300,6 +1326,11 @@ msgstr "Ping завършен"
 # File: big-network-info/src/gui/components.py, line: 1615
 msgid "Copied!"
 msgstr "Копирано!"
+# 
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid "No WiFi adapter detected"
+msgstr "Не е открит WiFi адаптер"
 # 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
 msgid "Scanning for WiFi networks..."

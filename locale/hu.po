@@ -1174,6 +1174,11 @@ msgstr "A ping befejeződött"
 msgid "Copied!"
 msgstr "Másolva!"
 # 
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid "No WiFi adapter detected"
+msgstr "Nincs WiFi adapter észlelve"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
 msgid "Scanning for WiFi networks..."
 msgstr "WiFi hálózatok keresése..."
