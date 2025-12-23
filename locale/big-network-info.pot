@@ -1478,6 +1478,11 @@ msgid   "Scanning for WiFi networks..."
 msgstr  ""
 
 #
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+msgid   "No WiFi adapter detected"
+msgstr  ""
+
+#
 # File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 222
 # File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 224
 msgid   "Signal Strength (%)"

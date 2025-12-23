@@ -51,6 +51,24 @@ class WiFiScanner:
         """Add a callback function to be called when new data is available"""
         self.callbacks.append(callback)
 
+    def has_wifi_device(self) -> bool:
+        """Check if any WiFi device is available in the system"""
+        try:
+            result = subprocess.run(
+                ["nmcli", "-t", "-f", "TYPE,DEVICE", "device"],
+                capture_output=True,
+                text=True,
+                timeout=5,
+            )
+            if result.returncode == 0:
+                for line in result.stdout.strip().split("\n"):
+                    if line.startswith("wifi:") or line.startswith("wifi-p2p:"):
+                        return True
+            return False
+        except Exception as e:
+            logging.warning(f"Failed to check for WiFi devices: {e}")
+            return False
+
     def set_scan_interval(self, interval: float):
         """Set the scanning interval in seconds"""
         self.scan_interval = max(1.0, interval)  # Minimum 1 second

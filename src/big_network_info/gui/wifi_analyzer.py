@@ -88,6 +88,7 @@ class SignalStrengthChart(WiFiChart):
         self.set_size_request(400, 500)
         self.history_minutes = 2
         self.max_networks = 50  # Increased to show up to 50 networks
+        self.wifi_available = True  # Assume WiFi is available initially
 
         # Mouse hover functionality
         self.hover_network = None
@@ -156,7 +157,10 @@ class SignalStrengthChart(WiFiChart):
         cr.select_font_face("Sans", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
         cr.set_font_size(16)
 
-        text = _("Scanning for WiFi networks...")
+        if not self.wifi_available:
+            text = _("No WiFi adapter detected")
+        else:
+            text = _("Scanning for WiFi networks...")
         text_extents = cr.text_extents(text)
         x = (width - text_extents.width) / 2
         y = (height + text_extents.height) / 2
@@ -826,6 +830,9 @@ class WiFiAnalyzerView(Gtk.Box):
 
     def _build_ui(self):
         """Build the user interface"""
+        # Check if WiFi hardware is available
+        self.wifi_available = self.scanner.has_wifi_device()
+
         # Charts container - includes header and charts, all scrollable
         charts_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
         charts_box.set_margin_top(12)
@@ -842,6 +849,7 @@ class WiFiAnalyzerView(Gtk.Box):
         signal_frame.set_title(_("Signal strength (last 2 minutes)"))
 
         self.signal_chart = SignalStrengthChart()
+        self.signal_chart.wifi_available = self.wifi_available
         signal_frame.add(self.signal_chart)
         charts_box.append(signal_frame)
 
@@ -874,8 +882,12 @@ class WiFiAnalyzerView(Gtk.Box):
         header.set_hexpand(True)
         header.set_valign(Gtk.Align.START)
 
-        # Scan status
-        self.status_label = Gtk.Label(label=_("Ready to scan"))
+        # Scan status - show appropriate message based on WiFi availability
+        if self.wifi_available:
+            initial_status = _("Ready to scan")
+        else:
+            initial_status = _("No WiFi adapter detected")
+        self.status_label = Gtk.Label(label=initial_status)
         self.status_label.add_css_class("dim-label")
         self.status_label.set_hexpand(False)
         header.append(self.status_label)
@@ -895,6 +907,9 @@ class WiFiAnalyzerView(Gtk.Box):
         self.hidden_switch = Gtk.Switch()
         self.hidden_switch.set_active(False)
         self.hidden_switch.connect("notify::active", self._on_hidden_switch_toggled)
+        # Disable switch if no WiFi adapter is detected
+        if not self.wifi_available:
+            self.hidden_switch.set_sensitive(False)
         hidden_box.append(self.hidden_switch)
 
         header.append(hidden_box)
@@ -970,6 +985,10 @@ class WiFiAnalyzerView(Gtk.Box):
 
     def start_monitoring(self):
         """Start WiFi monitoring"""
+        # Don't start if no WiFi adapter is available
+        if not self.wifi_available:
+            return
+
         if not self.is_monitoring:
             self.is_monitoring = True
             self.scanner.start_scanning()

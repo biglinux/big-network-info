@@ -1309,6 +1309,10 @@ msgstr "Copiado!"
 msgid "Scanning for WiFi networks..."
 msgstr "Escaneando redes WiFi..."
 # 
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+msgid "No WiFi adapter detected"
+msgstr "Nenhum adaptador WiFi detectado"
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
 msgid "Signal Strength (%)"
