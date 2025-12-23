@@ -1041,6 +1041,28 @@ msgstr "Export PDF sa nepodaril"
 # 
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
 # 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
+# 
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+# 
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1281
