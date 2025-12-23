@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Search ashyterm folder
-for i in /usr/lib/python3.{25..6}/site-packages/big-newtwork-info /usr/share/big-newtwork-info; do
+for i in /usr/lib/python3.{25..6}/site-packages/big_network_info /usr/share/big-newtwork-info; do
     if [[ -e "$i" ]]; then
         cd "$i"
         break

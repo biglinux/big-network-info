@@ -7,12 +7,27 @@ url="https://github.com/biglinux/$pkgname"
 source=("git+${url}.git")
 pkgdesc="Network scanner and diagnostics tool for BigLinux"
 depends=('libadwaita' 'python-gobject' 'python-netifaces' 'python-requests' 'python-reportlab' 'iproute2' 'arp-scan' 'xdg-utils')
+makedepends=(
+    'python-build'
+    'python-installer'
+    'python-uv-build'
+    'python-wheel'
+)
 md5sums=(SKIP)
 if [ -e "${pkgname}.install" ]; then
 	install=${pkgname}.install
 fi
 
+build() {
+    cd "${srcdir}/${pkgname}"
+    python -m build --wheel --no-isolation --skip-dependency-check
+}
+
 package() {
+    cd "${srcdir}/${pkgname}"
+    python -m installer --destdir="$pkgdir" dist/*.whl
+	cd ../..
+
 	# Verify default folder
 	if [ -d "${srcdir}/${pkgname}/${pkgname}" ]; then
 		InternalDir="${srcdir}/${pkgname}/${pkgname}"
@@ -32,4 +47,5 @@ package() {
 	if [ -d "${InternalDir}/opt" ]; then
 		cp -r "${InternalDir}/opt" "${pkgdir}/"
 	fi
+	
 }
