@@ -194,12 +194,31 @@ class NetworkScannerApp(Adw.Application):
         self.set_accels_for_action("app.quit", ["<Ctrl>q"])
 
     def on_auto_detect(self, button: Gtk.Button) -> None:
-        """Handle auto-detect network range button click."""
+        """Handle auto-detect network range button click.
+
+        Runs the range probe in a worker thread so slow `ip` subprocess calls
+        (common with many virtual interfaces) do not freeze the UI.
+        """
         if not self.scanner:
             self.scanner = NetworkScanner(config_manager=self.config_manager)
 
-        network_range = self.scanner.get_local_network_range()
-        self.range_row.set_text(network_range)
+        button.set_sensitive(False)
+
+        def worker() -> None:
+            try:
+                network_range = self.scanner.get_local_network_range()
+            except Exception:  # noqa: BLE001 - log and fall back on the main thread
+                network_range = ""
+
+            def apply() -> bool:
+                if network_range:
+                    self.range_row.set_text(network_range)
+                button.set_sensitive(True)
+                return False
+
+            GLib.idle_add(apply)
+
+        threading.Thread(target=worker, daemon=True).start()
 
     def on_start_diagnostics(self, button: Gtk.Button) -> None:
         """Handle start diagnostics button click."""
@@ -338,11 +357,11 @@ class NetworkScannerApp(Adw.Application):
 
     def show_error_dialog(self, message: str) -> None:
         """Show error dialog."""
-        dialog = Adw.MessageDialog(
-            transient_for=self.window, heading=_("Error"), body=message
-        )
+        dialog = Adw.AlertDialog(heading=_("Error"), body=message)
         dialog.add_response("ok", _("OK"))
-        dialog.show()
+        dialog.set_default_response("ok")
+        dialog.set_close_response("ok")
+        dialog.present(self.window)
 
     def show_ssh_dialog(self, ip: str, port: int = 22) -> None:
         """
@@ -353,10 +372,9 @@ class NetworkScannerApp(Adw.Application):
             port: SSH port (default 22)
         """
         # Create dialog
-        dialog = Adw.MessageDialog.new(
-            self.window, "SSH/SFTP Connection", f"Connect to {ip}:{port}"
+        dialog = Adw.AlertDialog.new(
+            "SSH/SFTP Connection", f"Connect to {ip}:{port}"
         )
-        dialog.set_modal(True)
 
         # Create content box
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
@@ -413,15 +431,15 @@ class NetworkScannerApp(Adw.Application):
                     self.open_ssh_terminal_with_user(ip, port, username)
                 else:
                     self.open_sftp_with_user(ip, port, username)
-            dialog.destroy()
 
+        dialog.set_close_response("cancel")
         dialog.connect("response", on_response)
 
         # Focus the entry and select all text
         username_entry.grab_focus()
         username_entry.select_region(0, -1)
 
-        dialog.present()
+        dialog.present(self.window)
 
     def open_ssh_terminal_with_user(self, ip: str, port: int, username: str) -> None:
         """
@@ -498,8 +516,7 @@ class NetworkScannerApp(Adw.Application):
 
     def on_about(self, action=None, param=None) -> None:
         """Show about dialog."""
-        about = Adw.AboutWindow(
-            transient_for=self.window,
+        about = Adw.AboutDialog(
             application_name="Big Network Info",
             application_icon="big-network-info",
             developer_name=_("Network Tools"),
@@ -508,7 +525,7 @@ class NetworkScannerApp(Adw.Application):
             license_type=Gtk.License.GPL_2_0,
             comments=_("Network scanner with modern GTK4 interface"),
         )
-        about.show()
+        about.present(self.window)
 
     def on_quit(self, action=None, param=None) -> None:
         """Quit the application."""
@@ -869,11 +886,19 @@ class NetworkScannerApp(Adw.Application):
         self.range_row = Adw.EntryRow()
         self.range_row.set_title(_("Network Range"))
 
-        # Auto-detect network range on startup
+        # Auto-detect network range on startup (non-blocking)
         if not self.scanner:
             self.scanner = NetworkScanner(config_manager=self.config_manager)
-        detected_range = self.scanner.get_local_network_range()
-        self.range_row.set_text(detected_range)
+
+        def detect_worker() -> None:
+            try:
+                detected_range = self.scanner.get_local_network_range()
+            except Exception:  # noqa: BLE001 - surface an empty range on the UI thread
+                detected_range = ""
+            if detected_range:
+                GLib.idle_add(self.range_row.set_text, detected_range)
+
+        threading.Thread(target=detect_worker, daemon=True).start()
 
         self.range_row.set_show_apply_button(False)
         # Highlight entry in a card and center it with constrained width
@@ -1324,8 +1349,7 @@ class NetworkScannerApp(Adw.Application):
                     )
 
                     # Show success message
-                    success_dialog = Adw.MessageDialog.new(
-                        self.window,
+                    success_dialog = Adw.AlertDialog.new(
                         _("Export Successful"),
                         _("PDF report saved to") + f":\n{generated_path}",
                     )
@@ -1334,10 +1358,11 @@ class NetworkScannerApp(Adw.Application):
                     success_dialog.set_response_appearance(
                         "open", Adw.ResponseAppearance.SUGGESTED
                     )
+                    success_dialog.set_close_response("ok")
                     success_dialog.connect(
                         "response", self._on_pdf_success_response, generated_path
                     )
-                    success_dialog.present()
+                    success_dialog.present(self.window)
 
                 except Exception as e:
                     self.show_error_dialog(_("Failed to save PDF") + f": {str(e)}")
@@ -1348,16 +1373,19 @@ class NetworkScannerApp(Adw.Application):
                 self.show_error_dialog(_("Failed to save file") + f": {str(e)}")
 
     def _on_pdf_success_response(
-        self, dialog: Adw.MessageDialog, response: str, file_path: str
+        self, dialog: Adw.AlertDialog, response: str, file_path: str
     ) -> None:
-        """Handle PDF export success dialog response."""
+        """Handle PDF export success dialog response.
+
+        Note: Adw.AlertDialog closes itself when a response is emitted; no
+        explicit destroy() is needed.
+        """
         if response == "open":
             try:
                 # Try to open the PDF with the default application
                 subprocess.run(["xdg-open", file_path], check=True)
             except Exception as e:
                 self.show_error_dialog(_("Failed to open PDF") + f": {str(e)}")
-        dialog.destroy()
 
     def on_export_diagnostics_pdf(self, button: Gtk.Button) -> None:
         """Handle diagnostics PDF export button click."""
@@ -1425,8 +1453,7 @@ class NetworkScannerApp(Adw.Application):
                     )
 
                     # Show success message
-                    success_dialog = Adw.MessageDialog.new(
-                        self.window,
+                    success_dialog = Adw.AlertDialog.new(
                         _("Export Successful"),
                         _("Diagnostics report saved to:") + f"\n{generated_path}",
                     )
@@ -1435,10 +1462,11 @@ class NetworkScannerApp(Adw.Application):
                     success_dialog.set_response_appearance(
                         "open", Adw.ResponseAppearance.SUGGESTED
                     )
+                    success_dialog.set_close_response("ok")
                     success_dialog.connect(
                         "response", self._on_pdf_success_response, generated_path
                     )
-                    success_dialog.present()
+                    success_dialog.present(self.window)
 
                 except Exception as e:
                     self.show_error_dialog(

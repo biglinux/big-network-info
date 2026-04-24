@@ -630,8 +630,7 @@ class ConfigurationView(Gtk.ScrolledWindow):
 
     def on_delete_service(self, service: ServiceInfo) -> None:
         """Handle delete service button click."""
-        dialog = Adw.MessageDialog(
-            transient_for=self.parent_window,
+        dialog = Adw.AlertDialog(
             heading=_("Delete Custom Service"),
             body=_("Are you sure you want to delete")
             + f" '{service.name}' ({service.port}/{service.protocol})? "
@@ -640,17 +639,17 @@ class ConfigurationView(Gtk.ScrolledWindow):
         dialog.add_response("cancel", _("Cancel"))
         dialog.add_response("delete", _("Delete"))
         dialog.set_response_appearance("delete", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_close_response("cancel")
         dialog.connect("response", lambda d, r: self.on_delete_response(d, r, service))
-        dialog.show()
+        dialog.present(self.parent_window)
 
     def on_delete_response(
-        self, dialog: Adw.MessageDialog, response: str, service: ServiceInfo
+        self, dialog: Adw.AlertDialog, response: str, service: ServiceInfo
     ) -> None:
         """Handle delete confirmation response."""
         if response == "delete":
             self.config_manager.remove_custom_service(service.port, service.protocol)
             self.refresh_custom_services()
-        dialog.destroy()
 
     def on_clear_all_services(self, button: Gtk.Button) -> None:
         """Handle clear all services button."""
@@ -658,8 +657,7 @@ class ConfigurationView(Gtk.ScrolledWindow):
         if not custom_services:
             return
 
-        dialog = Adw.MessageDialog(
-            transient_for=self.parent_window,
+        dialog = Adw.AlertDialog(
             heading=_("Clear All Custom Services"),
             body=_(
                 "Are you sure you want to delete all custom services? This action cannot be undone."
@@ -668,18 +666,18 @@ class ConfigurationView(Gtk.ScrolledWindow):
         )
         dialog.add_response("cancel", _("Cancel"))
         dialog.add_response("delete", _("Delete"))
-        dialog.set_response_appearance("clear", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_response_appearance("delete", Adw.ResponseAppearance.DESTRUCTIVE)
+        dialog.set_close_response("cancel")
         dialog.connect("response", self.on_clear_all_response)
-        dialog.show()
+        dialog.present(self.parent_window)
 
-    def on_clear_all_response(self, dialog: Adw.MessageDialog, response: str) -> None:
+    def on_clear_all_response(self, dialog: Adw.AlertDialog, response: str) -> None:
         """Handle clear all confirmation response."""
-        if response == "clear":
+        if response == "delete":
             self.config_manager.reset_custom_services()
             # Clear all tracked rows
             self.service_rows.clear()
             self.refresh_custom_services()
-        dialog.destroy()
 
     def on_export_services(self, button: Gtk.Button) -> None:
         """Handle export services using native system dialog."""
@@ -770,11 +768,10 @@ class ConfigurationView(Gtk.ScrolledWindow):
 
     def show_message(self, title: str, message: str) -> None:
         """Show info message dialog."""
-        dialog = Adw.MessageDialog(
-            transient_for=self.parent_window, heading=title, body=message
-        )
+        dialog = Adw.AlertDialog(heading=title, body=message)
         dialog.add_response("ok", _("OK"))
-        dialog.show()
+        dialog.set_close_response("ok")
+        dialog.present(self.parent_window)
 
     # Detection settings callback methods
     def on_ping_timeout_changed(self, spin_row, *args) -> None:

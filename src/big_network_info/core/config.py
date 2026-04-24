@@ -66,26 +66,35 @@ class ConfigManager:
         self.config_dir.mkdir(parents=True, exist_ok=True)
 
     def load_config(self) -> AppConfig:
-        """
-        Load configuration from file.
+        """Load configuration from file, merging with defaults for forward-compat.
 
-        Returns:
-            Loaded configuration or default if file doesn't exist
+        Unknown keys in the saved file are dropped and missing keys fall back to
+        defaults, so adding a new AppConfig field in a future release does not
+        wipe `custom_services` or other user-supplied values.
         """
+        if not self.config_file.exists():
+            logger.debug(
+                "Config file %s doesn't exist, using default", self.config_file
+            )
+            return AppConfig.default()
+
         try:
-            if self.config_file.exists():
-                with open(self.config_file, "r") as f:
-                    data = json.load(f)
-                    logger.debug(f"Loading config from {self.config_file}")
-                    return AppConfig(**data)
-            else:
-                logger.debug(
-                    f"Config file {self.config_file} doesn't exist, using default"
-                )
-                return AppConfig.default()
-        except (json.JSONDecodeError, TypeError, KeyError) as e:
-            # If config is corrupted, return default
-            logger.warning(f"Error loading config: {e}, using default")
+            with open(self.config_file, "r") as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError) as e:
+            logger.warning("Error loading config: %s, using default", e)
+            return AppConfig.default()
+
+        if not isinstance(data, dict):
+            logger.warning("Config root is not an object, using default")
+            return AppConfig.default()
+
+        defaults = asdict(AppConfig.default())
+        merged = {key: data.get(key, defaults[key]) for key in defaults}
+        try:
+            return AppConfig(**merged)
+        except TypeError as e:
+            logger.warning("Config shape mismatch (%s), using default", e)
             return AppConfig.default()
 
     def save_config(self) -> None:

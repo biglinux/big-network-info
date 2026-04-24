@@ -12,8 +12,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 import logging
 
-# Enable debug logging for WiFi scanner
-logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 
 @dataclass

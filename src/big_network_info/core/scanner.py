@@ -911,7 +911,7 @@ class NetworkScanner:
                             and ip in reverse_result.stdout
                         ):
                             return name[:-6]  # Remove .local suffix
-                    except:
+                    except (subprocess.SubprocessError, OSError):
                         continue
 
             except Exception:

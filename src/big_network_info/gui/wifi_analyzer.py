@@ -434,99 +434,6 @@ class SignalStrengthChart(WiFiChart):
             cr.move_to(current_x + 13, current_y + 8)
             cr.show_text(text)
 
-    def _on_mouse_motion(self, controller, x, y):
-        """Handle mouse motion for network name tooltip"""
-        # Convert mouse coordinates to chart coordinates
-        margin_left = 250
-        margin_right = 80
-        margin_top = 30
-        margin_bottom = 60
-
-        width = self.get_width()
-        height = self.get_height()
-        chart_width = width - margin_left - margin_right
-        chart_height = height - margin_top - margin_bottom
-
-        # Check if mouse is within chart area
-        if (
-            margin_left <= x <= margin_left + chart_width
-            and margin_top <= y <= margin_top + chart_height
-        ):
-            # Find closest network line
-            closest_network = self._find_closest_network(
-                x, y, margin_left, margin_top, chart_width, chart_height
-            )
-
-            if closest_network != self.hover_network:
-                self.hover_network = closest_network
-                self.hover_x = x
-                self.hover_y = y
-                self.queue_draw()  # Redraw to show tooltip
-        else:
-            if self.hover_network:
-                self.hover_network = None
-                self.queue_draw()
-
-    def _on_mouse_leave(self, controller):
-        """Handle mouse leaving the chart area"""
-        if self.hover_network:
-            self.hover_network = None
-            self.queue_draw()
-
-    def _find_closest_network(
-        self, mouse_x, mouse_y, chart_x, chart_y, chart_width, chart_height
-    ):
-        """Find the network line closest to the mouse cursor"""
-        if not self.data:
-            return None
-
-        min_distance = float("inf")
-        closest_network = None
-
-        now = datetime.now()
-        start_time = now - timedelta(minutes=self.history_minutes)
-
-        # Check each network
-        sorted_networks = sorted(
-            self.data.items(),
-            key=lambda item: item[1][-1].signal_level if item[1] else 0,
-            reverse=True,
-        )
-
-        networks_to_check = sorted_networks[: self.max_networks]
-
-        for network_key, history in networks_to_check:
-            if not history:
-                continue
-
-            relevant_history = [net for net in history if net.timestamp >= start_time]
-            if len(relevant_history) < 1:
-                continue
-
-            # Check distance to each point in the line
-            for network in relevant_history:
-                time_progress = (network.timestamp - start_time).total_seconds() / (
-                    self.history_minutes * 60
-                )
-                signal_progress = network.signal_level / 100.0
-
-                point_x = chart_x + time_progress * chart_width
-                point_y = chart_y + chart_height - (signal_progress * chart_height)
-
-                # Calculate distance from mouse to this point
-                distance = ((mouse_x - point_x) ** 2 + (mouse_y - point_y) ** 2) ** 0.5
-
-                if distance < min_distance and distance < 20:  # Within 20 pixels
-                    min_distance = distance
-                    # Get display name and BSSID
-                    network_data = history[-1]
-                    if network_data.ssid and network_data.ssid != "Hidden Network":
-                        closest_network = f"{network_data.ssid}\n{network_data.bssid}"
-                    else:
-                        closest_network = f"Hidden Network\n{network_data.bssid}"
-
-        return closest_network
-
     def _draw_tooltip(self, cr, width, height):
         """Draw tooltip showing network name and BSSID on hover"""
         if not self.hover_network:
@@ -608,12 +515,15 @@ class SignalStrengthChart(WiFiChart):
             cr.show_text(line)
 
     def _on_mouse_motion(self, controller, x, y):
-        """Handle mouse motion for network tooltip"""
-        # Convert mouse coordinates to chart coordinates
-        margin_left = 80
-        margin_right = 40
-        margin_top = 40
-        margin_bottom = 80
+        """Handle mouse motion for network tooltip.
+
+        Margins must stay in lockstep with `_on_draw`; mismatched values cause
+        the hit-test area to drift away from the actual plot.
+        """
+        margin_left = 250
+        margin_right = 80
+        margin_top = 30
+        margin_bottom = 60
 
         width = self.get_width()
         height = self.get_height()

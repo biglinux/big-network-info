@@ -3,6 +3,7 @@ Network connectivity diagnostics module.
 Provides comprehensive network connectivity testing with detailed reporting.
 """
 
+import logging
 import subprocess
 import socket
 import requests
@@ -10,10 +11,13 @@ import netifaces
 import threading
 import time
 import concurrent.futures
+from pathlib import Path
 from typing import List, Callable, Optional
 from dataclasses import dataclass
 from enum import Enum
 from ..gui.translation import _
+
+logger = logging.getLogger(__name__)
 
 
 class DiagnosticStatus(Enum):
@@ -333,7 +337,8 @@ class NetworkDiagnostics:
                     )
                     if "state UP" in result.stdout:
                         active_interfaces.append(iface)
-                except:
+                except (subprocess.SubprocessError, OSError) as e:
+                    logger.debug("ip link show failed for %s: %s", iface, e)
                     continue
 
             if active_interfaces:
@@ -362,16 +367,13 @@ class NetworkDiagnostics:
                     continue
 
                 try:
-                    # Check carrier status
-                    result = subprocess.run(
-                        ["cat", f"/sys/class/net/{iface}/carrier"],
-                        capture_output=True,
-                        text=True,
-                        timeout=2,
-                    )
-                    if result.stdout.strip() == "1":
+                    # Interface names from netifaces are trusted; still build the path
+                    # defensively so a weird iface name cannot escape /sys/class/net.
+                    carrier_path = Path("/sys/class/net") / iface / "carrier"
+                    if carrier_path.read_text().strip() == "1":
                         connected_interfaces.append(iface)
-                except:
+                except (OSError, ValueError) as e:
+                    logger.debug("carrier read failed for %s: %s", iface, e)
                     continue
 
             if connected_interfaces:
@@ -501,8 +503,8 @@ class NetworkDiagnostics:
                     for line in f:
                         if line.startswith("nameserver"):
                             dns_servers.append(line.split()[1])
-            except:
-                pass
+            except OSError as e:
+                logger.debug("Could not read /etc/resolv.conf: %s", e)
 
             if not dns_servers:
                 # Try to get DNS from systemd-resolved
@@ -518,8 +520,8 @@ class NetworkDiagnostics:
                             dns_part = line.split("DNS Servers:")[1].strip()
                             if dns_part:
                                 dns_servers.extend(dns_part.split())
-                except:
-                    pass
+                except (subprocess.SubprocessError, OSError, FileNotFoundError) as e:
+                    logger.debug("systemd-resolve unavailable: %s", e)
 
             if not dns_servers:
                 dns_servers = ["Using system default"]
@@ -633,32 +635,25 @@ class NetworkDiagnostics:
 
     def _get_ip_from_service(self, service_url: str, ip_version: int = 4) -> str:
         """Get IP from a specific service for specified IP version."""
+        # For IPv6-specific services or when requesting IPv6
+        if ip_version == 6:
+            if "api.ipify.org" in service_url:
+                service_url = service_url.replace("api.ipify.org", "api6.ipify.org")
+            elif "icanhazip.com" in service_url and "ipv6" not in service_url:
+                service_url = "https://ipv6.icanhazip.com"
+
         try:
-            # Configure requests session for IP version preference
-            session = requests.Session()
-
-            # For IPv6-specific services or when requesting IPv6
-            if ip_version == 6:
-                # Some services have IPv6-specific URLs
-                if "api.ipify.org" in service_url:
-                    service_url = service_url.replace("api.ipify.org", "api6.ipify.org")
-                elif "icanhazip.com" in service_url and "ipv6" not in service_url:
-                    service_url = "https://ipv6.icanhazip.com"
-
-            response = session.get(service_url, timeout=5)
+            response = requests.get(service_url, timeout=(3.05, 5))
             if response.status_code == 200:
                 ip_text = response.text.strip()
-                # Validate that the returned IP matches the requested version
                 if ip_version == 4 and self._is_valid_ipv4(ip_text):
                     return ip_text
-                elif ip_version == 6 and self._is_valid_ipv6(ip_text):
+                if ip_version == 6 and self._is_valid_ipv6(ip_text):
                     return ip_text
-                elif ip_version == 4 and not self._is_valid_ipv6(ip_text):
-                    # For services that might return IPv4 without validation
+                if ip_version == 4 and not self._is_valid_ipv6(ip_text):
                     return ip_text
-
-        except Exception:
-            pass
+        except requests.RequestException as e:
+            logger.debug("IP probe failed for %s: %s", service_url, e)
         return ""
 
     def _test_dns_resolution(self) -> bool:
@@ -690,13 +685,13 @@ class NetworkDiagnostics:
                         continue
 
             if resolved_domains:
-                step.details = _("Resolved:") + " " + ", ".join(resolved_domains)
+                step.details = _("Resolved: {domains}").format(
+                    domains=", ".join(resolved_domains)
+                )
                 return True
             else:
-                step.details = (
-                    _("Failed to resolve any test domains:")
-                    + " "
-                    + ", ".join(test_domains)
+                step.details = _("Failed to resolve any test domains: {domains}").format(
+                    domains=", ".join(test_domains)
                 )
                 return False
 
@@ -727,7 +722,8 @@ class NetworkDiagnostics:
                     if response.status_code in [200, 204]:
                         step.details = _("Internet access confirmed via") + f" {url}"
                         return True
-                except:
+                except requests.RequestException as e:
+                    logger.debug("Internet probe failed for %s: %s", url, e)
                     continue
 
             step.details = _("No internet access detected")
@@ -767,7 +763,8 @@ class NetworkDiagnostics:
                     if response.status_code in [200, 204]:
                         step.details = _("Repository access confirmed") + f" {url}"
                         return True
-                except:
+                except requests.RequestException as e:
+                    logger.debug("Repository probe failed for %s: %s", url, e)
                     continue
 
             step.details = _("Repository access not detected")

@@ -12,8 +12,12 @@ gi.require_version("Gdk", "4.0")
 from gi.repository import Gtk, Adw, Gdk, Gio, GLib
 from .translation import _
 from typing import List, Callable, Optional
+import logging
+import shlex
 import subprocess
 import threading
+
+logger = logging.getLogger(__name__)
 
 from ..core.scanner import ScanResult
 from ..core.services import ServiceInfo
@@ -716,22 +720,22 @@ class ScanResultsView(Gtk.Box):
                 self.export_pdf_callback(self.current_results)
             except Exception as e:
                 # Show error dialog
-                dialog = Adw.MessageDialog.new(
-                    button.get_root(),
+                dialog = Adw.AlertDialog.new(
                     _("Export Failed"),
                     _("Failed to export PDF") + f": {str(e)}",
                 )
                 dialog.add_response("ok", _("OK"))
-                dialog.present()
+                dialog.set_close_response("ok")
+                dialog.present(button.get_root())
         elif not self.current_results:
             # Show no data dialog
-            dialog = Adw.MessageDialog.new(
-                button.get_root(),
+            dialog = Adw.AlertDialog.new(
                 _("No Data"),
                 _("No scan results available to export."),
             )
             dialog.add_response("ok", _("OK"))
-            dialog.present()
+            dialog.set_close_response("ok")
+            dialog.present(button.get_root())
 
     def add_host_indicators(
         self, expander: Adw.ExpanderRow, result: ScanResult
@@ -1018,12 +1022,10 @@ class ScanResultsView(Gtk.Box):
             port: SSH port (default 22)
         """
         # Create dialog
-        dialog = Adw.MessageDialog.new(
-            None,
+        dialog = Adw.AlertDialog.new(
             _("SSH Connection"),
             _("Connect to") + f" {ip}:{port}",
         )
-        dialog.set_modal(True)
 
         # Create content box
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
@@ -1066,15 +1068,15 @@ class ScanResultsView(Gtk.Box):
                     self.open_ssh_terminal_with_user(ip, port, username)
                 else:
                     self.open_ssh_terminal_with_user(ip, port, "root")
-            dialog.destroy()
 
+        dialog.set_close_response("cancel")
         dialog.connect("response", on_response)
 
         # Focus the entry and select all text
         username_entry.grab_focus()
         username_entry.select_region(0, -1)
 
-        dialog.present()
+        dialog.present(self.get_root())
 
     def open_ssh_terminal_with_user(self, ip: str, port: int, username: str) -> None:
         """
@@ -1086,14 +1088,19 @@ class ScanResultsView(Gtk.Box):
             username: SSH username
         """
         try:
+            # Quote arguments passed to shell-interpreting terminals (xfce4-terminal, xterm)
+            quoted_user_host = shlex.quote(f"{username}@{ip}")
+            quoted_port = shlex.quote(str(port))
+            shell_ssh_cmd = f"ssh {quoted_user_host} -p {quoted_port}"
+
             # Try different terminal emulators
             terminals = [
                 ["ptyxis", "--", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["tilix", "-e", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["gnome-terminal", "--", "ssh", f"{username}@{ip}", "-p", str(port)],
                 ["konsole", "-e", "ssh", f"{username}@{ip}", "-p", str(port)],
-                ["xfce4-terminal", "-e", f"ssh {username}@{ip} -p {port}"],
-                ["xterm", "-e", f"ssh {username}@{ip} -p {port}"],
+                ["xfce4-terminal", "-e", shell_ssh_cmd],
+                ["xterm", "-e", shell_ssh_cmd],
             ]
 
             for terminal_cmd in terminals:
@@ -1111,7 +1118,7 @@ class ScanResultsView(Gtk.Box):
                 ssh_command = f"ssh {username}@{ip} -p {port}"
                 self.copy_to_clipboard(ssh_command)
         except Exception as e:
-            print(f"Failed to open SSH terminal: {e}")
+            logger.error("Failed to open SSH terminal: %s", e)
             # Fallback: copy SSH command to clipboard
             ssh_command = f"ssh {username}@{ip} -p {port}"
             self.copy_to_clipboard(ssh_command)
@@ -1125,14 +1132,18 @@ class ScanResultsView(Gtk.Box):
             port: SSH port (default 22)
         """
         try:
+            quoted_user_host = shlex.quote(f"user@{ip}")
+            quoted_port = shlex.quote(str(port))
+            shell_ssh_cmd = f"ssh {quoted_user_host} -p {quoted_port}"
+
             # Try different terminal emulators
             terminals = [
                 ["ptyxis", "--", "ssh", f"user@{ip}", "-p", str(port)],
                 ["tilix", "-e", "ssh", f"user@{ip}", "-p", str(port)],
                 ["gnome-terminal", "--", "ssh", f"user@{ip}", "-p", str(port)],
                 ["konsole", "-e", "ssh", f"user@{ip}", "-p", str(port)],
-                ["xfce4-terminal", "-e", f"ssh user@{ip} -p {port}"],
-                ["xterm", "-e", f"ssh user@{ip} -p {port}"],
+                ["xfce4-terminal", "-e", shell_ssh_cmd],
+                ["xterm", "-e", shell_ssh_cmd],
             ]
 
             for terminal_cmd in terminals:
@@ -1150,7 +1161,7 @@ class ScanResultsView(Gtk.Box):
                 ssh_command = f"ssh user@{ip} -p {port}"
                 self.copy_to_clipboard(ssh_command)
         except Exception as e:
-            print(f"Failed to open SSH terminal: {e}")
+            logger.error("Failed to open SSH terminal: %s", e)
             # Fallback: copy SSH command to clipboard
             ssh_command = f"ssh user@{ip} -p {port}"
             self.copy_to_clipboard(ssh_command)
@@ -1289,11 +1300,13 @@ class ScanResultsView(Gtk.Box):
 
         menu.append_section("Actions", actions_section)
 
-        # Create and show popover
+        # Create and show popover. `set_parent` takes ownership; when the
+        # popover closes it must unparent itself to avoid leaking the widget.
         popover = Gtk.PopoverMenu()
         popover.set_menu_model(menu)
         popover.set_parent(widget)
         popover.set_pointing_to(Gdk.Rectangle(x, y, 1, 1))
+        popover.connect("closed", lambda p: p.unparent())
         popover.popup()
 
     def open_sftp_files(self, ip: str, port: int = 22) -> None:
@@ -1305,10 +1318,9 @@ class ScanResultsView(Gtk.Box):
             port: SSH/SFTP port (default 22)
         """
         # Create dialog for username
-        dialog = Adw.MessageDialog.new(
-            None, _("SFTP Connection"), _("Connect to SFTP at") + f" {ip}:{port}"
+        dialog = Adw.AlertDialog.new(
+            _("SFTP Connection"), _("Connect to SFTP at") + f" {ip}:{port}"
         )
-        dialog.set_modal(True)
 
         # Create content box
         content_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
@@ -1351,15 +1363,15 @@ class ScanResultsView(Gtk.Box):
                     self.open_sftp_with_user(ip, port, username)
                 else:
                     self.open_sftp_with_user(ip, port, "root")
-            dialog.destroy()
 
+        dialog.set_close_response("cancel")
         dialog.connect("response", on_response)
 
         # Focus the entry and select all text
         username_entry.grab_focus()
         username_entry.select_region(0, -1)
 
-        dialog.present()
+        dialog.present(self.get_root())
 
     def open_sftp_with_user(self, ip: str, port: int, username: str) -> None:
         """
@@ -1523,8 +1535,15 @@ class PingDialog(Adw.Window):
         if self.ping_process:
             try:
                 self.ping_process.terminate()
-            except:
-                pass
+                try:
+                    self.ping_process.wait(timeout=2)
+                except subprocess.TimeoutExpired:
+                    self.ping_process.kill()
+                    self.ping_process.wait(timeout=2)
+            except (ProcessLookupError, OSError) as e:
+                logger.debug("Ping process already terminated: %s", e)
+            finally:
+                self.ping_process = None
 
         self.cancel_btn.set_label(_("Start Ping"))
         self.cancel_btn.set_icon_name("media-playback-start-symbolic")
