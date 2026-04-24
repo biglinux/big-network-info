@@ -15,6 +15,1327 @@ msgstr  "Project-Id-Version: big-network-info\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 #
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 27
+msgid   "Channel Usage Details"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 38
+msgid   "Copy WiFi Data"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 71
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 197
+msgid   "Channel"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 72
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 198
+msgid   "Frequency"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 73
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 199
+msgid   "Network Name"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 74
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 200
+msgid   "BSSID"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 75
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 201
+msgid   "Signal"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 76
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 202
+msgid   "Security"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 111
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 113
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1346
+# File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 807
+# File: big-network-info/src/big_network_info/core/scanner.py, line: 291
+msgid   "Unknown"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 122
+# File: big-network-info/src/big_network_info/gui/components.py, line: 920
+msgid   "Open"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 171
+msgid   "Hidden Network"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 266
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1616
+msgid   "Copied!"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 53
+msgid   "Initializing scan..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 59
+msgid   "Please wait while we discover devices on your network"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 155
+msgid   "Discover devices and services on your network\n"
+        "Click 'Start Scan' to begin scanning your local network"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 201
+msgid   "No devices found on the network"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 208
+msgid   "The network range may be empty or devices may be offline.\n"
+        "Try a different network range or check your connection."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 218
+# File: big-network-info/src/big_network_info/gui/components.py, line: 708
+msgid   "Scan Again"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 222
+msgid   "Start a new network scan"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 299
+msgid   "Router/Gateway"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 301
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 477
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 485
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 488
+msgid   "Gateway"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 370
+msgid   "🌐 Network Infrastructure"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 376
+msgid   "🖥️ Devices & Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 382
+msgid   "📱 Active Clients"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 444
+# File: big-network-info/src/big_network_info/core/scanner.py, line: 1473
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 305
+msgid   "Found"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 446
+msgid   "hosts with"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 448
+msgid   "services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 484
+msgid   " (This Computer)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 502
+msgid   "Response"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 530
+msgid   "Device Information"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 535
+msgid   "IP Address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 540
+msgid   "Copy IP address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 552
+msgid   "MAC Address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 557
+msgid   "Copy MAC address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 569
+msgid   "Vendor"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 574
+msgid   "Copy vendor name"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 586
+msgid   "Hostname"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 591
+msgid   "Copy hostname"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 610
+msgid   "Available Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 635
+msgid   "Quick Actions"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 639
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1281
+msgid   "Ping Device"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 640
+msgid   "Test connectivity to"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 646
+msgid   "Ping this device"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 654
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1276
+msgid   "Copy Device Summary"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 655
+msgid   "Copy all device information to clipboard"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 661
+msgid   "Copy device summary"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 692
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 792
+msgid   "← Back"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 701
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 804
+msgid   "Export PDF"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 702
+msgid   "Export scan results to PDF file"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 724
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 715
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 721
+msgid   "Export Failed"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 725
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1331
+msgid   "Failed to export PDF"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 727
+# File: big-network-info/src/big_network_info/gui/components.py, line: 736
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 772
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 361
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1356
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1460
+msgid   "OK"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 733
+msgid   "No Data"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 734
+msgid   "No scan results available to export."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 764
+msgid   "Has web interface"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 771
+msgid   "SSH access available"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 778
+msgid   "File sharing available"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 807
+# File: big-network-info/src/big_network_info/gui/components.py, line: 815
+msgid   "Port"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 816
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 455
+msgid   "Description"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 822
+# File: big-network-info/src/big_network_info/gui/components.py, line: 832
+# File: big-network-info/src/big_network_info/gui/components.py, line: 834
+msgid   "Access"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 826
+msgid   "SSH Terminal"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 829
+msgid   "SFTP Files"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 851
+msgid   "Copy service address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 864
+msgid   "Open in browser: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 877
+msgid   "Open SSH connection in terminal"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 887
+msgid   "Open SFTP in file manager"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 898
+msgid   "Open in file manager: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 909
+msgid   "Open FTP: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1026
+msgid   "SSH Connection"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1027
+msgid   "Connect to"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1038
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1333
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 387
+msgid   "Username:"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1043
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1338
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 392
+msgid   "Enter username (e.g., root, admin, pi)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1049
+msgid   "This will open SSH connection in your terminal"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1059
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1354
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 476
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 639
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 667
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 419
+msgid   "Cancel"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1060
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 420
+msgid   "Connect"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1196
+msgid   "=== Device Summary ==="
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1229
+msgid   "=== Services ==="
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1230
+msgid   "No services detected"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1233
+msgid   "=== Quick Commands ==="
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1240
+msgid   "# Replace <username> with: root, admin, pi, or your username"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1269
+msgid   "Copy IP Address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1271
+msgid   "Copy MAC Address"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1274
+msgid   "Copy Hostname"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1277
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1622
+msgid   "Copy"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1293
+msgid   "Open SSH Terminal"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1297
+msgid   "Open File Share"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1322
+msgid   "SFTP Connection"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1322
+msgid   "Connect to SFTP at"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1344
+msgid   "This will open SFTP connection in your file manager"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1355
+msgid   "Open SFTP"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1414
+msgid   "Ping"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1437
+msgid   "Pinging"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1438
+msgid   "Real-time ping results and statistics"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1442
+msgid   "Status"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1443
+msgid   "Preparing to ping..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1475
+msgid   "Ping Results"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1488
+msgid   "Copy Results"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1494
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1548
+msgid   "Start Ping"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1501
+msgid   "Close"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1516
+msgid   "Stop Ping"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1521
+msgid   "Pinging..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 1557
+msgid   "Ping completed"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 86
+msgid   "Network Diagnostics"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 88
+msgid   "Test your internet connection, DNS servers, network connectivity, "
+        "and analyze WiFi networks"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 93
+msgid   "Device Discovery"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 94
+msgid   "Find all devices on your network with detailed information"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 98
+msgid   "Service Detection"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 99
+msgid   "Identify running services like web servers, SSH, and databases"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 103
+msgid   "Export Reports"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 104
+msgid   "Save detailed scan results and generate professional reports"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 187
+msgid   "Show this welcome screen on startup"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 202
+msgid   "Let's Start"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 75
+msgid   "Host and Service Detection"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 77
+msgid   "Configure timeouts and parallel threads for network scanning."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 82
+msgid   "Ping Timeout"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 83
+msgid   "Time to wait for ping response (seconds)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 99
+msgid   "Ping Attempts"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 100
+msgid   "Number of ping attempts per host"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 115
+msgid   "Hostname Resolution Timeout"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 117
+msgid   "Time to wait for hostname lookup (seconds)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 133
+msgid   "Discovery Threads"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 134
+msgid   "Parallel threads for host discovery"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 151
+msgid   "Port Scan Timeout"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 152
+msgid   "Time to wait for port connection (seconds)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 167
+msgid   "Port Scan Threads"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 168
+msgid   "Parallel threads for port scanning"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 194
+msgid   "Your Custom Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 197
+msgid   "Services you've added for scanning. These will be checked on all "
+        "discovered devices."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 202
+msgid   "Add Service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 208
+msgid   "Clear All"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 220
+msgid   "Standard Network Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 222
+msgid   "Common services that are automatically scanned on all devices."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 246
+msgid   "Service Configuration"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 248
+msgid   "Save your custom services to a file or load services from a backup."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 253
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 686
+msgid   "Export Custom Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 254
+msgid   "Save your custom services to a JSON file"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 256
+msgid   "Export"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 265
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 728
+msgid   "Import Custom Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 266
+msgid   "Load custom services from a JSON file"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 268
+msgid   "Import"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 322
+msgid   "No custom services configured"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 324
+msgid   "Click 'Add Service' to create your first custom service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 369
+msgid   "Edit service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 377
+msgid   "Delete service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 419
+msgid   "Edit Service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 419
+msgid   "Add New Service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 425
+msgid   "Service Name"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 439
+msgid   "Port Number"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 445
+msgid   "Protocol"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 461
+msgid   "Access Method"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 481
+msgid   "Save"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 529
+msgid   "Service name is required"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 532
+msgid   "Port must be between 1 and 65535"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 542
+msgid   "Service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 543
+msgid   "on port"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 544
+msgid   "already exists"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 634
+msgid   "Delete Custom Service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 635
+msgid   "Are you sure you want to delete"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 637
+msgid   "This action cannot be undone."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 640
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 668
+msgid   "Delete"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 661
+msgid   "Clear All Custom Services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 663
+msgid   "Are you sure you want to delete all custom services? This action "
+        "cannot be undone."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 691
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 732
+msgid   "JSON files"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 710
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1353
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1457
+msgid   "Export Successful"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 711
+msgid   "Custom services exported to "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 715
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 721
+msgid   "Failed to export custom services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 752
+msgid   "Import Successful"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 753
+msgid   "Imported "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 753
+msgid   " custom services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 760
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 766
+msgid   "Import Failed"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 760
+# File: big-network-info/src/big_network_info/gui/config_view.py, line: 766
+msgid   "Failed to import custom services"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 75
+msgid   "Big Network Info - Network Scanner"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 98
+msgid   "Diagnostics"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 103
+msgid   "Find Devices"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 107
+msgid   "WiFi Analyzer"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 113
+msgid   "Settings"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 131
+msgid   "Menu"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 135
+msgid   "Show Welcome Screen"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 136
+msgid   "About"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 137
+msgid   "Quit"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 311
+msgid   "Scan failed"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 356
+msgid   "Failed to open service"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 360
+msgid   "Error"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 397
+msgid   "Connection Type:"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 404
+msgid   "SSH Terminal (command line access)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 407
+msgid   "SFTP Files (file manager access)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 486
+msgid   "Failed to open SSH terminal"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 511
+msgid   "Failed to open SFTP"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 522
+msgid   "Network Tools"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 526
+msgid   "Network scanner with modern GTK4 interface"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 556
+msgid   "Please enter a network range to scan"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 641
+msgid   "Quickly check network for common issues."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 653
+msgid   "Start Diagnostics"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 713
+msgid   "Analyzing your network connection step by step"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 761
+msgid   "Preparing diagnostics..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 797
+msgid   "Copy All"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 813
+msgid   "Run Again"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 877
+msgid   "Scan your network to find devices and services."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 887
+# File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 368
+msgid   "Network Range"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 916
+msgid   "Start Scan"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1042
+msgid   "Waiting..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1051
+msgid   "Copy step details"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1101
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1104
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1116
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1120
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1128
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1132
+msgid   "Running: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1104
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1120
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1132
+msgid   "tests"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1112
+msgid   "Completed: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1124
+msgid   "Failed: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1142
+msgid   "Running..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1166
+msgid   "✗ Failed"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1178
+msgid   "⚠ Warning"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1250
+msgid   "✓ All diagnostics completed successfully!"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1256
+msgid   "✓ Completed with "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1256
+msgid   "warning(s)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1262
+msgid   "✗ Completed with"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1262
+msgid   "failure(s)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1275
+msgid   "All checks passed! Your network is healthy 😊"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1280
+msgid   "Completed with "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1282
+msgid   "warning(s). Network looks okay."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1287
+msgid   "issue(s) detected. Review steps below."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1313
+msgid   "Save PDF Report"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1319
+msgid   "PDF files"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1354
+msgid   "PDF report saved to"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1357
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1461
+msgid   "Open File"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1368
+msgid   "Failed to save PDF"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1373
+msgid   "Failed to save file"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1388
+msgid   "Failed to open PDF"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1397
+msgid   "No diagnostics results to export"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1415
+msgid   "Save Diagnostics PDF Report"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1436
+msgid   "Failed to export diagnostics PDF: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1458
+msgid   "Diagnostics report saved to:"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1473
+msgid   "Failed to save diagnostics PDF: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1479
+msgid   "Failed to save file: "
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 799
+msgid   "No WiFi adapter detected"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 163
+msgid   "Scanning for WiFi networks..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 226
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 228
+msgid   "Signal Strength (%)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 232
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 234
+msgid   "Time"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 759
+msgid   "Signal strength (last 2 minutes)"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 797
+msgid   "Ready to scan"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 814
+msgid   "Show hidden networks:"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
+msgid   "Found {} networks"
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 905
+msgid   "Scanning..."
+msgstr  ""
+
+#
+# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 912
+msgid   "Monitoring stopped"
+msgstr  ""
+
+#
 # File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 301
 msgid   "network_scan_report"
 msgstr  ""
@@ -47,14 +1368,6 @@ msgstr  ""
 #
 # File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 358
 msgid   "Not specified"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 368
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 870
-msgid   "Network Range"
 msgstr  ""
 
 #
@@ -173,21 +1486,6 @@ msgid   "Detailed Test Results"
 msgstr  ""
 
 #
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 807
-# File: big-network-info/src/big_network_info/core/scanner.py, line: 291
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1321
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 111
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 113
-msgid   "Unknown"
-msgstr  ""
-
-#
 # File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 810
 msgid   "PASSED"
 msgstr  ""
@@ -251,543 +1549,6 @@ msgstr  ""
 #
 # File: big-network-info/src/big_network_info/utils/pdf_exporter.py, line: 898
 msgid   "Review this test step for potential issues."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 58
-msgid   "List Network Devices"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 59
-msgid   "Discovering available network interfaces"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 61
-msgid   "Ensure network hardware is properly installed and recognized by the "
-        "system"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 65
-msgid   "Check Interface Status"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 66
-msgid   "Verifying network interfaces are active"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 68
-msgid   "Enable network interfaces or check hardware connections"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 72
-msgid   "Check Link Status"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 73
-msgid   "Verifying physical/wireless connection"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 74
-msgid   "Check cable connections or WiFi association"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 77
-msgid   "Check IP Configuration"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 78
-msgid   "Verifying valid IP address assignment"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 80
-msgid   "Configure static IP or check DHCP server availability"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 84
-msgid   "Check Default Route"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 85
-msgid   "Verifying default gateway configuration"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 87
-msgid   "Configure default gateway or check router settings"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 91
-msgid   "Test Gateway Connectivity"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 92
-msgid   "Testing connectivity to default gateway"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 94
-msgid   "Check router/gateway availability and firewall settings"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 98
-msgid   "Check DNS Configuration"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 99
-msgid   "Displaying configured DNS servers"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 101
-msgid   "Configure valid DNS servers (e.g., 8.8.8.8, 1.1.1.1)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 105
-msgid   "Test DNS Resolution"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 106
-msgid   "Testing domain name resolution"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 108
-msgid   "Check DNS server configuration or use alternative DNS servers"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 112
-msgid   "Check External IP"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 113
-msgid   "Determining external IP address"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 115
-msgid   "Check internet connectivity and firewall settings"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 119
-msgid   "Test Internet Access"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 120
-msgid   "Testing web connectivity"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 122
-msgid   "Check firewall settings and proxy configuration"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 126
-msgid   "Test Big repositories"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 127
-msgid   "Testing connectivity to Big Linux repositories"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 129
-msgid   "Check connectivity to Biglinux repositories"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 220
-msgid   "Error during execution:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 284
-msgid   "Error:"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 301
-# File: big-network-info/src/big_network_info/core/scanner.py, line: 1473
-# File: big-network-info/src/big_network_info/gui/components.py, line: 440
-msgid   "Found"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 303
-msgid   "network interfaces"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 308
-msgid   "No valid network interfaces found"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 312
-msgid   "Failed to list network interfaces"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 341
-msgid   "Active interfaces:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 345
-msgid   "No active network interfaces found"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 349
-msgid   "Failed to check interface status"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 379
-msgid   "Connected interfaces:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 383
-msgid   "No connected network interfaces found"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 387
-msgid   "Failed to check link status"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 412
-msgid   "Configured interfaces:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 416
-msgid   "No valid IP addresses configured"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 420
-msgid   "Failed to check IP configuration"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 434
-msgid   "Default gateway:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 436
-msgid   "via"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 441
-msgid   "No default gateway configured"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 445
-msgid   "Failed to check default route"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 456
-msgid   "No default gateway to test"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 475
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 483
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 486
-# File: big-network-info/src/big_network_info/gui/components.py, line: 297
-msgid   "Gateway"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 477
-msgid   "reachable"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 483
-msgid   "is reachable"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 486
-msgid   "is unreachable"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 490
-msgid   "Failed to test gateway connectivity"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 527
-msgid   "Configured DNS servers:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 531
-msgid   "Failed to check DNS configuration:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 608
-msgid   "External IP addresses:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 611
-msgid   "Unable to determine external IP addresses"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 615
-msgid   "Failed to check external IP:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 693
-msgid   "Resolved:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 697
-msgid   "Failed to resolve any test domains:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 704
-msgid   "Failed to test DNS resolution:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 728
-msgid   "Internet access confirmed via"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 733
-msgid   "No internet access detected"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 737
-msgid   "Failed to test internet access:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 768
-msgid   "Repository access confirmed"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 773
-msgid   "Repository access not detected"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 777
-msgid   "Failed to access repository:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 22
-msgid   "Web interface"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 23
-msgid   "Secure web interface"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 24
-msgid   "Alternative HTTP port"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 25
-msgid   "Alternative HTTPS port"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 26
-msgid   "File Transfer Protocol"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 27
-msgid   "Secure Shell/SFTP"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 28
-msgid   "FTP over SSL"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 29
-msgid   "Alternative FTP port"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 30
-msgid   "Alternative SFTP/SSH port"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 31
-msgid   "File sharing protocol"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 32
-msgid   "NetBIOS Session Service"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 33
-msgid   "Unencrypted remote access"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 34
-msgid   "Remote Desktop Protocol"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 35
-msgid   "Virtual Network Computing"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 36
-msgid   "Mail service"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 37
-msgid   "Mail retrieval"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 38
-msgid   "Mail access"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 39
-msgid   "Secure SMTP"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 40
-msgid   "Secure IMAP"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 41
-msgid   "Secure POP3"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 42
-msgid   "Android Debug Bridge"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 43
-msgid   "Mobile/development server"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 44
-msgid   "Mobile/development HTTPS"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 45
-msgid   "Node.js development server"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 46
-msgid   "React development server"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 47
-msgid   "Flask development server"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 48
-msgid   "Django development server"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 49
-msgid   "MQTT messaging protocol"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 50
-msgid   "Secure MQTT (MQTTS)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 51
-msgid   "MySQL database"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 52
-msgid   "PostgreSQL database"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 53
-msgid   "MongoDB database"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/core/services.py, line: 54
-msgid   "Redis cache"
 msgstr  ""
 
 #
@@ -962,1278 +1723,519 @@ msgid   "hosts"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 49
-msgid   "Initializing scan..."
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 62
+msgid   "List Network Devices"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 55
-msgid   "Please wait while we discover devices on your network"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 63
+msgid   "Discovering available network interfaces"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 151
-msgid   "Discover devices and services on your network\n"
-        "Click 'Start Scan' to begin scanning your local network"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 65
+msgid   "Ensure network hardware is properly installed and recognized by the "
+        "system"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 197
-msgid   "No devices found on the network"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 69
+msgid   "Check Interface Status"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 204
-msgid   "The network range may be empty or devices may be offline.\n"
-        "Try a different network range or check your connection."
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 70
+msgid   "Verifying network interfaces are active"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 214
-# File: big-network-info/src/big_network_info/gui/components.py, line: 704
-msgid   "Scan Again"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 72
+msgid   "Enable network interfaces or check hardware connections"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 218
-msgid   "Start a new network scan"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 76
+msgid   "Check Link Status"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 295
-msgid   "Router/Gateway"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 77
+msgid   "Verifying physical/wireless connection"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 366
-msgid   "🌐 Network Infrastructure"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 78
+msgid   "Check cable connections or WiFi association"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 372
-msgid   "🖥️ Devices & Services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 81
+msgid   "Check IP Configuration"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 378
-msgid   "📱 Active Clients"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 82
+msgid   "Verifying valid IP address assignment"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 442
-msgid   "hosts with"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 84
+msgid   "Configure static IP or check DHCP server availability"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 444
-msgid   "services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 88
+msgid   "Check Default Route"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 480
-msgid   " (This Computer)"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 89
+msgid   "Verifying default gateway configuration"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-msgid   "Response"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 91
+msgid   "Configure default gateway or check router settings"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 526
-msgid   "Device Information"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 95
+msgid   "Test Gateway Connectivity"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 531
-msgid   "IP Address"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 96
+msgid   "Testing connectivity to default gateway"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 536
-msgid   "Copy IP address"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 98
+msgid   "Check router/gateway availability and firewall settings"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 548
-msgid   "MAC Address"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 102
+msgid   "Check DNS Configuration"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 553
-msgid   "Copy MAC address"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 103
+msgid   "Displaying configured DNS servers"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 565
-msgid   "Vendor"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 105
+msgid   "Configure valid DNS servers (e.g., 8.8.8.8, 1.1.1.1)"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 570
-msgid   "Copy vendor name"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 109
+msgid   "Test DNS Resolution"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 582
-msgid   "Hostname"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 110
+msgid   "Testing domain name resolution"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 587
-msgid   "Copy hostname"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 112
+msgid   "Check DNS server configuration or use alternative DNS servers"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 606
-msgid   "Available Services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 116
+msgid   "Check External IP"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 631
-msgid   "Quick Actions"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 117
+msgid   "Determining external IP address"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 635
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1270
-msgid   "Ping Device"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 119
+msgid   "Check internet connectivity and firewall settings"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 636
-msgid   "Test connectivity to"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 123
+msgid   "Test Internet Access"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 642
-msgid   "Ping this device"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 124
+msgid   "Testing web connectivity"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 650
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1265
-msgid   "Copy Device Summary"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 126
+msgid   "Check firewall settings and proxy configuration"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 651
-msgid   "Copy all device information to clipboard"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 130
+msgid   "Test Big repositories"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/components.py, line: 657
-msgid   "Copy device summary"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 131
+msgid   "Testing connectivity to Big Linux repositories"
 msgstr  ""
 
 #
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 688
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 775
-msgid   "← Back"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 697
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 787
-msgid   "Export PDF"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 698
-msgid   "Export scan results to PDF file"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 721
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 717
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 723
-msgid   "Export Failed"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 722
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1306
-msgid   "Failed to export PDF"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 724
-# File: big-network-info/src/big_network_info/gui/components.py, line: 733
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 344
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1332
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1433
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 776
-msgid   "OK"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 730
-msgid   "No Data"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 731
-msgid   "No scan results available to export."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 760
-msgid   "Has web interface"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 767
-msgid   "SSH access available"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 774
-msgid   "File sharing available"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 803
-# File: big-network-info/src/big_network_info/gui/components.py, line: 811
-msgid   "Port"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 812
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 455
-msgid   "Description"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 818
-# File: big-network-info/src/big_network_info/gui/components.py, line: 828
-# File: big-network-info/src/big_network_info/gui/components.py, line: 830
-msgid   "Access"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 822
-msgid   "SSH Terminal"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 825
-msgid   "SFTP Files"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 847
-msgid   "Copy service address"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 860
-msgid   "Open in browser: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 873
-msgid   "Open SSH connection in terminal"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 883
-msgid   "Open SFTP in file manager"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 894
-msgid   "Open in file manager: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 905
-msgid   "Open FTP: "
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 916
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 122
-msgid   "Open"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1023
-msgid   "SSH Connection"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1024
-msgid   "Connect to"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1036
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1321
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 369
-msgid   "Username:"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1041
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1326
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 374
-msgid   "Enter username (e.g., root, admin, pi)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1047
-msgid   "This will open SSH connection in your terminal"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1057
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1342
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 401
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 476
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 640
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 669
-msgid   "Cancel"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1058
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 402
-msgid   "Connect"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1185
-msgid   "=== Device Summary ==="
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1218
-msgid   "=== Services ==="
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1219
-msgid   "No services detected"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1222
-msgid   "=== Quick Commands ==="
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1229
-msgid   "# Replace <username> with: root, admin, pi, or your username"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1258
-msgid   "Copy IP Address"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1260
-msgid   "Copy MAC Address"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1263
-msgid   "Copy Hostname"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1266
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1603
-msgid   "Copy"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1282
-msgid   "Open SSH Terminal"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1286
-msgid   "Open File Share"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1309
-msgid   "SFTP Connection"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1309
-msgid   "Connect to SFTP at"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1332
-msgid   "This will open SFTP connection in your file manager"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1343
-msgid   "Open SFTP"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1402
-msgid   "Ping"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1425
-msgid   "Pinging"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1426
-msgid   "Real-time ping results and statistics"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1430
-msgid   "Status"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1431
-msgid   "Preparing to ping..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1463
-msgid   "Ping Results"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1476
-msgid   "Copy Results"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1482
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1529
-msgid   "Start Ping"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1489
-msgid   "Close"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1504
-msgid   "Stop Ping"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1509
-msgid   "Pinging..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1538
-msgid   "Ping completed"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/components.py, line: 1597
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 266
-msgid   "Copied!"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
-msgid   "No WiFi adapter detected"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 163
-msgid   "Scanning for WiFi networks..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 226
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 228
-msgid   "Signal Strength (%)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 232
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 234
-msgid   "Time"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 849
-msgid   "Signal strength (last 2 minutes)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 887
-msgid   "Ready to scan"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 904
-msgid   "Show hidden networks:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 979
-msgid   "Found {} networks"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 995
-msgid   "Scanning..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 1002
-msgid   "Monitoring stopped"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 75
-msgid   "Big Network Info - Network Scanner"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 98
-msgid   "Diagnostics"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 103
-msgid   "Find Devices"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 107
-msgid   "WiFi Analyzer"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 113
-msgid   "Settings"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 131
-msgid   "Menu"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 135
-msgid   "Show Welcome Screen"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 136
-msgid   "About"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 137
-msgid   "Quit"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 292
-msgid   "Scan failed"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 337
-msgid   "Failed to open service"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 342
-msgid   "Error"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 379
-msgid   "Connection Type:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 386
-msgid   "SSH Terminal (command line access)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 389
-msgid   "SFTP Files (file manager access)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 468
-msgid   "Failed to open SSH terminal"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 493
-msgid   "Failed to open SFTP"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 505
-msgid   "Network Tools"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 509
-msgid   "Network scanner with modern GTK4 interface"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 539
-msgid   "Please enter a network range to scan"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 624
-msgid   "Quickly check network for common issues."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 636
-msgid   "Start Diagnostics"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 696
-msgid   "Analyzing your network connection step by step"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 744
-msgid   "Preparing diagnostics..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 780
-msgid   "Copy All"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 796
-msgid   "Run Again"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 860
-msgid   "Scan your network to find devices and services."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 891
-msgid   "Start Scan"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1017
-msgid   "Waiting..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1026
-msgid   "Copy step details"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1076
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1079
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1091
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1095
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1103
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1107
-msgid   "Running: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1079
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1095
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1107
-msgid   "tests"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1087
-msgid   "Completed: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1099
-msgid   "Failed: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1117
-msgid   "Running..."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1141
-msgid   "✗ Failed"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1153
-msgid   "⚠ Warning"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1225
-msgid   "✓ All diagnostics completed successfully!"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1231
-msgid   "✓ Completed with "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1231
-msgid   "warning(s)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1237
-msgid   "✗ Completed with"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1237
-msgid   "failure(s)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1250
-msgid   "All checks passed! Your network is healthy 😊"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1255
-msgid   "Completed with "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1257
-msgid   "warning(s). Network looks okay."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1262
-msgid   "issue(s) detected. Review steps below."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1288
-msgid   "Save PDF Report"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1294
-msgid   "PDF files"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1329
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1430
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 712
-msgid   "Export Successful"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1330
-msgid   "PDF report saved to"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1333
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1434
-msgid   "Open File"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1343
-msgid   "Failed to save PDF"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1348
-msgid   "Failed to save file"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1359
-msgid   "Failed to open PDF"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1369
-msgid   "No diagnostics results to export"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1387
-msgid   "Save Diagnostics PDF Report"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1408
-msgid   "Failed to export diagnostics PDF: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1431
-msgid   "Diagnostics report saved to:"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1445
-msgid   "Failed to save diagnostics PDF: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/main_window.py, line: 1451
-msgid   "Failed to save file: "
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 75
-msgid   "Host and Service Detection"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 77
-msgid   "Configure timeouts and parallel threads for network scanning."
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 82
-msgid   "Ping Timeout"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 83
-msgid   "Time to wait for ping response (seconds)"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 99
-msgid   "Ping Attempts"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 100
-msgid   "Number of ping attempts per host"
-msgstr  ""
-
-#
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 115
-msgid   "Hostname Resolution Timeout"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 133
+msgid   "Check connectivity to Biglinux repositories"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 117
-msgid   "Time to wait for hostname lookup (seconds)"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 224
+msgid   "Error during execution:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 133
-msgid   "Discovery Threads"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 288
+msgid   "Error:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 134
-msgid   "Parallel threads for host discovery"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 307
+msgid   "network interfaces"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 151
-msgid   "Port Scan Timeout"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 312
+msgid   "No valid network interfaces found"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 152
-msgid   "Time to wait for port connection (seconds)"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 316
+msgid   "Failed to list network interfaces"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 167
-msgid   "Port Scan Threads"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 346
+msgid   "Active interfaces:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 168
-msgid   "Parallel threads for port scanning"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 350
+msgid   "No active network interfaces found"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 194
-msgid   "Your Custom Services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 354
+msgid   "Failed to check interface status"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 197
-msgid   "Services you've added for scanning. These will be checked on all "
-        "discovered devices."
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 381
+msgid   "Connected interfaces:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 202
-msgid   "Add Service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 385
+msgid   "No connected network interfaces found"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 208
-msgid   "Clear All"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 389
+msgid   "Failed to check link status"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 220
-msgid   "Standard Network Services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 414
+msgid   "Configured interfaces:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 222
-msgid   "Common services that are automatically scanned on all devices."
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 418
+msgid   "No valid IP addresses configured"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 246
-msgid   "Service Configuration"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 422
+msgid   "Failed to check IP configuration"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 248
-msgid   "Save your custom services to a file or load services from a backup."
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 436
+msgid   "Default gateway:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 253
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 688
-msgid   "Export Custom Services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 438
+msgid   "via"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 254
-msgid   "Save your custom services to a JSON file"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 443
+msgid   "No default gateway configured"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 256
-msgid   "Export"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 447
+msgid   "Failed to check default route"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 265
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 730
-msgid   "Import Custom Services"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 458
+msgid   "No default gateway to test"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 266
-msgid   "Load custom services from a JSON file"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 479
+msgid   "reachable"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 268
-msgid   "Import"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 485
+msgid   "is reachable"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 322
-msgid   "No custom services configured"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 488
+msgid   "is unreachable"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 324
-msgid   "Click 'Add Service' to create your first custom service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 492
+msgid   "Failed to test gateway connectivity"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 369
-msgid   "Edit service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 529
+msgid   "Configured DNS servers:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 377
-msgid   "Delete service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 533
+msgid   "Failed to check DNS configuration:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 419
-msgid   "Edit Service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 610
+msgid   "External IP addresses:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 419
-msgid   "Add New Service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 613
+msgid   "Unable to determine external IP addresses"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 425
-msgid   "Service Name"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 617
+msgid   "Failed to check external IP:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 439
-msgid   "Port Number"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 688
+#, python-brace-format
+msgid   "Resolved: {domains}"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 445
-msgid   "Protocol"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 693
+#, python-brace-format
+msgid   "Failed to resolve any test domains: {domains}"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 461
-msgid   "Access Method"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 699
+msgid   "Failed to test DNS resolution:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 481
-msgid   "Save"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 723
+msgid   "Internet access confirmed via"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 529
-msgid   "Service name is required"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 729
+msgid   "No internet access detected"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 532
-msgid   "Port must be between 1 and 65535"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 733
+msgid   "Failed to test internet access:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 542
-msgid   "Service"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 764
+msgid   "Repository access confirmed"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 543
-msgid   "on port"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 770
+msgid   "Repository access not detected"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 544
-msgid   "already exists"
+# File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 774
+msgid   "Failed to access repository:"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 635
-msgid   "Delete Custom Service"
+# File: big-network-info/src/big_network_info/core/services.py, line: 22
+msgid   "Web interface"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 636
-msgid   "Are you sure you want to delete"
+# File: big-network-info/src/big_network_info/core/services.py, line: 23
+msgid   "Secure web interface"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 638
-msgid   "This action cannot be undone."
+# File: big-network-info/src/big_network_info/core/services.py, line: 24
+msgid   "Alternative HTTP port"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 641
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 670
-msgid   "Delete"
+# File: big-network-info/src/big_network_info/core/services.py, line: 25
+msgid   "Alternative HTTPS port"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 663
-msgid   "Clear All Custom Services"
+# File: big-network-info/src/big_network_info/core/services.py, line: 26
+msgid   "File Transfer Protocol"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 665
-msgid   "Are you sure you want to delete all custom services? This action "
-        "cannot be undone."
+# File: big-network-info/src/big_network_info/core/services.py, line: 27
+msgid   "Secure Shell/SFTP"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 693
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 734
-msgid   "JSON files"
+# File: big-network-info/src/big_network_info/core/services.py, line: 28
+msgid   "FTP over SSL"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 713
-msgid   "Custom services exported to "
+# File: big-network-info/src/big_network_info/core/services.py, line: 29
+msgid   "Alternative FTP port"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 717
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 723
-msgid   "Failed to export custom services"
+# File: big-network-info/src/big_network_info/core/services.py, line: 30
+msgid   "Alternative SFTP/SSH port"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 754
-msgid   "Import Successful"
+# File: big-network-info/src/big_network_info/core/services.py, line: 31
+msgid   "File sharing protocol"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 755
-msgid   "Imported "
+# File: big-network-info/src/big_network_info/core/services.py, line: 32
+msgid   "NetBIOS Session Service"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 755
-msgid   " custom services"
+# File: big-network-info/src/big_network_info/core/services.py, line: 33
+msgid   "Unencrypted remote access"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 762
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 768
-msgid   "Import Failed"
+# File: big-network-info/src/big_network_info/core/services.py, line: 34
+msgid   "Remote Desktop Protocol"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 762
-# File: big-network-info/src/big_network_info/gui/config_view.py, line: 768
-msgid   "Failed to import custom services"
+# File: big-network-info/src/big_network_info/core/services.py, line: 35
+msgid   "Virtual Network Computing"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 86
-msgid   "Network Diagnostics"
+# File: big-network-info/src/big_network_info/core/services.py, line: 36
+msgid   "Mail service"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 88
-msgid   "Test your internet connection, DNS servers, network connectivity, "
-        "and analyze WiFi networks"
+# File: big-network-info/src/big_network_info/core/services.py, line: 37
+msgid   "Mail retrieval"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 93
-msgid   "Device Discovery"
+# File: big-network-info/src/big_network_info/core/services.py, line: 38
+msgid   "Mail access"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 94
-msgid   "Find all devices on your network with detailed information"
+# File: big-network-info/src/big_network_info/core/services.py, line: 39
+msgid   "Secure SMTP"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 98
-msgid   "Service Detection"
+# File: big-network-info/src/big_network_info/core/services.py, line: 40
+msgid   "Secure IMAP"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 99
-msgid   "Identify running services like web servers, SSH, and databases"
+# File: big-network-info/src/big_network_info/core/services.py, line: 41
+msgid   "Secure POP3"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 103
-msgid   "Export Reports"
+# File: big-network-info/src/big_network_info/core/services.py, line: 42
+msgid   "Android Debug Bridge"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 104
-msgid   "Save detailed scan results and generate professional reports"
+# File: big-network-info/src/big_network_info/core/services.py, line: 43
+msgid   "Mobile/development server"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 187
-msgid   "Show this welcome screen on startup"
+# File: big-network-info/src/big_network_info/core/services.py, line: 44
+msgid   "Mobile/development HTTPS"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/welcome_screen.py, line: 202
-msgid   "Let's Start"
+# File: big-network-info/src/big_network_info/core/services.py, line: 45
+msgid   "Node.js development server"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 27
-msgid   "Channel Usage Details"
+# File: big-network-info/src/big_network_info/core/services.py, line: 46
+msgid   "React development server"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 38
-msgid   "Copy WiFi Data"
+# File: big-network-info/src/big_network_info/core/services.py, line: 47
+msgid   "Flask development server"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 71
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 197
-msgid   "Channel"
+# File: big-network-info/src/big_network_info/core/services.py, line: 48
+msgid   "Django development server"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 72
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 198
-msgid   "Frequency"
+# File: big-network-info/src/big_network_info/core/services.py, line: 49
+msgid   "MQTT messaging protocol"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 73
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 199
-msgid   "Network Name"
+# File: big-network-info/src/big_network_info/core/services.py, line: 50
+msgid   "Secure MQTT (MQTTS)"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 74
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 200
-msgid   "BSSID"
+# File: big-network-info/src/big_network_info/core/services.py, line: 51
+msgid   "MySQL database"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 75
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 201
-msgid   "Signal"
+# File: big-network-info/src/big_network_info/core/services.py, line: 52
+msgid   "PostgreSQL database"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 76
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 202
-msgid   "Security"
+# File: big-network-info/src/big_network_info/core/services.py, line: 53
+msgid   "MongoDB database"
 msgstr  ""
 
 #
-# File: big-network-info/src/big_network_info/gui/channel_table.py, line: 171
-msgid   "Hidden Network"
+# File: big-network-info/src/big_network_info/core/services.py, line: 54
+msgid   "Redis cache"
 msgstr  ""
