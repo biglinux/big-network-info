@@ -754,7 +754,7 @@ class NetworkDiagnostics:
                 ]
             else:
                 test_urls = [
-                    "https://repo.biglinux.com.br",
+                    "https://packages.biglinux.com.br",
                 ]
 
             for url in test_urls:
