@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the big-network-info package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: big-network-info\n"
@@ -14,329 +14,141 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 27
 msgid "Channel Usage Details"
 msgstr "פרטי שימוש בערוץ"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 38
 msgid "Copy WiFi Data"
 msgstr "העתק נתוני WiFi"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 71
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 197
 msgid "Channel"
 msgstr "ערוץ"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 72
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 198
 msgid "Frequency"
 msgstr "תדירות"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 73
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 199
 msgid "Network Name"
 msgstr "שם הרשת"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 74
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 200
 msgid "BSSID"
 msgstr "BSSID"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 75
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 201
 msgid "Signal"
 msgstr "סיגנל"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 76
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 202
 msgid "Security"
 msgstr "אבטחה"
-# 
+
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 795
 # File: big-network-info/src/core/scanner.py, line: 291
 msgid "Unknown"
 msgstr "לא ידוע"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 917
 msgid "Open"
 msgstr "פתח"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/channel_table.py, line: 171
 msgid "Hidden Network"
 msgstr "רשת מוסתרת"
-# 
+
+#
 # File: big-network-info/src/gui/components.py, line: 1615
 msgid "Copied!"
 msgstr "הועתק!"
-# 
-# File: big-network-info/src/gui/components.py, line: 50
-msgid "Initializing scan..."
-msgstr "מאתחל סריקה..."
-# 
-# File: big-network-info/src/gui/components.py, line: 56
-msgid "Please wait while we discover devices on your network"
-msgstr "אנא המתן enquanto אנו מגלים מכשירים ברשת שלך"
-# 
-# File: big-network-info/src/gui/components.py, line: 152
-msgid ""
-"Discover devices and services on your network\n"
-"Click 'Start Scan' to begin scanning your local network"
-msgstr ""
-"גלה מכשירים ושירותים ברשת שלך  \n"
-"לחץ על 'התחל סריקה' כדי להתחיל לסרוק את הרשת המקומית שלך"
-# 
-# File: big-network-info/src/gui/components.py, line: 198
-msgid "No devices found on the network"
-msgstr "לא נמצאו מכשירים ברשת"
-# 
-# File: big-network-info/src/gui/components.py, line: 205
-msgid ""
-"The network range may be empty or devices may be offline.\n"
-"Try a different network range or check your connection."
-msgstr ""
-"טווח הרשת עשוי להיות ריק או שהמכשירים עשויים להיות לא מחוברים.  \n"
-"נסה טווח רשת שונה או בדוק את החיבור שלך."
-# 
-# File: big-network-info/src/gui/components.py, line: 215
-# File: big-network-info/src/gui/components.py, line: 705
-msgid "Scan Again"
-msgstr "סרוק שוב"
-# 
-# File: big-network-info/src/gui/components.py, line: 219
-msgid "Start a new network scan"
-msgstr "התחל סריקת רשת חדשה"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 296
-msgid "Router/Gateway"
-msgstr "נתב/שער"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
-msgid "Gateway"
-msgstr "שער"
-# 
-# File: big-network-info/src/gui/components.py, line: 367
-msgid "🌐 Network Infrastructure"
-msgstr "תשתית רשת"
-# 
-# File: big-network-info/src/gui/components.py, line: 373
-msgid "🖥️ Devices & Services"
-msgstr "🖥️ מכשירים ושירותים"
-# 
-# File: big-network-info/src/gui/components.py, line: 379
-msgid "📱 Active Clients"
-msgstr "לקוחות פעילים"
-# 
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 73
+msgid "Big Network Info - Network Scanner"
+msgstr "מידע רשת גדול - סורק רשת"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 90
+msgid "Diagnostics"
+msgstr "אבחון"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 95
+msgid "Find Devices"
+msgstr "מצא מכשירים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
+msgid "WiFi Analyzer"
+msgstr "אנליזר WiFi"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 99
+msgid "Settings"
+msgstr "הגדרות"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 116
+msgid "Menu"
+msgstr "תפריט"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 120
+msgid "Show Welcome Screen"
+msgstr "הצג מסך ברוך הבא"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 121
+msgid "About"
+msgstr "אודות"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 122
+msgid "Quit"
+msgstr "צא"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 274
+msgid "Scan failed"
+msgstr "סריקה נכשלה"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 319
+msgid "Failed to open service"
+msgstr "נכשל בפתיחת שירות"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 324
+msgid "Error"
+msgstr "שגיאה"
+
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
-msgid "Found"
-msgstr "נמצא"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 443
-msgid "hosts with"
-msgstr "מארחים עם"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 445
-msgid "services"
-msgstr "שירותים"
-# 
-# File: big-network-info/src/gui/components.py, line: 479
-msgid " (This Computer)"
-msgstr "(המחשב הזה)"
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 502
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 502
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-# 
-# File: big-network-info/src/big_network_info/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
-# 
-# File: big-network-info/src/gui/components.py, line: 527
-msgid "Device Information"
-msgstr "מידע על המכשיר"
-# 
-# File: big-network-info/src/gui/components.py, line: 532
-msgid "IP Address"
-msgstr "כתובת IP"
-# 
-# File: big-network-info/src/gui/components.py, line: 537
-msgid "Copy IP address"
-msgstr "העתק כתובת IP"
-# 
-# File: big-network-info/src/gui/components.py, line: 549
-msgid "MAC Address"
-msgstr "כתובת MAC"
-# 
-# File: big-network-info/src/gui/components.py, line: 554
-msgid "Copy MAC address"
-msgstr "העתק כתובת MAC"
-# 
-# File: big-network-info/src/gui/components.py, line: 566
-msgid "Vendor"
-msgstr "ספק"
-# 
-# File: big-network-info/src/gui/components.py, line: 571
-msgid "Copy vendor name"
-msgstr "העתק שם ספק"
-# 
-# File: big-network-info/src/gui/components.py, line: 583
-msgid "Hostname"
-msgstr "שם המחשב"
-# 
-# File: big-network-info/src/gui/components.py, line: 588
-msgid "Copy hostname"
-msgstr "העתק שם מארח"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 607
-msgid "Available Services"
-msgstr "שירותים זמינים"
-# 
-# File: big-network-info/src/gui/components.py, line: 632
-msgid "Quick Actions"
-msgstr "פעולות מהירות"
-# 
-# File: big-network-info/src/gui/components.py, line: 636
-msgid "Ping Device"
-msgstr "פינג מכשיר"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 637
-msgid "Test connectivity to"
-msgstr "בדוק חיבור ל"
-# 
-# File: big-network-info/src/gui/components.py, line: 643
-msgid "Ping this device"
-msgstr "פינג למכשיר הזה"
-# 
-# File: big-network-info/src/gui/components.py, line: 651
-msgid "Copy Device Summary"
-msgstr "העתק סיכום מכשיר"
-# 
-# File: big-network-info/src/gui/components.py, line: 652
-msgid "Copy all device information to clipboard"
-msgstr "העתק את כל המידע על המכשיר ללוח."
-# 
-# File: big-network-info/src/gui/components.py, line: 658
-msgid "Copy device summary"
-msgstr "העתק סיכום מכשיר"
-# 
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/src/gui/components.py, line: 689
-# File: big-network-info/src/gui/main_window.py, line: 752
-msgid "← Back"
-msgstr "← חזור"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/src/gui/components.py, line: 698
-# File: big-network-info/src/gui/main_window.py, line: 757
-msgid "Export PDF"
-msgstr "ייצוא PDF"
-# 
-# File: big-network-info/src/gui/components.py, line: 699
-msgid "Export scan results to PDF file"
-msgstr "ייצא את תוצאות הסריקה לקובץ PDF"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/src/gui/config_view.py, line: 737
-# File: big-network-info/src/gui/config_view.py, line: 743
-# File: big-network-info/src/gui/components.py, line: 722
-msgid "Export Failed"
-msgstr "ייצוא נכשל"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 723
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1243
-msgid "Failed to export PDF"
-msgstr "נכשל ביצוא PDF"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
@@ -345,690 +157,157 @@ msgstr "נכשל ביצוא PDF"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 msgid "OK"
 msgstr "אוקי"
-# 
+
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1281
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1281
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/src/gui/components.py, line: 725
-# File: big-network-info/src/gui/components.py, line: 734
-# File: big-network-info/src/gui/main_window.py, line: 1281
-# File: big-network-info/src/gui/main_window.py, line: 1388
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/src/gui/components.py, line: 725
-# File: big-network-info/src/gui/components.py, line: 734
-# File: big-network-info/src/gui/main_window.py, line: 1281
-# File: big-network-info/src/gui/main_window.py, line: 1388
-# 
-# File: big-network-info/src/gui/components.py, line: 731
-msgid "No Data"
-msgstr "אין נתונים"
-# 
-# File: big-network-info/src/gui/components.py, line: 732
-msgid "No scan results available to export."
-msgstr "אין תוצאות סריקה זמינות לייצוא."
-# 
-# File: big-network-info/src/gui/components.py, line: 761
-msgid "Has web interface"
-msgstr "יש ממשק אינטרנט"
-# 
-# File: big-network-info/src/gui/components.py, line: 768
-msgid "SSH access available"
-msgstr "גישה ל-SSH זמינה"
-# 
-# File: big-network-info/src/gui/components.py, line: 775
-msgid "File sharing available"
-msgstr "שיתוף קבצים זמין"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 804
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 812
-msgid "Port"
-msgstr "פורט"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 480
-msgid "Description"
-msgstr "תיאור"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 819
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 829
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 831
-msgid "Access"
-msgstr "גישה"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 823
-msgid "SSH Terminal"
-msgstr "טרמינל SSH"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 826
-msgid "SFTP Files"
-msgstr "קבצי SFTP"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 848
-msgid "Copy service address"
-msgstr "העתק כתובת שירות"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 861
-msgid "Open in browser: "
-msgstr "פתח בדפדפן:"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 874
-msgid "Open SSH connection in terminal"
-msgstr "פתח חיבור SSH בטרמינל"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 884
-msgid "Open SFTP in file manager"
-msgstr "פתח SFTP במנהל הקבצים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 895
-msgid "Open in file manager: "
-msgstr "פתח במנהל הקבצים:"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 906
-msgid "Open FTP: "
-msgstr "פתח FTP:"
-# 
-# File: big-network-info/src/gui/components.py, line: 1041
-msgid "SSH Connection"
-msgstr "חיבור SSH"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1025
-msgid "Connect to"
-msgstr "התחבר ל"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # File: big-network-info/src/gui/components.py, line: 1054
 # File: big-network-info/src/gui/components.py, line: 1335
 # File: big-network-info/src/gui/main_window.py, line: 351
 msgid "Username:"
 msgstr "שם משתמש:"
-# 
+
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # File: big-network-info/src/gui/components.py, line: 1059
 # File: big-network-info/src/gui/components.py, line: 1340
 # File: big-network-info/src/gui/main_window.py, line: 356
 msgid "Enter username (e.g., root, admin, pi)"
 msgstr "הזן שם משתמש (למשל, root, admin, pi)"
-# 
-# File: big-network-info/src/gui/components.py, line: 1065
-msgid "This will open SSH connection in your terminal"
-msgstr "זה יפתח חיבור SSH בטרמינל שלך"
-# 
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 361
+msgid "Connection Type:"
+msgstr "סוג חיבור:"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 368
+msgid "SSH Terminal (command line access)"
+msgstr "טרמינל SSH (גישה דרך שורת הפקודה)"
+
+#
+# File: big-network-info/src/gui/main_window.py, line: 371
+msgid "SFTP Files (file manager access)"
+msgstr "קבצי SFTP (גישה למנהל קבצים)"
+
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # File: big-network-info/src/gui/config_view.py, line: 501
 # File: big-network-info/src/gui/components.py, line: 1075
 # File: big-network-info/src/gui/components.py, line: 1356
 # File: big-network-info/src/gui/main_window.py, line: 383
 msgid "Cancel"
 msgstr "ביטול"
-# 
+
+#
 # #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
+#
 # File: big-network-info/src/gui/components.py, line: 1076
 # File: big-network-info/src/gui/main_window.py, line: 384
 msgid "Connect"
 msgstr "חבר"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1186
-msgid "=== Device Summary ==="
-msgstr "=== סיכום מכשיר ==="
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
-msgid "=== Services ==="
-msgstr "=== שירותים ==="
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
-msgid "No services detected"
-msgstr "לא זוהו שירותים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
-msgid "=== Quick Commands ==="
-msgstr "=== פקודות מהירות ==="
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230
-msgid "# Replace <username> with: root, admin, pi, or your username"
-msgstr "# החלף <username> עם: root, admin, pi, או שם המשתמש שלך"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1259
-msgid "Copy IP Address"
-msgstr "העתק כתובת IP"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1261
-msgid "Copy MAC Address"
-msgstr "העתק כתובת MAC"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1264
-msgid "Copy Hostname"
-msgstr "העתק שם מארח"
-# 
-# File: big-network-info/src/gui/components.py, line: 1621
-msgid "Copy"
-msgstr "העתק"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1283
-msgid "Open SSH Terminal"
-msgstr "פתח מסוף SSH"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1287
-msgid "Open File Share"
-msgstr "פתח שיתוף קבצים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1310
-msgid "SFTP Connection"
-msgstr "חיבור SFTP"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1310
-msgid "Connect to SFTP at"
-msgstr "התחבר ל-SFTP בכתובת"
-# 
-# File: big-network-info/src/gui/components.py, line: 1346
-msgid "This will open SFTP connection in your file manager"
-msgstr "זה יפתח חיבור SFTP במנהל הקבצים שלך"
-# 
-# File: big-network-info/src/gui/components.py, line: 1357
-msgid "Open SFTP"
-msgstr "פתח SFTP"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1403
-msgid "Ping"
-msgstr "פינג"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1426
-msgid "Pinging"
-msgstr "פינגינג"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1427
-msgid "Real-time ping results and statistics"
-msgstr "תוצאות פינג בזמן אמת וסטטיסטיקות"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1431
-msgid "Status"
-msgstr "סטטוס"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1432
-msgid "Preparing to ping..."
-msgstr "מתכונן לפינג..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1464
-msgid "Ping Results"
-msgstr "תוצאות פינג"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1477
-msgid "Copy Results"
-msgstr "העתק תוצאות"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1483
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1530
-msgid "Start Ping"
-msgstr "התחל פינג"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1490
-msgid "Close"
-msgstr "סגור"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1505
-msgid "Stop Ping"
-msgstr "הפסק פינג"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1510
-msgid "Pinging..."
-msgstr "פינג..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1539
-msgid "Ping completed"
-msgstr "הפינג הושלם"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 86
-msgid "Network Diagnostics"
-msgstr "אבחון רשת"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
-msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
-msgstr "בדוק את חיבור האינטרנט שלך, שרתי DNS, חיבוריות רשת, ונתח רשתות WiFi"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 93
-msgid "Device Discovery"
-msgstr "גילוי מכשירים"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 94
-msgid "Find all devices on your network with detailed information"
-msgstr "מצא את כל המכשירים ברשת שלך עם מידע מפורט"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 98
-msgid "Service Detection"
-msgstr "זיהוי שירותים"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 99
-msgid "Identify running services like web servers, SSH, and databases"
-msgstr "זיהוי שירותים פועלים כמו שרתי אינטרנט, SSH ומסדי נתונים"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 103
-msgid "Export Reports"
-msgstr "ייצוא דוחות"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 104
-msgid "Save detailed scan results and generate professional reports"
-msgstr "שמור תוצאות סריקה מפורטות ויצר דוחות מקצועיים"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 187
-msgid "Show this welcome screen on startup"
-msgstr "הצג מסך ברוך הבא בעת הפעלת התוכנה"
-# 
-# File: big-network-info/src/gui/welcome_screen.py, line: 202
-msgid "Let's Start"
-msgstr "בוא נתחיל"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 81
-msgid "Host and Service Detection"
-msgstr "זיהוי מארחים ושירותים"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 83
-msgid "Configure timeouts and parallel threads for network scanning."
-msgstr "הגדר זמני זמן וחוטים מקבילים לסריקת רשת."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 88
-msgid "Ping Timeout"
-msgstr "זמן פינג פג תוקף"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 89
-msgid "Time to wait for ping response (seconds)"
-msgstr "זמן ההמתנה לתגובה מפינג (שניות)"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 105
-msgid "Ping Attempts"
-msgstr "ניסי פינג"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 106
-msgid "Number of ping attempts per host"
-msgstr "מספר ניסי פינג לכל מארח"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 121
-msgid "Hostname Resolution Timeout"
-msgstr "זמן קצוב לפתרון שם המחשב"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 123
-msgid "Time to wait for hostname lookup (seconds)"
-msgstr "זמן ההמתנה לחיפוש שם המחשב (שניות)"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 139
-msgid "Discovery Threads"
-msgstr "חוטי גילוי"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 140
-msgid "Parallel threads for host discovery"
-msgstr "חוטים מקבילים לגילוי מארח"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 157
-msgid "Port Scan Timeout"
-msgstr "זמן קצוב לסריקת פורטים"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 158
-msgid "Time to wait for port connection (seconds)"
-msgstr "זמן ההמתנה לחיבור פורט (שניות)"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 173
-msgid "Port Scan Threads"
-msgstr "חוטי סריקת פורטים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 174
-msgid "Parallel threads for port scanning"
-msgstr "חוטים מקבילים לסריקת פורטים"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 218
-msgid "Your Custom Services"
-msgstr "השירותים המותאמים אישית שלך"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 221
-msgid "Services you've added for scanning. These will be checked on all discovered devices."
-msgstr "שירותים שהוספת לסריקה. אלה ייבדקו בכל המכשירים שהתגלו."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 203
-msgid "Add Service"
-msgstr "הוסף שירות"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 209
-msgid "Clear All"
-msgstr "נקה הכל"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 238
-msgid "Standard Network Services"
-msgstr "שירותי רשת סטנדרטיים"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 240
-msgid "Common services that are automatically scanned on all devices."
-msgstr "שירותים נפוצים שסורקים אוטומטית בכל המכשירים."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 271
-msgid "Service Configuration"
-msgstr "תצורת שירות"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 273
-msgid "Save your custom services to a file or load services from a backup."
-msgstr "שמור את השירותים המותאמים אישית שלך לקובץ או טען שירותים מגיבוי."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 278
-# File: big-network-info/src/gui/config_view.py, line: 708
-msgid "Export Custom Services"
-msgstr "ייצוא שירותים מותאמים אישית"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 279
-msgid "Save your custom services to a JSON file"
-msgstr "שמור את השירותים המותאמים אישית שלך לקובץ JSON"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 281
-msgid "Export"
-msgstr "ייצוא"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 290
-# File: big-network-info/src/gui/config_view.py, line: 750
-msgid "Import Custom Services"
-msgstr "ייבוא שירותים מותאמים אישית"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 291
-msgid "Load custom services from a JSON file"
-msgstr "טען שירותים מותאמים מקובץ JSON"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 293
-msgid "Import"
-msgstr "ייבוא"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 347
-msgid "No custom services configured"
-msgstr "אין שירותים מותאמים אישית מוגדרים"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 349
-msgid "Click 'Add Service' to create your first custom service"
-msgstr "לחץ על 'הוסף שירות' כדי ליצור את שירות ההתאמה האישית הראשון שלך"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 394
-msgid "Edit service"
-msgstr "שירות עריכה"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 402
-msgid "Delete service"
-msgstr "מחק שירות"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 444
-msgid "Edit Service"
-msgstr "עריכת שירות"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 444
-msgid "Add New Service"
-msgstr "הוסף שירות חדש"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 450
-msgid "Service Name"
-msgstr "שם שירות"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 464
-msgid "Port Number"
-msgstr "מספר פורט"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 470
-msgid "Protocol"
-msgstr "פרוטוקול"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 486
-msgid "Access Method"
-msgstr "שיטת גישה"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 506
-msgid "Save"
-msgstr "שמור"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 554
-msgid "Service name is required"
-msgstr "שם השירות נדרש"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 557
-msgid "Port must be between 1 and 65535"
-msgstr "הפורט חייב להיות בין 1 ל-65535"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 567
-msgid "Service"
-msgstr "שירות"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 568
-msgid "on port"
-msgstr "על פורט"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 569
-msgid "already exists"
-msgstr "כבר קיים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 660
-msgid "Delete Custom Service"
-msgstr "מחק שירות מותאם אישית"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 661
-msgid "Are you sure you want to delete"
-msgstr "האם אתה בטוח שאתה רוצה למחוק?"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 663
-msgid "This action cannot be undone."
-msgstr "פעולה זו אינה ניתנת לביטול."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 666
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 695
-msgid "Delete"
-msgstr "מחק"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 688
-msgid "Clear All Custom Services"
-msgstr "נקה את כל השירותים המותאמים אישית"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 690
-msgid "Are you sure you want to delete all custom services? This action cannot be undone."
-msgstr "האם אתה בטוח שברצונך למחוק את כל השירותים המותאמים אישית? פעולה זו אינה ניתנת לביטול."
-# 
-# File: big-network-info/src/gui/config_view.py, line: 713
-# File: big-network-info/src/gui/config_view.py, line: 754
-msgid "JSON files"
-msgstr "קבצי JSON"
-# 
-# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
-# 
-# File: big-network-info/src/gui/config_view.py, line: 732
-# File: big-network-info/src/gui/main_window.py, line: 1278
-# File: big-network-info/src/gui/main_window.py, line: 1383
-msgid "Export Successful"
-msgstr "ייצוא הצליח"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 738
-msgid "Custom services exported to "
-msgstr "שירותים מותאמים אישית ייצאו ל"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 737
-# File: big-network-info/src/gui/config_view.py, line: 743
-msgid "Failed to export custom services"
-msgstr "נכשל בייצוא שירותים מותאמים אישית"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 774
-msgid "Import Successful"
-msgstr "ייבוא הצליח"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 780
-msgid "Imported "
-msgstr "מיובא"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 780
-msgid " custom services"
-msgstr "שירותים מותאמים אישית"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 782
-# File: big-network-info/src/gui/config_view.py, line: 788
-msgid "Import Failed"
-msgstr "ייבוא נכשל"
-# 
-# File: big-network-info/src/gui/config_view.py, line: 782
-# File: big-network-info/src/gui/config_view.py, line: 788
-msgid "Failed to import custom services"
-msgstr "נכשל בייבוא שירותים מותאמים אישית"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 73
-msgid "Big Network Info - Network Scanner"
-msgstr "מידע רשת גדול - סורק רשת"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 90
-msgid "Diagnostics"
-msgstr "אבחון"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 95
-msgid "Find Devices"
-msgstr "מצא מכשירים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 124
-msgid "WiFi Analyzer"
-msgstr "אנליזר WiFi"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 99
-msgid "Settings"
-msgstr "הגדרות"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 116
-msgid "Menu"
-msgstr "תפריט"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 120
-msgid "Show Welcome Screen"
-msgstr "הצג מסך ברוך הבא"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 121
-msgid "About"
-msgstr "אודות"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 122
-msgid "Quit"
-msgstr "צא"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 274
-msgid "Scan failed"
-msgstr "סריקה נכשלה"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 319
-msgid "Failed to open service"
-msgstr "נכשל בפתיחת שירות"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 324
-msgid "Error"
-msgstr "שגיאה"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 361
-msgid "Connection Type:"
-msgstr "סוג חיבור:"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 368
-msgid "SSH Terminal (command line access)"
-msgstr "טרמינל SSH (גישה דרך שורת הפקודה)"
-# 
-# File: big-network-info/src/gui/main_window.py, line: 371
-msgid "SFTP Files (file manager access)"
-msgstr "קבצי SFTP (גישה למנהל קבצים)"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 450
 msgid "Failed to open SSH terminal"
 msgstr "כישלון בפתיחת מסוף SSH"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 475
 msgid "Failed to open SFTP"
 msgstr "נכשל בפתיחת SFTP"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 485
 msgid "Network Tools"
 msgstr "כלי רשת"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 489
 msgid "Network scanner with modern GTK4 interface"
 msgstr "סורק רשת עם ממשק GTK4 מודרני"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 521
 msgid "Please enter a network range to scan"
 msgstr "אנא הזן טווח רשת לסריקה"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 617
 msgid "Quickly check network for common issues."
 msgstr "בדוק במהירות את הרשת עבור בעיות נפוצות."
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 608
 msgid "Start Diagnostics"
 msgstr "התחל אבחון"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 668
 msgid "Analyzing your network connection step by step"
 msgstr "מנתחים את חיבור הרשת שלך שלב אחר שלב"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 716
 msgid "Preparing diagnostics..."
 msgstr "מכין אבחנות..."
-# 
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/gui/components.py, line: 689
+# File: big-network-info/src/gui/main_window.py, line: 752
+msgid "← Back"
+msgstr "← חזור"
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 797
 msgid "Copy All"
 msgstr "העתק הכל"
-# 
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/gui/components.py, line: 698
+# File: big-network-info/src/gui/main_window.py, line: 757
+msgid "Export PDF"
+msgstr "ייצוא PDF"
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 813
 msgid "Run Again"
 msgstr "הרץ שוב"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 846
 msgid "Scan your network to find devices and services."
 msgstr "סרוק את הרשת שלך כדי למצוא מכשירים ושירותים."
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 839
 msgid "Network Range"
 msgstr "טווח רשת"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 863
 msgid "Start Scan"
 msgstr "התחל סריקה"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 990
 msgid "Waiting..."
 msgstr "ממתין..."
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1043
 msgid "Copy step details"
 msgstr "העתק פרטי שלב"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1066
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1081
@@ -1037,887 +316,2037 @@ msgstr "העתק פרטי שלב"
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
 msgid "Running: "
 msgstr "ריצה:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1069
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1085
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1097
 msgid "tests"
 msgstr "מבחנים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1077
 msgid "Completed: "
 msgstr "הושלם:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1089
 msgid "Failed: "
 msgstr "נכשל:"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1074
 msgid "Running..."
 msgstr "ריצה..."
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1098
 msgid "✗ Failed"
 msgstr "✗ נכשל"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1110
 msgid "⚠ Warning"
 msgstr "⚠ אזהרה"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1170
 msgid "✓ All diagnostics completed successfully!"
 msgstr "✓ כל האבחונים הושלמו בהצלחה!"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1168
 msgid "✓ Completed with "
 msgstr "✓ הושלם עם"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1168
 msgid "warning(s)"
 msgstr "אזהרה(ות)"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1174
 msgid "✗ Completed with"
 msgstr "✗ הושלם עם"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1174
 msgid "failure(s)"
 msgstr "כישלון(ים)"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1195
 msgid "All checks passed! Your network is healthy 😊"
 msgstr "כל הבדיקות עברו! הרשת שלך בריאה 😊"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1192
 msgid "Completed with "
 msgstr "הושלם עם"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1194
 msgid "warning(s). Network looks okay."
 msgstr "אזהרה/אזהרות. הרשת נראית בסדר."
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1199
 msgid "issue(s) detected. Review steps below."
 msgstr "נמצאו בעיה/בעיות. עיין בצעדים למטה."
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1235
 msgid "Save PDF Report"
 msgstr "שמור דוח PDF"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1241
 msgid "PDF files"
 msgstr "קבצי PDF"
-# 
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 723
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1243
+msgid "Failed to export PDF"
+msgstr "נכשל ביצוא PDF"
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/gui/config_view.py, line: 732
+# File: big-network-info/src/gui/main_window.py, line: 1278
+# File: big-network-info/src/gui/main_window.py, line: 1383
+msgid "Export Successful"
+msgstr "ייצוא הצליח"
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1267
 msgid "PDF report saved to"
 msgstr "דו\"ח PDF נשמר ל"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1282
 # File: big-network-info/src/gui/main_window.py, line: 1389
 msgid "Open File"
 msgstr "פתח קובץ"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1280
 msgid "Failed to save PDF"
 msgstr "שגיאה בשמירת PDF"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1285
 msgid "Failed to save file"
 msgstr "שגיאה בשמירת הקובץ"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1296
 msgid "Failed to open PDF"
 msgstr "כישלון בפתיחת PDF"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1320
 msgid "No diagnostics results to export"
 msgstr "אין תוצאות אבחון לייצוא"
-# 
+
+#
 # File: big-network-info/src/gui/main_window.py, line: 1338
 msgid "Save Diagnostics PDF Report"
 msgstr "שמור דוח אבחון PDF"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1345
 msgid "Failed to export diagnostics PDF: "
 msgstr "כישלון ביצוא PDF של אבחנות:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1368
 msgid "Diagnostics report saved to:"
 msgstr "דו\"ח האבחון נשמר ל:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1382
 msgid "Failed to save diagnostics PDF: "
 msgstr "שגיאה בשמירת PDF של אבחון:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
 msgid "Failed to save file: "
 msgstr "שגיאה בשמירת הקובץ:"
-# 
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 81
+msgid "Host and Service Detection"
+msgstr "זיהוי מארחים ושירותים"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 83
+msgid "Configure timeouts and parallel threads for network scanning."
+msgstr "הגדר זמני זמן וחוטים מקבילים לסריקת רשת."
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 88
+msgid "Ping Timeout"
+msgstr "זמן פינג פג תוקף"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 89
+msgid "Time to wait for ping response (seconds)"
+msgstr "זמן ההמתנה לתגובה מפינג (שניות)"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 105
+msgid "Ping Attempts"
+msgstr "ניסי פינג"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 106
+msgid "Number of ping attempts per host"
+msgstr "מספר ניסי פינג לכל מארח"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 121
+msgid "Hostname Resolution Timeout"
+msgstr "זמן קצוב לפתרון שם המחשב"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 123
+msgid "Time to wait for hostname lookup (seconds)"
+msgstr "זמן ההמתנה לחיפוש שם המחשב (שניות)"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 139
+msgid "Discovery Threads"
+msgstr "חוטי גילוי"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 140
+msgid "Parallel threads for host discovery"
+msgstr "חוטים מקבילים לגילוי מארח"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 157
+msgid "Port Scan Timeout"
+msgstr "זמן קצוב לסריקת פורטים"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 158
+msgid "Time to wait for port connection (seconds)"
+msgstr "זמן ההמתנה לחיבור פורט (שניות)"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 173
+msgid "Port Scan Threads"
+msgstr "חוטי סריקת פורטים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 174
+msgid "Parallel threads for port scanning"
+msgstr "חוטים מקבילים לסריקת פורטים"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 218
+msgid "Your Custom Services"
+msgstr "השירותים המותאמים אישית שלך"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 221
+msgid "Services you've added for scanning. These will be checked on all discovered devices."
+msgstr "שירותים שהוספת לסריקה. אלה ייבדקו בכל המכשירים שהתגלו."
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 203
+msgid "Add Service"
+msgstr "הוסף שירות"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 209
+msgid "Clear All"
+msgstr "נקה הכל"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 238
+msgid "Standard Network Services"
+msgstr "שירותי רשת סטנדרטיים"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 240
+msgid "Common services that are automatically scanned on all devices."
+msgstr "שירותים נפוצים שסורקים אוטומטית בכל המכשירים."
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 271
+msgid "Service Configuration"
+msgstr "תצורת שירות"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 273
+msgid "Save your custom services to a file or load services from a backup."
+msgstr "שמור את השירותים המותאמים אישית שלך לקובץ או טען שירותים מגיבוי."
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 278
+# File: big-network-info/src/gui/config_view.py, line: 708
+msgid "Export Custom Services"
+msgstr "ייצוא שירותים מותאמים אישית"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 279
+msgid "Save your custom services to a JSON file"
+msgstr "שמור את השירותים המותאמים אישית שלך לקובץ JSON"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 281
+msgid "Export"
+msgstr "ייצוא"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 290
+# File: big-network-info/src/gui/config_view.py, line: 750
+msgid "Import Custom Services"
+msgstr "ייבוא שירותים מותאמים אישית"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 291
+msgid "Load custom services from a JSON file"
+msgstr "טען שירותים מותאמים מקובץ JSON"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 293
+msgid "Import"
+msgstr "ייבוא"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 347
+msgid "No custom services configured"
+msgstr "אין שירותים מותאמים אישית מוגדרים"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 349
+msgid "Click 'Add Service' to create your first custom service"
+msgstr "לחץ על 'הוסף שירות' כדי ליצור את שירות ההתאמה האישית הראשון שלך"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 394
+msgid "Edit service"
+msgstr "שירות עריכה"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 402
+msgid "Delete service"
+msgstr "מחק שירות"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 444
+msgid "Edit Service"
+msgstr "עריכת שירות"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 444
+msgid "Add New Service"
+msgstr "הוסף שירות חדש"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 450
+msgid "Service Name"
+msgstr "שם שירות"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 464
+msgid "Port Number"
+msgstr "מספר פורט"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 470
+msgid "Protocol"
+msgstr "פרוטוקול"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 480
+msgid "Description"
+msgstr "תיאור"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 486
+msgid "Access Method"
+msgstr "שיטת גישה"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 506
+msgid "Save"
+msgstr "שמור"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 554
+msgid "Service name is required"
+msgstr "שם השירות נדרש"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 557
+msgid "Port must be between 1 and 65535"
+msgstr "הפורט חייב להיות בין 1 ל-65535"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 567
+msgid "Service"
+msgstr "שירות"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 568
+msgid "on port"
+msgstr "על פורט"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 569
+msgid "already exists"
+msgstr "כבר קיים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 660
+msgid "Delete Custom Service"
+msgstr "מחק שירות מותאם אישית"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 661
+msgid "Are you sure you want to delete"
+msgstr "האם אתה בטוח שאתה רוצה למחוק?"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 663
+msgid "This action cannot be undone."
+msgstr "פעולה זו אינה ניתנת לביטול."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 666
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 695
+msgid "Delete"
+msgstr "מחק"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 688
+msgid "Clear All Custom Services"
+msgstr "נקה את כל השירותים המותאמים אישית"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 690
+msgid "Are you sure you want to delete all custom services? This action cannot be undone."
+msgstr "האם אתה בטוח שברצונך למחוק את כל השירותים המותאמים אישית? פעולה זו אינה ניתנת לביטול."
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 713
+# File: big-network-info/src/gui/config_view.py, line: 754
+msgid "JSON files"
+msgstr "קבצי JSON"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 738
+msgid "Custom services exported to "
+msgstr "שירותים מותאמים אישית ייצאו ל"
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/gui/config_view.py, line: 737
+# File: big-network-info/src/gui/config_view.py, line: 743
+# File: big-network-info/src/gui/components.py, line: 722
+msgid "Export Failed"
+msgstr "ייצוא נכשל"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 737
+# File: big-network-info/src/gui/config_view.py, line: 743
+msgid "Failed to export custom services"
+msgstr "נכשל בייצוא שירותים מותאמים אישית"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 774
+msgid "Import Successful"
+msgstr "ייבוא הצליח"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 780
+msgid "Imported "
+msgstr "מיובא"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 780
+msgid " custom services"
+msgstr "שירותים מותאמים אישית"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 782
+# File: big-network-info/src/gui/config_view.py, line: 788
+msgid "Import Failed"
+msgstr "ייבוא נכשל"
+
+#
+# File: big-network-info/src/gui/config_view.py, line: 782
+# File: big-network-info/src/gui/config_view.py, line: 788
+msgid "Failed to import custom services"
+msgstr "נכשל בייבוא שירותים מותאמים אישית"
+
+#
+# File: big-network-info/src/gui/components.py, line: 50
+msgid "Initializing scan..."
+msgstr "מאתחל סריקה..."
+
+#
+# File: big-network-info/src/gui/components.py, line: 56
+msgid "Please wait while we discover devices on your network"
+msgstr "אנא המתן enquanto אנו מגלים מכשירים ברשת שלך"
+
+#
+# File: big-network-info/src/gui/components.py, line: 152
+msgid ""
+"Discover devices and services on your network\n"
+"Click 'Start Scan' to begin scanning your local network"
+msgstr ""
+"גלה מכשירים ושירותים ברשת שלך  \n"
+"לחץ על 'התחל סריקה' כדי להתחיל לסרוק את הרשת המקומית שלך"
+
+#
+# File: big-network-info/src/gui/components.py, line: 198
+msgid "No devices found on the network"
+msgstr "לא נמצאו מכשירים ברשת"
+
+#
+# File: big-network-info/src/gui/components.py, line: 205
+msgid ""
+"The network range may be empty or devices may be offline.\n"
+"Try a different network range or check your connection."
+msgstr ""
+"טווח הרשת עשוי להיות ריק או שהמכשירים עשויים להיות לא מחוברים.  \n"
+"נסה טווח רשת שונה או בדוק את החיבור שלך."
+
+#
+# File: big-network-info/src/gui/components.py, line: 215
+# File: big-network-info/src/gui/components.py, line: 705
+msgid "Scan Again"
+msgstr "סרוק שוב"
+
+#
+# File: big-network-info/src/gui/components.py, line: 219
+msgid "Start a new network scan"
+msgstr "התחל סריקת רשת חדשה"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 296
+msgid "Router/Gateway"
+msgstr "נתב/שער"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 298
+msgid "Gateway"
+msgstr "שער"
+
+#
+# File: big-network-info/src/gui/components.py, line: 367
+msgid "🌐 Network Infrastructure"
+msgstr "תשתית רשת"
+
+#
+# File: big-network-info/src/gui/components.py, line: 373
+msgid "🖥️ Devices & Services"
+msgstr "🖥️ מכשירים ושירותים"
+
+#
+# File: big-network-info/src/gui/components.py, line: 379
+msgid "📱 Active Clients"
+msgstr "לקוחות פעילים"
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 441
+msgid "Found"
+msgstr "נמצא"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 443
+msgid "hosts with"
+msgstr "מארחים עם"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 445
+msgid "services"
+msgstr "שירותים"
+
+#
+# File: big-network-info/src/gui/components.py, line: 479
+msgid " (This Computer)"
+msgstr "(המחשב הזה)"
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 502
+msgid "Response"
+msgstr ""
+
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 502
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 502
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 502
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 502
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+#
+# File: big-network-info/src/big_network_info/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 498
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 499
+#
+# File: big-network-info/src/gui/components.py, line: 527
+msgid "Device Information"
+msgstr "מידע על המכשיר"
+
+#
+# File: big-network-info/src/gui/components.py, line: 532
+msgid "IP Address"
+msgstr "כתובת IP"
+
+#
+# File: big-network-info/src/gui/components.py, line: 537
+msgid "Copy IP address"
+msgstr "העתק כתובת IP"
+
+#
+# File: big-network-info/src/gui/components.py, line: 549
+msgid "MAC Address"
+msgstr "כתובת MAC"
+
+#
+# File: big-network-info/src/gui/components.py, line: 554
+msgid "Copy MAC address"
+msgstr "העתק כתובת MAC"
+
+#
+# File: big-network-info/src/gui/components.py, line: 566
+msgid "Vendor"
+msgstr "ספק"
+
+#
+# File: big-network-info/src/gui/components.py, line: 571
+msgid "Copy vendor name"
+msgstr "העתק שם ספק"
+
+#
+# File: big-network-info/src/gui/components.py, line: 583
+msgid "Hostname"
+msgstr "שם המחשב"
+
+#
+# File: big-network-info/src/gui/components.py, line: 588
+msgid "Copy hostname"
+msgstr "העתק שם מארח"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 607
+msgid "Available Services"
+msgstr "שירותים זמינים"
+
+#
+# File: big-network-info/src/gui/components.py, line: 632
+msgid "Quick Actions"
+msgstr "פעולות מהירות"
+
+#
+# File: big-network-info/src/gui/components.py, line: 636
+msgid "Ping Device"
+msgstr "פינג מכשיר"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 637
+msgid "Test connectivity to"
+msgstr "בדוק חיבור ל"
+
+#
+# File: big-network-info/src/gui/components.py, line: 643
+msgid "Ping this device"
+msgstr "פינג למכשיר הזה"
+
+#
+# File: big-network-info/src/gui/components.py, line: 651
+msgid "Copy Device Summary"
+msgstr "העתק סיכום מכשיר"
+
+#
+# File: big-network-info/src/gui/components.py, line: 652
+msgid "Copy all device information to clipboard"
+msgstr "העתק את כל המידע על המכשיר ללוח."
+
+#
+# File: big-network-info/src/gui/components.py, line: 658
+msgid "Copy device summary"
+msgstr "העתק סיכום מכשיר"
+
+#
+# File: big-network-info/src/gui/components.py, line: 699
+msgid "Export scan results to PDF file"
+msgstr "ייצא את תוצאות הסריקה לקובץ PDF"
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1281
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1281
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/gui/components.py, line: 725
+# File: big-network-info/src/gui/components.py, line: 734
+# File: big-network-info/src/gui/main_window.py, line: 1281
+# File: big-network-info/src/gui/main_window.py, line: 1388
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/src/gui/components.py, line: 725
+# File: big-network-info/src/gui/components.py, line: 734
+# File: big-network-info/src/gui/main_window.py, line: 1281
+# File: big-network-info/src/gui/main_window.py, line: 1388
+#
+# File: big-network-info/src/gui/components.py, line: 731
+msgid "No Data"
+msgstr "אין נתונים"
+
+#
+# File: big-network-info/src/gui/components.py, line: 732
+msgid "No scan results available to export."
+msgstr "אין תוצאות סריקה זמינות לייצוא."
+
+#
+# File: big-network-info/src/gui/components.py, line: 761
+msgid "Has web interface"
+msgstr "יש ממשק אינטרנט"
+
+#
+# File: big-network-info/src/gui/components.py, line: 768
+msgid "SSH access available"
+msgstr "גישה ל-SSH זמינה"
+
+#
+# File: big-network-info/src/gui/components.py, line: 775
+msgid "File sharing available"
+msgstr "שיתוף קבצים זמין"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 804
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 812
+msgid "Port"
+msgstr "פורט"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 819
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 829
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 831
+msgid "Access"
+msgstr "גישה"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 823
+msgid "SSH Terminal"
+msgstr "טרמינל SSH"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 826
+msgid "SFTP Files"
+msgstr "קבצי SFTP"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 848
+msgid "Copy service address"
+msgstr "העתק כתובת שירות"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 861
+msgid "Open in browser: "
+msgstr "פתח בדפדפן:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 874
+msgid "Open SSH connection in terminal"
+msgstr "פתח חיבור SSH בטרמינל"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 884
+msgid "Open SFTP in file manager"
+msgstr "פתח SFTP במנהל הקבצים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 895
+msgid "Open in file manager: "
+msgstr "פתח במנהל הקבצים:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 906
+msgid "Open FTP: "
+msgstr "פתח FTP:"
+
+#
+# File: big-network-info/src/gui/components.py, line: 1041
+msgid "SSH Connection"
+msgstr "חיבור SSH"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1025
+msgid "Connect to"
+msgstr "התחבר ל"
+
+#
+# File: big-network-info/src/gui/components.py, line: 1065
+msgid "This will open SSH connection in your terminal"
+msgstr "זה יפתח חיבור SSH בטרמינל שלך"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1186
+msgid "=== Device Summary ==="
+msgstr "=== סיכום מכשיר ==="
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1219
+msgid "=== Services ==="
+msgstr "=== שירותים ==="
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1220
+msgid "No services detected"
+msgstr "לא זוהו שירותים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1223
+msgid "=== Quick Commands ==="
+msgstr "=== פקודות מהירות ==="
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1230
+msgid "# Replace <username> with: root, admin, pi, or your username"
+msgstr "# החלף <username> עם: root, admin, pi, או שם המשתמש שלך"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1259
+msgid "Copy IP Address"
+msgstr "העתק כתובת IP"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1261
+msgid "Copy MAC Address"
+msgstr "העתק כתובת MAC"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1264
+msgid "Copy Hostname"
+msgstr "העתק שם מארח"
+
+#
+# File: big-network-info/src/gui/components.py, line: 1621
+msgid "Copy"
+msgstr "העתק"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1283
+msgid "Open SSH Terminal"
+msgstr "פתח מסוף SSH"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1287
+msgid "Open File Share"
+msgstr "פתח שיתוף קבצים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1310
+msgid "SFTP Connection"
+msgstr "חיבור SFTP"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1310
+msgid "Connect to SFTP at"
+msgstr "התחבר ל-SFTP בכתובת"
+
+#
+# File: big-network-info/src/gui/components.py, line: 1346
+msgid "This will open SFTP connection in your file manager"
+msgstr "זה יפתח חיבור SFTP במנהל הקבצים שלך"
+
+#
+# File: big-network-info/src/gui/components.py, line: 1357
+msgid "Open SFTP"
+msgstr "פתח SFTP"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1403
+msgid "Ping"
+msgstr "פינג"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1426
+msgid "Pinging"
+msgstr "פינגינג"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1427
+msgid "Real-time ping results and statistics"
+msgstr "תוצאות פינג בזמן אמת וסטטיסטיקות"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1431
+msgid "Status"
+msgstr "סטטוס"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1432
+msgid "Preparing to ping..."
+msgstr "מתכונן לפינג..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1464
+msgid "Ping Results"
+msgstr "תוצאות פינג"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1477
+msgid "Copy Results"
+msgstr "העתק תוצאות"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1483
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1530
+msgid "Start Ping"
+msgstr "התחל פינג"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1490
+msgid "Close"
+msgstr "סגור"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1505
+msgid "Stop Ping"
+msgstr "הפסק פינג"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1510
+msgid "Pinging..."
+msgstr "פינג..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 1539
+msgid "Ping completed"
+msgstr "הפינג הושלם"
+
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# #-#-#-#-#  big-network-info.pot (big-network-info)  #-#-#-#-#
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/config_view.py, line: 801
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 725
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/components.py, line: 734
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 344
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1287
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/main_window.py, line: 1388
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 86
+msgid "Network Diagnostics"
+msgstr "אבחון רשת"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/gui/welcome_screen.py, line: 88
+msgid "Test your internet connection, DNS servers, network connectivity, and analyze WiFi networks"
+msgstr "בדוק את חיבור האינטרנט שלך, שרתי DNS, חיבוריות רשת, ונתח רשתות WiFi"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 93
+msgid "Device Discovery"
+msgstr "גילוי מכשירים"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 94
+msgid "Find all devices on your network with detailed information"
+msgstr "מצא את כל המכשירים ברשת שלך עם מידע מפורט"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 98
+msgid "Service Detection"
+msgstr "זיהוי שירותים"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 99
+msgid "Identify running services like web servers, SSH, and databases"
+msgstr "זיהוי שירותים פועלים כמו שרתי אינטרנט, SSH ומסדי נתונים"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 103
+msgid "Export Reports"
+msgstr "ייצוא דוחות"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 104
+msgid "Save detailed scan results and generate professional reports"
+msgstr "שמור תוצאות סריקה מפורטות ויצר דוחות מקצועיים"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 187
+msgid "Show this welcome screen on startup"
+msgstr "הצג מסך ברוך הבא בעת הפעלת התוכנה"
+
+#
+# File: big-network-info/src/gui/welcome_screen.py, line: 202
+msgid "Let's Start"
+msgstr "בוא נתחיל"
+
+#
 # File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 161
 # File: big-network-info/src/big_network_info/gui/wifi_analyzer.py, line: 889
 msgid "No WiFi adapter detected"
 msgstr "לא זוהה מתאם WiFi"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 159
 msgid "Scanning for WiFi networks..."
 msgstr "סריקת רשתות WiFi..."
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 222
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 224
 msgid "Signal Strength (%)"
 msgstr "עוצמת אות (%)"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 228
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 230
 msgid "Time"
 msgstr "זמן"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 842
 msgid "Signal strength (last 2 minutes)"
 msgstr "עוצמת האות (2 הדקות האחרונות)"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 msgid "Ready to scan"
 msgstr "מוכן לסרוק"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 892
 msgid "Show hidden networks:"
 msgstr "הצג רשתות מוסתרות:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 964
 msgid "Found {} networks"
 msgstr "נמצאו {} רשתות"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 878
 msgid "Scanning..."
 msgstr "סריקה..."
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/gui/wifi_analyzer.py, line: 983
 msgid "Monitoring stopped"
 msgstr "הניטור הופסק"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 301
 msgid "network_scan_report"
 msgstr "דו\"ח סריקת רשת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 318
 msgid "Network Scan Report"
 msgstr "דו\"ח סריקת רשת"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 333
 msgid "Generated on"
 msgstr "נוצר ב"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 340
 msgid "devices discovered with"
 msgstr "התקנים שהתגלו עם"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 342
 msgid "total services"
 msgstr "שירותים כוללים"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 354
 msgid "📊 Scan Overview"
 msgstr "📊 סקירת סריקה"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 356
 msgid "Not specified"
 msgstr "לא צוין"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 374
 msgid "Active Devices"
 msgstr "מכשירים פעילים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 383
 msgid "Devices with Services"
 msgstr "מכשירים עם שירותים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 395
 msgid "Total Services"
 msgstr "שירותים כוללים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 404
 msgid "Network Gateways"
 msgstr "שערי רשת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 424
 msgid "🔍 Detailed Device Information"
 msgstr "🔍 מידע מפורט על המכשיר"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 438
 msgid "🏠 Network Infrastructure"
 msgstr "🏠 תשתית רשת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 442
 msgid "⚙️ Devices & Services"
 msgstr "⚙️ מכשירים ושירותים"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 446
 msgid "💻 Other Active Clients"
 msgstr "💻 לקוחות פעילים אחרים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 470
 msgid "devices"
 msgstr "מכשירים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 490
 msgid "N/A"
 msgstr "N/A"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 494
 msgid "<1ms"
 msgstr "<1ms"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 555
 msgid "No services detected."
 msgstr "לא זוהו שירותים."
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 579
 msgid "📈 Network Analytics"
 msgstr "📈 ניתוח רשת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 589
 msgid "🔧 Most Common Services"
 msgstr "🔧 השירותים הנפוצים ביותר"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 682
 msgid "Report generated by"
 msgstr "דו\"ח שנוצר על ידי"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 745
 msgid "network_diagnostics_report"
 msgstr "דו\"ח_אבחון_רשת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 757
 msgid "Network Diagnostics Report"
 msgstr "דו\"ח אבחון רשת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 768
 msgid "Diagnostics Overview"
 msgstr "סקירה של אבחון"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 787
 msgid "Passed Tests"
 msgstr "מבחנים שהושלמו"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 788
 msgid "Failed Tests"
 msgstr "מבחנים נכשלו"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 789
 msgid "Warnings"
 msgstr "אזהרות"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 790
 msgid "Total Tests Performed"
 msgstr "סך הבדיקות שבוצעו"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 786
 msgid "Detailed Test Results"
 msgstr "תוצאות בדיקה מפורטות"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 798
 msgid "PASSED"
 msgstr "עבר בהצלחה"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 801
 msgid "FAILED"
 msgstr "נכשל"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 804
 msgid "WARNING"
 msgstr "אזהרה"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 824
 msgid "Test:"
 msgstr "נבדק:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 831
 msgid "Details:"
 msgstr "פרטים:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 838
 msgid "Duration:"
 msgstr "משך:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 846
 msgid "Suggestion:"
 msgstr "הצעה:"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 852
 msgid "Overall Assessment"
 msgstr "הערכה כוללת"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 857
 msgid "✓ All network diagnostics passed! Your network connectivity appears healthy."
 msgstr "✓ כל האבחונים של הרשת עברו בהצלחה! חיבור הרשת שלך נראה בריא."
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 865
 msgid "Recommendations & Next Steps"
 msgstr "המלצות וצעדים הבאים"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 870
 msgid "The following items may require attention based on the diagnostics:"
 msgstr "הפריטים הבאים עשויים לדרוש תשומת לב בהתבסס על האבחונים:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/utils/pdf_exporter.py, line: 887
 msgid "Review details"
 msgstr "סקירת פרטים"
-# 
+
+#
 # File: big-network-info/src/utils/pdf_exporter.py, line: 888
 msgid "Review this test step for potential issues."
 msgstr "סקור את שלב הבדיקה הזה עבור בעיות פוטנציאליות."
-# 
-# File: big-network-info/src/core/scanner.py, line: 90
-msgid "Scanner initialized (socket-based mode)"
-msgstr "סורק הוקם (מצב מבוסס סוקטים)"
-# 
-# File: big-network-info/src/core/scanner.py, line: 99
-msgid "Avahi-resolve available - enhanced local device name resolution enabled"
-msgstr "Avahi-resolve זמין - פתרון שמות מכשירים מקומיים משופר מופעל"
-# 
-# File: big-network-info/src/core/scanner.py, line: 104
-msgid "Avahi-resolve not available - using standard DNS resolution only"
-msgstr "Avahi-resolve אינו זמין - משתמשים רק בפתרון DNS סטנדרטי"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 268
-msgid "Failed to get ARP table"
-msgstr "כישלון בקבלת טבלת ARP"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 384
-msgid "Loaded"
-msgstr "טען"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 384
-msgid "OUI entries from IEEE database"
-msgstr "כניסות OUI ממסד הנתונים של IEEE"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 389
-msgid "Failed to load IEEE OUI file"
-msgstr "כישלון בטעינת קובץ IEEE OUI"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
-msgid "Avahi resolved"
-msgstr "אבאהי נפתר"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
-msgid "to"
-msgstr "עד"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
-msgid "Avahi resolution failed for"
-msgstr "פתרון Avahi נכשל עבור"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
-msgid "Scanning network for live hosts..."
-msgstr "סריקת הרשת עבור מארחים פעילים..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
-msgid "No hosts found"
-msgstr "לא נמצאו מארחים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
-msgid "Resolving hostnames..."
-msgstr "פתרון שמות מארח..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
-msgid "Resolved"
-msgstr "נפתר"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
-msgid "hostnames"
-msgstr "שמות מארח"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
-msgid "Scanning services..."
-msgstr "סריקות שירותים..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
-msgid "Starting port scan:"
-msgstr "סריקת פורטים מתחילה:"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
-msgid "tasks with"
-msgstr "משימות עם"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
-msgid "threads"
-msgstr "חוטים"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
-msgid "Scanned"
-msgstr "נסרק"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
-msgid "ports"
-msgstr "פורטס"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
-msgid "Finalizing results..."
-msgstr "סיום תוצאות..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
-msgid "Scan completed"
-msgstr "הסריקה הושלמה"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
-msgid "Scan failed:"
-msgstr "סריקה נכשלה:"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
-msgid "Ping scanning"
-msgstr "סריקת פינג"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
-msgid "addresses..."
-msgstr "כתובות..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
-msgid "Ping scan:"
-msgstr "סריקת פינג:"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
-msgid "("
-msgstr "("
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
-msgid "found"
-msgstr "נמצא"
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1034
-msgid ")"
-msgstr ""
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
-msgid "Checking ARP table..."
-msgstr "בודק את טבלת ARP..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
-msgid "TCP port probe for silent hosts..."
-msgstr "סריקת פורט TCP עבור מארחים שקטים..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
-msgid "Getting MAC addresses..."
-msgstr "מקבל כתובות MAC..."
-# 
-# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
-msgid "hosts"
-msgstr "מארחים"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 58
 msgid "List Network Devices"
 msgstr "רשימת מכשירי רשת"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 59
 msgid "Discovering available network interfaces"
 msgstr "גילוי ממשקי רשת זמינים"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 61
 msgid "Ensure network hardware is properly installed and recognized by the system"
 msgstr "ודא שהחומרה של הרשת מותקנת כראוי ומוכרת על ידי המערכת"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 65
 msgid "Check Interface Status"
 msgstr "בדוק מצב ממשק"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 66
 msgid "Verifying network interfaces are active"
 msgstr "מאמת ממשקי רשת פעילים"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 68
 msgid "Enable network interfaces or check hardware connections"
 msgstr "אפשר לראיין ממשקי רשת או לבדוק חיבורים חומרתיים"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 72
 msgid "Check Link Status"
 msgstr "בדוק מצב קישור"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 73
 msgid "Verifying physical/wireless connection"
 msgstr "מאמת חיבור פיזי/אלחוטי"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 74
 msgid "Check cable connections or WiFi association"
 msgstr "בדוק חיבורי כבלים או חיבור WiFi"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 77
 msgid "Check IP Configuration"
 msgstr "בדוק את תצורת ה-IP"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 78
 msgid "Verifying valid IP address assignment"
 msgstr "מאמת הקצאת כתובת IP חוקית"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 80
 msgid "Configure static IP or check DHCP server availability"
 msgstr "הגדר כתובת IP סטטית או בדוק את זמינות השרת DHCP"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 84
 msgid "Check Default Route"
 msgstr "בדוק נתיב ברירת מחדל"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 85
 msgid "Verifying default gateway configuration"
 msgstr "מאמת את תצורת שער ברירת מחדל"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 87
 msgid "Configure default gateway or check router settings"
 msgstr "הגדר שער ברירת מחדל או בדוק את הגדרות הראוטר"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 91
 msgid "Test Gateway Connectivity"
 msgstr "בדוק את חיבוריות השער"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 92
 msgid "Testing connectivity to default gateway"
 msgstr "בודק חיבוריות לשער ברירת מחדל"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 94
 msgid "Check router/gateway availability and firewall settings"
 msgstr "בדוק זמינות נתב/שער והגדרות חומת אש"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 98
 msgid "Check DNS Configuration"
 msgstr "בדוק את תצורת ה-DNS"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 99
 msgid "Displaying configured DNS servers"
 msgstr "מציג שרתי DNS שהוגדרו"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 101
 msgid "Configure valid DNS servers (e.g., 8.8.8.8, 1.1.1.1)"
 msgstr "הגדר שרתי DNS תקפים (למשל, 8.8.8.8, 1.1.1.1)"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 105
 msgid "Test DNS Resolution"
 msgstr "בדוק את פתרון ה-DNS"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 106
 msgid "Testing domain name resolution"
 msgstr "בדיקת פתרון שם דומיין"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 108
 msgid "Check DNS server configuration or use alternative DNS servers"
 msgstr "בדוק את תצורת שרת ה-DNS או השתמש בשרתים חלופיים של DNS"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 112
 msgid "Check External IP"
 msgstr "בדוק כתובת IP חיצונית"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 113
 msgid "Determining external IP address"
 msgstr "קביעת כתובת IP חיצונית"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 115
 msgid "Check internet connectivity and firewall settings"
 msgstr "בדוק את חיבור האינטרנט והגדרות חומת האש"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 119
 msgid "Test Internet Access"
 msgstr "בדוק גישה לאינטרנט"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 120
 msgid "Testing web connectivity"
 msgstr "בדיקת חיבוריות אינטרנט"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 122
 msgid "Check firewall settings and proxy configuration"
 msgstr "בדוק את הגדרות חומת האש ואת תצורת הפרוקסי"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 126
 msgid "Test Big repositories"
 msgstr "בדוק מאגרי נתונים גדולים"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 127
 msgid "Testing connectivity to Big Linux repositories"
 msgstr "בדיקת חיבוריות למאגרי לינוקס הגדולים"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 129
 msgid "Check connectivity to Biglinux repositories"
 msgstr "בדוק חיבוריות למאגרי ביגלינוקס"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 212
 msgid "Error during execution:"
 msgstr "שגיאה במהלך הביצוע:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 274
 msgid "Error:"
 msgstr "שגיאה:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 290
 msgid "network interfaces"
 msgstr "ממשקי רשת"
-# 
+
+#
 # File: big-network-info/src/core/network_diagnostics.py, line: 295
 msgid "No valid network interfaces found"
 msgstr "לא נמצאו ממשקי רשת תקפים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 297
 msgid "Failed to list network interfaces"
 msgstr "נכשל ברשימת ממשקי הרשת"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 331
 msgid "Active interfaces:"
 msgstr "ממשקים פעילים:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 335
 msgid "No active network interfaces found"
 msgstr "לא נמצאו ממשקי רשת פעילים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 339
 msgid "Failed to check interface status"
 msgstr "כישלון בבדיקת מצב הממשק"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 369
 msgid "Connected interfaces:"
 msgstr "ממשקים מחוברים:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 373
 msgid "No connected network interfaces found"
 msgstr "לא נמצאו ממשקי רשת מחוברים"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 377
 msgid "Failed to check link status"
 msgstr "כישלון בבדיקת מצב הקישור"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 402
 msgid "Configured interfaces:"
 msgstr "ממשקים מוגדרים:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 406
 msgid "No valid IP addresses configured"
 msgstr "אין כתובות IP תקפות מוגדרות"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 410
 msgid "Failed to check IP configuration"
 msgstr "נכשל בבדיקת תצורת ה-IP"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 424
 msgid "Default gateway:"
 msgstr "שער ברירת מחדל:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 426
 msgid "via"
 msgstr "באמצעות"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 431
 msgid "No default gateway configured"
 msgstr "לא הוגדר שער ברירת מחדל"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 435
 msgid "Failed to check default route"
 msgstr "נכשל בבדיקת נתיב ברירת מחדל"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 446
 msgid "No default gateway to test"
 msgstr "אין שער ברירת מחדל לבדוק"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 467
 msgid "reachable"
 msgstr "נגיש"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 473
 msgid "is reachable"
 msgstr "נגיש"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 476
 msgid "is unreachable"
 msgstr "אינו נגיש"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 480
 msgid "Failed to test gateway connectivity"
 msgstr "נכשל בבדיקת חיבוריות השער"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 517
 msgid "Configured DNS servers:"
 msgstr "שרתים קונפיגורטיביים של DNS:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 521
 msgid "Failed to check DNS configuration:"
 msgstr "נכשל בבדיקת תצורת DNS:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 598
 msgid "External IP addresses:"
 msgstr "כתובות IP חיצוניות:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 601
 msgid "Unable to determine external IP addresses"
 msgstr "לא ניתן לקבוע כתובות IP חיצוניות"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 605
 msgid "Failed to check external IP:"
 msgstr "נכשל לבדוק כתובת IP חיצונית:"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 688
 #, python-brace-format
 msgid "Resolved: {domains}"
 msgstr "נפתר: {דומיינים}"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 693
 #, python-brace-format
 msgid "Failed to resolve any test domains: {domains}"
 msgstr "נכשל בפתרון דומיינים של בדיקה: {domains}"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 694
 msgid "Failed to test DNS resolution:"
 msgstr "נכשל בבדיקת פתרון DNS:"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 718
 msgid "Internet access confirmed via"
 msgstr "גישה לאינטרנט אושרה דרך"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 723
 msgid "No internet access detected"
 msgstr "לא זוהה חיבור לאינטרנט"
-# 
+
+#
 # File: big-network-info/usr/share/biglinux/network-info/src/core/network_diagnostics.py, line: 727
 msgid "Failed to test internet access:"
 msgstr "נכשל בבדיקת גישה לאינטרנט:"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 768
 msgid "Repository access confirmed"
 msgstr "גישה למאגר אושרה"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 773
 msgid "Repository access not detected"
 msgstr "לא זוהה גישה למאגר"
-# 
+
+#
 # File: big-network-info/src/big_network_info/core/network_diagnostics.py, line: 777
 msgid "Failed to access repository:"
 msgstr "נכשל בגישה למאגר:"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 22
 msgid "Web interface"
 msgstr "ממשק אינטרנט"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 23
 msgid "Secure web interface"
 msgstr "ממשק אינטרנט מאובטח"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 24
 msgid "Alternative HTTP port"
 msgstr "פורט HTTP חלופי"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 25
 msgid "Alternative HTTPS port"
 msgstr "פורט HTTPS חלופי"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 26
 msgid "File Transfer Protocol"
 msgstr "פרוטוקול העברת קבצים"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 27
 msgid "Secure Shell/SFTP"
 msgstr "שַׁרְתּוּת שֶׁל סֶקּוּרִיּוּת/SFTP"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 28
 msgid "FTP over SSL"
 msgstr "FTP מעל SSL"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 29
 msgid "Alternative FTP port"
 msgstr "פורט FTP חלופי"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 30
 msgid "Alternative SFTP/SSH port"
 msgstr "נמל SFTP/SSH חלופי"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 31
 msgid "File sharing protocol"
 msgstr "פרוטוקול שיתוף קבצים"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 32
 msgid "NetBIOS Session Service"
 msgstr "שירות מושב NetBIOS"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 33
 msgid "Unencrypted remote access"
 msgstr "גישה מרחוק לא מוצפנת"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 34
 msgid "Remote Desktop Protocol"
 msgstr "פרוטוקול שולחן עבודה מרוחק"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 35
 msgid "Virtual Network Computing"
 msgstr "מחשוב רשת וירטואלי"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 36
 msgid "Mail service"
 msgstr "שירות דואר"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 37
 msgid "Mail retrieval"
 msgstr "משיכת דואר"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 38
 msgid "Mail access"
 msgstr "גישה לדואר"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 39
 msgid "Secure SMTP"
 msgstr "SMTP מאובטח"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 40
 msgid "Secure IMAP"
 msgstr "IMAP מאובטח"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 41
 msgid "Secure POP3"
 msgstr "POP3 מאובטח"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 42
 msgid "Android Debug Bridge"
 msgstr "גשר ניפוי באנדואיד"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 43
 msgid "Mobile/development server"
 msgstr "שרת פיתוח נייד"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 44
 msgid "Mobile/development HTTPS"
 msgstr "נייד/פיתוח HTTPS"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 45
 msgid "Node.js development server"
 msgstr "שרת פיתוח Node.js"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 46
 msgid "React development server"
 msgstr "שרת הפיתוח של React"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 47
 msgid "Flask development server"
 msgstr "שרת הפיתוח של Flask"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 48
 msgid "Django development server"
 msgstr "שרת הפיתוח של Django"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 49
 msgid "MQTT messaging protocol"
 msgstr "פרוטוקול ההודעות MQTT"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 50
 msgid "Secure MQTT (MQTTS)"
 msgstr "MQTT מאובטח (MQTTS)"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 51
 msgid "MySQL database"
 msgstr "מסד נתונים MySQL"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 52
 msgid "PostgreSQL database"
 msgstr "מסד נתונים PostgreSQL"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 53
 msgid "MongoDB database"
 msgstr "מסד נתונים של MongoDB"
-# 
+
+#
 # File: big-network-info/src/core/services.py, line: 54
 msgid "Redis cache"
 msgstr "מטמון Redis"
+
+#
+# File: big-network-info/src/core/scanner.py, line: 90
+msgid "Scanner initialized (socket-based mode)"
+msgstr "סורק הוקם (מצב מבוסס סוקטים)"
+
+#
+# File: big-network-info/src/core/scanner.py, line: 99
+msgid "Avahi-resolve available - enhanced local device name resolution enabled"
+msgstr "Avahi-resolve זמין - פתרון שמות מכשירים מקומיים משופר מופעל"
+
+#
+# File: big-network-info/src/core/scanner.py, line: 104
+msgid "Avahi-resolve not available - using standard DNS resolution only"
+msgstr "Avahi-resolve אינו זמין - משתמשים רק בפתרון DNS סטנדרטי"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 268
+msgid "Failed to get ARP table"
+msgstr "כישלון בקבלת טבלת ARP"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 384
+msgid "Loaded"
+msgstr "טען"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 384
+msgid "OUI entries from IEEE database"
+msgstr "כניסות OUI ממסד הנתונים של IEEE"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 389
+msgid "Failed to load IEEE OUI file"
+msgstr "כישלון בטעינת קובץ IEEE OUI"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+msgid "Avahi resolved"
+msgstr "אבאהי נפתר"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+msgid "to"
+msgstr "עד"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 419
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 442
+msgid "Avahi resolution failed for"
+msgstr "פתרון Avahi נכשל עבור"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 819
+msgid "Scanning network for live hosts..."
+msgstr "סריקת הרשת עבור מארחים פעילים..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 823
+msgid "No hosts found"
+msgstr "לא נמצאו מארחים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 828
+msgid "Resolving hostnames..."
+msgstr "פתרון שמות מארח..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+msgid "Resolved"
+msgstr "נפתר"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 855
+msgid "hostnames"
+msgstr "שמות מארח"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 860
+msgid "Scanning services..."
+msgstr "סריקות שירותים..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 879
+msgid "Starting port scan:"
+msgstr "סריקת פורטים מתחילה:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 881
+msgid "tasks with"
+msgstr "משימות עם"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 883
+msgid "threads"
+msgstr "חוטים"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+msgid "Scanned"
+msgstr "נסרק"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 919
+msgid "ports"
+msgstr "פורטס"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 923
+msgid "Finalizing results..."
+msgstr "סיום תוצאות..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 948
+msgid "Scan completed"
+msgstr "הסריקה הושלמה"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 953
+msgid "Scan failed:"
+msgstr "סריקה נכשלה:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+msgid "Ping scanning"
+msgstr "סריקת פינג"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 991
+msgid "addresses..."
+msgstr "כתובות..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1029
+msgid "Ping scan:"
+msgstr "סריקת פינג:"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1031
+msgid "("
+msgstr "("
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1033
+msgid "found"
+msgstr "נמצא"
+
+#
+# File: big-network-info/src/big_network_info/core/scanner.py, line: 1401
+msgid ")"
+msgstr ")"
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1038
+msgid "Checking ARP table..."
+msgstr "בודק את טבלת ARP..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1052
+msgid "TCP port probe for silent hosts..."
+msgstr "סריקת פורט TCP עבור מארחים שקטים..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1092
+msgid "Getting MAC addresses..."
+msgstr "מקבל כתובות MAC..."
+
+#
+# File: big-network-info/usr/share/biglinux/network-info/src/core/scanner.py, line: 1106
+msgid "hosts"
+msgstr "מארחים"
